@@ -1,0 +1,16 @@
+export const footerData = [
+    { id: "home", label: "Home" },
+    { id: "about", label: "About" },
+    { id: "who-can-participate", label: "Who Can Participate?" },
+    { id: "tracks", label: "Conference Tracks" },
+    { id: "publication-avenues", label: "Publication Avenues" },
+    { id: "submission-procedure", label: "Submission Procedure" },
+    { id: "review-process", label: "Review Process" },
+    { id: "key-dates", label: "Key Dates" },
+    { id: "key-requirements", label: "Key Requirements" },
+    { id: "schedule", label: "Schedule" },
+    { id: "updates", label: "Updates" },
+    { id: "feedback", label: "Feedback" },
+    { id: "faqs", label: "FAQs" },
+    { id: "registration", label: "Sign-in / Sign up" },
+]
