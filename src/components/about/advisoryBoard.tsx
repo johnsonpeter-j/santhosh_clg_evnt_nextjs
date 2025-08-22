@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function AdvisoryBoard() {
     return (
@@ -11,16 +11,11 @@ export default function AdvisoryBoard() {
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
                 <div className="flex items-center space-x-4">
-                    {/* <Image
-                        src="https://placehold.co/100x100/BCAAA4/FFF?text=Dr.+P.A.J."
+                    <Image
+                        src="https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J."
                         alt="Dr. Paulo Nocera Alves Junior"
                         width={100}
                         height={100}
-                        className="w-24 h-24 rounded-full shadow-lg"
-                    /> */}
-                    <img
-                       src="https://placehold.co/100x100/BCAAA4/FFF?text=Dr.+P.A.J."
-                        alt="Dr. Paulo Nocera Alves Junior"
                         className="w-24 h-24 rounded-full shadow-lg"
                     />
                     <div>

@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Collaborators() {
 
@@ -6,22 +6,22 @@ export default function Collaborators() {
         {
             name: "ICN Business School, France",
             desc: "A French Business School known for its interdisciplinary ATM approach and triple crown accreditation.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF?text=ICN+Business+School",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=ICN+Business+School",
         },
         {
             name: "Universita Delgi Studi Di Napoli Federico II, Italy",
             desc: "One of the world’s oldest academic institutions promoting extensive research activities.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF?text=Universita+Delgi+Studi+Di+Napoli",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universita+Delgi+Studi+Di+Napoli",
         },
         {
             name: "University of Sussex, United Kingdom",
             desc: "A public research university recognized for its research excellence and teaching quality.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF?text=University+of+Sussex",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=University+of+Sussex",
         },
         {
             name: "Universiti Teknologi Brunei, Brunei",
             desc: "An Engineering and Technology University with a five-star QS ranking.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF?text=Universiti+Teknologi+Brunei",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universiti+Teknologi+Brunei",
         },
     ]
 
@@ -33,16 +33,11 @@ export default function Collaborators() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                 {collabtaorData.map((c, i) => (
                     <div key={i} className="flex flex-col items-center">
-                        {/* <Image
+                        <Image
                             src={c.img}
                             alt={c.name}
                             width={120}
                             height={120}
-                            className="h-24 w-auto mb-2 shadow-md"
-                        /> */}
-                        <img
-                            src={c.img}
-                            alt={c.name}
                             className="h-24 w-auto mb-2 shadow-md"
                         />
                         <h4 className="text-lg font-bold text-gray-800">{c.name}</h4>

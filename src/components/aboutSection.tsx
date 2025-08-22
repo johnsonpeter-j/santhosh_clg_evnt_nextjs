@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import ConferenceInfo from "./about/ConferenceInfo";
 import Highlight from "./about/Highlights";
 import Collaborators from "./about/collabrators";

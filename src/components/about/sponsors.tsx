@@ -1,5 +1,4 @@
 // components/Sponsors.tsx
-import Image from "next/image";
 
 export default function Sponsors() {
   const sponsors = ["Sponsor 1", "Sponsor 2", "Sponsor 3", "Sponsor 4", "Sponsor 5"];

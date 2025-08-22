@@ -18,7 +18,7 @@ export default function FAQs() {
           <summary className="text-xl font-semibold text-gray-700 cursor-pointer flex justify-between items-center">
             <span>What are the dates for the conference?</span>
             <span className="transition-transform group-open:rotate-180">
-                <ChevronDown />
+              <ChevronDown />
             </span>
           </summary>
           <p className="text-gray-600 mt-2">
@@ -32,7 +32,7 @@ export default function FAQs() {
           <summary className="text-xl font-semibold text-gray-700 cursor-pointer flex justify-between items-center">
             <span>Is the registration fee refundable?</span>
             <span className="transition-transform group-open:rotate-180">
-                <ChevronDown />
+              <ChevronDown />
             </span>
           </summary>
           <p className="text-gray-600 mt-2">
@@ -46,13 +46,16 @@ export default function FAQs() {
           <summary className="text-xl font-semibold text-gray-700 cursor-pointer flex justify-between items-center">
             <span>Who is eligible to participate?</span>
             <span className="transition-transform group-open:rotate-180">
-                <ChevronDown />
+              <ChevronDown />
             </span>
           </summary>
           <p className="text-gray-600 mt-2">
-            The conference is open to <b>Master's Degree, Ph.D. Research
-            Scholars, Postdoctoral Researchers, and Early-Career & Senior Faculty
-            Members</b> across a wide range of disciplines.
+            The conference is open to{" "}
+            <b>
+              Master&apos;s Degree, Ph.D. Research Scholars, Postdoctoral
+              Researchers, and Early-Career &amp; Senior Faculty Members
+            </b>{" "}
+            across a wide range of disciplines.
           </p>
         </details>
       </div>
