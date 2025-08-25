@@ -10,9 +10,11 @@ import Madurai from "./about/maduraiPlaces";
 export default function AboutSection() {
     return (
         <section id="about" className="container mx-auto px-4 mb-12">
-            <h2 className="text-4xl font-bold text-[#4CAF50] text-center mb-10">
+            {/* <h2 className="text-4xl font-bold text-[#4CAF50] text-center mb-10">
                 About Us
-            </h2>
+            </h2> */}
+      <h2 className="section-title text-4xl font-bold text-center mb-10">About Us</h2>
+
 
             {/* TSM and Conference Info */}
             <ConferenceInfo />

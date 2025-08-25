@@ -65,7 +65,28 @@ h4 {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 0.5rem;
+  color: #4CAF50;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(-45deg, #4CAF50, #00BCD4, #4CAF50);
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+  border-radius: 2px;
 }

@@ -7,10 +7,8 @@ export default function FAQs() {
   return (
     <section id="faqs" className="max-w-[1200px] mx-auto px-4 py-8 mb-12">
       {/* Section Title */}
-      <h2 className="relative pb-2 text-3xl md:text-5xl font-bold text-green-600 text-center mb-10">
-        Frequently Asked Questions
-        <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[120px] h-1.5 rounded-sm bg-gradient-to-r from-green-500 via-cyan-400 to-green-500 animate-gradient-x"></span>
-      </h2>
+      <h2 className="section-title text-4xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+
 
       <div className="max-w-2xl mx-auto space-y-4">
         {/* FAQ 1 */}

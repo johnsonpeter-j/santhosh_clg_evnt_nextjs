@@ -70,23 +70,27 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="bg-white shadow-lg p-4 px-10 sticky top-0 z-50 relative">
+    <header className="fixed top-0 left-0 right-0 bg-white shadow-lg p-4 px-10 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo + Title */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-3">
           <Image
-            width={50}
-            height={50}
+            width={40}
+            height={40}
             src={"/images/logo.png"}
             alt="TSM Logo"
-            className="h-12 w-12 rounded-full shadow-lg"
+            className="h-8 w-8 rounded-full shadow-lg sm:h-10 sm:w-10 lg:h-12 lg:w-12"
           />
-          <Link href="#home" className="text-xl font-bold text-gray-800">
+          <Link
+            href="#home"
+            className="truncate overflow-hidden whitespace-nowrap max-w-[180px] sm:max-w-none text-sm sm:text-base lg:text-2xl font-bold text-gray-800 leading-tight"
+          >
             Thiagarajar School of Management
-            <span className="font-normal text-lg text-gray-600 ml-2">
+            <span className="block sm:inline font-normal text-xs sm:text-sm lg:text-lg text-gray-600 ml-0 sm:ml-2">
               FOS 2026-GRIE
             </span>
           </Link>
+
         </div>
 
         {/* Burger Icon (mobile) */}
