@@ -19,7 +19,7 @@ export default function Home() {
     <div className="max-w-screen max-h-screen min-h-screen bg-gray-50 text-gray-900">
       <Navbar />
 
-      <main className="mt-18 w-full">
+      <main className="mt-16 w-full lg:mt-18">
       <Marquee />
         <Hero />
 
