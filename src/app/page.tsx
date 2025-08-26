@@ -16,11 +16,11 @@ import WhoCanParticipate from "@/components/WhoCanParticipate";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen">
+    <div className="max-w-screen max-h-screen min-h-screen bg-gray-50 text-gray-900">
       <Navbar />
-      <Marquee />
 
-      <main className="mt-4 max-w-6xl mx-auto px-4">
+      <main className="mt-18 w-full">
+      <Marquee />
         <Hero />
 
         <AboutSection />

@@ -1,16 +1,22 @@
-// components/Feedback.tsx
 "use client";
 
 import { useState } from "react";
 
+type FeedbackForm = {
+  name: string;
+  email: string;
+  comments: string;
+};
+
 export default function Feedback() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FeedbackForm>({
     name: "",
     email: "",
     comments: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -18,21 +24,35 @@ export default function Feedback() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true);
 
-    // TODO: Hook this to backend API / service (e.g., Nodemailer, Supabase, etc.)
-    console.log("Feedback Submitted:", formData);
+    try {
+      // const res = await fetch("/api/feedback", {
+      //   method: "POST",
+      //   headers: { "Content-Type": "application/json" },
+      //   body: JSON.stringify(formData),
+      // });
 
-    setSubmitted(true);
-    setFormData({ name: "", email: "", comments: "" });
+      // if (!res.ok) throw new Error("Failed to submit feedback");
+
+      setSubmitted(true);
+      setFormData({ name: "", email: "", comments: "" });
+    } catch (err) {
+      console.error(err);
+      alert("❌ Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    <section id="feedback" className="max-w-[1200px] mx-auto px-4 py-8 mb-12">
+    <section id="feedback" className="max-w-[1200px] mx-auto px-4 py-12 mb-12">
       {/* Section Title */}
-      <h2 className="section-title text-4xl font-bold text-center mb-10">Feedback</h2>
-
+      <h2 className="section-title text-4xl font-bold text-center mb-10">
+        Feedback
+      </h2>
 
       <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
         {!submitted ? (
@@ -102,15 +122,22 @@ export default function Feedback() {
             <div>
               <button
                 type="submit"
-                className="bg-green-600 text-white font-bold py-2 px-6 rounded-full hover:bg-green-700 transition-colors duration-300 transform hover:scale-105 shadow-lg"
+                disabled={loading}
+                className="bg-green-600 text-white font-bold py-2 px-6 rounded-full hover:bg-green-700 transition-colors duration-300 transform hover:scale-105 shadow-lg disabled:opacity-60"
               >
-                Submit Feedback
+                {loading ? "Submitting..." : "Submit Feedback"}
               </button>
             </div>
           </form>
         ) : (
-          <div className="text-center text-green-600 font-semibold">
+          <div className="text-center text-green-600 font-semibold space-y-4">
             ✅ Thank you for your feedback!
+            <button
+              onClick={() => setSubmitted(false)}
+              className="block mx-auto bg-cyan-600 text-white px-4 py-2 rounded-md hover:bg-cyan-700"
+            >
+              Submit Another
+            </button>
           </div>
         )}
       </div>

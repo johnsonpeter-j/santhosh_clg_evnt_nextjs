@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export default function HeroBanner() {
   return (
-    <section id="home" className="max-w-6xl mx-auto p-4 mb-12">
-      <div className="bg-gray-100 rounded-lg shadow-xl overflow-hidden">
+    <section id="home" className="w-full mb-12">
+      <div className="bg-gray-100 shadow-xl overflow-hidden">
         {/* Hero Content */}
-        <div className="relative h-96 flex items-center justify-center text-white p-8 bg-gradient-to-r from-green-600 to-cyan-500">
-          <div className="relative text-center max-w-3xl mx-auto">
+        <div className="relative h-96 flex items-center justify-center text-white bg-gradient-to-r from-green-600 to-cyan-500">
+          <div className="relative text-center mx-auto">
             {/* Logo */}
             <Image
               src={"/images/hero.jpg"} // place your image in /public/2.jpg

@@ -70,23 +70,23 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-lg p-4 px-10 z-50">
+    <header className="bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo + Title */}
         <div className="flex items-center space-x-3">
           <Image
-            width={40}
-            height={40}
+            width={30}
+            height={30}
             src={"/images/logo.png"}
             alt="TSM Logo"
-            className="h-8 w-8 rounded-full shadow-lg sm:h-10 sm:w-10 lg:h-12 lg:w-12"
+            className="h-8 w-8 rounded-full shadow-lg sm:h-10 sm:w-10 lg:h-10 lg:w-10"
           />
           <Link
             href="#home"
-            className="truncate overflow-hidden whitespace-nowrap max-w-[180px] sm:max-w-none text-sm sm:text-base lg:text-2xl font-bold text-gray-800 leading-tight"
+            className="truncate overflow-hidden whitespace-nowrap max-w-[180px] sm:max-w-none text-sm sm:text-base lg:text-base font-bold text-gray-800 leading-tight"
           >
             Thiagarajar School of Management
-            <span className="block sm:inline font-normal text-xs sm:text-sm lg:text-lg text-gray-600 ml-0 sm:ml-2">
+            <span className="block sm:inline font-normal text-xs sm:text-sm lg:text-sm text-gray-600 ml-0 sm:ml-2">
               FOS 2026-GRIE
             </span>
           </Link>
@@ -110,7 +110,7 @@ export default function Navbar() {
               <li key={item.name} className="relative group">
                 <Link
                   href={item.href}
-                  className="flex items-center space-x-1 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                  className="text-sm flex items-center space-x-1 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                 >
                   <span>{item.name}</span>
                   {item.submenus && <ChevronDown size={16} />}
@@ -125,7 +125,7 @@ export default function Navbar() {
                       <li key={sub.name}>
                         <Link
                           href={sub.href}
-                          className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                          className="text-sm block px-4 py-2 text-gray-800 hover:bg-gray-100"
                         >
                           {sub.name}
                         </Link>
@@ -149,7 +149,7 @@ export default function Navbar() {
                   onClick={() =>
                     setOpenSubmenu(openSubmenu === item.name ? null : item.name)
                   }
-                  className="flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                  className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                 >
                   {item.name}
                   {item.submenus && <ChevronDown size={16} />}
@@ -161,7 +161,7 @@ export default function Navbar() {
                         <Link
                           href={sub.href}
                           onClick={() => setMobileOpen(false)}
-                          className="block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
+                          className="text-sm block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
                         >
                           {sub.name}
                         </Link>
