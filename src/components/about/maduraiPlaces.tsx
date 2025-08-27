@@ -1,18 +1,10 @@
 "use client";
 
+import { siteData } from "@/data/data";
 import Image from "next/image";
 
 
 export default function Madurai() {
-
-const touristData = [
-    { src: "/images/mennakshi_amman_temple.jpeg", title: "Meenakshi Amman Temple" },
-    { src: "/images/alagar_koil.jpeg", title: "Alagar Koil" },
-    { src: "/images/gandhi_museum.jpg", title: "Gandhi Museum" },
-    { src: "/images/thirupparankundram.jpeg", title: "Thirupparankundram" },
-    { src: "/images/othakadai_samanar_hills.jpg", title: "Othakadai Samanar Hills" },
-    { src: "/images/thirumalai_nayakkar_palace.jpg", title: "Thirumalai Nayakkar Palace" },
-]
 
   return (
     <section
@@ -38,7 +30,7 @@ const touristData = [
       {/* Scrolling Image Carousel */}
       <div className="mt-6 overflow-hidden relative">
         <div className="flex animate-scroll gap-6">
-          {touristData.map((place, idx) => (
+          {siteData.maduraiPlaces.map((place, idx) => (
             <div
               key={idx}
               className="flex-shrink-0 w-48 text-center"

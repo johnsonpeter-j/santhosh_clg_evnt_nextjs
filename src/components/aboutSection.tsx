@@ -6,6 +6,7 @@ import AdvisoryBoard from "./about/advisoryBoard";
 import Sponsors from "./about/sponsors";
 import OrganizationBoard from "./about/organizationBoard";
 import Madurai from "./about/maduraiPlaces";
+import { siteData } from "@/data/data";
 
 export default function AboutSection() {
     return (
@@ -28,10 +29,11 @@ export default function AboutSection() {
                     Awards & Recognition
                 </h3>
                 <ul className="list-disc list-inside text-gray-600 space-y-1">
-                    <li>Best Research Presentations (3): Cash Prize</li>
-                    <li>Best Research Ideas (3): Special Awards</li>
-                    <li>High Societal Impact Papers (3): Special Awards</li>
-                    <li>Special Recognition for Young and Upcoming Scholars</li>
+                    {
+                        siteData.awardData.map((awardDataItem, awardDataIndex)=>{
+                            return (<li key={`award_data_item_${awardDataIndex}`}>{awardDataItem}</li>)
+                        })
+                    }
                 </ul>
             </div>
 

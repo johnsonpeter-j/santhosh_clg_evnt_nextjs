@@ -1,27 +1,7 @@
+import { siteData } from "@/data/data";
+
 // components/KeyDates.tsx
 export default function KeyDates() {
-  const dates = [
-    {
-      label: "Submission Deadline",
-      value: "21st November 2025",
-    },
-    {
-      label: "Author Notification",
-      value: "12th December 2025",
-    },
-    {
-      label: "Camera Ready Deadline",
-      value: "19th December 2025",
-    },
-    {
-      label: "Final Registration Deadline",
-      value: "12th January 2026",
-    },
-    {
-      label: "International Conference FOS 2026-IRGJ",
-      value: "22nd – 24th January 2026",
-    },
-  ];
 
   return (
     <section
@@ -35,7 +15,7 @@ export default function KeyDates() {
       {/* Dates Card */}
       <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500 max-w-2xl mx-auto">
         <ul className="list-disc list-inside text-gray-600 space-y-3">
-          {dates.map((item, idx) => (
+          {siteData.keyDates.map((item, idx) => (
             <li key={idx}>
               <span className="font-bold">{item.label}:</span> {item.value}
             </li>

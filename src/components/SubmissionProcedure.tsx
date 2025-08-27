@@ -1,55 +1,7 @@
+import { siteData } from "@/data/data";
+
 // components/SubmissionProcedure.tsx
 export default function SubmissionProcedure() {
-  const rows = [
-    {
-      label: "Purpose",
-      abstract:
-        "For participation in the 3-minute pitch session during the Conference",
-      full: "For consideration in the edited volume (Springer Book Chapter or equivalent)",
-    },
-    {
-      label: "Word Limit",
-      abstract: "Extended Abstract 1500 Words",
-      full: "5,000 to 6,000 Words",
-    },
-    {
-      label: "Format",
-      abstract:
-        "Purpose – Design / Methodology / Approach – Findings – Originality – Research Limitations / Implications / Practical / Societal Implications",
-      full: "Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications",
-    },
-    {
-      label: "File Type",
-      abstract: "Word Document (.doc/.docx)",
-      full: "Word Document (.doc/.docx) – as per Springer formatting guidelines",
-    },
-    {
-      label: "Review Process",
-      abstract: "Reviewed for pitch quality, originality, and impact",
-      full: "Peer-reviewed for academic quality and publication readiness",
-    },
-    {
-      label: "Portal Link",
-      abstract: "Portal Link <To be Updated Shortly>",
-      full: "Portal Link <To be Updated Shortly>",
-    },
-    {
-      label: "Deadline",
-      abstract: "Deadline <To be Updated Shortly>",
-      full: "Deadline <To be Updated Shortly>",
-    },
-    {
-      label: "Eligibility",
-      abstract:
-        "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards",
-      full: "Eligible for Best Paper with Societal Impact & Publication Opportunity",
-    },
-    {
-      label: "Support",
-      abstract: "3-month editorial and research mentoring",
-      full: "Editorial guidance and publication processing support",
-    },
-  ];
 
   return (
     <section
@@ -76,7 +28,7 @@ export default function SubmissionProcedure() {
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
-            {rows.map((row, idx) => (
+            {siteData.submissionProcedure.map((row, idx) => (
               <tr key={idx}>
                 <td className="px-6 py-4 whitespace-nowrap font-bold text-gray-900">
                   {row.label}

@@ -43,7 +43,7 @@ export default function Footer() {
                             href="mailto:chairperson@tsm.ac.in"
                             className="text-green-400 hover:text-green-500"
                         >
-                            chairperson@tsm.ac.in [Placeholder]
+                            chairperson@tsm.ac.in 
                         </a>
                     </p>
                     <p>
@@ -52,7 +52,7 @@ export default function Footer() {
                             href="mailto:info@tsm.ac.in"
                             className="text-green-400 hover:text-green-500"
                         >
-                            info@tsm.ac.in [Placeholder]
+                            info@tsm.ac.in
                         </a>
                     </p>
                 </div>

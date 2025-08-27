@@ -1,22 +1,7 @@
+import { siteData } from "@/data/data";
+
 // components/PublicationAvenues.tsx
 export default function PublicationAvenues() {
-  const confirmedList = [
-    "International Journal of Global Business and Competitiveness (ABDC C; Springer)",
-    "The International Journal of Logistics Management (ABDC A; Emerald)",
-    "Corporate Social Responsibility and Environmental Management (ABDC C; Wiley)",
-    "Environment, Development and Sustainability (SCOPUS, SCIE, Springer)",
-  ];
-
-  const underProgress = [
-    "Journal of Entrepreneurship",
-    "Journal of Intellectual Capital",
-    "The International Journal of Management Education",
-    "Journal of Business and Society Review",
-    "Technology in Society",
-    "TRE Journal",
-    "International Journal of Emerging Trends",
-    "Conference Proceedings in Springer",
-  ];
 
   return (
     <section
@@ -25,7 +10,7 @@ export default function PublicationAvenues() {
     >
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10"> Publication Avenues</h2>
-      
+
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
         {/* Confirmed List */}
@@ -43,7 +28,7 @@ export default function PublicationAvenues() {
           following journals with mentoring support.
         </p>
         <ul className="list-disc list-inside text-gray-600 space-y-1 mb-6">
-          {confirmedList.map((item, idx) => (
+          {siteData.publicationAvenuesData.confirmedList.map((item, idx) => (
             <li key={idx}>{item}</li>
           ))}
         </ul>
@@ -51,7 +36,7 @@ export default function PublicationAvenues() {
         {/* Under Progress */}
         <h4 className="text-2xl font-bold text-gray-700 mb-4">Under Progress</h4>
         <ul className="list-disc list-inside text-gray-600 space-y-1">
-          {underProgress.map((item, idx) => (
+          {siteData.publicationAvenuesData.underProgress.map((item, idx) => (
             <li key={idx}>{item}</li>
           ))}
         </ul>

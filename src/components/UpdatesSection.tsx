@@ -1,19 +1,7 @@
+import { siteData } from "@/data/data";
+
 // components/Updates.tsx
 export default function Updates() {
-  const updates = [
-    {
-      date: "Nov 1, 2025",
-      text: "New report highlights the critical role of circular economy models in achieving global sustainability goals.",
-    },
-    {
-      date: "Oct 25, 2025",
-      text: "A recent study shows that investments in green technology have surged by 30% this quarter, indicating a growing market.",
-    },
-    {
-      date: "Oct 15, 2025",
-      text: "Global leaders gather at a climate conference to discuss new policies for carbon neutrality by 2050.",
-    },
-  ];
 
   return (
     <section id="updates" className="max-w-[1200px] mx-auto px-4 py-8 mb-12">
@@ -36,13 +24,13 @@ export default function Updates() {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {updates.map((item, idx) => (
-                <tr key={idx} className="hover:bg-gray-50 transition">
+              {siteData.updatesData.map((updatesDataItem, updatesDataIndex) => (
+                <tr key={updatesDataIndex} className="hover:bg-gray-50 transition">
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                    {item.date}
+                    {updatesDataItem.date}
                   </td>
                   <td className="px-6 py-4 text-sm text-gray-600">
-                    {item.text}
+                    {updatesDataItem.text}
                   </td>
                 </tr>
               ))}

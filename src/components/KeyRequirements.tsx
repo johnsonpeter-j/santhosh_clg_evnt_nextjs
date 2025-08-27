@@ -1,11 +1,7 @@
+import { siteData } from "@/data/data";
+
 // components/KeyRequirements.tsx
 export default function KeyRequirements() {
-  const requirements = [
-    "3-Minute Research Presentation for research pitch and 15 minutes for full paper Presentation.",
-    "Strictly time-bound.",
-    "Research Pitch – maximum 3 slides or poster.",
-    "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel.",
-  ];
 
   return (
     <section
@@ -19,7 +15,7 @@ export default function KeyRequirements() {
       {/* Requirements Card */}
       <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500 max-w-2xl mx-auto">
         <ul className="list-disc list-inside text-gray-600 space-y-3">
-          {requirements.map((req, idx) => (
+          {siteData.keyRequirements.map((req, idx) => (
             <li key={idx}>{req}</li>
           ))}
         </ul>

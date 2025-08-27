@@ -1,3 +1,4 @@
+import { siteData } from "@/data/data";
 import Image from "next/image";
 
 export default function AdvisoryBoard() {
@@ -10,23 +11,29 @@ export default function AdvisoryBoard() {
                 Advisory Board
             </h3>
             <div className="grid md:grid-cols-2 gap-8">
-                <div className="flex items-center space-x-4">
-                    <Image
-                        src="https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J."
-                        alt="Dr. Paulo Nocera Alves Junior"
-                        width={100}
-                        height={100}
-                        className="w-24 h-24 rounded-full shadow-lg"
-                    />
-                    <div>
-                        <h4 className="text-xl font-bold text-gray-800">
-                            Dr. Paulo Nocera Alves Junior
-                        </h4>
-                        <p className="text-gray-600">
-                            Associate Professor, Catholic University of the North
-                        </p>
-                    </div>
-                </div>
+                {
+                    siteData.advisoryBoardData.map((advisoryBoardDataItem, advisoryBoardDataIndex) => {
+                        return (
+                            <div key={`advisory_board_item_${advisoryBoardDataIndex}`} className="flex items-center space-x-4">
+                                <Image
+                                    src={advisoryBoardDataItem.image}
+                                    alt={advisoryBoardDataItem.name}
+                                    width={100}
+                                    height={100}
+                                    className="w-24 h-24 rounded-full shadow-lg"
+                                />
+                                <div>
+                                    <h4 className="text-xl font-bold text-gray-800">
+                                        {advisoryBoardDataItem.name}
+                                    </h4>
+                                    <p className="text-gray-600">
+                                        {advisoryBoardDataItem.profession}, {advisoryBoardDataItem.university}
+                                    </p>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
             </div>
         </section>
     )
