@@ -1,6 +1,5 @@
-import { title } from "process";
-
 export const siteData = {
+    // app bar data
     menuItems: [
         {
             name: "About",
@@ -9,8 +8,10 @@ export const siteData = {
                 { name: "About the Conference", href: "#about_the_conference" },
                 { name: "Key Dates", href: "#key_dates" },
                 { name: "About TSM Madurai", href: "#about_tsm_madurai" },
+                { name: "Collaborating Institutions", href: "#collaborating-institutions" },
                 { name: "Sustainability & SDGs Link", href: "#sustainability" },
                 { name: "Discover Madurai", href: "#discover_madurai" },
+                
             ],
         },
         {
@@ -62,25 +63,7 @@ export const siteData = {
         },
     ],
 
-    marqueeData: [
-        {
-            title: "Event Update 1",
-            description: "Registration for the Doctoral Summit '25 is now open!"
-        },
-        {
-            title: "Event Update 2",
-            description: "Submission deadline for full papers is September 30, 2025."
-        },
-        {
-            title: "Event Update 3",
-            description: "Keynote speakers to be announced soon!"
-        },
-        {
-            title: "Event Update 4",
-            description: "Check out our new collaborations on the About page"
-        },
-    ],
-
+    // home page data
     heroSlideImages: [
         "/images/hero-slides/thiyagaraja_1.jpg",
         "/images/hero-slides/thiyagaraja_2.jpg",
@@ -102,6 +85,95 @@ export const siteData = {
     aboutTsmVideoLink: "https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
 
     brochurePdfPath: "/pdfs/brochure.pdf",
+
+        collabtaorData: [
+        {
+            name: "ICN Business School, France",
+            desc: "A French Business School known for its interdisciplinary ATM approach and triple crown accreditation.",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=ICN+Business+School",
+        },
+        {
+            name: "Universita Delgi Studi Di Napoli Federico II, Italy",
+            desc: "One of the world’s oldest academic institutions promoting extensive research activities.",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universita+Delgi+Studi+Di+Napoli",
+        },
+        {
+            name: "University of Sussex, United Kingdom",
+            desc: "A public research university recognized for its research excellence and teaching quality.",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=University+of+Sussex",
+        },
+        {
+            name: "Universiti Teknologi Brunei, Brunei",
+            desc: "An Engineering and Technology University with a five-star QS ranking.",
+            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universiti+Teknologi+Brunei",
+        },
+    ],
+
+    keyDates: [
+        {
+            label: "Submission Deadline",
+            value: "21st November 2025",
+        },
+        {
+            label: "Author Notification",
+            value: "12th December 2025",
+        },
+        {
+            label: "Camera Ready Deadline",
+            value: "19th December 2025",
+        },
+        {
+            label: "Final Registration Deadline",
+            value: "12th January 2026",
+        },
+        {
+            label: "International Conference FOS 2026-IRGJ",
+            value: "22nd – 24th January 2026",
+        },
+    ],
+
+    maduraiPlaces: [
+        { src: "/images/mennakshi_amman_temple.jpeg", title: "Meenakshi Amman Temple" },
+        { src: "/images/alagar_koil.jpeg", title: "Alagar Koil" },
+        { src: "/images/gandhi_museum.jpg", title: "Gandhi Museum" },
+        { src: "/images/thirupparankundram.jpeg", title: "Thirupparankundram" },
+        { src: "/images/othakadai_samanar_hills.jpg", title: "Othakadai Samanar Hills" },
+        { src: "/images/thirumalai_nayakkar_palace.jpg", title: "Thirumalai Nayakkar Palace" },
+    ],
+
+    // programme page data
+    conferenceTracks: [
+        {
+            title: "Sustainable Entrepreneurship and Business Models",
+            desc: "This track explores how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
+            sdg_link: "sdg_1 <b>bold</b>",
+        },
+        {
+            title: "Technological Innovations for Sustainability",
+            desc: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
+            sdg_link: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
+        },
+        {
+            title: "Financing Sustainability and Impact Investing",
+            desc: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
+            sdg_link: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
+        },
+        {
+            title: "Policy, Regulation, and Governance for Sustainability",
+            desc: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
+            sdg_link: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
+        },
+        {
+            title: "Education and Capacity Building for Green Entrepreneurship",
+            desc: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
+            sdg_link: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
+        },
+        {
+            title: "Digital Transformation and Sustainable Development",
+            desc: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
+            sdg_link: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
+        }
+    ],
 
     dayWiseData: {
         title: "International Conference on Frontiers of Sustainability - FOS 2026-GRIE",
@@ -201,78 +273,26 @@ export const siteData = {
         ,
     },
 
-    hightlightData: [
+    // conference team data
+    keySpeakersData: [
         {
-            title: "Focus on Innovation & Emerging Trends",
-            description: "Engage with pioneering research in breakthrough areas, learn from cutting-edge technologies, and track global advancements through keynote talks and technical panels."
+            src: "/images/9.webp",
+            name: "Dr. Murali Sambasivan",
+            role: "Chief Patron & Professor",
+            place: "Thiagarajar School of Management, Madurai",
         },
         {
-            title: "Dedicated Feedback Sessions for Participants",
-            description: "A tailored platform for PhD scholars and early-career researchers with one-on-one mentoring sessions with senior academicians. Get constructive feedback on research, presentation skills, and publication pathways."
+            src: "/images/10.webp",
+            name: "Dr. M. Selvalakshmi",
+            role: "Patron & Professor",
+            place: "Thiagarajar School of Management, Madurai",
         },
         {
-            title: "Policy and Practice Integration",
-            description: "A dialogue between researchers, practitioners, and policymakers with case studies, implementation frameworks, and workshops to co-create research-backed policy recommendations."
+            src: "/images/11.webp",
+            name: "Dr. K. Mathiyazhagan",
+            role: "Conference Chairperson",
+            place: "Head of Research Centre & Professor, TSM",
         },
-        {
-            title: "Inclusive and Diverse Representation",
-            description: "Active efforts to include voices from underrepresented regions, disciplines, and genders, with diverse panels and an inclusive program design"
-        },
-        {
-            title: "Academic Recognition & Publication",
-            description: " Selected papers to be fast-tracked for special issues in high-impact journals (ABDC/Scopus indexed). Certificates of Merit, Best Paper Awards, and Editorial Board feedback will be provided, along with opportunities for co-authoring and collaborative research."
-        }
-    ],
-
-    awardData: [
-        "Best Research Presentations (3): Cash Prize",
-        "Best Research Ideas (3): Special Awards",
-        "High Societal Impact Papers (3): Special Awards",
-        "Special Recognition for Young and Upcoming Scholars",
-    ],
-
-    collabtaorData: [
-        {
-            name: "ICN Business School, France",
-            desc: "A French Business School known for its interdisciplinary ATM approach and triple crown accreditation.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=ICN+Business+School",
-        },
-        {
-            name: "Universita Delgi Studi Di Napoli Federico II, Italy",
-            desc: "One of the world’s oldest academic institutions promoting extensive research activities.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universita+Delgi+Studi+Di+Napoli",
-        },
-        {
-            name: "University of Sussex, United Kingdom",
-            desc: "A public research university recognized for its research excellence and teaching quality.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=University+of+Sussex",
-        },
-        {
-            name: "Universiti Teknologi Brunei, Brunei",
-            desc: "An Engineering and Technology University with a five-star QS ranking.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universiti+Teknologi+Brunei",
-        },
-    ],
-
-    advisoryBoardData: [
-        {
-            name: "Dr. Paulo Nocera Alves Junior",
-            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
-            profession: "Associate Professor",
-            university: "Catholic University of the North"
-        },
-        {
-            name: "Dr. Paulo Nocera Alves Junior",
-            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
-            profession: "Associate Professor",
-            university: "Catholic University of the North"
-        },
-        {
-            name: "Dr. Paulo Nocera Alves Junior",
-            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
-            profession: "Associate Professor",
-            university: "Catholic University of the North"
-        }
     ],
 
     organizationBoardData: [
@@ -320,25 +340,25 @@ export const siteData = {
         },
     ],
 
-    keySpeakersData: [
+    advisoryBoardData: [
         {
-            src: "/images/9.webp",
-            name: "Dr. Murali Sambasivan",
-            role: "Chief Patron & Professor",
-            place: "Thiagarajar School of Management, Madurai",
+            name: "Dr. Paulo Nocera Alves Junior",
+            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
+            profession: "Associate Professor",
+            university: "Catholic University of the North"
         },
         {
-            src: "/images/10.webp",
-            name: "Dr. M. Selvalakshmi",
-            role: "Patron & Professor",
-            place: "Thiagarajar School of Management, Madurai",
+            name: "Dr. Paulo Nocera Alves Junior",
+            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
+            profession: "Associate Professor",
+            university: "Catholic University of the North"
         },
         {
-            src: "/images/11.webp",
-            name: "Dr. K. Mathiyazhagan",
-            role: "Conference Chairperson",
-            place: "Head of Research Centre & Professor, TSM",
-        },
+            name: "Dr. Paulo Nocera Alves Junior",
+            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
+            profession: "Associate Professor",
+            university: "Catholic University of the North"
+        }
     ],
 
     sponsorsData: [
@@ -359,66 +379,7 @@ export const siteData = {
         },
     ],
 
-    maduraiPlaces: [
-        { src: "/images/mennakshi_amman_temple.jpeg", title: "Meenakshi Amman Temple" },
-        { src: "/images/alagar_koil.jpeg", title: "Alagar Koil" },
-        { src: "/images/gandhi_museum.jpg", title: "Gandhi Museum" },
-        { src: "/images/thirupparankundram.jpeg", title: "Thirupparankundram" },
-        { src: "/images/othakadai_samanar_hills.jpg", title: "Othakadai Samanar Hills" },
-        { src: "/images/thirumalai_nayakkar_palace.jpg", title: "Thirumalai Nayakkar Palace" },
-    ],
-
-    conferenceTracks: [
-        {
-            title: "Sustainable Entrepreneurship and Business Models",
-            desc: "This track explores how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
-            sdg_link: "sdg_1 <b>bold</b>",
-        },
-        {
-            title: "Technological Innovations for Sustainability",
-            desc: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
-            sdg_link: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
-        },
-        {
-            title: "Financing Sustainability and Impact Investing",
-            desc: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
-            sdg_link: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
-        },
-        {
-            title: "Policy, Regulation, and Governance for Sustainability",
-            desc: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
-            sdg_link: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
-        },
-        {
-            title: "Education and Capacity Building for Green Entrepreneurship",
-            desc: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
-            sdg_link: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
-        },
-        {
-            title: "Digital Transformation and Sustainable Development",
-            desc: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
-            sdg_link: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
-        }
-    ],
-
-    publicationAvenuesData: {
-        confirmedList: [
-            "International Journal of Global Business and Competitiveness (ABDC C; Springer)",
-            "The International Journal of Logistics Management (ABDC A; Emerald)",
-            "Corporate Social Responsibility and Environmental Management (ABDC C; Wiley)",
-            "Environment, Development and Sustainability (SCOPUS, SCIE, Springer)",
-        ],
-        underProgress: [
-            "Journal of Entrepreneurship",
-            "Journal of Intellectual Capital",
-            "The International Journal of Management Education",
-            "Journal of Business and Society Review",
-            "Technology in Society",
-            "TRE Journal",
-            "International Journal of Emerging Trends",
-            "Conference Proceedings in Springer",
-        ]
-    },
+    // guidelines data
 
     callForPaperDescription: "Master's Degree, Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
 
@@ -492,136 +453,26 @@ export const siteData = {
         "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel."
     ],
 
-    submissionProcedure: [
-        {
-            label: "Purpose",
-            abstract:
-                "For participation in the 3-minute pitch session during the Conference",
-            full: "For consideration in the edited volume (Springer Book Chapter or equivalent)",
-        },
-        {
-            label: "Word Limit",
-            abstract: "Extended Abstract 1500 Words",
-            full: "5,000 to 6,000 Words",
-        },
-        {
-            label: "Format",
-            abstract:
-                "Purpose – Design / Methodology / Approach – Findings – Originality – Research Limitations / Implications / Practical / Societal Implications",
-            full: "Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications",
-        },
-        {
-            label: "File Type",
-            abstract: "Word Document (.doc/.docx)",
-            full: "Word Document (.doc/.docx) – as per Springer formatting guidelines",
-        },
-        {
-            label: "Review Process",
-            abstract: "Reviewed for pitch quality, originality, and impact",
-            full: "Peer-reviewed for academic quality and publication readiness",
-        },
-        {
-            label: "Portal Link",
-            abstract: "Portal Link <To be Updated Shortly>",
-            full: "Portal Link <To be Updated Shortly>",
-        },
-        {
-            label: "Deadline",
-            abstract: "Deadline <To be Updated Shortly>",
-            full: "Deadline <To be Updated Shortly>",
-        },
-        {
-            label: "Eligibility",
-            abstract:
-                "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards",
-            full: "Eligible for Best Paper with Societal Impact & Publication Opportunity",
-        },
-        {
-            label: "Support",
-            abstract: "3-month editorial and research mentoring",
-            full: "Editorial guidance and publication processing support",
-        },
-    ],
+    publicationAvenuesData: {
+        confirmedList: [
+            "International Journal of Global Business and Competitiveness (ABDC C; Springer)",
+            "The International Journal of Logistics Management (ABDC A; Emerald)",
+            "Corporate Social Responsibility and Environmental Management (ABDC C; Wiley)",
+            "Environment, Development and Sustainability (SCOPUS, SCIE, Springer)",
+        ],
+        underProgress: [
+            "Journal of Entrepreneurship",
+            "Journal of Intellectual Capital",
+            "The International Journal of Management Education",
+            "Journal of Business and Society Review",
+            "Technology in Society",
+            "TRE Journal",
+            "International Journal of Emerging Trends",
+            "Conference Proceedings in Springer",
+        ]
+    },
 
-    reviewProcess: [
-        {
-            title: "Double-Blind Peer Review",
-            desc: "All submissions will undergo a strict double-blind review process to ensure fairness, objectivity, and academic integrity.",
-        },
-        {
-            title: "Expert Evaluation Panel",
-            desc: "Reviews will be conducted by a panel of experienced national and international academicians, subject matter experts, and journal reviewers.",
-        },
-        {
-            title: "Plagiarism Check",
-            desc: "Every paper will be screened through advanced plagiarism detection tools (e.g., Turnitin/iThenticate) to maintain ethical publication practices.",
-        },
-        {
-            title: "High Acceptance Standards",
-            desc: "Only papers that demonstrate academic rigor and innovation will be forwarded to the desk level of the journal or journal recommendation.",
-        },
-    ],
-
-    keyDates: [
-        {
-            label: "Submission Deadline",
-            value: "21st November 2025",
-        },
-        {
-            label: "Author Notification",
-            value: "12th December 2025",
-        },
-        {
-            label: "Camera Ready Deadline",
-            value: "19th December 2025",
-        },
-        {
-            label: "Final Registration Deadline",
-            value: "12th January 2026",
-        },
-        {
-            label: "International Conference FOS 2026-IRGJ",
-            value: "22nd – 24th January 2026",
-        },
-    ],
-
-    keyRequirements: [
-        "3-Minute Research Presentation for research pitch and 15 minutes for full paper Presentation.",
-        "Strictly time-bound.",
-        "Research Pitch – maximum 3 slides or poster.",
-        "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel.",
-    ],
-
-    updatesData: [
-        {
-            date: "Nov 1, 2025",
-            text: "New report highlights the critical role of circular economy models in achieving global sustainability goals.",
-        },
-        {
-            date: "Oct 25, 2025",
-            text: "A recent study shows that investments in green technology have surged by 30% this quarter, indicating a growing market.",
-        },
-        {
-            date: "Oct 15, 2025",
-            text: "Global leaders gather at a climate conference to discuss new policies for carbon neutrality by 2050.",
-        },
-    ],
-
-    FaqsData: [
-        {
-            question: "What are the dates for the conference?",
-            answer: "The International Conference on Frontiers of Sustainability will take place from <b>January 22nd to 24th, 2026</b>."
-        },
-        {
-            question: "Is the registration fee refundable?",
-            answer: "Registration fees are <b>non-refundable</b>. Please ensure all details are correct before completing your payment."
-        },
-        {
-            question: "Who is eligible to participate?",
-            answer: "The conference is open to <b> Master&apos;s Degree, Ph.D. Research Scholars, Postdoctoral Researchers, and Early-Career &amp; Senior Faculty Members </b> across a wide range of disciplines."
-        }
-    ],
-
+    // registration details data
     registrationDetailsData: [
         "Submission open to Research Scholars, Early - Career Faculty Members / Assistant Professors, and Postdoctoral Researchers",
         "Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability",
@@ -644,6 +495,7 @@ export const siteData = {
         "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
     ],
 
+    //  venue data
     venueDetails: [
         {
             title: "Reaching Madurai:",
@@ -657,5 +509,21 @@ export const siteData = {
             title: "Reaching Weather:",
             description: "Participants and attendees traveling to Madurai in January can expect temperatures between 20°C to 32°C. Light cotton or casual wear is recommended during the day, with a light jacket or shawl for cooler mornings or evenings. Madurai generally maintains good air quality during this time."
         }
-    ]
+    ],
+
+    FaqsData: [
+        {
+            question: "What are the dates for the conference?",
+            answer: "The International Conference on Frontiers of Sustainability will take place from <b>January 22nd to 24th, 2026</b>."
+        },
+        {
+            question: "Is the registration fee refundable?",
+            answer: "Registration fees are <b>non-refundable</b>. Please ensure all details are correct before completing your payment."
+        },
+        {
+            question: "Who is eligible to participate?",
+            answer: "The conference is open to <b> Master&apos;s Degree, Ph.D. Research Scholars, Postdoctoral Researchers, and Early-Career &amp; Senior Faculty Members </b> across a wide range of disciplines."
+        }
+    ],
+
 }

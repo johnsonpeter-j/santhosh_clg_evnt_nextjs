@@ -5,10 +5,14 @@ import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { siteData } from "@/data/data";
+import { useRouter } from "next/navigation";
+
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
+
+  const router = useRouter();
 
   return (
     <header className="h-16 lg:h-18 bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50 ">
@@ -28,14 +32,14 @@ export default function Navbar() {
           >
             {/* Title & Subtitle stacked on small, inline on larger */}
             <div className="truncate leading-tight hidden lg:block  text-sm sm:text-base lg:text-base font-bold text-gray-800">
-                Thiagarajar School of Management
+              Thiagarajar School of Management
               {/* <span className="block sm:inline text-xs sm:text-sm lg:text-sm font-normal text-gray-600">
                 FOS 2026-GRIE
               </span> */}
             </div>
 
             <div className="truncate leading-tight block lg:hidden  text-sm sm:text-base lg:text-base font-bold text-gray-800">
-                TSM
+              TSM
               {/* <span className="block sm:inline text-xs sm:text-sm lg:text-sm font-normal text-gray-600">
                 FOS 2026-GRIE
               </span> */}
@@ -109,15 +113,17 @@ export default function Navbar() {
             {siteData.menuItems.map((item) => (
               <li key={item.name}>
                 <button
-                  onClick={() =>
-                    setOpenSubmenu(openSubmenu === item.name ? null : item.name)
+                  onClick={() => {
+                    // setOpenSubmenu(openSubmenu === item.name ? null : item.name)
+                    router.push(item?.name); // navigate to /dashboard
+                  }
                   }
                   className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                 >
                   {item.name}
                   {item.submenus && <ChevronDown size={16} />}
                 </button>
-                {item.submenus && openSubmenu === item.name && (
+                {/* {item.submenus && openSubmenu === item.name && (
                   <ul className="ml-4 mt-1 space-y-1">
                     {item.submenus.map((sub) => (
                       <li key={sub.name}>
@@ -131,7 +137,7 @@ export default function Navbar() {
                       </li>
                     ))}
                   </ul>
-                )}
+                )} */}
               </li>
             ))}
           </ul>
