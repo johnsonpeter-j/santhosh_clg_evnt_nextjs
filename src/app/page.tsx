@@ -9,26 +9,20 @@ import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <div className="max-w-screen max-h-screen min-h-screen bg-gray-50 text-gray-900">
-      <Navbar />
+    <div className="mt-16 lg:mt-[72px] xl:mt-[72px] 2xl:mt-[72px] w-full">
 
-      <main className="mt-16 lg:mt-[72px] xl:mt-[72px] 2xl:mt-[72px] w-full">
+      <HeroSlider />
 
-        <HeroSlider />
+      <AboutConfernce />
 
-        <AboutConfernce />
+      <AboutTSM />
 
-        <AboutTSM />
+      <Collaborators />
 
-        <Collaborators />
+      <SDGLinks />
 
-        <SDGLinks />
+      <Madurai />
 
-        <Madurai />
-
-      </main>
-
-      <Footer />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function AboutTSM() {
         {/* About Conference Card */}
         < div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 md:col-span-2" >
           <h3 className="text-2xl font-bold text-gray-700 mb-4">
-            About TSM
+            About TSM Madurai
           </h3>
           <p className="text-gray-600 text-justify">{siteData.aboutData[0].description}</p>
         </div >

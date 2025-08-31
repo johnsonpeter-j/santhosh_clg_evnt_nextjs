@@ -5,7 +5,7 @@ import Highlight from "./about/Highlights";
 import AdvisoryBoard from "./about/advisoryBoard";
 import Sponsors from "./about/sponsors";
 import OrganizationBoard from "./about/organizationBoard";
-import Madurai from "./home/maduraiPlaces";
+// import Madurai from "./home/maduraiPlaces";
 import { siteData } from "@/data/data";
 
 export default function AboutSection() {
