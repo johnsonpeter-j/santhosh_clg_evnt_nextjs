@@ -27,8 +27,15 @@ export default function Navbar() {
             className="flex items-center gap-2 truncate  sm:max-w-none"
           >
             {/* Title & Subtitle stacked on small, inline on larger */}
-            <div className="truncate leading-tight block text-sm sm:text-base lg:text-base font-bold text-gray-800">
+            <div className="truncate leading-tight hidden lg:block  text-sm sm:text-base lg:text-base font-bold text-gray-800">
                 Thiagarajar School of Management
+              {/* <span className="block sm:inline text-xs sm:text-sm lg:text-sm font-normal text-gray-600">
+                FOS 2026-GRIE
+              </span> */}
+            </div>
+
+            <div className="truncate leading-tight block lg:hidden  text-sm sm:text-base lg:text-base font-bold text-gray-800">
+                TSM
               {/* <span className="block sm:inline text-xs sm:text-sm lg:text-sm font-normal text-gray-600">
                 FOS 2026-GRIE
               </span> */}

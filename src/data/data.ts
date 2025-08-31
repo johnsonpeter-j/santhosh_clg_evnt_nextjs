@@ -152,6 +152,59 @@ export const siteData = {
         ]
     },
 
+    preConferenceWorkshop: {
+        title:
+            "International Conference on Frontiers of Sustainability - Global Responsibility for Innovation & Entrepreneurship FOS 2026 - GRIE",
+        tHeadData: [["", "Day 1", "Day 2", "Day"], ["Time Slot", "Session Room A", "Session Room B", "Session Room", "Session Room"]],
+        tBodyData: [
+            {
+                time: "9.30 AM to 10.50 AM",
+                day_1_roomA: "Inauguration and Keynote Address",
+                day_2_roomA: "Guest Speaker Session (Based on FOS 2026)",
+                day_3_roomA: "Guest Speaker Session (Based on trends in Sustainability)"
+            },
+            {
+                time: "10.50 AM to 11.00 AM",
+                day_1_roomA: "Hi-Tea",
+                day_2_roomA: "Hi-Tea",
+                day_3_roomA: "Hi-Tea"
+            },
+            {
+                time: "11.00 AM to 12.30 PM",
+                day_1_roomA: "Meet the Editor (1.5 hours)",
+                day_2_roomA: "Conference Presentation offline/Online (National level)",
+                day_3_roomA: "Conference Presentation offline/Online"
+            },
+            {
+                time: "12.45 PM to 1.30 PM",
+                day_1_roomA: "Lunch Break",
+                day_2_roomA: "Lunch Break",
+                day_3_roomA: "Lunch Break"
+            },
+            {
+                time: "1.30 PM to 2.45 PM",
+                day_1_roomA: "Meta analysis and systematic review OR Applying Hybrid MCDM Methods (AHP-TOPSIS) to Real-World Research Problems (Session Chair: [Name])",
+                day_1_roomB: "Impact Publications: Do's, Don'ts, and Cutting-Edge Techniques (Session Chair: [Name])",
+                day_2_roomA: "Conference Presentation offline/Online",
+                day_3_roomA: "Conference Presentation offline/Online"
+            },
+            {
+                time: "2.45 PM to 4.30 PM",
+                day_1_roomA: "Break / Transition",
+                day_2_roomA: "Break / Transition",
+                day_3_roomA: "Break / Transition"
+            },
+            {
+                time: "4.45 PM to 5.45 PM",
+                day_1_roomA: "Advanced Multivariate Analysis & SEM (Session Speaker: Dr. Murgan Pattusamy)",
+                "day_1_roomB": "From Rejection to Recognition: An Editor’s Guide to Writing Papers that Get Published (Session Chair: [Name])",
+                day_2_roomA: "TSM campus walk",
+                day_3_roomA: "Guest Speaker Session"
+            }
+        ]
+        ,
+    },
+
     hightlightData: [
         {
             title: "Focus on Innovation & Emerging Trends",

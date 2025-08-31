@@ -1,5 +1,6 @@
 import ConferenceTracks from "@/components/programme/ConferenceTracks";
 import DayWiseSchedule from "@/components/programme/DayWiseSchedule";
+import PreConferenceWorkshop from "@/components/programme/PreConferenceWorkshop";
 
 export default function Programme() {
     return (
@@ -7,6 +8,8 @@ export default function Programme() {
             <ConferenceTracks />
 
             <DayWiseSchedule />
+
+            <PreConferenceWorkshop />
         </div>
     );
 }
