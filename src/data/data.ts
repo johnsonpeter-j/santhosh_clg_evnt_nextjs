@@ -103,9 +103,54 @@ export const siteData = {
         }
     ],
 
-    aboutTsmVideoLink:"https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
+    aboutTsmVideoLink: "https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
 
-    brochurePdfPath:"/pdfs/brochure.pdf",
+    brochurePdfPath: "/pdfs/brochure.pdf",
+
+    dayWiseData: {
+        title: "International Conference on Frontiers of Sustainability - FOS 2026-GRIE",
+        tHeadData: [["", "Day 1 22.01.2026", "Day 2 23.01.2026", "Day 3 24.01.2026"], ["Time Slot", "Event", "Event", "Event"]],
+        tBodyData: [
+            [
+                "09:30 AM to 11:00 AM",
+                "Inauguration and Keynote Address",
+                "Guest Speaker Session 1",
+                "Guest Speaker Session 1"
+            ],
+            [
+                "11:00 AM to 11:30 AM",
+                "Hi -Tea",
+            ],
+            [
+                "11:30 AM to 12:45 PM",
+                "Meet the editor",
+                "Conference Presentation offline",
+                "Conference Presentation offline"
+            ],
+            [
+                "12:45 PM to 01:30 PM",
+                "Lunch Break",
+            ],
+            [
+                "01:30 PM to 02:45 PM",
+                "Advanced Multivariate Analysis & SEM for HighImpact Publications: Do’s, Don’ts, and Cutting-Edge Techniques",
+                "Conference Presentation Online",
+                "Conference Presentation Online"
+            ],
+            [
+                "02:45 PM to 04:30 PM",
+                "From Rejection to Recognition: An Editor’s Guide to Writing Papers that Get Published",
+                "TSM campus walk",
+                "Guest Speaker Session (Internal)"
+            ],
+            [
+                "04:30 PM to 05:45 PM",
+                "High tea and Networking session",
+                "High tea and Networking session",
+                "Valediction"
+            ]
+        ]
+    },
 
     hightlightData: [
         {

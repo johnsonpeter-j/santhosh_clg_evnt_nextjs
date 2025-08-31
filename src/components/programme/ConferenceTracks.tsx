@@ -6,13 +6,13 @@ export default function ConferenceTracks() {
   return (
     <section
       id="tracks"
-      className="max-w-[1200px] mx-auto px-4 py-8 mb-12"
+      className="mx-auto px-4 py-8 mb-12"
     >
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">Conference Tracks</h2>
 
       {/* Tracks Grid */}
-      <div id="track-details" className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div id="track-details" className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {siteData.conferenceTracks.map((track, idx) => (
           <div
             key={idx}
