@@ -10,7 +10,7 @@ export default function Updates() {
 
 
       {/* Updates Table */}
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
         <div className="overflow-x-auto">
           <table className="min-w-full divide-y divide-gray-200">
             <thead>

@@ -31,7 +31,7 @@ export const siteData = {
         },
         {
             name: "Guidelines",
-            href: "#guidelines",
+            href: "/guidelines",
             submenus: [
                 { name: "Call for Papers", href: "#call-for-papers" },
                 { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
@@ -43,6 +43,7 @@ export const siteData = {
             name: "Registration",
             href: "#registration",
             submenus: [
+                { name: "Who Can Participate", href: "#who-can-participate" },
                 { name: "Registration Details", href: "#registration-details" },
                 { name: "Payment Info", href: "#payment" },
                 { name: "Accommodation", href: "#accommodation" },
@@ -417,6 +418,78 @@ export const siteData = {
             "Conference Proceedings in Springer",
         ]
     },
+
+    callForPaperDescription: "Master's Degree, Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
+
+    AbstractSubmissionGuidelinesData: {
+        title: "Abstract Submission Guidelines",
+        tHeadData: ['SubmissionType', 'Research Idea Pitch'],
+        tBodyData: [
+            [
+                'Purpose',
+                'For participation in the 3-minute pitch session during the Conference'
+            ],
+            ['WordLimit', 'Extended Abstract 1500 Words'],
+            [
+                'Format',
+                'Purpose – Design / Methodology / Approach – Findings – Originality – Research Limitations / Implications / Practical / Societal Implications'
+            ],
+            ['FileType', 'Word Document (.doc/.docx)'],
+            [
+                'ReviewProcess',
+                'Reviewed for pitch quality, originality, and impact'
+            ],
+            ['PortalLink', 'Portal Link <To be Updated Shortly>'],
+            ['Deadline', 'Deadline <To be Updated Shortly>'],
+            [
+                'Eligibility',
+                'Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards'
+            ],
+            ['Support', '3-month editorial and research mentoring']
+        ]
+    },
+
+    fullPaperSubmissionGuidelinessData: {
+        title: "Full Paper Submission Guidelines",
+        tHeadData: ['SubmissionType', 'Full Paper Submission'],
+        tBodyData: [
+            [
+                'Purpose',
+                'For consideration in the edited volume (Springer Book Chapter or equivalent)'
+            ],
+            ['WordLimit', '5,000 to 6,000 Words'],
+            [
+                'Format',
+                'Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications'
+            ],
+            [
+                'FileType',
+                'Word Document (.doc/.docx) – as per Springer formatting guidelines'
+            ],
+            [
+                'ReviewProcess',
+                'Peer-reviewed for academic quality and publication readiness'
+            ],
+            ['PortalLink', 'Portal Link <To be Updated Shortly>'],
+            ['Deadline', 'Deadline <To be Updated Shortly>'],
+            [
+                'Eligibility',
+                'Eligible for Best Paper with Societal Impact & Publication Opportunity'
+            ],
+            [
+                'Support',
+                'Editorial guidance and publication processing support'
+            ]
+        ]
+
+    },
+
+    presentationGuidelines: [
+        "3-Minute Research Presentation for research pitch and 15 minutes for full paper Presentation.",
+        "Strictly time-bound.",
+        "Research Pitch – maximum 3 slides or poster.",
+        "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel."
+    ],
 
     submissionProcedure: [
         {

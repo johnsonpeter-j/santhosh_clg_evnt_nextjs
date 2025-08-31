@@ -11,7 +11,7 @@ export default function WhoCanParticipate() {
 
 
       {/* Content Box */}
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500 max-w-2xl mx-auto">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 max-w-2xl mx-auto">
         <p className="text-gray-600 leading-relaxed">
           Master&apos;s Degree, Ph.D. Research Scholars, Postdoctoral Researchers,
           Early-Career and Senior Faculty Members across disciplines such as

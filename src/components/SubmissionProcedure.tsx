@@ -12,7 +12,7 @@ export default function SubmissionProcedure() {
       <h2 className="section-title text-4xl font-bold text-center mb-10"> Submission Procedure</h2>
 
       {/* Table */}
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500 overflow-x-auto">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200 text-sm">
           <thead>
             <tr>

@@ -14,7 +14,7 @@ export default function FAQs() {
       <div className="max-w-2xl mx-auto space-y-4">
         {
           siteData.FaqsData.map((faqDataItem, FaqDataIndex) => {
-            return (<details key={`faq_data_item_${FaqDataIndex}`} className="bg-white rounded-lg shadow-md p-6 border-l-4 border-cyan-500 group">
+            return (<details key={`faq_data_item_${FaqDataIndex}`} className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 group">
               <summary className="text-xl font-semibold text-gray-700 cursor-pointer flex justify-between items-center">
                 <span>{faqDataItem.question}</span>
                 <span className="transition-transform group-open:rotate-180">

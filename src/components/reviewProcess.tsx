@@ -12,7 +12,7 @@ export default function ReviewProcess() {
       <h2 className="section-title text-4xl font-bold text-center mb-10">Review Process</h2>
 
       {/* Card */}
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500 max-w-2xl mx-auto">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 max-w-2xl mx-auto">
         <ul className="list-disc list-inside text-gray-600 space-y-3">
           {siteData.reviewProcess.map((item, idx) => (
             <li key={idx}>

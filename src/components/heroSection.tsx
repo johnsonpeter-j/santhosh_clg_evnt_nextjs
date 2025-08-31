@@ -7,7 +7,7 @@ export default function HeroBanner() {
     <section id="home" className="w-full mb-12">
       <div className="bg-gray-100 shadow-xl overflow-hidden">
         {/* Hero Content */}
-        <div className="relative h-96 flex items-center justify-center text-white bg-gradient-to-r from-green-600 to-cyan-500">
+        <div className="relative h-96 flex items-center justify-center text-white bg-gradient-to-r from-green-600 to-green-600">
           <div className="relative text-center mx-auto">
             {/* Logo */}
             <Image

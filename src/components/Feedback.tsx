@@ -54,7 +54,7 @@ export default function Feedback() {
         Feedback
       </h2>
 
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
         {!submitted ? (
           <form
             id="feedback-form"
@@ -75,7 +75,7 @@ export default function Feedback() {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full border border-gray-300 rounded-md p-2 focus:ring-cyan-500 focus:border-cyan-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded-md p-2 focus:ring-green-600 focus:border-green-600 focus:outline-none"
                 required
               />
             </div>
@@ -94,7 +94,7 @@ export default function Feedback() {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full border border-gray-300 rounded-md p-2 focus:ring-cyan-500 focus:border-cyan-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded-md p-2 focus:ring-green-600 focus:border-green-600 focus:outline-none"
                 required
               />
             </div>
@@ -113,7 +113,7 @@ export default function Feedback() {
                 rows={4}
                 value={formData.comments}
                 onChange={handleChange}
-                className="w-full border border-gray-300 rounded-md p-2 focus:ring-cyan-500 focus:border-cyan-500 focus:outline-none"
+                className="w-full border border-gray-300 rounded-md p-2 focus:ring-green-600 focus:border-green-600 focus:outline-none"
                 required
               ></textarea>
             </div>

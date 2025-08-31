@@ -14,7 +14,7 @@ export default function AboutTSM() {
           <p className="text-gray-600 text-justify">{siteData.aboutData[0].description}</p>
         </div >
         {/* for source video */}
-        {/* <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
+        {/* <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
           <video
             src="/videos/conference.mp4"
             controls
@@ -26,7 +26,7 @@ export default function AboutTSM() {
         </div> */}
 
         {/* for youtube video */}
-        <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
+        <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
           <div className="relative w-full aspect-video rounded-lg overflow-hidden">
             <iframe
               src={siteData.aboutTsmVideoLink}

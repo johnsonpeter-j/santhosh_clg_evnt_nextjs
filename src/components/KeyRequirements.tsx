@@ -13,7 +13,7 @@ export default function KeyRequirements() {
 
 
       {/* Requirements Card */}
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500 max-w-2xl mx-auto">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 max-w-2xl mx-auto">
         <ul className="list-disc list-inside text-gray-600 space-y-3">
           {siteData.keyRequirements.map((req, idx) => (
             <li key={idx}>{req}</li>

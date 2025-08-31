@@ -12,7 +12,7 @@ export default function PublicationAvenues() {
       <h2 className="section-title text-4xl font-bold text-center mb-10"> Publication Avenues</h2>
 
       {/* Content Box */}
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-cyan-500">
+      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
         {/* Confirmed List */}
         <h4 className="text-2xl font-bold text-gray-700 mb-4">Confirmed List</h4>
         <p className="text-gray-600 mb-4">
