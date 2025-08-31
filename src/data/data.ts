@@ -41,7 +41,7 @@ export const siteData = {
         },
         {
             name: "Registration",
-            href: "#registration",
+            href: "/registration",
             submenus: [
                 { name: "Who Can Participate", href: "#who-can-participate" },
                 { name: "Registration Details", href: "#registration-details" },
@@ -619,5 +619,27 @@ export const siteData = {
             question: "Who is eligible to participate?",
             answer: "The conference is open to <b> Master&apos;s Degree, Ph.D. Research Scholars, Postdoctoral Researchers, and Early-Career &amp; Senior Faculty Members </b> across a wide range of disciplines."
         }
+    ],
+
+    registrationDetailsData: [
+        "Submission open to Research Scholars, Early - Career Faculty Members / Assistant Professors, and Postdoctoral Researchers",
+        "Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability",
+        "Link to Conference Website < To be Updated Shortly >",
+        "Submission Link < To be Updated Shortly >"
+    ],
+
+    paymentDetails: [
+        "Includes participation certificate, expert feedback, and eligibility for awards",
+        "150 EUR for International Participants",
+        "INR 4000 for Research Pitch",
+        "INR 5000 for Full paper"
+    ],
+
+    accommodationDetails: [
+        "Affordable Package: Comfortable stay at just ₹4500 for 3 days (AC - double occupancy).",
+        "All-Inclusive Meals: Enjoy daily breakfast, lunch, and dinner - no extra hassle!",
+        "Value for Money: Works out to only ₹1500 per day per person.",
+        "Convenience Guaranteed: Stay and meals bundled together for a stress-free experience.",
+        "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
     ]
 }
