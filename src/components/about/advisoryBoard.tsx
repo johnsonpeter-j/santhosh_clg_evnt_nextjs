@@ -5,7 +5,7 @@ export default function AdvisoryBoard() {
     return (
         <section
             id="advisory-board"
-            className="bg-white rounded-lg shadow-md p-6 mb-12 border-t-4 border-[#00BCD4]"
+            className="bg-white rounded-lg shadow-md p-6 mb-12 border-t-4 border-green-600"
         >
             <h3 className="text-2xl font-bold text-gray-700 mb-6">
                 Advisory Board

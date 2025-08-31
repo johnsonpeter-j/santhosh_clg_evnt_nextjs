@@ -18,18 +18,33 @@ export default function Navbar() {
           <Image
             width={30}
             height={30}
-            src={"/images/logo.png"}
+            src={"/images/navbar/logo.png"}
             alt="TSM Logo"
             className="h-8 w-8 rounded-full shadow-lg sm:h-10 sm:w-10 lg:h-10 lg:w-10"
           />
           <Link
-            href="#home"
-            className="truncate overflow-hidden whitespace-nowrap max-w-[180px] sm:max-w-none text-sm sm:text-base lg:text-base font-bold text-gray-800 leading-tight"
+            href="/"
+            className="flex items-center gap-2 truncate  sm:max-w-none"
           >
-            Thiagarajar School of Management
-            <span className="block sm:inline font-normal text-xs sm:text-sm lg:text-sm text-gray-600 ml-0 sm:ml-2">
-              FOS 2026-GRIE
-            </span>
+            {/* Title & Subtitle stacked on small, inline on larger */}
+            <div className="truncate leading-tight block text-sm sm:text-base lg:text-base font-bold text-gray-800">
+                Thiagarajar School of Management
+              {/* <span className="block sm:inline text-xs sm:text-sm lg:text-sm font-normal text-gray-600">
+                FOS 2026-GRIE
+              </span> */}
+            </div>
+
+            {/* Logo */}
+            <div>
+
+            </div>
+            <Image
+              width={100}
+              height={40}
+              src="/images/navbar/fos_conference_logo.png"
+              alt="TSM Logo"
+              className="h-8 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-10 lg:w-30"
+            />
           </Link>
 
         </div>

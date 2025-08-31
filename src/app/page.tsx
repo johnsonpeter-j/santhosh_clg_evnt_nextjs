@@ -4,6 +4,7 @@ import AboutTSM from "@/components/home/AboutTSM";
 import Collaborators from "@/components/home/collabrators";
 import HeroSlider from "@/components/home/HeroSlide";
 import Madurai from "@/components/home/maduraiPlaces";
+import SDGLinks from "@/components/home/SDGLinks";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
@@ -19,9 +20,11 @@ export default function Home() {
 
         <AboutTSM />
 
-        <Collaborators/>
+        <Collaborators />
 
-        <Madurai/> 
+        <SDGLinks />
+
+        <Madurai />
 
       </main>
 
