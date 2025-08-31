@@ -16,19 +16,19 @@ export default function PreConferenceWorkshop() {
           {siteData.preConferenceWorkshop.title}
         </h3>
 
-        <div className="relative flex flex-col w-full h-full overflow-scroll text-gray-700 bg-white shadow-md rounded-lg bg-clip-border">
+        <div className="bg-white rounded-lg shadow-md p-6 overflow-x-auto">
           {/* table-fixed ensures equal width columns */}
-          <table className="w-full text-left table-fixed min-w-max border-collapse">
+          <table className="min-w-full divide-y divide-gray-200 text-sm">
             <thead>
               {siteData.preConferenceWorkshop.tHeadData.map((tHeadsDataItem, rowIndex) => (
                 <tr key={`pre_conference_workshop_table_row_item_${rowIndex}`}>
                   {tHeadsDataItem.map((item, colIndex) => (
                     <th
                       key={`pre_conference_workshop_table_head_item_${colIndex}`}
-                      className={`p-4 border-b border-green-300 bg-green-600 whitespace-normal break-words ${rowIndex === 0 ? "text-center" : "text-left"}`}
+                      className={`px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider ${rowIndex === 0 ? "text-center" : "text-left"}`}
                       colSpan={rowIndex === 0 && colIndex === 1 ? 2 : 1}
                     >
-                      <p className="block text-sm font-normal leading-snug text-white">
+                      <p className="block text-sm font-normal leading-snug">
                         {item}
                       </p>
                     </th>
@@ -37,20 +37,20 @@ export default function PreConferenceWorkshop() {
               ))}
             </thead>
 
-            <tbody>
+            <tbody className="divide-y divide-gray-200">
               {siteData.preConferenceWorkshop.tBodyData.map((tbodyItem, rowIndex) => (
-                <tr key={`pre_conference_workshop_table_body_row_item_${rowIndex}`} className="hover:bg-green-50">
+                <tr key={`pre_conference_workshop_table_body_row_item_${rowIndex}`} >
 
                   <td
-                    className={`p-4 border-b min-w-[200px]  border-green-200 whitespace-normal break-words`}
+                    className={`px-6 py-4 text-gray-600 whitespace-normal break-words`}
                   >
-                    <p className="block text-sm text-green-800">
+                    <p className="block text-sm">
                       {tbodyItem.time}
                     </p>
                   </td>
 
                   <td
-                    className={`p-4 border-b min-w-[200px]  border-green-200 whitespace-normal break-words ${!tbodyItem.day_1_roomB
+                    className={`px-6 py-4 text-gray-600 whitespace-normal break-words ${!tbodyItem.day_1_roomB
                       ? "text-center"
                       : "text-left"
                       }`}
@@ -58,33 +58,33 @@ export default function PreConferenceWorkshop() {
                       !tbodyItem.day_1_roomB ? 2 : 1
                     }
                   >
-                    <p className="block text-sm text-green-800">
+                    <p className="block text-sm">
                       {tbodyItem.day_1_roomA}
                     </p>
                   </td>
 
                   {tbodyItem.day_1_roomB && <td
-                    className={`p-4 border-b min-w-[200px]  border-green-200 whitespace-normal break-words`}
+                    className={`px-6 py-4 text-gray-600 whitespace-normal break-words`}
                   >
-                    <p className="block text-sm text-green-800">
+                    <p className="block text-sm">
                       {tbodyItem.day_1_roomB}
                     </p>
                   </td>
                   }
 
                   <td
-                    className={`p-4 border-b min-w-[200px]  border-green-200 whitespace-normal break-words`}
+                    className={`px-6 py-4 text-gray-600 whitespace-normal break-words`}
                   >
-                    <p className="block text-sm text-green-800">
+                    <p className="block text-sm">
                       {tbodyItem.day_2_roomA}
                     </p>
                   </td>
 
 
                   <td
-                    className={`p-4 border-b min-w-[200px]  border-green-200 whitespace-normal break-words`}
+                    className={`px-6 py-4 text-gray-600 whitespace-normal break-words`}
                   >
-                    <p className="block text-sm text-green-800">
+                    <p className="block text-sm">
                       {tbodyItem.day_3_roomA}
                     </p>
                   </td>

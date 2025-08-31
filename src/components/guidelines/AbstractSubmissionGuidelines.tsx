@@ -13,16 +13,16 @@ export default function AbstractSubmissionGuidelines() {
                     {siteData.AbstractSubmissionGuidelinesData.title}
                 </h3>
 
-                <div className="relative flex flex-col w-full h-full overflow-scroll text-gray-700 bg-white shadow-md rounded-lg bg-clip-border">
+                <div className="bg-white rounded-lg shadow-md p-6 overflow-x-auto">
                     {/* table-fixed ensures equal width columns */}
-                    <table className="w-full text-left table-fixed min-w-max border-collapse">
+                    <table className="min-w-full divide-y divide-gray-200 text-sm">
                         <thead>
                             <tr >
                                 {siteData.AbstractSubmissionGuidelinesData.tHeadData.map((tHeadsDataItem, rowIndex) => (
                                     <th key={`abstract_sub_guide_th_item_${rowIndex}`}
-                                        className="p-4 border-b border-green-300 bg-green-600 w-[25%] whitespace-normal break-words"
+                                        className="px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider"
                                     >
-                                        <p className="block text-sm font-normal leading-snug text-white" dangerouslySetInnerHTML={{ __html: sanitizeHtml(tHeadsDataItem) }}>
+                                        <p className="block text-sm font-normal leading-snug" dangerouslySetInnerHTML={{ __html: sanitizeHtml(tHeadsDataItem) }}>
 
                                         </p>
                                     </th>
@@ -30,16 +30,16 @@ export default function AbstractSubmissionGuidelines() {
                             </tr>
                         </thead>
 
-                        <tbody>
+                        <tbody className="divide-y divide-gray-200">
                             {siteData.AbstractSubmissionGuidelinesData.tBodyData.map((tbodyItem, rowIndex) => (
-                                <tr key={rowIndex} className="hover:bg-green-50">
+                                <tr key={rowIndex} >
                                     {tbodyItem.map((tbodyItemData, tbodyItemIndex) => (
                                         <td
-                                            key={tbodyItemIndex}
-                                            className={`p-4 border-b border-green-200 w-[25%] whitespace-normal break-words `}
+                                            key={`abstract_sub_guide_td_item_${tbodyItemIndex}`}
+                                            className={`px-6 py-4 text-gray-600 whitespace-normal break-words `}
 
                                         >
-                                            <p className="block text-sm text-green-800">
+                                            <p className="block text-sm">
                                                 {tbodyItemData}
                                             </p>
                                         </td>

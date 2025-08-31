@@ -2,6 +2,7 @@ import AbstractSubmissionGuidelines from "@/components/guidelines/AbstractSubmis
 import CallForPaper from "@/components/guidelines/CallForPaper";
 import FullPaperSubmissionGuidelines from "@/components/guidelines/FullPaperSubmissionGuidelines";
 import PresentationGuidelines from "@/components/guidelines/presentationGuidelines";
+import PublicationAvenues from "@/components/guidelines/PublicationAvenues";
 
 export default function Guidelines() {
     return (
@@ -13,6 +14,8 @@ export default function Guidelines() {
             <FullPaperSubmissionGuidelines />
 
             <PresentationGuidelines />
+
+            <PublicationAvenues />
         </div>
     );
 }

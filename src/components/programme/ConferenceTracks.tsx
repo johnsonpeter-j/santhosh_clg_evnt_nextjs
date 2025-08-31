@@ -19,7 +19,7 @@ export default function ConferenceTracks() {
             className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow"
           >
             <h3 className="text-xl font-bold text-gray-700 mb-2">
-              {track.title}
+              Track {idx+1}. {track.title}
             </h3>
             <p className="text-gray-600 leading-relaxed">{track.desc}</p>
           </div>

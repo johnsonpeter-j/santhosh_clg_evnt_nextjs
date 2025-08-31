@@ -51,10 +51,10 @@ export default function Feedback() {
     <section id="feedback" className="max-w-[1200px] mx-auto px-4 py-12 mb-12">
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">
-        Feedback
+        Contact Us
       </h2>
 
-      <div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
+      <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
         {!submitted ? (
           <form
             id="feedback-form"

@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const siteData = {
     menuItems: [
         {
@@ -37,13 +39,13 @@ export const siteData = {
                 { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
                 { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
                 { name: "Presentation Guidelines", href: "#presentation-guidelines" },
+                { name: "Publication Avenue", href: "#publication-avenue" },
             ],
         },
         {
             name: "Registration",
             href: "/registration",
             submenus: [
-                { name: "Who Can Participate", href: "#who-can-participate" },
                 { name: "Registration Details", href: "#registration-details" },
                 { name: "Payment Info", href: "#payment" },
                 { name: "Accommodation", href: "#accommodation" },
@@ -51,12 +53,11 @@ export const siteData = {
         },
         {
             name: "Contact",
-            href: "#contact",
+            href: "/contact",
             submenus: [
                 { name: "Venue", href: "#venue" },
                 { name: "Contact Form & Emails", href: "#contact-form" },
-                { name: "FAQ", href: "#faq" },
-                { name: "Downloads", href: "#downloads" },
+                { name: "FAQ", href: "#faq" }
             ],
         },
     ],
@@ -641,5 +642,20 @@ export const siteData = {
         "Value for Money: Works out to only ₹1500 per day per person.",
         "Convenience Guaranteed: Stay and meals bundled together for a stress-free experience.",
         "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
+    ],
+
+    venueDetails: [
+        {
+            title: "Reaching Madurai:",
+            description: "Madurai is well connected to other parts of India through air, rail, and road. There are daily flights to major cities like Chennai, Bengaluru, and Hyderabad. Train services are available to Mumbai, Delhi, Kolkata, and Chennai, with computerized reservation facilities. Madurai also has bus connections through state-run and private operators from nearby cities in Tamil Nadu and neighboring states."
+        },
+        {
+            title: "Reaching the Venue:	",
+            description: "Thiagarajar School of Management (TSM) is located approximately 15 minutes’ drive from Madurai Airport and about 10–15 minutes from Madurai Junction Railway Station. Upon arrival in the city, you can hire a taxi or auto-rickshaw to “Thiagarajar School of Management, Thirupparankundram Road, Madurai.” Local city buses are also available and operated by the Madurai Municipal Transport Service (MMS)."
+        },
+        {
+            title: "Reaching Weather:",
+            description: "Participants and attendees traveling to Madurai in January can expect temperatures between 20°C to 32°C. Light cotton or casual wear is recommended during the day, with a light jacket or shawl for cooler mornings or evenings. Madurai generally maintains good air quality during this time."
+        }
     ]
 }

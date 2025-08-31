@@ -11,7 +11,7 @@ export default function FAQs() {
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">Frequently Asked Questions</h2>
 
-      <div className="max-w-2xl mx-auto space-y-4">
+      <div className="mx-auto space-y-4">
         {
           siteData.FaqsData.map((faqDataItem, FaqDataIndex) => {
             return (<details key={`faq_data_item_${FaqDataIndex}`} className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 group">
