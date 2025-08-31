@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased flex flex-col min-h-screen bg-gray-50 max-w-screen max-h-screen min-h-screen bg-gray-50 text-gray-900">
+      <body className="antialiased flex flex-col max-w-screen max-h-screen min-h-screen bg-gray-50 text-gray-900">
         {/* App Bar / Header */}
         <Navbar />
 

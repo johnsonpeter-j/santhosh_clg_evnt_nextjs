@@ -1,8 +1,8 @@
 export const siteData = {
     menuItems: [
         {
-            name: "About Us",
-            href: "",
+            name: "About",
+            href: "/",
             submenus: [
                 { name: "About the Conference", href: "#about_the_conference" },
                 { name: "Key Dates", href: "#key_dates" },
@@ -21,28 +21,12 @@ export const siteData = {
             ],
         },
         {
-            name: "Speakers",
-            href: "#speakers",
+            name: "Conference team",
+            href: "/conference-team",
             submenus: [
-                { name: "Keynote Speakers", href: "#keynote" },
-                { name: "Panellists", href: "#panellists" },
-            ],
-        },
-        {
-            name: "Committees",
-            href: "#committees",
-            submenus: [
+                { name: "Keynote Speakers", href: "#speakers" },
                 { name: "Organizing Committee", href: "#organizing" },
                 { name: "Advisory Board", href: "#advisory" },
-            ],
-        },
-        {
-            name: "Registration",
-            href: "#registration",
-            submenus: [
-                { name: "Registration Details", href: "#registration-details" },
-                { name: "Payment Info", href: "#payment" },
-                { name: "Accommodation", href: "#accommodation" },
             ],
         },
         {
@@ -56,9 +40,19 @@ export const siteData = {
             ],
         },
         {
+            name: "Registration",
+            href: "#registration",
+            submenus: [
+                { name: "Registration Details", href: "#registration-details" },
+                { name: "Payment Info", href: "#payment" },
+                { name: "Accommodation", href: "#accommodation" },
+            ],
+        },
+        {
             name: "Contact",
             href: "#contact",
             submenus: [
+                { name: "Venue", href: "#venue" },
                 { name: "Contact Form & Emails", href: "#contact-form" },
                 { name: "FAQ", href: "#faq" },
                 { name: "Downloads", href: "#downloads" },
@@ -264,6 +258,18 @@ export const siteData = {
             image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
             profession: "Associate Professor",
             university: "Catholic University of the North"
+        },
+        {
+            name: "Dr. Paulo Nocera Alves Junior",
+            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
+            profession: "Associate Professor",
+            university: "Catholic University of the North"
+        },
+        {
+            name: "Dr. Paulo Nocera Alves Junior",
+            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
+            profession: "Associate Professor",
+            university: "Catholic University of the North"
         }
     ],
 
@@ -312,7 +318,44 @@ export const siteData = {
         },
     ],
 
-    sponsors: ["Sponsor 1", "Sponsor 2", "Sponsor 3", "Sponsor 4", "Sponsor 5"],
+    keySpeakersData: [
+        {
+            src: "/images/9.webp",
+            name: "Dr. Murali Sambasivan",
+            role: "Chief Patron & Professor",
+            place: "Thiagarajar School of Management, Madurai",
+        },
+        {
+            src: "/images/10.webp",
+            name: "Dr. M. Selvalakshmi",
+            role: "Patron & Professor",
+            place: "Thiagarajar School of Management, Madurai",
+        },
+        {
+            src: "/images/11.webp",
+            name: "Dr. K. Mathiyazhagan",
+            role: "Conference Chairperson",
+            place: "Head of Research Centre & Professor, TSM",
+        },
+    ],
+
+    sponsorsData: [
+        {
+            image: "/images/9.webp",
+            title: "Dr. Murali Sambasivan",
+            description: "Chief Patron & Professor",
+        },
+        {
+            image: "/images/10.webp",
+            title: "Dr. M. Selvalakshmi",
+            description: "Patron & Professor",
+        },
+        {
+            image: "/images/11.webp",
+            title: "Dr. K. Mathiyazhagan",
+            description: "Conference Chairperson",
+        },
+    ],
 
     maduraiPlaces: [
         { src: "/images/mennakshi_amman_temple.jpeg", title: "Meenakshi Amman Temple" },
