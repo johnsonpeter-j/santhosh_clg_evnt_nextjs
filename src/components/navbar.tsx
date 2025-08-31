@@ -115,7 +115,7 @@ export default function Navbar() {
                 <button
                   onClick={() => {
                     // setOpenSubmenu(openSubmenu === item.name ? null : item.name)
-                    router.push(item?.name); // navigate to /dashboard
+                    router.push(item?.href); // navigate to /dashboard
                   }
                   }
                   className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
