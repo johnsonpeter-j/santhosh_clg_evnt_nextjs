@@ -121,7 +121,7 @@ export default function Navbar() {
                   className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                 >
                   {item.name}
-                  {item.submenus && <ChevronDown size={16} />}
+                  {/* {item.submenus && <ChevronDown size={16} />} */}
                 </button>
                 {/* {item.submenus && openSubmenu === item.name && (
                   <ul className="ml-4 mt-1 space-y-1">
