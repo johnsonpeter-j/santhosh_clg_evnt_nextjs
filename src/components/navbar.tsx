@@ -11,7 +11,7 @@ export default function Navbar() {
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
 
   return (
-    <header className="bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50">
+    <header className="h-16 lg:h-18 bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo + Title */}
         <div className="flex items-center space-x-3">

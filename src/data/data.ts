@@ -1,13 +1,13 @@
 export const siteData = {
     menuItems: [
-        { name: "Home", href: "#home" },
         {
-            name: "About",
-            href: "#about",
+            name: "About Us",
+            href: "",
             submenus: [
                 { name: "About the Conference", href: "#about_the_conference" },
                 { name: "About TSM Madurai", href: "#about_tsm_madurai" },
                 { name: "Sustainability & SDGs Link", href: "#sustainability" },
+                { name: "Venue", href: "#venue" },
             ],
         },
         {
@@ -15,9 +15,33 @@ export const siteData = {
             href: "#programme",
             submenus: [
                 { name: "Conference Tracks & Themes", href: "#tracks" },
-                { name: "Keynote Speakers & Panellists", href: "#speakers" },
                 { name: "Day-wise Schedule", href: "#schedule" },
                 { name: "Preconference Workshop", href: "#workshop" },
+            ],
+        },
+        {
+            name: "Speakers",
+            href: "#speakers",
+            submenus: [
+                { name: "Keynote Speakers", href: "#keynote" },
+                { name: "Panellists", href: "#panellists" },
+            ],
+        },
+        {
+            name: "Committees",
+            href: "#committees",
+            submenus: [
+                { name: "Organizing Committee", href: "#organizing" },
+                { name: "Advisory Board", href: "#advisory" },
+            ],
+        },
+        {
+            name: "Registration",
+            href: "#registration",
+            submenus: [
+                { name: "Registration Details", href: "#registration-details" },
+                { name: "Payment Info", href: "#payment" },
+                { name: "Accommodation", href: "#accommodation" },
             ],
         },
         {
@@ -31,29 +55,11 @@ export const siteData = {
             ],
         },
         {
-            name: "Registration",
-            href: "#registration",
-            submenus: [
-                { name: "Registration Details", href: "#registration-details" },
-                { name: "Payment Info", href: "#payment" },
-                { name: "Accommodation", href: "#accommodation" },
-            ],
-        },
-        {
-            name: "Committees",
-            href: "#committees",
-            submenus: [
-                { name: "Organizing Committee", href: "#organizing" },
-                { name: "Advisory Board", href: "#advisory" },
-                { name: "Technical Committee", href: "#technical" },
-            ],
-        },
-        {
             name: "Contact",
             href: "#contact",
             submenus: [
                 { name: "Contact Form & Emails", href: "#contact-form" },
-                { name: "Organizing Committee", href: "#committee" },
+                { name: "FAQ", href: "#faq" },
                 { name: "Downloads", href: "#downloads" },
             ],
         },
@@ -78,6 +84,13 @@ export const siteData = {
         },
     ],
 
+    heroSlideImages: [
+        "/images/hero-slides/thiyagaraja_1.jpg",
+        "/images/hero-slides/thiyagaraja_2.jpg",
+        "/images/hero-slides/thiyagaraja_3.jpg",
+        "/images/hero-slides/thiyagaraja_4.jpg",
+    ],
+
     aboutData: [
         {
             title: "Thiagarajar School of Management, India",
@@ -88,6 +101,8 @@ export const siteData = {
             description: "The International Conference, Frontiers of Sustainability - Innovation, Research, and Global Responsibility, aims to explore cutting-edge strategies for a sustainable future. It brings together global researchers, innovators, practitioners, and policymakers to foster collaborative solutions. The event promotes interdisciplinary dialogue addressing climate change, social equity, and digital transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and Research pitch will be presented for academic and practical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world."
         }
     ],
+
+    aboutTsmVideoLink:"https://www.youtube.com/embed/dQw4w9WgXcQ",
 
     hightlightData: [
         {

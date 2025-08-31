@@ -1,11 +1,11 @@
 
 import ConferenceInfo from "./about/ConferenceInfo";
 import Highlight from "./about/Highlights";
-import Collaborators from "./about/collabrators";
+// import Collaborators from "./about/collabrators";
 import AdvisoryBoard from "./about/advisoryBoard";
 import Sponsors from "./about/sponsors";
 import OrganizationBoard from "./about/organizationBoard";
-import Madurai from "./about/maduraiPlaces";
+import Madurai from "./home/maduraiPlaces";
 import { siteData } from "@/data/data";
 
 export default function AboutSection() {
@@ -38,7 +38,7 @@ export default function AboutSection() {
             </div>
 
             {/* Collaborators */}
-            <Collaborators />
+            {/* <Collaborators /> */}
 
             {/* Advisory Board */}
             <AdvisoryBoard />
@@ -50,7 +50,7 @@ export default function AboutSection() {
             <Sponsors />
 
             {/* Madurai places */}
-            <Madurai/>
+            {/* <Madurai/> */}
         </section>
     );
 }
