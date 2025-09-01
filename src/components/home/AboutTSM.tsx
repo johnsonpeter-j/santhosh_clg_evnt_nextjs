@@ -3,7 +3,7 @@ import { siteData } from "@/data/data";
 export default function AboutTSM() {
   return (
 
-    <div className="mt-4 mx-4">
+    <div id="about-tsm-madurai" className="mt-4 mx-4">
       {/* Responsive Grid */}
       < div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12" >
         {/* About Conference Card */}

@@ -5,7 +5,7 @@ export default function PublicationAvenues() {
 
   return (
     <section
-      id="publication-avenues"
+      id="publication-avenue"
       className="max-w-[1200px] mx-auto px-4 py-8 mb-12"
     >
       {/* Section Title */}

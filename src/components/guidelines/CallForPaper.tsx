@@ -3,7 +3,7 @@ import { siteData } from "@/data/data";
 export default function CallForPaper() {
     return (
         <section
-            id="who-can-participate"
+            id="call-for-papers"
             className="max-w-[1200px] mx-auto px-4 pt-8"
         >
             {/* Content Box */}

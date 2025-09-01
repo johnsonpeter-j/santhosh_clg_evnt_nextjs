@@ -4,7 +4,7 @@ import { sanitizeHtml } from "@/lib/sanitizeHtml";
 export default function AbstractSubmissionGuidelines() {
     return (
         <section
-            id="tracks"
+            id="abstract-guidelines"
             className=" max-w-[1200px] mx-auto px-4 pt-8"
         >
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow">

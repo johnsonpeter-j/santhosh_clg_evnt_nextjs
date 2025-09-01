@@ -48,7 +48,7 @@ export default function Feedback() {
   };
 
   return (
-    <section id="feedback" className="max-w-[1200px] mx-auto px-4 py-12 mb-12">
+    <section id="contact-form" className="max-w-[1200px] mx-auto px-4 py-12 mb-12">
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">
         Contact Us

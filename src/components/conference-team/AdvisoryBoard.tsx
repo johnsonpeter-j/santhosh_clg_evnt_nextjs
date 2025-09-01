@@ -5,7 +5,7 @@ export default function AdvisoryBoard() {
 
     return (
         <section
-            id="organizing"
+            id="advisory"
             className="mx-auto px-4 pt-8"
         >
 

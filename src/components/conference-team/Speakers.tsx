@@ -5,7 +5,7 @@ export default function Speakers() {
 
     return (
         <section
-            id="organizing"
+            id="speakers"
             className="mx-auto px-4 pt-8"
         >
 

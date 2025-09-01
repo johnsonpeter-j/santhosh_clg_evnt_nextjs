@@ -91,7 +91,7 @@ export default function Navbar() {
                     {item.submenus.map((sub) => (
                       <li key={sub.name}>
                         <Link
-                          href={sub.href}
+                          href={`/${item.href}${sub.href}`}
                           className="text-sm block px-4 py-2 text-gray-800 hover:bg-gray-100"
                         >
                           {sub.name}

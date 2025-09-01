@@ -4,7 +4,7 @@ import { sanitizeHtml } from "@/lib/sanitizeHtml";
 export default function FullPaperSubmissionGuidelines() {
     return (
         <section
-            id="tracks"
+            id="paper-guidelines"
             className=" max-w-[1200px] mx-auto px-4 py-8"
         >
 

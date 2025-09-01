@@ -5,13 +5,13 @@ export const siteData = {
             name: "About",
             href: "/",
             submenus: [
-                { name: "About the Conference", href: "#about_the_conference" },
-                { name: "Key Dates", href: "#key_dates" },
-                { name: "About TSM Madurai", href: "#about_tsm_madurai" },
+                { name: "About the Conference", href: "#about-the-conference" },
+                { name: "Key Dates", href: "#key-dates" },
+                { name: "About TSM Madurai", href: "#about-tsm-madurai" },
                 { name: "Collaborating Institutions", href: "#collaborating-institutions" },
                 { name: "Sustainability & SDGs Link", href: "#sustainability" },
-                { name: "Discover Madurai", href: "#discover_madurai" },
-                
+                { name: "Discover Madurai", href: "#discover-madurai" },
+
             ],
         },
         {
@@ -30,6 +30,7 @@ export const siteData = {
                 { name: "Keynote Speakers", href: "#speakers" },
                 { name: "Organizing Committee", href: "#organizing" },
                 { name: "Advisory Board", href: "#advisory" },
+                { name: "Sponsers", href: "#sponsers" },
             ],
         },
         {
@@ -86,7 +87,7 @@ export const siteData = {
 
     brochurePdfPath: "/pdfs/brochure.pdf",
 
-        collabtaorData: [
+    collabtaorData: [
         {
             name: "ICN Business School, France",
             desc: "A French Business School known for its interdisciplinary ATM approach and triple crown accreditation.",
@@ -147,37 +148,37 @@ export const siteData = {
             title: "Sustainable Entrepreneurship and Business Models",
             desc: "This track explores how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
             sdg_link: "sdg_1 <b>bold</b>",
-            path:"/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf"
         },
         {
             title: "Technological Innovations for Sustainability",
             desc: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
             sdg_link: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
-            path:"/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf"
         },
         {
             title: "Financing Sustainability and Impact Investing",
             desc: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
             sdg_link: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
-            path:"/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf"
         },
         {
             title: "Policy, Regulation, and Governance for Sustainability",
             desc: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
             sdg_link: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
-            path:"/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf"
         },
         {
             title: "Education and Capacity Building for Green Entrepreneurship",
             desc: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
             sdg_link: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
-            path:"/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf"
         },
         {
             title: "Digital Transformation and Sustainable Development",
             desc: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
             sdg_link: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
-            path:"/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf"
         }
     ],
 

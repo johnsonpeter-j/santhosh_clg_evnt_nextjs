@@ -5,7 +5,7 @@ export default function Sponsors() {
 
     return (
         <section
-            id="organizing"
+            id="sponsers"
             className="mx-auto px-4 py-8"
         >
 

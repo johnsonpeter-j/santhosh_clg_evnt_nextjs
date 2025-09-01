@@ -3,7 +3,7 @@ import { siteData } from "@/data/data";
 export default function Accomodation() {
   return (
     <section
-      id="who-can-participate"
+      id="accommodation"
       className="max-w-[1200px] mx-auto px-4 py-8"
     >
       {/* Content Box */}

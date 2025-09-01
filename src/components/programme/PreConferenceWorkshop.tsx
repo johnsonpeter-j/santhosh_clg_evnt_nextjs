@@ -3,7 +3,7 @@ import { siteData } from "@/data/data";
 export default function PreConferenceWorkshop() {
   return (
     <section
-      id="tracks"
+      id="workshop"
       className="mx-auto px-4 py-8 mb-12"
     >
       {/* Section Title */}

@@ -4,7 +4,7 @@ import { siteData } from "@/data/data";
 
 export default function Venue() {
   return (
-    <section id="faqs" className="max-w-[1200px] mx-auto px-4 pt-8">
+    <section id="venue" className="max-w-[1200px] mx-auto px-4 pt-8">
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">Venue</h2>
 

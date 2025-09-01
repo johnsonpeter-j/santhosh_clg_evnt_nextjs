@@ -4,7 +4,7 @@ import { sanitizeHtml } from "@/lib/sanitizeHtml";
 export default function RegistrationDetails() {
   return (
     <section
-      id="who-can-participate"
+      id="registration-details"
       className="max-w-[1200px] mx-auto px-4 pt-8"
     >
       {/* Content Box */}
