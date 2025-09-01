@@ -9,7 +9,7 @@ export default function Madurai() {
   return (
     <section
       id="discover-madurai"
-      className="bg-white rounded-lg shadow-md p-6 mb-12 border-t-4 border-green-600 mt-4 mx-4"
+      className="scroll-mt-20 bg-white rounded-lg shadow-md p-6 mb-12 border-t-4 border-green-600 mt-4 mx-4"
     >
       <h3 className="text-2xl font-bold text-gray-700 mb-4">Discover Madurai</h3>
       <p className="text-gray-600 mb-4">

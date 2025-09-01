@@ -4,7 +4,7 @@ export default function CallForPaper() {
     return (
         <section
             id="call-for-papers"
-            className="max-w-[1200px] mx-auto px-4 pt-8"
+            className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8"
         >
             {/* Content Box */}
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">

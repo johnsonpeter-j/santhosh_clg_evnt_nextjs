@@ -7,7 +7,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function FAQs() {
   return (
-    <section id="faq" className="max-w-[1200px] mx-auto px-4 py-8 mb-12">
+    <section id="faq" className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-8 mb-12">
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">Frequently Asked Questions</h2>
 

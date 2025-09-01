@@ -6,7 +6,7 @@ export default function ConferenceTracks() {
   return (
     <section
       id="tracks"
-      className="mx-auto px-4 py-8 mb-12"
+      className="scroll-mt-20 mx-auto px-4 py-8 mb-12"
     >
       {/* Section Title */}
       <h2 className="section-title text-4xl font-bold text-center mb-10">

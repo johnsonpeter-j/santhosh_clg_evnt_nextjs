@@ -4,7 +4,7 @@ export default function Accomodation() {
   return (
     <section
       id="accommodation"
-      className="max-w-[1200px] mx-auto px-4 py-8"
+      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-8"
     >
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">

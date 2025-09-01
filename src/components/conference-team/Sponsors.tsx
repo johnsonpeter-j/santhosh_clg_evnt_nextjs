@@ -6,7 +6,7 @@ export default function Sponsors() {
     return (
         <section
             id="sponsers"
-            className="mx-auto px-4 py-8"
+            className="scroll-mt-20 mx-auto px-4 py-8"
         >
 
             <div

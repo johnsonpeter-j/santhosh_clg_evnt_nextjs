@@ -6,7 +6,7 @@ export default function OrganizationBoard() {
     return (
         <section
             id="organizing"
-            className="mx-auto px-4 pt-8"
+            className="scroll-mt-20 mx-auto px-4 pt-8"
         >
 
             <div

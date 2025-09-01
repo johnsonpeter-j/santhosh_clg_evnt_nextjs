@@ -91,7 +91,7 @@ export default function Navbar() {
                     {item.submenus.map((sub) => (
                       <li key={sub.name}>
                         <Link
-                          href={`/${item.href}${sub.href}`}
+                          href={`${item.href}${sub.href}`}
                           className="text-sm block px-4 py-2 text-gray-800 hover:bg-gray-100"
                         >
                           {sub.name}
@@ -114,22 +114,22 @@ export default function Navbar() {
               <li key={item.name}>
                 <button
                   onClick={() => {
-                    // setOpenSubmenu(openSubmenu === item.name ? null : item.name)
-                    router.push(item?.href); // navigate to /dashboard
-                    setMobileOpen(false);
+                    setOpenSubmenu(openSubmenu === item.name ? null : item.name)
+                    // router.push(item?.href); // navigate to /dashboard
+                    // setMobileOpen(false);
                   }
                   }
                   className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                 >
                   {item.name}
-                  {/* {item.submenus && <ChevronDown size={16} />} */}
+                  {item.submenus && <ChevronDown size={16} />}
                 </button>
-                {/* {item.submenus && openSubmenu === item.name && (
+                {item.submenus && openSubmenu === item.name && (
                   <ul className="ml-4 mt-1 space-y-1">
                     {item.submenus.map((sub) => (
                       <li key={sub.name}>
                         <Link
-                          href={sub.href}
+                          href={`${item.href}${sub.href}`}
                           onClick={() => setMobileOpen(false)}
                           className="text-sm block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
                         >
@@ -138,7 +138,7 @@ export default function Navbar() {
                       </li>
                     ))}
                   </ul>
-                )} */}
+                )}
               </li>
             ))}
           </ul>
