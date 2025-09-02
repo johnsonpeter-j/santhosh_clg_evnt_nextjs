@@ -158,61 +158,71 @@ export const siteData = {
             title: "Sustainable Marketing & Responsible Consumer Engagement (SMRCE)",
             desc: "Focusing on responsible consumerism and marketing strategies aligned with sustainability.",
             sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth)",
-            path: "/pdfs/tracks/temp_track_1.pdf"
+            path: "/pdfs/tracks/temp_track_1.pdf",
+            fileName:"temp_track_1.pdf",
         },
         {
             title: "Sustainable Supply Chain, Operations & Circular Economy Practices (SSCOCEP)",
             desc: "Exploring sustainable logistics, production processes, and circular economy practices to minimize waste and optimize resource use.",
             sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
-            path: "/pdfs/tracks/temp_track_2.pdf"
+            path: "/pdfs/tracks/temp_track_2.pdf",
+            fileName:"temp_track_2.pdf",
         },
         {
             title: "Sustainable Finance, Impact Investing & Green Economics (SFII&GE)",
             desc: "Leveraging finance and investments to drive sustainability, green projects, and inclusive economic growth.",
             sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Sustainable Entrepreneurship & Innovative Business Models (SEIBM)",
             desc: "Encouraging entrepreneurs to adopt innovative, eco-friendly, and socially responsible business models.",
             sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Sustainability Education, Training & Capacity Building (SETCB)",
             desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
             sdg_link: "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals)",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership (SHRMWWEL)",
             desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
             sdg_link: "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality)",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Technological Innovations & Digital Transformation for Sustainability (TIDTS)",
             desc: "Harnessing technology, digitalization, and innovation to accelerate sustainable solutions.",
             sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Sustainable Policy, Regulation, Governance & Global Responsibility (SPRGGR)",
             desc: "Strengthening governance, regulatory frameworks, and international collaboration for sustainability.",
             sdg_link: "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Sustainability Impact Measurement, Scalability & Growth Strategies (SIMSGS)",
             desc: "Measuring, scaling, and evaluating the impact of sustainability initiatives for long-term growth.",
             sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         },
         {
             title: "Climate Action, Low-Carbon Strategies & Sustainable Future Economies (CALCS&SFE)",
             desc: "Advancing climate solutions, carbon reduction strategies, and future-proof sustainable economies.",
             sdg_link: "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
-            path: "/pdfs/tracks/track.pdf"
+            path: "/pdfs/tracks/track.pdf",
+            fileName:"track.pdf",
         }
 
     ],
