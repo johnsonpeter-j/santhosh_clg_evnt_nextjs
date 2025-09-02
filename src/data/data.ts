@@ -29,8 +29,8 @@ export const siteData = {
             submenus: [
                 { name: "Keynote Speakers", href: "#speakers" },
                 { name: "Organizing Committee", href: "#organizing" },
-                { name: "Advisory Board", href: "#advisory" },
-                { name: "Sponsers", href: "#sponsers" },
+                // { name: "Advisory Board", href: "#advisory" },
+                // { name: "Sponsers", href: "#sponsers" },
             ],
         },
         {
@@ -41,7 +41,7 @@ export const siteData = {
                 { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
                 { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
                 { name: "Presentation Guidelines", href: "#presentation-guidelines" },
-                { name: "Publication Avenue", href: "#publication-avenue" },
+                // { name: "Publication Avenue", href: "#publication-avenue" },
             ],
         },
         {
@@ -91,22 +91,32 @@ export const siteData = {
         {
             name: "ICN Business School, France",
             desc: "A French Business School known for its interdisciplinary ATM approach and triple crown accreditation.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=ICN+Business+School",
+            img: "/images/collabrators/icn bs.png",
+            link: "https://www.icn-artem.com/en/",
         },
         {
             name: "Universita Delgi Studi Di Napoli Federico II, Italy",
             desc: "One of the world’s oldest academic institutions promoting extensive research activities.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universita+Delgi+Studi+Di+Napoli",
+            img: "/images/collabrators/Universita Delgi Studi Di.jpg",
+            link: "https://www.international.unina.it/",
         },
         {
             name: "University of Sussex, United Kingdom",
             desc: "A public research university recognized for its research excellence and teaching quality.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=University+of+Sussex",
+            img: "/images/collabrators/sussex.jpg",
+            link: "https://www.sussex.ac.uk/",
         },
         {
             name: "Universiti Teknologi Brunei, Brunei",
             desc: "An Engineering and Technology University with a five-star QS ranking.",
-            img: "https://placehold.co/240x240/BCAAA4/FFF.png?text=Universiti+Teknologi+Brunei",
+            img: "/images/collabrators/bruneiuniv.jpg",
+            link: "https://www.utb.edu.bn/",
+        },
+        {
+            name: "Ton Duc Thang University",
+            desc: "The Center for Innovation and Technology Transfer (CITT) is expected to serve as a focal point for organization in promoting and coordinating activities related to applied research, technology development, expert-enterprise networking, knowledge transfer, startup support and the creation of scientific and technological products for the community.",
+            img: "/images/collabrators/Ton Duc Thang University.jpg",
+            link: "https://www.tdtu.edu.vn/en",
         },
     ],
 
@@ -145,41 +155,66 @@ export const siteData = {
     // programme page data
     conferenceTracks: [
         {
-            title: "Sustainable Entrepreneurship and Business Models",
-            desc: "This track explores how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
-            sdg_link: "sdg_1 <b>bold</b>",
+            title: "Sustainable Marketing & Responsible Consumer Engagement (SMRCE)",
+            desc: "Focusing on responsible consumerism and marketing strategies aligned with sustainability.",
+            sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth)",
+            path: "/pdfs/tracks/temp_track_1.pdf"
+        },
+        {
+            title: "Sustainable Supply Chain, Operations & Circular Economy Practices (SSCOCEP)",
+            desc: "Exploring sustainable logistics, production processes, and circular economy practices to minimize waste and optimize resource use.",
+            sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
+            path: "/pdfs/tracks/temp_track_2.pdf"
+        },
+        {
+            title: "Sustainable Finance, Impact Investing & Green Economics (SFII&GE)",
+            desc: "Leveraging finance and investments to drive sustainability, green projects, and inclusive economic growth.",
+            sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
             path: "/pdfs/tracks/track.pdf"
         },
         {
-            title: "Technological Innovations for Sustainability",
-            desc: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
-            sdg_link: "This track explores financial strategies and instruments that support long-term economic and environmental health, including green banking, impact investing, and sustainable risk management.",
+            title: "Sustainable Entrepreneurship & Innovative Business Models (SEIBM)",
+            desc: "Encouraging entrepreneurs to adopt innovative, eco-friendly, and socially responsible business models.",
+            sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
             path: "/pdfs/tracks/track.pdf"
         },
         {
-            title: "Financing Sustainability and Impact Investing",
-            desc: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
-            sdg_link: "This track explores the integration of sustainable practices into operational processes and supply chains, covering areas like sustainable logistics, lean manufacturing, and circular economy models.",
+            title: "Sustainability Education, Training & Capacity Building (SETCB)",
+            desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
+            sdg_link: "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf"
         },
         {
-            title: "Policy, Regulation, and Governance for Sustainability",
-            desc: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
-            sdg_link: "This track explores the role of corporate governance and public policy in driving sustainability, including corporate social responsibility, stakeholder engagement, and ethical leadership.",
+            title: "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership (SHRMWWEL)",
+            desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
+            sdg_link: "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality)",
             path: "/pdfs/tracks/track.pdf"
         },
         {
-            title: "Education and Capacity Building for Green Entrepreneurship",
-            desc: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
-            sdg_link: "This track highlights how digital technologies can be leveraged to achieve sustainability goals, such as using AI for resource optimization, blockchain for transparent supply chains, and big data for environmental monitoring.",
+            title: "Technological Innovations & Digital Transformation for Sustainability (TIDTS)",
+            desc: "Harnessing technology, digitalization, and innovation to accelerate sustainable solutions.",
+            sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
             path: "/pdfs/tracks/track.pdf"
         },
         {
-            title: "Digital Transformation and Sustainable Development",
-            desc: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
-            sdg_link: "This track focuses on how organizations can manage human resources to promote social and environmental sustainability, covering topics like green HRM, employee well-being, and ethical labor practices.",
+            title: "Sustainable Policy, Regulation, Governance & Global Responsibility (SPRGGR)",
+            desc: "Strengthening governance, regulatory frameworks, and international collaboration for sustainability.",
+            sdg_link: "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
+            path: "/pdfs/tracks/track.pdf"
+        },
+        {
+            title: "Sustainability Impact Measurement, Scalability & Growth Strategies (SIMSGS)",
+            desc: "Measuring, scaling, and evaluating the impact of sustainability initiatives for long-term growth.",
+            sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
+            path: "/pdfs/tracks/track.pdf"
+        },
+        {
+            title: "Climate Action, Low-Carbon Strategies & Sustainable Future Economies (CALCS&SFE)",
+            desc: "Advancing climate solutions, carbon reduction strategies, and future-proof sustainable economies.",
+            sdg_link: "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
             path: "/pdfs/tracks/track.pdf"
         }
+
     ],
 
     dayWiseData: {
@@ -283,68 +318,69 @@ export const siteData = {
     // conference team data
     keySpeakersData: [
         {
-            src: "/images/9.webp",
-            name: "Dr. Murali Sambasivan",
-            role: "Chief Patron & Professor",
-            place: "Thiagarajar School of Management, Madurai",
+            src: "/images/vanhaverbeke.jpg",
+            name: "Prof. W. Vanhaverbeke",
+            role: "Editor in Chief of Technovation (Elsevier) (ABS – 3, ABDC-A, Q1, IF-10.9)",
+            place: "University of Antwerp, Belgium",
         },
         {
-            src: "/images/10.webp",
-            name: "Dr. M. Selvalakshmi",
-            role: "Patron & Professor",
-            place: "Thiagarajar School of Management, Madurai",
+            src: "/images/britta linnea.jpg",
+            name: "Prof. Britta Linnea Gammelgaard ",
+            role: "Editor in Chief of International Journal of Logistics Management (Emerald) (ABDC- A, Q1, IF- 6.4)",
+            place: "University of Southern Denmark, Denmark",
         },
         {
-            src: "/images/11.webp",
-            name: "Dr. K. Mathiyazhagan",
-            role: "Conference Chairperson",
-            place: "Head of Research Centre & Professor, TSM",
+            src: "/images/andrea patrucco.jpg",
+            name: "Dr. Andrea Patrucco",
+            role: "Associate Editor for the Journal of Supply Chain Management (Wiley) (ABDC-A*, Q1, IF 9.9),Associate Editor for the Journal of Purchasing and Supply Management (Elsevier) (ABDC-A, Q1, IF 8.7),Senior Associate Editor and the Editorial Assistant for the International Journal of Physical Distribution and Logistics Management (Emerald) (ABDC-A, Q1, IF 8.2)",
+            place: "Florida International University, USA",
         },
+        {
+            src: "/images/sunil luthra.jpg",
+            name: "Dr. Sunil Luthra",
+            role: "Associate Editor at Journal of Cleaner Production (Elsevier) (ABDC- A, Q1, IF 10.0)",
+            place: "Director at the All-India Council for Technical Education (AICTE) in New Delhi, India",
+        }, {
+            src: "/images/sachin mangla.jpg",
+            name: "Dr. Sachin Mangla",
+            role: "Editor in Chief of International Logistic Management (Emerald), (ABDC- A, Q1, IF-6.4)",
+            place: "O.P. Jindal Global University, Haryana, India",
+        },
+
     ],
 
     organizationBoardData: [
         {
-            src: "/images/9.webp",
-            name: "Dr. Murali Sambasivan",
-            role: "Chief Patron & Professor",
-            place: "Thiagarajar School of Management, Madurai",
-        },
-        {
-            src: "/images/10.webp",
-            name: "Dr. M. Selvalakshmi",
-            role: "Patron & Professor",
-            place: "Thiagarajar School of Management, Madurai",
-        },
-        {
             src: "/images/11.webp",
             name: "Dr. K. Mathiyazhagan",
             role: "Conference Chairperson",
-            place: "Head of Research Centre & Professor, TSM",
+            place: "Universita Delgi Studi Di Napoli Federico II, Italy",
         },
         {
-            src: "https://placehold.co/250x250/BCAAA4/FFF.png?text=Dr.+Isotilia",
+            src: "/images/Isotilia.png",
             name: "Dr. Isotilia Costa Melo",
             role: "Assistant Professor",
             place: "ICN Business School- Paris, France",
         },
         {
-            src: "https://placehold.co/250x250/BCAAA4/FFF.png?text=Dr.+Veronica",
+            src: "/images/veronica.jpg",
             name: "Dr. Veronica Scuotto",
             role: "Second-Tier Tenured Professor",
-            place: "Universita Delgi Studi Di Napoli Federico II, Italy",
+            place: "Head of Research Centre & Professor, ",
         },
         {
-            src: "https://placehold.co/250x250/BCAAA4/FFF.png?text=Dr.+Nachiappan",
+            src: "/images/nachiappan.jpg",
             name: "Dr. Nachiappan Subramanian",
             role: "Professor",
             place: "University of Sussex, United Kingdom",
         },
         {
-            src: "https://placehold.co/250x250/BCAAA4/FFF.png?text=Dr.+Mohamed",
+            src: "/images/mohammad saleem.jpg",
             name: "Dr. Mohamed Saleem Haja Nazmudeen",
             role: "Dean of Graduate Studies & Senior Assistant Professor",
             place: "Universiti Teknologi Brunei, Brunei",
         },
+
     ],
 
     advisoryBoardData: [
@@ -388,7 +424,7 @@ export const siteData = {
 
     // guidelines data
 
-    callForPaperDescription: "Master's Degree, Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
+    callForPaperDescription: "Master's Degree, Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
 
     AbstractSubmissionGuidelinesData: {
         title: "Abstract Submission Guidelines",
@@ -408,7 +444,7 @@ export const siteData = {
                 'ReviewProcess',
                 'Reviewed for pitch quality, originality, and impact'
             ],
-            ['PortalLink', 'Portal Link <To be Updated Shortly>'],
+            ['SubmissionLink', 'Submission Link <To be Updated Shortly>'],
             ['Deadline', 'Deadline <To be Updated Shortly>'],
             [
                 'Eligibility',
@@ -439,7 +475,7 @@ export const siteData = {
                 'ReviewProcess',
                 'Peer-reviewed for academic quality and publication readiness'
             ],
-            ['PortalLink', 'Portal Link <To be Updated Shortly>'],
+            ['SubmissionLink', 'Submission Link <To be Updated Shortly>'],
             ['Deadline', 'Deadline <To be Updated Shortly>'],
             [
                 'Eligibility',
@@ -457,7 +493,7 @@ export const siteData = {
         "3-Minute Research Presentation for research pitch and 15 minutes for full paper Presentation.",
         "Strictly time-bound.",
         "Research Pitch – maximum 3 slides or poster.",
-        "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel."
+        "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel."
     ],
 
     publicationAvenuesData: {

@@ -16,7 +16,7 @@ export default function Sponsors() {
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
                     Sponsors
                 </h3>
-                <div className="grid md:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-5 gap-8">
                     {siteData.sponsorsData.map((member, idx) => (
                         <div key={idx} className="flex flex-col items-center text-center">
                             <Image

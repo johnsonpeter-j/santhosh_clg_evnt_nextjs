@@ -16,7 +16,7 @@ export default function AdvisoryBoard() {
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
                     Advisory Board
                 </h3>
-                <div className="grid md:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-5 gap-8">
                     {siteData.advisoryBoardData.map((member, idx) => (
                         <div key={idx} className="flex flex-col items-center text-center">
                             <Image

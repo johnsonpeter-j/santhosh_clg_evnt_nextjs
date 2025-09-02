@@ -15,7 +15,7 @@ export default function Guidelines() {
 
             <PresentationGuidelines />
 
-            <PublicationAvenues />
+            {/* <PublicationAvenues /> */}
         </div>
     );
 }

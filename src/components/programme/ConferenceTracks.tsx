@@ -14,7 +14,7 @@ export default function ConferenceTracks() {
       </h2>
 
       {/* Tracks Grid */}
-      <div id="track-details" className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div id="track-details" className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
         {siteData.conferenceTracks.map((track, idx) => (
           <div
             key={idx}

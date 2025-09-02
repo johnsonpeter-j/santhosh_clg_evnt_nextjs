@@ -63,7 +63,7 @@ export default function Navbar() {
         {/* Burger Icon (mobile) */}
         <div className="lg:hidden">
           <button
-            onClick={() => setMobileOpen(!mobileOpen)}
+            onClick={() => { setMobileOpen(!mobileOpen); setOpenSubmenu(null) }}
             className="text-2xl text-gray-800 hover:text-green-600 focus:outline-none transition-colors duration-300"
           >
             {mobileOpen ? <X /> : <Menu />}

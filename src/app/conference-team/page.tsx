@@ -11,9 +11,9 @@ export default function ConferenceTeam() {
 
             <OrganizationBoard />
 
-            <AdvisoryBoard />
+            {/* <AdvisoryBoard />
 
-            <Sponsors />
+            <Sponsors /> */}
         </div>
     );
 }
