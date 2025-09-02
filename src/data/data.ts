@@ -41,7 +41,7 @@ export const siteData = {
                 { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
                 { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
                 { name: "Presentation Guidelines", href: "#presentation-guidelines" },
-                // { name: "Publication Avenue", href: "#publication-avenue" },
+                { name: "Publication Avenue", href: "#publication-avenue" },
             ],
         },
         {

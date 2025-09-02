@@ -5,14 +5,11 @@ import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { siteData } from "@/data/data";
-import { useRouter } from "next/navigation";
 
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
-
-  const router = useRouter();
 
   return (
     <header className="h-16 lg:h-18 bg-white shadow-lg p-4 fixed top-0 left-0 w-full z-50 ">
