@@ -2,8 +2,6 @@ import AboutConfernce from "@/components/home/AboutConference";
 import AboutTSM from "@/components/home/AboutTSM";
 import Collaborators from "@/components/home/collabrators";
 import HeroSlider from "@/components/home/HeroSlide";
-import Madurai from "@/components/home/maduraiPlaces";
-import SDGLinks from "@/components/home/SDGLinks";
 
 export default function Home() {
   return (
@@ -16,10 +14,6 @@ export default function Home() {
       <AboutTSM />
 
       <Collaborators />
-
-      <SDGLinks />
-
-      <Madurai />
 
     </div>
   );
