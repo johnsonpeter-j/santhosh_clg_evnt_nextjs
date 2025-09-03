@@ -5,13 +5,13 @@ export const siteData = {
             name: "About",
             href: "/",
             submenus: [
-                { name: "About the Conference", href: "#about-the-conference" },
-                { name: "Key Dates", href: "#key-dates" },
-                { name: "About TSM Madurai", href: "#about-tsm-madurai" },
+                { name: "About the Conference", href: "#about_the_conference" },
+                { name: "Key Dates", href: "#key_dates" },
+                { name: "About TSM Madurai", href: "#about_tsm_madurai" },
                 { name: "Collaborating Institutions", href: "#collaborating-institutions" },
-                { name: "Sustainability & SDGs Link", href: "#sustainability" },
-                { name: "Discover Madurai", href: "#discover-madurai" },
-
+                
+                
+                
             ],
         },
         {
@@ -24,17 +24,24 @@ export const siteData = {
             ],
         },
         {
-            name: "Conference team",
+            name: "Committee",
             href: "/conference-team",
             submenus: [
-                { name: "Keynote Speakers", href: "#speakers" },
+
                 { name: "Organizing Committee", href: "#organizing" },
-                // { name: "Advisory Board", href: "#advisory" },
-                // { name: "Sponsers", href: "#sponsers" },
+                { name: "Advisory Board", href: "#advisory" },
+                { name: "Internal Committee", href: "#advisory" },
             ],
         },
         {
-            name: "Guidelines",
+            name: "Speakers",
+            href: "/conference-team",
+            submenus: [
+                { name: "Keynote Speakers", href: "#speakers" },
+            ],
+        },
+        {
+            name: "Submission",
             href: "/guidelines",
             submenus: [
                 { name: "Call for Papers", href: "#call-for-papers" },
@@ -50,14 +57,24 @@ export const siteData = {
             submenus: [
                 { name: "Registration Details", href: "#registration-details" },
                 { name: "Payment Info", href: "#payment" },
-                { name: "Accommodation", href: "#accommodation" },
+
             ],
         },
+        {
+            name: "Accommodation",
+            href: "/registration",
+            submenus: [
+                { name: "Accommodation", href: "#accommodation" },
+                { name: "List of Hotels ", href: "#accommodation" },
+                { name: "Discover Madurai", href: "#accommodation" },
+                
+            ],
+        },
+
         {
             name: "Contact",
             href: "/contact",
             submenus: [
-                { name: "Venue", href: "#venue" },
                 { name: "Contact Form & Emails", href: "#contact-form" },
                 { name: "FAQ", href: "#faq" }
             ],
@@ -113,8 +130,8 @@ export const siteData = {
             link: "https://www.utb.edu.bn/",
         },
         {
-            name: "Ton Duc Thang University",
-            desc: "The Center for Innovation and Technology Transfer (CITT) is expected to serve as a focal point for organization in promoting and coordinating activities related to applied research, technology development, expert-enterprise networking, knowledge transfer, startup support and the creation of scientific and technological products for the community.",
+            name: "Center for Applied Economics Research and Training (CAER), Ton Duc Thang University",
+            desc: "The Center for Applied Economics Research and Training (CAER) at Ton Duc Thang University in Ho Chi Minh City, Vietnam, is committed to promoting superior research, education, and policy discourse in the fields of economics and finance. CAER encourages interdisciplinary collaboration.",
             img: "/images/collabrators/Ton Duc Thang University.jpg",
             link: "https://www.tdtu.edu.vn/en",
         },
@@ -138,8 +155,8 @@ export const siteData = {
             value: "12th January 2026",
         },
         {
-            label: "International Conference FOS 2026-IRGJ",
-            value: "22nd – 24th January 2026",
+            label: "International Conference Venue",
+            value: "Thiagarajar School of Management, Madurai, Tamil Nadu, India",
         },
     ],
 
@@ -353,7 +370,7 @@ export const siteData = {
         }, {
             src: "/images/sachin mangla.jpg",
             name: "Dr. Sachin Mangla",
-            role: "Editor in Chief of International Logistic Management (Emerald), (ABDC- A, Q1, IF-6.4)",
+            role: "Associate Editor, IJLM (ABDC A) & Corporate Social Responsibility and Environmental Management (Q1, Scopus)",
             place: "O.P. Jindal Global University, Haryana, India",
         },
 
@@ -363,8 +380,8 @@ export const siteData = {
         {
             src: "/images/11.webp",
             name: "Dr. K. Mathiyazhagan",
-            role: "Conference Chairperson",
-            place: "Universita Delgi Studi Di Napoli Federico II, Italy",
+            role: "Conference Convenor ",
+            place: "Head of the Research Centre & Professor,Thiagarajar School of Management, Madurai",
         },
         {
             src: "/images/Isotilia.png",
@@ -434,7 +451,7 @@ export const siteData = {
 
     // guidelines data
 
-    callForPaperDescription: "Master's Degree, Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
+    callForPaperDescription: "Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
 
     AbstractSubmissionGuidelinesData: {
         title: "Abstract Submission Guidelines",
@@ -453,12 +470,6 @@ export const siteData = {
             [
                 'ReviewProcess',
                 'Reviewed for pitch quality, originality, and impact'
-            ],
-            ['SubmissionLink', 'Submission Link <To be Updated Shortly>'],
-            ['Deadline', 'Deadline <To be Updated Shortly>'],
-            [
-                'Eligibility',
-                'Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards'
             ],
             ['Support', '3-month editorial and research mentoring']
         ]
@@ -485,8 +496,7 @@ export const siteData = {
                 'ReviewProcess',
                 'Peer-reviewed for academic quality and publication readiness'
             ],
-            ['SubmissionLink', 'Submission Link <To be Updated Shortly>'],
-            ['Deadline', 'Deadline <To be Updated Shortly>'],
+
             [
                 'Eligibility',
                 'Eligible for Best Paper with Societal Impact & Publication Opportunity'
@@ -529,15 +539,16 @@ export const siteData = {
     registrationDetailsData: [
         "Submission open to Research Scholars, Early - Career Faculty Members / Assistant Professors, and Postdoctoral Researchers",
         "Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability",
-        "Link to Conference Website < To be Updated Shortly >",
+        
         "Submission Link < To be Updated Shortly >"
     ],
 
     paymentDetails: [
-        "Includes participation certificate, expert feedback, and eligibility for awards",
-        "150 EUR for International Participants",
-        "INR 4000 for Research Pitch",
-        "INR 5000 for Full paper"
+        
+        "<b>150 EUR for International Participants</b>",
+        "INR 1500 (inclusive of GST) for Pre Conferencce Workshop",
+        "INR 4000 (inclusive of GST) for Research Pitch",
+        "INR 5000 (inclusive of GST) for Full paper"
     ],
 
     accommodationDetails: [
