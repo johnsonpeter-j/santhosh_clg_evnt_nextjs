@@ -14,7 +14,7 @@ export default function PublicationAvenues() {
         </h1>
 
         {/* Intro */}
-        <section className="bg-white p-6 rounded-2xl shadow">
+        <section >
           <p className="mb-4">
             Authors will receive{" "}
             <span className="font-semibold text-blue-600">15 Days of mentoring</span>{" "}
@@ -31,38 +31,26 @@ export default function PublicationAvenues() {
 
         {/* Partnering Journals */}
         <section className="mt-2">
-          <h2 className="text-2xl font-semibold mb-4">Partnering Journals</h2>
-          <ul className="space-y-4">
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h2 className="text-2xl font-semibold mb-2">Partnering Journals</h2>
+          <ul className="space-y-4 ml-6">
+            <li className="list-disc marker:text-[20px]">
               <p className="font-medium">
-                The International Journal of Logistics Management
-              </p>
-              <p className="text-sm text-gray-600">
-                Emerald, ABDC- A, Q1, IF 6.4
+                The International Journal of Logistics Management(Emerald, ABDC- A, Q1, IF 6.4)
               </p>
             </li>
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+            <li className="list-disc marker:text-[20px]">
               <p className="font-medium">
-                Corporate Social Responsibility and Environmental Management
-              </p>
-              <p className="text-sm text-gray-600">
-                Wiley, ABDC - C, Q1, IF 9.1
+                Corporate Social Responsibility and Environmental Management(Wiley, ABDC - C, Q1, IF 9.1)
               </p>
             </li>
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+            <li className="list-disc marker:text-[20px]">
               <p className="font-medium">
-                Environment, Development and Sustainability
-              </p>
-              <p className="text-sm text-gray-600">
-                SCOPUS, SCIE, Springer, Q1, IF 4.2
+                Environment, Development and Sustainability(SCOPUS, SCIE, Springer, Q1, IF 4.2)
               </p>
             </li>
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+            <li className="list-disc marker:text-[20px]">
               <p className="font-medium">
-                International Journal of Global Business and Competitiveness
-              </p>
-              <p className="text-sm text-gray-600">
-                Springer, ABDC-C, IF 2.3
+                International Journal of Global Business and Competitiveness(Springer, ABDC-C, IF 2.3)
               </p>
             </li>
           </ul>
@@ -75,23 +63,20 @@ export default function PublicationAvenues() {
 
         {/* Conference Proceedings */}
         <section  className="mt-2">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-2">
             Conference Proceedings and Book Series
           </h2>
-          <ul className="space-y-4">
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
-              <p className="font-medium">Springer Proceedings - Scopus Indexed</p>
-              <p className="text-sm text-gray-600 italic">for full length papers</p>
+          <ul className="space-y-4 ml-6">
+            <li className="list-disc marker:text-[20px]">
+              <p className="font-medium">Springer Proceedings - Scopus Indexed(<span className="text-sm text-gray-600 italic">for full length papers</span>)</p>
             </li>
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+            <li className="list-disc marker:text-[20px]">
               <p className="font-medium">
-                Book Chapters in Edited Book Series in Wiley and Elsevier
+                Book Chapters in Edited Book Series in Wiley and Elsevier(<span className="text-sm text-gray-600 italic">for full length papers</span>)
               </p>
-              <p className="text-sm text-gray-600 italic">for full length papers</p>
             </li>
-            <li className="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
-              <p className="font-medium">Book of Abstracts with an ISBN</p>
-              <p className="text-sm text-gray-600 italic">for Research Pitch</p>
+            <li className="list-disc marker:text-[20px]">
+              <p className="font-medium">Book of Abstracts with an ISBN(<span className="text-sm text-gray-600 italic">for Research Pitch</span>)</p>
             </li>
           </ul>
         </section>

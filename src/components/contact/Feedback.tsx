@@ -125,7 +125,7 @@ export default function Feedback() {
                 disabled={loading}
                 className="bg-green-600 text-white font-bold py-2 px-6 rounded-full hover:bg-green-700 transition-colors duration-300 transform hover:scale-105 shadow-lg disabled:opacity-60"
               >
-                {loading ? "Submitting..." : "Submit Feedback"}
+                {loading ? "Submitting..." : "Submit"}
               </button>
             </div>
           </form>

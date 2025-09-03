@@ -62,7 +62,7 @@ export const siteData = {
             href: "/accomodation",
             submenus: [
                 { name: "Accommodation", href: "#accommodation" },
-                { name: "List of Hotels ", href: "#accommodation" },
+                { name: "List of Hotels ", href: "#list_of_hotels" },
                 { name: "Discover Madurai", href: "#accommodation" },
                 
             ],
@@ -591,6 +591,14 @@ export const siteData = {
         "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
     ],
 
+    listOfHostels: [
+        "Affordable Package: Comfortable stay at just ₹4500 for 3 days (AC - double occupancy).",
+        "All-Inclusive Meals: Enjoy daily breakfast, lunch, and dinner - no extra hassle!",
+        "Value for Money: Works out to only ₹1500 per day per person.",
+        "Convenience Guaranteed: Stay and meals bundled together for a stress-free experience.",
+        "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
+    ],
+
     //  venue data
     venueDetails: [
         {
@@ -622,4 +630,5 @@ export const siteData = {
         }
     ],
 
+    venueImagePath:"/images/way to tsm.jpg"
 }

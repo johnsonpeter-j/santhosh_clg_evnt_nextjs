@@ -5,7 +5,7 @@ export default function PaymentInfo() {
   return (
     <section
       id="payment"
-      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8"
+      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8 mb-4"
     >
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
@@ -16,7 +16,7 @@ export default function PaymentInfo() {
         <ol>
           {
             siteData.paymentDetails.map((paymentDetailsDataItem, paymentDetailsDataIndex) => {
-              return (<li key={`payment_details_data_item_${paymentDetailsDataIndex}`} className="ml-10 list-decimal text-gray-600 leading-relaxed marker:text-green-600 " dangerouslySetInnerHTML={{ __html: sanitizeHtml(paymentDetailsDataItem) }}></li>)
+              return (<li key={`payment_details_data_item_${paymentDetailsDataIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 " dangerouslySetInnerHTML={{ __html: sanitizeHtml(paymentDetailsDataItem) }}></li>)
             })
           }
         </ol>

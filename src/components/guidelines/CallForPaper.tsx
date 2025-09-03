@@ -9,7 +9,7 @@ export default function CallForPaper() {
             {/* Content Box */}
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
                 <h3 className="text-xl font-bold text-gray-700 mb-2">
-                    Call For Paper
+                    Who Can Apply
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                     {siteData.callForPaperDescription}

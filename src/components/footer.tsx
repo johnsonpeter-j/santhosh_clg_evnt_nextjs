@@ -49,10 +49,10 @@ export default function Footer() {
                     <p>
                         General Enquiries:{" "}
                         <a
-                            href="mailto:info@tsm.ac.in"
+                            href="mailto:fos2026-grie@tsm.ac.in"
                             className="text-green-400 hover:text-green-500"
                         >
-                            info@tsm.ac.in
+                            fos2026-grie@tsm.ac.in
                         </a>
                     </p>
                 </div>
