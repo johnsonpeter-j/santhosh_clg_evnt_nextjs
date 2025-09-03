@@ -8,10 +8,7 @@ export const siteData = {
                 { name: "About the Conference", href: "#about_the_conference" },
                 { name: "Key Dates", href: "#key_dates" },
                 { name: "About TSM Madurai", href: "#about_tsm_madurai" },
-                { name: "Collaborating Institutions", href: "#collaborating-institutions" },
-                
-                
-                
+                { name: "Collaborating Institutions", href: "#collaborating-institutions" },  
             ],
         },
         {
@@ -30,7 +27,7 @@ export const siteData = {
 
                 { name: "Organizing Committee", href: "#organizing" },
                 { name: "Advisory Board", href: "#advisory" },
-                { name: "Internal Committee", href: "#advisory" },
+                { name: "Internal Committee", href: "#internal-committee" },
             ],
         },
         {

@@ -5,12 +5,11 @@ export default function InternalBoard() {
 
     return (
         <section
-            id="organizing"
+            id="internal-committee"
             className="scroll-mt-20 mx-auto px-4 pt-8 mb-4"
         >
 
             <div
-                id="organizing-committee"
                 className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600"
             >
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
