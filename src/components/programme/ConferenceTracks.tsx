@@ -29,7 +29,7 @@ export default function ConferenceTracks() {
 
             {/* Push this to the bottom */}
             <div className="mt-auto">
-              <DownloadTrackDetails title={`Track ${idx + 1} Details`} path={track.path} fileName={track.fileName} />
+              <DownloadTrackDetails title={`See More`} path={track.path} fileName={track.fileName} />
             </div>
           </div>
         ))}

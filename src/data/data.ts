@@ -25,7 +25,7 @@ export const siteData = {
         },
         {
             name: "Committee",
-            href: "/conference-team",
+            href: "/committee",
             submenus: [
 
                 { name: "Organizing Committee", href: "#organizing" },
@@ -35,7 +35,7 @@ export const siteData = {
         },
         {
             name: "Speakers",
-            href: "/conference-team",
+            href: "/speakers",
             submenus: [
                 { name: "Keynote Speakers", href: "#speakers" },
             ],
@@ -62,7 +62,7 @@ export const siteData = {
         },
         {
             name: "Accommodation",
-            href: "/registration",
+            href: "/accomodation",
             submenus: [
                 { name: "Accommodation", href: "#accommodation" },
                 { name: "List of Hotels ", href: "#accommodation" },
@@ -410,26 +410,61 @@ export const siteData = {
 
     ],
 
-    advisoryBoardData: [
+    internalBoardData: [
         {
-            name: "Dr. Paulo Nocera Alves Junior",
-            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
-            profession: "Associate Professor",
-            university: "Catholic University of the North"
+            name: "Dr. K. Mathiyazhagan",
+            email: "mathiyazhagan@gmail.com",
+            phone: "9876543210",
         },
-        {
-            name: "Dr. Paulo Nocera Alves Junior",
-            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
-            profession: "Associate Professor",
-            university: "Catholic University of the North"
+         {
+            name: "Dr. K. Mathiyazhagan",
+            email: "mathiyazhagan@gmail.com",
+            phone: "9876543210",
         },
-        {
-            name: "Dr. Paulo Nocera Alves Junior",
-            image: "https://placehold.co/100x100/BCAAA4/FFF.png?text=Dr.+P.A.J.",
-            profession: "Associate Professor",
-            university: "Catholic University of the North"
-        }
+         {
+            name: "Dr. K. Mathiyazhagan",
+            email: "mathiyazhagan@gmail.com",
+            phone: "9876543210",
+        },
+         {
+            name: "Dr. K. Mathiyazhagan",
+            email: "mathiyazhagan@gmail.com",
+            phone: "9876543210",
+        },
+         {
+            name: "Dr. K. Mathiyazhagan",
+            email: "mathiyazhagan@gmail.com",
+            phone: "9876543210",
+        }, {
+            name: "Dr. K. Mathiyazhagan",
+            email: "mathiyazhagan@gmail.com",
+            phone: "9876543210",
+        },
     ],
+
+    advisoryBoardData: [
+    "Prof. Angappan Gunasekaran (School of Business Administration, Penn State, USA)",
+    "Prof. Dongmei Cao (Nottingham Trent University, UK)",
+    "Prof. Abhijit Majumdar (Indian Institute of Technology Delhi, India)",
+    "Prof. K. Sriharsha Reddy (Institute of Management Technology Hyderabad, India)",
+    "Prof. Ravi Shankar (Indian Institute of Technology Delhi, India)",
+    "Prof. Aravind Upadhyay (London Metropolitan University, UK)",
+    "Prof. V. Raja Sreedharan (Cardiff Metropolitan University, UK)",
+    "Prof. Sangeeta Khorana (Aston University, UK)",
+    "Prof. Stefan Seuring (University of Kassel, Germany)",
+    "Prof. Ramesh Anbanandam (Indian Institute of Technology Roorkee, India)",
+    "Prof. Soni Agarwal (International Management Institute Kolkata, India)",
+    "Prof. Nripendra P Rana (Queen's University Belfast, UK)",
+    "Prof. Tarik Saikouk (Excelia Business School in La Rochelle, France)",
+    "Dr. Heru S. Sartono (Universiti Teknologi Brunei, Brunei)",
+    "Dr. Djunaid M Syaikh (Universiti Teknologi Brunei, Brunei)",
+    "Dr. Ulagananthan Subramanian (Universiti Teknologi Brunei, Brunei)",
+    "Prof. Sandeep Jagtap (Lund University, Sweden)",
+    "Dr. Marzena Smol (Polish Academy of Sciences, Cracow, Poland)",
+    "Prof. Michael Akim (HSE University, Moscow, Russia)",
+    "Dr. Elisabeth Paulet (ICN Business School, France)",
+    "Dr. Thierry Houé (ICN Business School, France)",
+  ],
 
     sponsorsData: [
         {
@@ -544,7 +579,7 @@ export const siteData = {
     ],
 
     paymentDetails: [
-        
+
         "<b>150 EUR for International Participants</b>",
         "INR 1500 (inclusive of GST) for Pre Conferencce Workshop",
         "INR 4000 (inclusive of GST) for Research Pitch",
