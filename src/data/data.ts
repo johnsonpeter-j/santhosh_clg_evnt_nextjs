@@ -8,7 +8,7 @@ export const siteData = {
                 { name: "About the Conference", href: "#about_the_conference" },
                 { name: "Key Dates", href: "#key_dates" },
                 { name: "About TSM Madurai", href: "#about_tsm_madurai" },
-                { name: "Collaborating Institutions", href: "#collaborating-institutions" },  
+                { name: "Collaborating Institutions", href: "#collaborating-institutions" },
             ],
         },
         {
@@ -64,7 +64,7 @@ export const siteData = {
                 { name: "Accommodation", href: "#accommodation" },
                 { name: "List of Hotels ", href: "#list_of_hotels" },
                 { name: "Discover Madurai", href: "#accommodation" },
-                
+
             ],
         },
 
@@ -173,70 +173,70 @@ export const siteData = {
             desc: "Focusing on responsible consumerism and marketing strategies aligned with sustainability.",
             sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth)",
             path: "/pdfs/tracks/temp_track_1.pdf",
-            fileName:"temp_track_1.pdf",
+            fileName: "temp_track_1.pdf",
         },
         {
             title: "Sustainable Supply Chain, Operations & Circular Economy Practices (SSCOCEP)",
             desc: "Exploring sustainable logistics, production processes, and circular economy practices to minimize waste and optimize resource use.",
             sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
             path: "/pdfs/tracks/temp_track_2.pdf",
-            fileName:"temp_track_2.pdf",
+            fileName: "temp_track_2.pdf",
         },
         {
             title: "Sustainable Finance, Impact Investing & Green Economics (SFII&GE)",
             desc: "Leveraging finance and investments to drive sustainability, green projects, and inclusive economic growth.",
             sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Sustainable Entrepreneurship & Innovative Business Models (SEIBM)",
             desc: "Encouraging entrepreneurs to adopt innovative, eco-friendly, and socially responsible business models.",
             sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Sustainability Education, Training & Capacity Building (SETCB)",
             desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
             sdg_link: "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership (SHRMWWEL)",
             desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
             sdg_link: "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality)",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Technological Innovations & Digital Transformation for Sustainability (TIDTS)",
             desc: "Harnessing technology, digitalization, and innovation to accelerate sustainable solutions.",
             sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Sustainable Policy, Regulation, Governance & Global Responsibility (SPRGGR)",
             desc: "Strengthening governance, regulatory frameworks, and international collaboration for sustainability.",
             sdg_link: "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Sustainability Impact Measurement, Scalability & Growth Strategies (SIMSGS)",
             desc: "Measuring, scaling, and evaluating the impact of sustainability initiatives for long-term growth.",
             sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         },
         {
             title: "Climate Action, Low-Carbon Strategies & Sustainable Future Economies (CALCS&SFE)",
             desc: "Advancing climate solutions, carbon reduction strategies, and future-proof sustainable economies.",
             sdg_link: "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
             path: "/pdfs/tracks/track.pdf",
-            fileName:"track.pdf",
+            fileName: "track.pdf",
         }
 
     ],
@@ -413,22 +413,22 @@ export const siteData = {
             email: "Nandhinisp@tsm.ac.in",
             phone: "8940017669",
         },
-         {
+        {
             name: "Thavaprakash Arulsivakumar",
             email: "thavaprakash@tsm.ac.in",
             phone: "+91-8072024463",
         },
-         {
+        {
             name: "Gourthamraj MP",
             email: "gouthamrajmp@tsm.ac.in",
             phone: "+91-8220049074",
         },
-         {
+        {
             name: "Sibi S",
             email: "sibib@tsm.ac.in",
             phone: "+91-9600794478",
         },
-         {
+        {
             name: "Santhosh A",
             email: "Santhosh_2413137@tsm.ac.in",
             phone: "+91-6380504411",
@@ -440,28 +440,28 @@ export const siteData = {
     ],
 
     advisoryBoardData: [
-    "Prof. Angappan Gunasekaran (School of Business Administration, Penn State, USA)",
-    "Prof. Dongmei Cao (Nottingham Trent University, UK)",
-    "Prof. Abhijit Majumdar (Indian Institute of Technology Delhi, India)",
-    "Prof. K. Sriharsha Reddy (Institute of Management Technology Hyderabad, India)",
-    "Prof. Ravi Shankar (Indian Institute of Technology Delhi, India)",
-    "Prof. Aravind Upadhyay (London Metropolitan University, UK)",
-    "Prof. V. Raja Sreedharan (Cardiff Metropolitan University, UK)",
-    "Prof. Sangeeta Khorana (Aston University, UK)",
-    "Prof. Stefan Seuring (University of Kassel, Germany)",
-    "Prof. Ramesh Anbanandam (Indian Institute of Technology Roorkee, India)",
-    "Prof. Soni Agarwal (International Management Institute Kolkata, India)",
-    "Prof. Nripendra P Rana (Queen's University Belfast, UK)",
-    "Prof. Tarik Saikouk (Excelia Business School in La Rochelle, France)",
-    "Dr. Heru S. Sartono (Universiti Teknologi Brunei, Brunei)",
-    "Dr. Djunaid M Syaikh (Universiti Teknologi Brunei, Brunei)",
-    "Dr. Ulagananthan Subramanian (Universiti Teknologi Brunei, Brunei)",
-    "Prof. Sandeep Jagtap (Lund University, Sweden)",
-    "Dr. Marzena Smol (Polish Academy of Sciences, Cracow, Poland)",
-    "Prof. Michael Akim (HSE University, Moscow, Russia)",
-    "Dr. Elisabeth Paulet (ICN Business School, France)",
-    "Dr. Thierry Houé (ICN Business School, France)",
-  ],
+        "Prof. Angappan Gunasekaran (School of Business Administration, Penn State, USA)",
+        "Prof. Dongmei Cao (Nottingham Trent University, UK)",
+        "Prof. Abhijit Majumdar (Indian Institute of Technology Delhi, India)",
+        "Prof. K. Sriharsha Reddy (Institute of Management Technology Hyderabad, India)",
+        "Prof. Ravi Shankar (Indian Institute of Technology Delhi, India)",
+        "Prof. Aravind Upadhyay (London Metropolitan University, UK)",
+        "Prof. V. Raja Sreedharan (Cardiff Metropolitan University, UK)",
+        "Prof. Sangeeta Khorana (Aston University, UK)",
+        "Prof. Stefan Seuring (University of Kassel, Germany)",
+        "Prof. Ramesh Anbanandam (Indian Institute of Technology Roorkee, India)",
+        "Prof. Soni Agarwal (International Management Institute Kolkata, India)",
+        "Prof. Nripendra P Rana (Queen's University Belfast, UK)",
+        "Prof. Tarik Saikouk (Excelia Business School in La Rochelle, France)",
+        "Dr. Heru S. Sartono (Universiti Teknologi Brunei, Brunei)",
+        "Dr. Djunaid M Syaikh (Universiti Teknologi Brunei, Brunei)",
+        "Dr. Ulagananthan Subramanian (Universiti Teknologi Brunei, Brunei)",
+        "Prof. Sandeep Jagtap (Lund University, Sweden)",
+        "Dr. Marzena Smol (Polish Academy of Sciences, Cracow, Poland)",
+        "Prof. Michael Akim (HSE University, Moscow, Russia)",
+        "Dr. Elisabeth Paulet (ICN Business School, France)",
+        "Dr. Thierry Houé (ICN Business School, France)",
+    ],
 
     sponsorsData: [
         {
@@ -571,7 +571,7 @@ export const siteData = {
     registrationDetailsData: [
         "Submission open to Research Scholars, Early - Career Faculty Members / Assistant Professors, and Postdoctoral Researchers",
         "Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability",
-        
+
         "Submission Link < To be Updated Shortly >"
     ],
 
@@ -595,7 +595,7 @@ export const siteData = {
         "JC Residency Madurai - Rated as the #1 Best Value accommodation among over 400 listings. Noted for its warm hospitality, well-maintained rooms, pool, and excellent breakfast service.",
         "Grand Madurai By GRT Hotels - A top-rated luxury hotel featuring a spa, pool, and a romantic yet family-friendly vibe. ",
         "Courtyard by Marriott Madurai - A reliable upscale international chain offering luxurious, modern comforts.",
-        "Fortune Pandiyan Hotel - A mid-range option from the ITC group, offering good value with a neat blend of amenities." ,
+        "Fortune Pandiyan Hotel - A mid-range option from the ITC group, offering good value with a neat blend of amenities.",
         "Heritage Madurai- A unique luxury experience wrapped in historic charm—spacious rooms, plunge pool villas, a spa, and beautiful settings.",
         "Hotel Royal Court - Ideally situated near both the Meenakshi Temple and railway station, offering modern comfort and convenience. ",
         "Additional Notables",
@@ -635,5 +635,54 @@ export const siteData = {
         }
     ],
 
-    venueImagePath:"/images/way to tsm.jpg"
+    venueImagePath: "/images/way to tsm.jpg",
+
+    dayWiseScheduleImagePath: "/images/day_wise_schedule.jpg",
+
+    preconferenceWorkshop: [
+        "Meet the Editors",
+        "Meta analysis and systematic review ",
+        "Advanced Multivariate Analysis & SEM"
+    ],
+
+    paymmentInfoDetails: [
+        {
+            category: "Pre-conference Workshop",
+            indian: "INR 1500",
+            international: "EUR 50",
+        },
+        {
+            category: "Research Pitch / Doctoral Colloquium",
+            indian: "INR 3500",
+            international: "EUR 100",
+        },
+        {
+            category: "Full length paper",
+            indian: "INR 5000",
+            international: "EUR 150",
+        },
+    ],
+
+    submissionDetails: [
+        {
+            title: "Research Idea Pitch / Doctoral Colloquium",
+            subtitle: "(Abstract Format)",
+            points: [
+                "For participation in the 3-minute pitch session during the Conference.",
+                "Word Limit: 1500 Words.",
+                "Format: Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications.",
+                "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",
+            ],
+        },
+        {
+            title: "Full Paper Submission",
+            subtitle: "(Springer Conference Proceedings)",
+            points: [
+                "For consideration in the edited volume (Springer Conference Proceedings).",
+                "Word Limit: 5000 to 6000 Words.",
+                "Format: Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications.",
+                "Eligible for Best Paper with Societal Impact & Publication Opportunity.",
+            ],
+        },
+    ]
 }

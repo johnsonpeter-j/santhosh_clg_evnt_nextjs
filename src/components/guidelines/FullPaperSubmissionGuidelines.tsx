@@ -13,43 +13,11 @@ export default function FullPaperSubmissionGuidelines() {
                 <h3 className="text-xl font-bold text-gray-700 mb-2">
                     {siteData.fullPaperSubmissionGuidelinessData.title}
                 </h3>
-
-                <div className="bg-white rounded-lg shadow-md p-6 overflow-x-auto">
-                    {/* table-fixed ensures equal width columns */}
-                    <table className="min-w-full divide-y divide-gray-200 text-sm">
-                        <thead>
-                            <tr >
-                                {siteData.fullPaperSubmissionGuidelinessData.tHeadData.map((tHeadsDataItem, rowIndex) => (
-                                    <th key={`full_sub_guide_th_item_${rowIndex}`}
-                                        className="px-6 py-3 text-left text-xs font-semibold text-gray-500 uppercase tracking-wider"
-                                    >
-                                        <p className="block text-sm font-normal leading-snug" dangerouslySetInnerHTML={{ __html: sanitizeHtml(tHeadsDataItem) }}>
-
-                                        </p>
-                                    </th>
-                                ))}
-                            </tr>
-                        </thead>
-
-                        <tbody className="divide-y divide-gray-200">
-                            {siteData.fullPaperSubmissionGuidelinessData.tBodyData.map((tbodyItem, rowIndex) => (
-                                <tr key={`full_paper_submission_row_item_${rowIndex}`} >
-                                    {tbodyItem.map((tbodyItemData, tbodyItemIndex) => (
-                                        <td
-                                            key={`full_paper_submission_row_item_${tbodyItemIndex}`}
-                                            className={`px-6 py-4 text-gray-600 whitespace-normal break-words `}
-
-                                        >
-                                            <p className="block text-sm">
-                                                {tbodyItemData}
-                                            </p>
-                                        </td>
-                                    ))}
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
+                <ul>
+                    {siteData.submissionDetails[1].points.map((point, i) => (
+                        <li key={`full_paper_sub_item_${i}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]">{point}</li>
+                    ))}
+                </ul>
             </div>
         </section>
     );

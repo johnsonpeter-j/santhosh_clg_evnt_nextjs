@@ -1,5 +1,4 @@
 import { siteData } from "@/data/data";
-import { sanitizeHtml } from "@/lib/sanitizeHtml";
 
 export default function PaymentInfo() {
   return (
@@ -10,16 +9,39 @@ export default function PaymentInfo() {
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
         <h3 className="text-xl font-bold text-gray-700 mb-2">
-          Payment Info
+          Registration Fee (Includes tax):
         </h3>
 
-        <ol>
-          {
-            siteData.paymentDetails.map((paymentDetailsDataItem, paymentDetailsDataIndex) => {
-              return (<li key={`payment_details_data_item_${paymentDetailsDataIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 " dangerouslySetInnerHTML={{ __html: sanitizeHtml(paymentDetailsDataItem) }}></li>)
-            })
-          }
-        </ol>
+        <div className="overflow-x-auto">
+          <table className="w-full border border-gray-300 text-left text-sm">
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="border border-gray-300 px-4 py-2"></th>
+                <th className="border border-gray-300 px-4 py-2 text-center">
+                  Indian Participants
+                </th>
+                <th className="border border-gray-300 px-4 py-2 text-center">
+                  International Participants
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {siteData.paymmentInfoDetails.map((row, index) => (
+                <tr key={index} className="odd:bg-white even:bg-gray-50">
+                  <td className="border border-gray-300 px-4 py-2 font-medium">
+                    {row.category}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 text-center">
+                    {row.indian}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2 text-center">
+                    {row.international}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   );

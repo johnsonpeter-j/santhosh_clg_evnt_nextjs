@@ -1,85 +1,121 @@
-// components/PublicationAvenues.tsx
-export default function PublicationAvenues() {
+"use client";
+
+interface Journal {
+  title: string;
+  publisher: string;
+  index: string;
+}
+
+interface Proceeding {
+  title: string;
+  details: string;
+}
+
+export default function PublicationAvenue() {
+  const journals: Journal[] = [
+    {
+      title: "The International Journal of Logistics Management",
+      publisher: "Emerald",
+      index: "ABDC - A, Q1, IF 6.4",
+    },
+    {
+      title:
+        "Corporate Social Responsibility and Environmental Management",
+      publisher: "Wiley",
+      index: "ABDC - C, Q1, IF 9.1",
+    },
+    {
+      title: "Environment, Development and Sustainability",
+      publisher: "Springer",
+      index: "SCOPUS, SCIE, Q1, IF 4.2",
+    },
+    {
+      title:
+        "International Journal of Global Business and Competitiveness",
+      publisher: "Springer",
+      index: "ABDC - C, IF 2.3",
+    },
+    {
+      title: "The Journal of Entrepreneurship",
+      publisher: "Sage",
+      index: "ABDC - C, IF 1.9",
+    },
+  ];
+
+  const proceedings: Proceeding[] = [
+    {
+      title: "Springer Proceedings",
+      details: "Scopus Indexed (for full-length papers).",
+    },
+    {
+      title: "Book chapters in Edited Book Series",
+      details: "in Wiley and Elsevier (for full-length papers).",
+    },
+    {
+      title: "Book of Abstracts Publication",
+      details: "with ISBN (for research pitch).",
+    },
+  ];
 
   return (
     <section
       id="publication-avenue"
-      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-8 mb-12"
+      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8 mb-4"
     >
+      {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
-
         {/* Title */}
-        <h1 className="text-3xl font-bold text-center">
-          Publication Avenues for Selected Research Work
-        </h1>
+        <h2 className="text-2xl font-bold text-center mb-6">
+          Publication Avenue for Selected Research Work
+        </h2>
 
-        {/* Intro */}
-        <section >
-          <p className="mb-4">
-            Authors will receive{" "}
-            <span className="font-semibold text-blue-600">15 Days of mentoring</span>{" "}
-            from the conference review team for upgrading the manuscript,
-            enabling them to submit for publication in the following Journals /
-            Conference Proceedings / Edited Book Series based on the scope of the
-            manuscript.
-          </p>
-          <p>
-            Selected full papers will be invited to submit to one of the following,
-            depending on the scope of the work.
-          </p>
-        </section>
+        {/* Intro in blue */}
+        <p className="text-blue-800 mb-3">
+          Authors whose full papers are recommended for journal submission will
+          receive up to <span className="font-semibold">15 days</span> of
+          mentoring support from the conference review team. This mentoring is
+          aimed at upgrading the manuscript to meet the standards required for
+          peer-reviewed journals.
+        </p>
+        <p className="text-blue-800 mb-6">
+          Selected full papers, after revision, will be invited for submission to
+          one of the partnering journals, depending on the scope and quality of
+          the work.
+        </p>
 
         {/* Partnering Journals */}
-        <section className="mt-2">
-          <h2 className="text-2xl font-semibold mb-2">Partnering Journals</h2>
-          <ul className="space-y-4 ml-6">
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">
-                The International Journal of Logistics Management(Emerald, ABDC- A, Q1, IF 6.4)
-              </p>
+        <h3 className="text-xl font-semibold mb-3">Partnering Journals:</h3>
+        <ul className="list-disc list-inside space-y-2 mb-2">
+          {journals.map((journal, index) => (
+            <li key={index} className="text-gray-800">
+              {journal.title} ({journal.publisher}, {journal.index})
             </li>
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">
-                Corporate Social Responsibility and Environmental Management(Wiley, ABDC - C, Q1, IF 9.1)
-              </p>
-            </li>
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">
-                Environment, Development and Sustainability(SCOPUS, SCIE, Springer, Q1, IF 4.2)
-              </p>
-            </li>
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">
-                International Journal of Global Business and Competitiveness(Springer, ABDC-C, IF 2.3)
-              </p>
-            </li>
-          </ul>
-          <p className="text-sm text-gray-600 mt-3 italic">
-            * Authors of selected high-quality contributions may be invited to
-            extend their work into full-length papers for potential submission.
-            All recommended submissions must follow the journal’s review policy.
-          </p>
-        </section>
+          ))}
+        </ul>
+        <p className="italic text-sm text-gray-600 mb-6">
+          *A few more journals are yet to be confirmed.
+        </p>
+
+        {/* Note */}
+        <p className="text-sm text-gray-700 italic mb-8">
+          <span className="font-semibold">Note:</span> Authors of selected
+          high-quality contributions will be invited to extend their work into
+          full-length papers for potential submission to the journal. However, all
+          recommended submissions must adhere to the journal&apos;s regular review
+          policy.
+        </p>
 
         {/* Conference Proceedings */}
-        <section  className="mt-2">
-          <h2 className="text-2xl font-semibold mb-2">
-            Conference Proceedings and Book Series
-          </h2>
-          <ul className="space-y-4 ml-6">
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">Springer Proceedings - Scopus Indexed(<span className="text-sm text-gray-600 italic">for full length papers</span>)</p>
+        <h3 className="text-xl font-semibold mb-3">
+          Conference Proceedings and Book Series:
+        </h3>
+        <ul className="list-disc list-inside space-y-2">
+          {proceedings.map((item, index) => (
+            <li key={index} className="text-gray-800">
+              <span className="font-semibold">{item.title}</span> {item.details}
             </li>
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">
-                Book Chapters in Edited Book Series in Wiley and Elsevier(<span className="text-sm text-gray-600 italic">for full length papers</span>)
-              </p>
-            </li>
-            <li className="list-disc marker:text-[20px]">
-              <p className="font-medium">Book of Abstracts with an ISBN(<span className="text-sm text-gray-600 italic">for Research Pitch</span>)</p>
-            </li>
-          </ul>
-        </section>
+          ))}
+        </ul>
       </div>
     </section>
   );
