@@ -634,9 +634,9 @@ export const siteData = {
     },
 
     presentationGuidelines: [
-        "3-Minute Research Presentation for research pitch and 15 minutes for full paper Presentation.",
+        "3-minute research presentation for the research pitch and 15 minutes for the full paper presentation.",
         "Strictly time-bound.",
-        "Research Pitch – maximum 3 slides or poster.",
+        "Research Pitch – maximum 3 slides or poster (As per the attached format).",
         "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel."
     ],
 
