@@ -25,7 +25,7 @@ export default function ConferenceTracks() {
             </h3>
             <ul className="list-disc p-3">
               {track?.desc?.map((item: any, index: any) =>
-                <li>
+                <li key={index}>
                   <p className="text-gray-600 text-sm leading tracking-wide">
                     {item}
                   </p>
