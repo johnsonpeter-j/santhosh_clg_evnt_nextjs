@@ -41,7 +41,7 @@ export const siteData = {
             name: "Submission",
             href: "/guidelines",
             submenus: [
-                { name: "Call for Papers", href: "#call-for-papers" },
+                { name: "Who can Apply", href: "#call-for-papers" },
                 { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
                 { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
                 { name: "Presentation Guidelines", href: "#presentation-guidelines" },
@@ -599,9 +599,9 @@ export const siteData = {
         "Heritage Madurai- A unique luxury experience wrapped in historic charm—spacious rooms, plunge pool villas, a spa, and beautiful settings.",
         "Hotel Royal Court - Ideally situated near both the Meenakshi Temple and railway station, offering modern comfort and convenience. ",
         "Additional Notables",
-        "       Gateway Madurai: Included among best luxury options like Grand Madurai and Courtyard. ",
-        "       ",
-        ""
+        "Gateway Madurai: Included among best luxury options like Grand Madurai and Courtyard. ",
+        "Poppys Hotel: Frequently mentioned for families; it’s mid-tier, comfortable, and well-rated.",
+        "Astoria Hotel: A good budget-friendly pick with positive guest feedback."
     ],
 
     //  venue data
