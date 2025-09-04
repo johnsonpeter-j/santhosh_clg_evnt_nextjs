@@ -81,9 +81,9 @@ export const siteData = {
     // home page data
     heroSlideImages: [
         "/images/hero-slides/thiyagaraja_1.jpg",
-        "/images/hero-slides/thiyagaraja_2.jpg",
+        "/images/conf logo.jpg",
+        "/images/Untitled design_1.jpg",
         "/images/hero-slides/thiyagaraja_3.jpg",
-        "/images/hero-slides/thiyagaraja_4.jpg",
     ],
 
     aboutData: [
@@ -356,7 +356,7 @@ export const siteData = {
         {
             src: "/images/andrea patrucco.jpg",
             name: "Dr. Andrea Patrucco",
-            role: "Associate Editor for the Journal of Supply Chain Management (Wiley) (ABDC-A*, Q1, IF 9.9),Associate Editor for the Journal of Purchasing and Supply Management (Elsevier) (ABDC-A, Q1, IF 8.7),Senior Associate Editor and the Editorial Assistant for the International Journal of Physical Distribution and Logistics Management (Emerald) (ABDC-A, Q1, IF 8.2)",
+            role: "Florida International University, USA. Associate Editor - JSCM (Wiley) (ABDC-A*, Q1,IF 9.9), JPSM (Elsevier) (ABDC-A, Q1, IF 8.7), IJPDLM (Emerald) (ABDC-A, Q1, IF 8.2)",
             place: "Florida International University, USA",
         },
         {
@@ -409,33 +409,33 @@ export const siteData = {
 
     internalBoardData: [
         {
-            name: "Dr. K. Mathiyazhagan",
-            email: "mathiyazhagan@gmail.com",
-            phone: "9876543210",
+            name: "Nandhini S P",
+            email: "Nandhinisp@tsm.ac.in",
+            phone: "8940017669",
         },
          {
-            name: "Dr. K. Mathiyazhagan",
-            email: "mathiyazhagan@gmail.com",
-            phone: "9876543210",
+            name: "Thavaprakash Arulsivakumar",
+            email: "thavaprakash@tsm.ac.in",
+            phone: "+91-8072024463",
         },
          {
-            name: "Dr. K. Mathiyazhagan",
-            email: "mathiyazhagan@gmail.com",
-            phone: "9876543210",
+            name: "Gourthamraj MP",
+            email: "gouthamrajmp@tsm.ac.in",
+            phone: "+91-8220049074",
         },
          {
-            name: "Dr. K. Mathiyazhagan",
-            email: "mathiyazhagan@gmail.com",
-            phone: "9876543210",
+            name: "Sibi S",
+            email: "sibib@tsm.ac.in",
+            phone: "+91-9600794478",
         },
          {
-            name: "Dr. K. Mathiyazhagan",
-            email: "mathiyazhagan@gmail.com",
-            phone: "9876543210",
+            name: "Santhosh A",
+            email: "Santhosh_2413137@tsm.ac.in",
+            phone: "+91-6380504411",
         }, {
-            name: "Dr. K. Mathiyazhagan",
-            email: "mathiyazhagan@gmail.com",
-            phone: "9876543210",
+            name: "Gokulnath A",
+            email: "gokulnath_2413043@tsm.ac.in",
+            phone: "+91-8637422413",
         },
     ],
 
@@ -592,11 +592,16 @@ export const siteData = {
     ],
 
     listOfHostels: [
-        "Affordable Package: Comfortable stay at just ₹4500 for 3 days (AC - double occupancy).",
-        "All-Inclusive Meals: Enjoy daily breakfast, lunch, and dinner - no extra hassle!",
-        "Value for Money: Works out to only ₹1500 per day per person.",
-        "Convenience Guaranteed: Stay and meals bundled together for a stress-free experience.",
-        "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
+        "JC Residency Madurai - Rated as the #1 Best Value accommodation among over 400 listings. Noted for its warm hospitality, well-maintained rooms, pool, and excellent breakfast service.",
+        "Grand Madurai By GRT Hotels - A top-rated luxury hotel featuring a spa, pool, and a romantic yet family-friendly vibe. ",
+        "Courtyard by Marriott Madurai - A reliable upscale international chain offering luxurious, modern comforts.",
+        "Fortune Pandiyan Hotel - A mid-range option from the ITC group, offering good value with a neat blend of amenities." ,
+        "Heritage Madurai- A unique luxury experience wrapped in historic charm—spacious rooms, plunge pool villas, a spa, and beautiful settings.",
+        "Hotel Royal Court - Ideally situated near both the Meenakshi Temple and railway station, offering modern comfort and convenience. ",
+        "Additional Notables",
+        "       Gateway Madurai: Included among best luxury options like Grand Madurai and Courtyard. ",
+        "       ",
+        ""
     ],
 
     //  venue data
