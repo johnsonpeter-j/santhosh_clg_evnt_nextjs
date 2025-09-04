@@ -14,23 +14,32 @@ export default function ConferenceTracks() {
       </h2>
 
       {/* Tracks Grid */}
-      <div id="track-details" className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-        {siteData.conferenceTracks.map((track, idx) => (
+      <div id="track-details" className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 px-5">
+        {siteData.conferenceTracks?.map((track, idx) => (
           <div
             key={idx}
             className="flex flex-col bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow"
           >
             <h3 className="text-md font-bold text-gray-500  mb-2">
-              Track {idx + 1} <span className="text-gray-700"><br/>{track.title}</span>
+              Track {idx + 1} <span className="text-gray-700"><br />{track.title}</span>
             </h3>
-            <p className="text-gray-600 text-sm leading tracking-wide">
-              {track.desc}
-            </p>
+            <ul className="list-disc p-3">
+              {track?.desc?.map((item: any, index: any) =>
+                <li>
+                  <p className="text-gray-600 text-sm leading tracking-wide">
+                    {item}
+                  </p>
+                </li>
+              )}
+            </ul>
+            
+
 
             {/* Push this to the bottom */}
-            {/* <div className="mt-auto">
-              <DownloadTrackDetails title={`See More`} path={track.path} fileName={track.fileName} />
-            </div> */}
+            <div className="mt-auto flex gap-3">
+              <p>For more details please <a className="underline" href={track.path}>download the track</a></p>
+              {/* <DownloadTrackDetails title={`See More`} path={track.path} fileName={track.fileName} /> */}
+            </div>
           </div>
         ))}
       </div>
