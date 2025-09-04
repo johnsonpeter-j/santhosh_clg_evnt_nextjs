@@ -17,7 +17,7 @@ export default function InternalBoard() {
                 </h3>
                 <div className="grid md:grid-cols-3 gap-8">
                     {siteData.internalBoardData.map((member, idx) => (
-                        <div key={idx} className="flex flex-col bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow">
+                        <div key={idx} className="flex flex-col bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow gap-2">
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
                             <p className="text-sm font-semibold text-gray-600 mb-1">
                                 {member.email}

@@ -15,7 +15,8 @@ export const siteData = {
             name: "Programme",
             href: "/programme",
             submenus: [
-                { name: "Conference Tracks & Themes", href: "#tracks" },
+                // { name: "Conference Tracks & Themes", href: "#tracks" },
+                { name: "Conference Tracks", href: "#tracks" },
                 { name: "Day-wise Schedule", href: "#schedule" },
                 { name: "Preconference Workshop", href: "#workshop" },
             ],
@@ -34,7 +35,7 @@ export const siteData = {
             name: "Speakers",
             href: "/speakers",
             submenus: [
-                { name: "Keynote Speakers", href: "#speakers" },
+                { name: "Speakers", href: "#speakers" },
             ],
         },
         {
@@ -42,9 +43,11 @@ export const siteData = {
             href: "/guidelines",
             submenus: [
                 { name: "Who can Apply", href: "#call-for-papers" },
-                { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
-                { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
-                { name: "Presentation Guidelines", href: "#presentation-guidelines" },
+                { name: "Submission Guidelines", href: "#abstract-guidelines" },
+                { name: "Paper/Abstract Submission", href: "#abstract-guidelines" },
+                // { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
+                // { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
+                // { name: "Presentation Guidelines", href: "#presentation-guidelines" },
                 { name: "Publication Avenue", href: "#publication-avenue" },
             ],
         },
@@ -72,7 +75,7 @@ export const siteData = {
             name: "Contact",
             href: "/contact",
             submenus: [
-                { name: "Contact Form & Emails", href: "#contact-form" },
+                { name: "Contact Us", href: "#contact-form" },
                 { name: "FAQ", href: "#faq" }
             ],
         },
@@ -80,20 +83,21 @@ export const siteData = {
 
     // home page data
     heroSlideImages: [
-        "/images/hero-slides/thiyagaraja_1.jpg",
         "/images/conf logo.jpg",
-        "/images/Untitled design_1.jpg",
         "/images/hero-slides/thiyagaraja_3.jpg",
+        // "/images/hero-slides/thiyagaraja_1.jpg",
+        "/images/hero-slides/Partners.jpg",
+        // "/images/hero-slides/thiyagaraja_3.jpg"
     ],
 
     aboutData: [
         {
             title: "Thiagarajar School of Management, India",
-            description: "Established in 1962, Thiagarajar School of Management (TSM) is a renowned institution that aims to provide professional education to managers and entrepreneurs. Initially starting with an Executive Development Program, TSM quickly gained recognition and launched the MBA course in 1972. Today, the institute offers MBA and PGDM programs that are approved by AICTE and accredited by NBA. TSM has been conferred autonomous status by UGC and Madurai Kamaraj University. With a focus on practical training and industry connections, TSM equips students with the skills needed to excel in their careers. The institute also emphasizes holistic education, providing students with a well-rounded curriculum and soft skill training."
+            description: "Established in 1962, Thiagarajar School of Management (TSM), Madurai, is a premier institute offering quality management education in a lush 17-acre campus. The institute began with Executive Development Programs and later launched its MBA in 1972, followed by a full-time MBA in 1986. TSM offers AICTE-approved MBA and PGDM programs, accredited by the National Board of Accreditation (NBA) and awarded an ‘A’ grade by NAAC for academic excellence. In recognition of its standards, TSM is consistently ranked among the top 100 B-schools in India by the NIRF Rankings. The institute offers a PhD program affiliated with Alagappa University. With strong industry linkages,excellent placement records, and a focus on holistic education, TSM equips students with managerial,analytical, and life skills while providing rich exposure through internships, research, and consultancy opportunities."
         },
         {
             title: "The Conference",
-            description: "The International Conference, Frontiers of Sustainability - Innovation, Research, and Global Responsibility, aims to explore cutting-edge strategies for a sustainable future. It brings together global researchers, innovators, practitioners, and policymakers to foster collaborative solutions. The event promotes interdisciplinary dialogue addressing climate change, social equity, and digital transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and Research pitch will be presented for academic and practical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world."
+            description: "The International Conference on Frontiers of Sustainability - Global Responsibility for Innovation and Entrepreneurship (FOS 2026 – GRIE), organized by Research Centre, Thiagarajar School of Management. The conference aims to explore cutting-edge strategies for a sustainable future. It brings together global researchers, innovators, practitioners, and policymakers to foster collaborative solutions. The event promotes interdisciplinary dialogue addressing climate change, social equity, and digital transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and research pitches will be presented for both academic and  ractical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world"
         }
     ],
 
@@ -104,32 +108,32 @@ export const siteData = {
     collabtaorData: [
         {
             name: "ICN Business School, France",
-            desc: "A French Business School known for its interdisciplinary ATM approach and triple crown accreditation.",
+            desc: "ICN Business School is a French Business School with campuses in Paris, Nancy, and Berlin. It's known for its interdisciplinary approach, emphasizing creativity and innovation in business education, and holds prestigious triple crown accreditation (AACSB, EQUIS, and AMBA) & QS Ranking 51. The school offers a range of programs from Bachelor’s to Master’s levels, including specialized programs in areas like corporate finance and digital marketing",
             img: "/images/collabrators/icn bs.png",
             link: "https://www.icn-artem.com/en/",
         },
         {
-            name: "Universita Delgi Studi Di Napoli Federico II, Italy",
-            desc: "One of the world’s oldest academic institutions promoting extensive research activities.",
+            name: "Università degli Studi di Napoli Federico II, Italy",
+            desc: "Founded in 1224, the Università degli Studi di Napoli Federico II is one of the World’s oldest academic institutions in continuous operation, one among the ten universities globally in continuous operation since its inception (QS Ranking 379). The University hosts 24 Interdepartmental research centres and 17 Interuniversity research centres and is an institution that actively promotes research activities. The Institute actively collaborates with other research institutions, both within Italy and with International Institutions.",
             img: "/images/collabrators/Universita Delgi Studi Di.jpg",
             link: "https://www.international.unina.it/",
         },
         {
             name: "University of Sussex, United Kingdom",
-            desc: "A public research university recognized for its research excellence and teaching quality.",
+            desc: "University of Sussex is a public research university located in Falmer, East Sussex, England. The Universityreceived its Royal Charter in August 1961, the first of the Plate Glass University generation. Overall QS Ranking 278 among the world University rankings in 2026. In the Research Excellence Framework, out of the 89% research submitted, 40.6% are regarded as “world-leading” or “Internationally excellent” 48.4% as per the 2021 REF rankings. The University was also awarded Silver in the 2023 Teaching Excellence Framework.",
             img: "/images/collabrators/sussex.jpg",
             link: "https://www.sussex.ac.uk/",
         },
         {
-            name: "Universiti Teknologi Brunei, Brunei",
-            desc: "An Engineering and Technology University with a five-star QS ranking.",
+            name: "School of Business, Universiti Teknologi Brunei (UTB), Brunei",
+            desc: "The School of Business at Universiti Teknologi Brunei (UTB) is a leading institution committed to cultivating innovative, ethical, and globally-minded business leaders. Offering undergraduate, postgraduate, and professional programs, the School emphasizes practical learning, research excellence, and entrepreneurship development. With a strong focus on integrating technology, sustainability, and Islamic business values, UTB’s School of Business equips students to navigate complex business environments and contribute effectively to Brunei’s Smart Nation initiatives. Its dynamic faculty and industry collaborations foster transformative learning experiences that shape future-ready professionals.",
             img: "/images/collabrators/bruneiuniv.jpg",
             link: "https://www.utb.edu.bn/",
         },
         {
-            name: "Center for Applied Economics Research and Training (CAER), Ton Duc Thang University",
-            desc: "The Center for Applied Economics Research and Training (CAER) at Ton Duc Thang University in Ho Chi Minh City, Vietnam, is committed to promoting superior research, education, and policy discourse in the fields of economics and finance. CAER encourages interdisciplinary collaboration.",
-            img: "/images/collabrators/Ton Duc Thang University.jpg",
+            name: "Center for Application Economics Research (CAER), Ton Duc Thang University in Ho Chi Minh City, Vietnam",
+            desc: "The Center for Application Economics Research (CAER) at Ton Duc Thang University in Ho Chi Minh City, Vietnam, is committed to promoting superior research, education, and policy discourse in the fields of economics and finance. CAER encourages interdisciplinary collaboration, advocates for evidence-based solutions for sustainable development, and establishes robust connections among academics, industry, and politicians. CAER significantly aids Vietnam's integration into the global academic and professional world through its research and training activities.",
+            img: "/images/image003.png",
             link: "https://www.tdtu.edu.vn/en",
         },
     ],
@@ -169,70 +173,70 @@ export const siteData = {
     // programme page data
     conferenceTracks: [
         {
-            title: "Sustainable Marketing & Responsible Consumer Engagement (SMRCE)",
-            desc: "Focusing on responsible consumerism and marketing strategies aligned with sustainability.",
+            title: "Sustainable Marketing & Responsible Consumer Engagement ",
+            desc: "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentallyresponsible branding.",
             sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth)",
             path: "/pdfs/tracks/temp_track_1.pdf",
             fileName: "temp_track_1.pdf",
         },
         {
-            title: "Sustainable Supply Chain, Operations & Circular Economy Practices (SSCOCEP)",
+            title: "Sustainable Supply Chain, Operations & Circular Economy Practices ",
             desc: "Exploring sustainable logistics, production processes, and circular economy practices to minimize waste and optimize resource use.",
             sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
             path: "/pdfs/tracks/temp_track_2.pdf",
             fileName: "temp_track_2.pdf",
         },
         {
-            title: "Sustainable Finance, Impact Investing & Green Economics (SFII&GE)",
+            title: "Sustainable Finance, Impact Investing & Green Economics ",
             desc: "Leveraging finance and investments to drive sustainability, green projects, and inclusive economic growth.",
             sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Sustainable Entrepreneurship & Innovative Business Models (SEIBM)",
+            title: "Sustainable Entrepreneurship & Innovative Business Models ",
             desc: "Encouraging entrepreneurs to adopt innovative, eco-friendly, and socially responsible business models.",
             sdg_link: "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Sustainability Education, Training & Capacity Building (SETCB)",
+            title: "Sustainability Education, Training & Capacity Building ",
             desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
             sdg_link: "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership (SHRMWWEL)",
+            title: "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership ",
             desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
             sdg_link: "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality)",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Technological Innovations & Digital Transformation for Sustainability (TIDTS)",
+            title: "Technological Innovations & Digital Transformation for Sustainability ",
             desc: "Harnessing technology, digitalization, and innovation to accelerate sustainable solutions.",
             sdg_link: "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Sustainable Policy, Regulation, Governance & Global Responsibility (SPRGGR)",
+            title: "Sustainable Policy, Regulation, Governance & Global Responsibility ",
             desc: "Strengthening governance, regulatory frameworks, and international collaboration for sustainability.",
             sdg_link: "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Sustainability Impact Measurement, Scalability & Growth Strategies (SIMSGS)",
+            title: "Sustainability Impact Measurement, Scalability & Growth Strategies ",
             desc: "Measuring, scaling, and evaluating the impact of sustainability initiatives for long-term growth.",
             sdg_link: "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
             path: "/pdfs/tracks/track.pdf",
             fileName: "track.pdf",
         },
         {
-            title: "Climate Action, Low-Carbon Strategies & Sustainable Future Economies (CALCS&SFE)",
+            title: "Climate Action, Low-Carbon Strategies & Sustainable Future Economies ",
             desc: "Advancing climate solutions, carbon reduction strategies, and future-proof sustainable economies.",
             sdg_link: "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
             path: "/pdfs/tracks/track.pdf",
@@ -374,29 +378,47 @@ export const siteData = {
     ],
 
     organizationBoardData: [
+        // {
+        //     src: "/images/11.webp",
+        //     name: "Dr. K. Mathiyazhagan",
+        //     role: "Conference Convenor ",
+        //     place: "Head of the Research Centre & Professor,Thiagarajar School of Management, Madurai",
+        // },
         {
-            src: "/images/11.webp",
-            name: "Dr. K. Mathiyazhagan",
-            role: "Conference Convenor ",
-            place: "Head of the Research Centre & Professor,Thiagarajar School of Management, Madurai",
+            src: "/images/MURALISAMBASIVAN.jpg",
+            name: "Dr. Murali Sambasivan",
+            role: "Director & Professor",
+            place: "Thiagarajar School of Management, Madurai,India",
         },
         {
-            src: "/images/Isotilia.png",
+            src: "/images/Selvalakshmi.jpg",
+            name: "Dr. M. Selvalakshmi",
+            role: "Principal & Professor.",
+            place: "Thiagarajar School of Management, Madurai, India",
+        },
+        {
+            src: "/images/isotilia.png",
             name: "Dr. Isotilia Costa Melo",
-            role: "Assistant Professor",
-            place: "ICN Business School- Paris, France",
+            role: "Assistant Professor,",
+            place: "ICN Business School,Paris, France",
         },
         {
             src: "/images/veronica.jpg",
             name: "Dr. Veronica Scuotto",
-            role: "Second-Tier Tenured Professor",
-            place: "Head of Research Centre & Professor, ",
+            role: "Second-Tier Tenured Professor,",
+            place: "Universita delgi Studi di Napoli Federico II,Italy",
         },
         {
             src: "/images/nachiappan.jpg",
             name: "Dr. Nachiappan Subramanian",
             role: "Professor",
             place: "University of Sussex, United Kingdom",
+        },
+        {
+            src: "/images/conference.jpeg",
+            name: "Dr. Ngo Nguyen Quynh Nhu",
+            role: "Lecturer",
+            place: "Faculty of Finance and Banking Center for Application Economics Research Ton Duc Thang University,Vietnam",
         },
         {
             src: "/images/mohammad saleem.jpg",
@@ -440,19 +462,19 @@ export const siteData = {
     ],
 
     advisoryBoardData: [
-        "Prof. Angappan Gunasekaran (School of Business Administration, Penn State, USA)",
+        "Prof. Angappa Gunasekaran (Penn State Harrisburg, USA)",
         "Prof. Dongmei Cao (Nottingham Trent University, UK)",
         "Prof. Abhijit Majumdar (Indian Institute of Technology Delhi, India)",
         "Prof. K. Sriharsha Reddy (Institute of Management Technology Hyderabad, India)",
         "Prof. Ravi Shankar (Indian Institute of Technology Delhi, India)",
-        "Prof. Aravind Upadhyay (London Metropolitan University, UK)",
+        "Prof. Aravind Upadhyay (London Metropolitan University , UK)",
         "Prof. V. Raja Sreedharan (Cardiff Metropolitan University, UK)",
         "Prof. Sangeeta Khorana (Aston University, UK)",
         "Prof. Stefan Seuring (University of Kassel, Germany)",
         "Prof. Ramesh Anbanandam (Indian Institute of Technology Roorkee, India)",
         "Prof. Soni Agarwal (International Management Institute Kolkata, India)",
         "Prof. Nripendra P Rana (Queen's University Belfast, UK)",
-        "Prof. Tarik Saikouk (Excelia Business School in La Rochelle, France)",
+        "Prof. Tarik Saikouk (Excelia Business School, La Rochelle, France)",
         "Dr. Heru S. Sartono (Universiti Teknologi Brunei, Brunei)",
         "Dr. Djunaid M Syaikh (Universiti Teknologi Brunei, Brunei)",
         "Dr. Ulagananthan Subramanian (Universiti Teknologi Brunei, Brunei)",
@@ -460,7 +482,7 @@ export const siteData = {
         "Dr. Marzena Smol (Polish Academy of Sciences, Cracow, Poland)",
         "Prof. Michael Akim (HSE University, Moscow, Russia)",
         "Dr. Elisabeth Paulet (ICN Business School, France)",
-        "Dr. Thierry Houé (ICN Business School, France)",
+        "Dr. Thierry Houé (ICN Business School, France)"
     ],
 
     sponsorsData: [
@@ -483,10 +505,10 @@ export const siteData = {
 
     // guidelines data
 
-    callForPaperDescription: "Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, seeking collaboration, visibility to build their publication portfolio, and gain international exposure.",
+    callForPaperDescription: "Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability,seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
 
     AbstractSubmissionGuidelinesData: {
-        title: "Abstract Submission Guidelines",
+        title: "Research Idea Pitch / Doctoral Colloquium(Abstract Format)",
         tHeadData: ['SubmissionType', 'Research Idea Pitch'],
         tBodyData: [
             [
@@ -508,17 +530,17 @@ export const siteData = {
     },
 
     fullPaperSubmissionGuidelinessData: {
-        title: "Full Paper Submission Guidelines",
+        title: "Full Paper Submission (Springer Conference Proceedings)",
         tHeadData: ['SubmissionType', 'Full Paper Submission'],
         tBodyData: [
             [
                 'Purpose',
-                'For consideration in the edited volume (Springer Book Chapter or equivalent)'
+                'For consideration in the edited volume(Springer Conference Proceedings).'
             ],
-            ['WordLimit', '5,000 to 6,000 Words'],
+            ['WordLimit', '5000 to 6000 Words'],
             [
                 'Format',
-                'Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications'
+                'Introduction & Problem StatementLiterature Review- Methodology- FindingsDiscussion & Implications.'
             ],
             [
                 'FileType',
@@ -531,7 +553,7 @@ export const siteData = {
 
             [
                 'Eligibility',
-                'Eligible for Best Paper with Societal Impact & Publication Opportunity'
+                'Eligible for Best Paper with Societal Impact & Publication Opportunity.'
             ],
             [
                 'Support',
@@ -668,7 +690,7 @@ export const siteData = {
             title: "Research Idea Pitch / Doctoral Colloquium",
             subtitle: "(Abstract Format)",
             points: [
-                "For participation in the 3-minute pitch session during the Conference.",
+                "For participation in the 3-minute pitch session during the Conference",
                 "Word Limit: 1500 Words.",
                 "Format: Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications.",
                 "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",

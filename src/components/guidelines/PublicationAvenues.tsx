@@ -44,13 +44,13 @@ export default function PublicationAvenue() {
 
   const proceedings: Proceeding[] = [
     {
-      title: "Springer Proceedings",
-      details: "Scopus Indexed (for full-length papers).",
+      title: "",
+      details: "All the accepted full length papers in the conference will be published in Scopus Indexed Proceedings / Edited Book series in Wiley and Elsevier",
     },
-    {
-      title: "Book chapters in Edited Book Series",
-      details: "in Wiley and Elsevier (for full-length papers).",
-    },
+    // {
+    //   title: "Book chapters in Edited Book Series",
+    //   details: "in Wiley and Elsevier (for full-length papers).",
+    // },
     {
       title: "Book of Abstracts Publication",
       details: "with ISBN (for research pitch).",
@@ -70,17 +70,16 @@ export default function PublicationAvenue() {
         </h2>
 
         {/* Intro in blue */}
-        <p className="text-blue-800 mb-3">
+        {/* <p className="text-blue-800 mb-3">
           Authors whose full papers are recommended for journal submission will
           receive up to <span className="font-semibold">15 days</span> of
           mentoring support from the conference review team. This mentoring is
           aimed at upgrading the manuscript to meet the standards required for
           peer-reviewed journals.
-        </p>
+        </p> */}
         <p className="text-blue-800 mb-6">
-          Selected full papers, after revision, will be invited for submission to
-          one of the partnering journals, depending on the scope and quality of
-          the work.
+          Selected full papers based on the internal review committee recommendation, will be invited for submission
+          to one of the partnering journals, depending on the scope and quality of the work.
         </p>
 
         {/* Partnering Journals */}

@@ -19,7 +19,7 @@ export default function AdvisoryBoard() {
                 <div className="mx-auto">
                     <ol className="list-decimal list-inside space-y-2">
                         {siteData.advisoryBoardData.map((prof, index) => (
-                            <li key={`advisory_board_data_item_${index}`} className="text-base leading-relaxed">
+                            <li key={`advisory_board_data_item_${index}`} className="text-base leading-relaxed tracking-wide">
                                 {prof}
                             </li>
                         ))}

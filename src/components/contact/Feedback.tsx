@@ -24,29 +24,62 @@ export default function Feedback() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+
+  //   try {
+  //     // const res = await fetch("/api/feedback", {
+  //     //   method: "POST",
+  //     //   headers: { "Content-Type": "application/json" },
+  //     //   body: JSON.stringify(formData),
+  //     // });
+
+  //     // if (!res.ok) throw new Error("Failed to submit feedback");
+
+  //     setSubmitted(true);
+  //     setFormData({ name: "", email: "", comments: "" });
+  //   } catch (err) {
+  //     console.error(err);
+  //     alert("❌ Something went wrong. Please try again.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
+
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+    e.preventDefault()
     setLoading(true);
+    const formSub = new FormData();
 
-    try {
-      // const res = await fetch("/api/feedback", {
-      //   method: "POST",
-      //   headers: { "Content-Type": "application/json" },
-      //   body: JSON.stringify(formData),
-      // });
+    formSub.append("access_key", "5a6f65a9-faaf-4276-a3f8-116dae88e2ee");
+    formSub.append("Name", formData?.name);
+    formSub.append("Email", formData?.email);
+    formSub.append("Comments", formData?.comments);
 
-      // if (!res.ok) throw new Error("Failed to submit feedback");
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formSub
+    });
 
-      setSubmitted(true);
-      setFormData({ name: "", email: "", comments: "" });
-    } catch (err) {
-      console.error(err);
-      alert("❌ Something went wrong. Please try again.");
-    } finally {
+    const data = await response.json();
+
+    if (data.success) {
+      alert("Submitted successfully!")
+      setLoading(false);
+      setFormData({
+        name: "",
+        email: "",
+        comments: "",
+      });
+    } else {
+      console.log("Error", data);
       setLoading(false);
     }
-  };
 
+
+  }
   return (
     <section id="contact-form" className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-12 mb-12">
       {/* Section Title */}

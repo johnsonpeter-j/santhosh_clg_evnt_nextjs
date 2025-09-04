@@ -13,12 +13,36 @@ export default function RegistrationDetails() {
           Registration Details
         </h3>
 
-        <ol>
+        {/* <ol>
           {
             siteData.registrationDetailsData.map((registrationDataItem, registrationDataIndex) => {
               return (<li key={`registration_data__item_${registrationDataIndex}`} className="ml-10 list-decimal text-gray-600 leading-relaxed marker:text-green-600 " dangerouslySetInnerHTML={{ __html: sanitizeHtml(registrationDataItem) }}></li>)
             })
           }
+        </ol> */}
+        <ol className=" list-decimal px-4 mt-3">
+          <li>
+            <p className="text-gray-600 leading-relaxed">
+              Submission is open to Research Scholars, Early-Career Faculty Members / Assistant Professors, and
+              Postdoctoral Researchers.
+            </p>
+          </li>
+          <li>
+            <p className="text-gray-600 leading-relaxed">
+              Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and
+              Sustainability are welcome to submit.
+            </p>
+          </li>
+          <li>
+            <p className="text-gray-600 leading-relaxed">
+              Conference Website: To be Updated Shortly
+            </p>
+          </li>
+          <li>
+            <p className="text-gray-600 leading-relaxed">
+              Submission Link: To be Updated Shortly
+            </p>
+          </li>
         </ol>
       </div>
     </section>

@@ -23,7 +23,7 @@ export default function Footer() {
                             {footerData.map((item) => (
                                 <li key={item.id}>
                                     <Link
-                                        href={`#${item.id}`}
+                                        href={`${item.id}`}
                                         className="hover:text-green-500 transition-colors"
                                     >
                                         {item.label}
@@ -37,7 +37,7 @@ export default function Footer() {
                 {/* Middle - Contact */}
                 <div>
                     <h5 className="font-bold text-lg mb-2 text-white">Contact Us</h5>
-                    <p>
+                    {/* <p>
                         Conference Chairperson:{" "}
                         <a
                             href="mailto:chairperson@tsm.ac.in"
@@ -45,9 +45,9 @@ export default function Footer() {
                         >
                             chairperson@tsm.ac.in 
                         </a>
-                    </p>
+                    </p> */}
                     <p>
-                        General Enquiries:{" "}
+                        For Any Queries:{" "}
                         <a
                             href="mailto:fos2026-grie@tsm.ac.in"
                             className="text-green-400 hover:text-green-500"

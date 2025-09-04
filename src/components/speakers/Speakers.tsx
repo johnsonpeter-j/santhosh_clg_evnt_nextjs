@@ -34,6 +34,10 @@ export default function Speakers() {
                         </div>
                     ))}
                 </div>
+                <div className="p-1">
+
+                    <p>* A few more editors yet to be confirmed</p>
+                </div>
             </div>
         </section>
     )

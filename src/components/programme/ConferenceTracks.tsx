@@ -20,17 +20,17 @@ export default function ConferenceTracks() {
             key={idx}
             className="flex flex-col bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow"
           >
-            <h3 className="text-xl font-bold text-gray-700 mb-2">
-              Track {idx + 1}. {track.title}
+            <h3 className="text-md font-bold text-gray-500  mb-2">
+              Track {idx + 1} <span className="text-gray-700"><br/>{track.title}</span>
             </h3>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 text-sm leading tracking-wide">
               {track.desc}
             </p>
 
             {/* Push this to the bottom */}
-            <div className="mt-auto">
+            {/* <div className="mt-auto">
               <DownloadTrackDetails title={`See More`} path={track.path} fileName={track.fileName} />
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

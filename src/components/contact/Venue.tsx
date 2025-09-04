@@ -16,7 +16,7 @@ export default function Venue() {
               <h3 className="text-2xl font-bold text-gray-700 mb-4">
                 {venueDetailsItem.title}
               </h3>
-              <p className="text-gray-600 text-justify">{venueDetailsItem.description}</p>
+              <p className="text-gray-600 text-justify tracking-wider">{venueDetailsItem.description}</p>
             </div>)
           })
         }
