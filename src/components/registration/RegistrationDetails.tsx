@@ -1,6 +1,3 @@
-import { siteData } from "@/data/data";
-import { sanitizeHtml } from "@/lib/sanitizeHtml";
-
 export default function RegistrationDetails() {
   return (
     <section

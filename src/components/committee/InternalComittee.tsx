@@ -1,5 +1,4 @@
 import { siteData } from "@/data/data";
-import Image from "next/image";
 
 export default function InternalBoard() {
 

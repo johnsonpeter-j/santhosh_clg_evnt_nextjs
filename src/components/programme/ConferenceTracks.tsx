@@ -1,5 +1,4 @@
 import { siteData } from "@/data/data";
-import DownloadTrackDetails from "./DownloadTrackDetails";
 
 // components/ConferenceTracks.tsx
 export default function ConferenceTracks() {
@@ -24,7 +23,7 @@ export default function ConferenceTracks() {
               Track {idx + 1} <span className="text-gray-700"><br />{track.title}</span>
             </h3>
             <ul className="list-disc p-3">
-              {track?.desc?.map((item: any, index: any) =>
+              {track.desc.map((item, index) =>
                 <li key={index}>
                   <p className="text-gray-600 text-sm leading tracking-wide">
                     {item}

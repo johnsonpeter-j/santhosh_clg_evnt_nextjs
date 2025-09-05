@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { siteData } from "@/data/data";
-import router from "next/router";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
