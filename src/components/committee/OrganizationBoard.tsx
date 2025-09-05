@@ -62,8 +62,8 @@ export default function OrganizationBoard() {
                     </div>
                 </div>
             </div>
- <OrganizationCommitee/>
-           
+            <OrganizationCommitee />
+
         </section>
     )
 }
