@@ -18,12 +18,12 @@ export default function TravelToTSM() {
           className="object-cover"
         />
       </div> */}
-      <div className="relative w-full h-170 rounded-lg overflow-hidden">
+      <div className="lg:relative lg:h-170 rounded-lg overflow-hidden">
         <Image
           src={siteData.venueImagePath}
           alt="venue"
           fill
-          className="object-cover"
+          className="md:object-cover imgStyle object-contain"
         />
       </div>
     </section>

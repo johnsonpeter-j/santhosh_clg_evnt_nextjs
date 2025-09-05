@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FAFAFA;
+    --background: #fafafa;
     --foreground: #333;
   }
 }
@@ -50,10 +50,9 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #1a202c;
 }
-
 
 /* 🔧 for marquee + hide scrollbar */
 @layer utilities {
@@ -95,18 +94,18 @@ h4 {
 .section-title {
   position: relative;
   padding-bottom: 0.5rem;
-  color: #4CAF50;
+  color: #4caf50;
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: linear-gradient(-45deg, #4CAF50, #00BCD4, #4CAF50);
+  background: linear-gradient(-45deg, #4caf50, #00bcd4, #4caf50);
   background-size: 400% 400%;
   animation: gradient-animation 15s ease infinite;
   border-radius: 2px;
@@ -115,8 +114,12 @@ h4 {
 td {
   text-align: center;
 }
-@media  (max-width:600px) {
-   td {
-    font-size:12px
-   }
+@media (max-width: 600px) {
+  td {
+    font-size: 12px;
+  }
+  .imgStyle {
+    object-fit: unset !important;
+    position: unset !important;
+  }
 }

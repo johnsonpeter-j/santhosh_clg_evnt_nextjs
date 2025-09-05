@@ -6,12 +6,11 @@ import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { siteData } from "@/data/data";
-
+import router from "next/router";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
-
 
   return (
     <header className="h-16 lg:h-18 bg-[#f9f9f9] p-4 fixed top-0 left-0 w-full z-50 ">
@@ -26,8 +25,6 @@ export default function Navbar() {
             className="h-8 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-10 lg:w-40"
           />
         </div>
-
-
 
         {/* Desktop Menu */}
         <div className=" justify-center lg:flex hidden items-center gap-3">
@@ -45,9 +42,7 @@ export default function Navbar() {
 
                   {/* Dropdown submenu */}
                   {item.submenus && (
-                    <ul
-                      className="absolute right-0 top-full hidden group-hover:block bg-white shadow-lg rounded-md py-2 w-56 z-20"
-                    >
+                    <ul className="absolute right-0 top-full hidden group-hover:block bg-white shadow-lg rounded-md py-2 w-56 z-20">
                       {item.submenus.map((sub) => (
                         <li key={sub.name}>
                           <Link
@@ -64,32 +59,32 @@ export default function Navbar() {
               ))}
             </ul>
           </nav>
-          <Link
-            href={`/registration`}
-          >
-            <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">Login</button>
+          <Link href={`/registration`}>
+            <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">
+              Login
+            </button>
           </Link>
         </div>
 
         <div className="flex lg:hidden justify-center items-center gap-2">
           {/* Burger Icon (mobile) */}
-          <Link
-            href={`/registration`}
-          >
-            <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">Login</button>
+          <Link href={`/registration`}>
+            <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">
+              Login
+            </button>
           </Link>
           <div className="lg:hidden">
-
             <button
-              onClick={() => { setMobileOpen(!mobileOpen); setOpenSubmenu(null) }}
+              onClick={() => {
+                setMobileOpen(!mobileOpen);
+                setOpenSubmenu(null);
+              }}
               className="text-2xl text-gray-800 hover:text-green-600 focus:outline-none transition-colors duration-300"
             >
               {mobileOpen ? <X /> : <Menu />}
             </button>
           </div>
-
         </div>
-
       </div>
 
       {/* Mobile Menu */}
@@ -98,32 +93,48 @@ export default function Navbar() {
           <ul className="flex flex-col p-4 space-y-2">
             {siteData.menuItems.map((item) => (
               <li key={item.name}>
-                <button
-                  onClick={() => {
-                    setOpenSubmenu(openSubmenu === item.name ? null : item.name)
-                    // router.push(item?.href); // navigate to /dashboard
-                    // setMobileOpen(false);
-                  }
-                  }
-                  className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
-                >
-                  {item.name}
-                  {item.submenus && <ChevronDown size={16} />}
-                </button>
-                {item.submenus && openSubmenu === item.name && (
-                  <ul className="ml-4 mt-1 space-y-1">
-                    {item.submenus.map((sub) => (
-                      <li key={sub.name}>
-                        <Link
-                          href={`${item.href}${sub.href}`}
-                          onClick={() => setMobileOpen(false)}
-                          className="text-sm block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
-                        >
-                          {sub.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                {item?.submenus ? (
+                  <>
+                    {" "}
+                    <button
+                      onClick={() => {
+                        setOpenSubmenu(
+                          openSubmenu === item.name ? null : item.name
+                        );
+                        // router.push(item?.href); // navigate to /dashboard
+                        // setMobileOpen(false);
+                      }}
+                      className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                    >
+                      {item.name}
+                      {item.submenus && <ChevronDown size={16} />}
+                    </button>
+                    {item.submenus && openSubmenu === item.name && (
+                      <ul className="ml-4 mt-1 space-y-1">
+                        {item.submenus.map((sub) => (
+                          <li key={sub.name}>
+                            <Link
+                              href={`${item.href}${sub.href}`}
+                              onClick={() => setMobileOpen(false)}
+                              className="text-sm block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
+                            >
+                              {sub.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <Link
+                      href={item.href}
+                      onClick={() => setMobileOpen(false)}
+                      className="text-sm block w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                    >
+                      {item.name}
+                    </Link>
+                  </>
                 )}
               </li>
             ))}

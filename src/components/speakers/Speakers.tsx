@@ -22,9 +22,9 @@ export default function Speakers() {
                             <Image
                                 src={member.src}
                                 alt={member.name}
-                                width={128}
-                                height={128}
-                                className="w-32 h-32 rounded-full mb-2 shadow-lg"
+                                width={120}
+                                height={120}
+                                className="w-32  h-32  rounded-full mb-2 shadow-lg"
                             />
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
                             <p className="text-sm font-semibold text-gray-600 mb-1">

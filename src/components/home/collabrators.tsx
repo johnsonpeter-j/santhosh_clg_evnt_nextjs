@@ -14,21 +14,21 @@ export default function Collaborators() {
                 {siteData.collabtaorData?.map((item, index) => (
                     <div
                         key={index}
-                        className="grid lg:grid-cols-2 shadow-lg max-h-md  md:items-center gap-10 p-4  rounded-lg "
+                        className="grid lg:grid-cols-3 shadow-lg max-h-md  md:items-center gap-10 p-8  rounded-lg "
                     >
                         {/* Image Column */}
-                        <div className="place-items-center">
+                        <div className="col-span-1 place-items-center">
                             <Image
                                 src={item.img}
                                 alt={item.name}
                                 width={150}
                                 height={150}
-                                className=" w-72 object-contain "
+                                className=" w-40 h-40 object-contain "
                             />
                         </div>
 
                         {/* Text Column */}
-                        <div className="text-center md:text-left">
+                        <div className="col-span-2 text-center md:text-left">
                             <a
                                 href={item.link}
                                 target="_blank"
@@ -37,7 +37,7 @@ export default function Collaborators() {
                             >
                                 {item.name}
                             </a>
-                            <p className="text-gray-600 text-sm mt-1">{item.desc}</p>
+                            <p style={{textAlign:"justify"}} className="text-gray-600 text-sm mt-1">{item.desc}</p>
                         </div>
                     </div>
                 ))}

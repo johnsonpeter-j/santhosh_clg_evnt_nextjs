@@ -20,7 +20,7 @@ export default function RegistrationDetails() {
             })
           }
         </ol> */}
-        <ol className=" list-decimal px-4 mt-3">
+        <ol className=" px-4 mt-3">
           <li>
             <p className="text-gray-600 leading-relaxed">
               Submission is open to Research Scholars, Early-Career Faculty Members / Assistant Professors, and

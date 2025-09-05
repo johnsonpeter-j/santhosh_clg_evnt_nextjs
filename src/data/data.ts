@@ -35,7 +35,7 @@ export const siteData = {
             name: "Speakers",
             href: "/speakers",
             // submenus: [
-            //     { name: "Speakers", href: "#speakers" },
+            //     { name: "", href: "#speakers" },
             // ],
         },
         {
@@ -167,7 +167,7 @@ export const siteData = {
         { src: "/images/alagar_koil.jpeg", title: "Alagar Koil" },
         { src: "/images/gandhi_museum.jpg", title: "Gandhi Museum" },
         { src: "/images/thirupparankundram.jpeg", title: "Thirupparankundram" },
-        { src: "/images/othakadai_samanar_hills.jpg", title: "Othakadai Samanar Hills" },
+        { src: "/images/othakadai_samanar_hills.jpg", title: "Samanar Hills" },
         { src: "/images/thirumalai_nayakkar_palace.jpg", title: "Thirumalai Nayakkar Palace" },
     ],
 
@@ -672,7 +672,7 @@ export const siteData = {
         tBodyData: [
             [
                 'Purpose',
-                'For participation in the 3-minute pitch session during the Conference'
+                'For participation in the 3-minute pitch session during the Conference.'
             ],
             ['WordLimit', 'Extended Abstract 1500 Words'],
             [
@@ -722,10 +722,29 @@ export const siteData = {
 
     },
 
-    presentationGuidelines: [
-        "Meet the Editors: This session provides direct interaction and insights from journal editors, giving participants valuable perspectives on publishing and research.",
-        "Meta-Analysis and Systematic Review: Dedicated to advanced research synthesis techniques, this session focuses on systematic review methods and meta-analytic strategies.",
-        "Advanced Multivariate Analysis & SEM: Featuring a session speaker, this highlight explores sophisticated statistical approaches and Structural Equation Modeling, ideal for experienced researchers",
+    presentationConfrence: [
+        {
+            title:"Meet the Editors:",
+            content:"This session provides direct interaction and insights from journal editors, giving participants valuable perspectives on publishing and research."
+        },
+        {
+            title:"Meta-Analysis and Systematic Review:",
+            content:"Dedicated to advanced research synthesis techniques, this session focuses on systematic review methods and meta-analytic strategies."
+        },
+        {
+            title:"Advanced Multivariate Analysis & SEM:",
+            content:"Featuring a session speaker, this highlight explores sophisticated statistical approaches and Structural Equation Modeling, ideal for experienced researchers"
+        }
+    ],
+
+     presentationGuidelines: [
+        "3-minute research presentation for the research pitch and 15 minutes for the full paper presentation.",
+        "Strictly time-bound.",
+        "Research Pitch – maximum 3 slides or poster (As per the attached format).",
+        "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel.",
+        // "Meet the Editors: This session provides direct interaction and insights from journal editors, giving participants valuable perspectives on publishing and research.",
+        // "Meta-Analysis and Systematic Review: Dedicated to advanced research synthesis techniques, this session focuses on systematic review methods and meta-analytic strategies.",
+        // "Advanced Multivariate Analysis & SEM: Featuring a session speaker, this highlight explores sophisticated statistical approaches and Structural Equation Modeling, ideal for experienced researchers",
         
     ],
 
@@ -788,16 +807,16 @@ export const siteData = {
     //  venue data
     
      listOfHostels: [
-        "JC Residency Madurai.",
-        "Grand Madurai By GRT Hotels.",
-        "Courtyard by Marriott Madurai. ",
-        "Fortune Pandiyan Hotel.",
-        "Heritage Madurai.",
-        "Hotel Royal Court. ",
+        "JC Residency Madurai",
+        "Grand Madurai By GRT Hotels",
+        "Courtyard by Marriott Madurai ",
+        "Fortune Pandiyan Hotel",
+        "Heritage Madurai",
+        "Hotel Royal Court ",
        
-        "Gateway Madurai. ",
-        "Poppys Hotel.",
-        "Astoria Hotel."
+        "Gateway Madurai ",
+        "Poppys Hotel",
+        "Astoria Hotel"
     ],
     
     venueDetails: [
@@ -863,7 +882,7 @@ export const siteData = {
             title: "Research Idea Pitch / Doctoral Colloquium",
             subtitle: "(Abstract Format)",
             points: [
-                "3-minute pitch session during the Conference",
+                "3-minute pitch session during the Conference.",
                 "Word Limit: 1500 Words.",
                 "Format: Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications.",
                 "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",

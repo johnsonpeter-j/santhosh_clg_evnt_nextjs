@@ -96,7 +96,7 @@ export default function PublicationAvenue() {
         </p>
 
         {/* Note */}
-        <p className="text-sm text-gray-700 italic mb-8">
+        <p className="text-sm font-semibold text-gray-700 italic mb-8">
           <span className="font-semibold">Note:</span> Authors of selected
           high-quality contributions will be invited to extend their work into
           full-length papers for potential submission to the journal. However, all
