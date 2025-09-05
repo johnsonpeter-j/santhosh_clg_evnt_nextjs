@@ -116,7 +116,7 @@ export const siteData = {
         {
             name: "Università degli Studi di Napoli Federico II, Italy",
             desc: "Founded in 1224, the Università degli Studi di Napoli Federico II is one of the World’s oldest academic institutions in continuous operation, one among the ten universities globally in continuous operation since its inception (QS Ranking 379). The University hosts 24 Interdepartmental research centres and 17 Interuniversity research centres and is an institution that actively promotes research activities. The Institute actively collaborates with other research institutions, both within Italy and with International Institutions.",
-            img: "/images/collabrators/Universita Delgi Studi Di.jpg",
+            img: "/images/collabrators/EMI.png",
             link: "https://www.international.unina.it/",
         },
         {
