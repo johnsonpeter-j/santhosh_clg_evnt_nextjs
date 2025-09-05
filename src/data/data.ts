@@ -468,7 +468,7 @@ export const siteData = {
             place: "Thiagarajar School of Management, Madurai, India",
         },
         {
-            src: "/images/isotilia.png",
+            src: "/images/Isotilia.png",
             name: "Dr. Isotilia Costa Melo",
             role: "Assistant Professor",
             place: "ICN Business School, Paris, France",

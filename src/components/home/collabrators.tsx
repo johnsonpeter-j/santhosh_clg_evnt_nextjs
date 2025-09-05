@@ -17,18 +17,18 @@ export default function Collaborators() {
                         className="grid lg:grid-cols-3 shadow-lg max-h-md  md:items-center gap-10 p-8  rounded-lg "
                     >
                         {/* Image Column */}
-                        <div className="col-span-1 place-items-center">
+                        <div className="lg:col-span-1 place-items-center">
                             <Image
                                 src={item.img}
                                 alt={item.name}
                                 width={150}
                                 height={150}
-                                className=" w-40 h-40 object-contain "
+                                className=" lg:w-40 w-50 h-50 lg:h-40 object-contain "
                             />
                         </div>
 
                         {/* Text Column */}
-                        <div className="col-span-2 text-center md:text-left">
+                        <div className="lg:col-span-2 text-center md:text-left">
                             <a
                                 href={item.link}
                                 target="_blank"
