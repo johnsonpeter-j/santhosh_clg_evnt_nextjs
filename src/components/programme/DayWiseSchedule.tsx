@@ -32,8 +32,8 @@ export default function DayWiseSchedule() {
               </tr>
               <tr className="bg-gray-200">
                 <th className="border border-gray-400 p-2">Time Slot</th>
-                <th className="border border-gray-400 p-2">Day 1<br />Session Room A</th>
-                <th className="border border-gray-400 p-2">Day 1<br />Session Room B</th>
+                <th colSpan={2} className="border border-gray-400 p-2">Day 1<br />Session Room </th>
+                {/* <th className="border border-gray-400 p-2">Day 1<br />Session Room B</th> */}
                 <th className="border border-gray-400 p-2">Day 2<br />Session Room</th>
                 <th className="border border-gray-400 p-2">Day 3<br />Session Room</th>
               </tr>

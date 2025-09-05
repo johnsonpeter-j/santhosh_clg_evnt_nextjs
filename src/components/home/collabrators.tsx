@@ -23,7 +23,7 @@ export default function Collaborators() {
                                 alt={item.name}
                                 width={150}
                                 height={150}
-                                className=" w-72 object-contain shadow-md"
+                                className=" w-72 object-contain "
                             />
                         </div>
 
