@@ -26,7 +26,7 @@ export const siteData = {
             href: "/committee",
             submenus: [
 
-                { name: "Organizing Committee", href: "#organizing" },
+                { name: "Organizing Committee", href: "#organization-committe" },
                 { name: "Advisory Board", href: "#advisory" },
                 { name: "Internal Committee", href: "#internal-committee" },
             ],
@@ -34,9 +34,9 @@ export const siteData = {
         {
             name: "Speakers",
             href: "/speakers",
-            submenus: [
-                { name: "Speakers", href: "#speakers" },
-            ],
+            // submenus: [
+            //     { name: "Speakers", href: "#speakers" },
+            // ],
         },
         {
             name: "Submission",
@@ -83,10 +83,11 @@ export const siteData = {
 
     // home page data
     heroSlideImages: [
-        "/images/conf logo.jpg",
+        // "/images/conf logo.jpg",
+        "/images/hero-slides/FOSLogo.png",
         "/images/hero-slides/thiyagaraja_3.jpg",
         // "/images/hero-slides/thiyagaraja_1.jpg",
-        "/images/hero-slides/Partners.jpg",
+        "/images/hero-slides/Foscollobratinginst.png",
         // "/images/hero-slides/thiyagaraja_3.jpg"
     ],
 
@@ -97,7 +98,7 @@ export const siteData = {
         },
         {
             title: "The Conference",
-            description: "The International Conference on Frontiers of Sustainability - Global Responsibility for Innovation and Entrepreneurship (FOS 2026 – GRIE), organized by Research Centre, Thiagarajar School of Management. The conference aims to explore cutting-edge strategies for a sustainable future. It brings together global researchers, innovators, practitioners, and policymakers to foster collaborative solutions. The event promotes interdisciplinary dialogue addressing climate change, social equity, and digital transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and research pitches will be presented for both academic and  ractical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world"
+            description: "The International Conference on Frontiers of Sustainability - Global Responsibility for Innovation and Entrepreneurship (FOS 2026 – GRIE), organized by Research Centre, Thiagarajar School of Management. The conference aims to explore cutting-edge strategies for a sustainable future. It brings together global researchers, innovators, practitioners, and policymakers to foster collaborative solutions. The event promotes interdisciplinary dialogue addressing climate change, social equity, and digital transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and research pitches will be presented for both academic and  practical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world."
         }
     ],
 
@@ -463,19 +464,19 @@ export const siteData = {
         {
             src: "/images/Selvalakshmi.jpg",
             name: "Dr. M. Selvalakshmi",
-            role: "Principal & Professor.",
+            role: "Principal & Professor",
             place: "Thiagarajar School of Management, Madurai, India",
         },
         {
             src: "/images/isotilia.png",
             name: "Dr. Isotilia Costa Melo",
-            role: "Assistant Professor,",
-            place: "ICN Business School,Paris, France",
+            role: "Assistant Professor",
+            place: "ICN Business School, Paris, France",
         },
         {
             src: "/images/veronica.jpg",
             name: "Dr. Veronica Scuotto",
-            role: "Second-Tier Tenured Professor,",
+            role: "Second-Tier Tenured Professor",
             place: "Universita delgi Studi di Napoli Federico II,Italy",
         },
         {
@@ -503,7 +504,7 @@ export const siteData = {
         {
             name: "Nandhini S P",
             email: "Nandhinisp@tsm.ac.in",
-            phone: "8940017669",
+            phone: "+91-8940017669",
         },
         {
             name: "Thavaprakash Arulsivakumar",
@@ -511,12 +512,12 @@ export const siteData = {
             phone: "+91-8072024463",
         },
         {
-            name: "Gourthamraj MP",
+            name: "Gouthamraj MP",
             email: "gouthamrajmp@tsm.ac.in",
             phone: "+91-8220049074",
         },
         {
-            name: "Sibi S",
+            name: "Sibi B",
             email: "sibib@tsm.ac.in",
             phone: "+91-9600794478",
         },
@@ -531,29 +532,117 @@ export const siteData = {
         },
     ],
 
-    advisoryBoardData: [
-        "Prof. Angappa Gunasekaran (Penn State Harrisburg, USA)",
-        "Prof. Dongmei Cao (Nottingham Trent University, UK)",
-        "Prof. Abhijit Majumdar (Indian Institute of Technology Delhi, India)",
-        "Prof. K. Sriharsha Reddy (Institute of Management Technology Hyderabad, India)",
-        "Prof. Ravi Shankar (Indian Institute of Technology Delhi, India)",
-        "Prof. Aravind Upadhyay (London Metropolitan University , UK)",
-        "Prof. V. Raja Sreedharan (Cardiff Metropolitan University, UK)",
-        "Prof. Sangeeta Khorana (Aston University, UK)",
-        "Prof. Stefan Seuring (University of Kassel, Germany)",
-        "Prof. Ramesh Anbanandam (Indian Institute of Technology Roorkee, India)",
-        "Prof. Soni Agarwal (International Management Institute Kolkata, India)",
-        "Prof. Nripendra P Rana (Queen's University Belfast, UK)",
-        "Prof. Tarik Saikouk (Excelia Business School, La Rochelle, France)",
-        "Dr. Heru S. Sartono (Universiti Teknologi Brunei, Brunei)",
-        "Dr. Djunaid M Syaikh (Universiti Teknologi Brunei, Brunei)",
-        "Dr. Ulagananthan Subramanian (Universiti Teknologi Brunei, Brunei)",
-        "Prof. Sandeep Jagtap (Lund University, Sweden)",
-        "Dr. Marzena Smol (Polish Academy of Sciences, Cracow, Poland)",
-        "Prof. Michael Akim (HSE University, Moscow, Russia)",
-        "Dr. Elisabeth Paulet (ICN Business School, France)",
-        "Dr. Thierry Houé (ICN Business School, France)"
-    ],
+    // advisoryBoardData: [
+    //     "Prof. Angappa Gunasekaran (Penn State Harrisburg, USA)",
+    //     "Prof. Dongmei Cao (Nottingham Trent University, UK)",
+    //     "Prof. Abhijit Majumdar (Indian Institute of Technology Delhi, India)",
+    //     "Prof. K. Sriharsha Reddy (Institute of Management Technology Hyderabad, India)",
+    //     "Prof. Ravi Shankar (Indian Institute of Technology Delhi, India)",
+    //     "Prof. Aravind Upadhyay (London Metropolitan University , UK)",
+    //     "Prof. V. Raja Sreedharan (Cardiff Metropolitan University, UK)",
+    //     "Prof. Sangeeta Khorana (Aston University, UK)",
+    //     "Prof. Stefan Seuring (University of Kassel, Germany)",
+    //     "Prof. Ramesh Anbanandam (Indian Institute of Technology Roorkee, India)",
+    //     "Prof. Soni Agarwal (International Management Institute Kolkata, India)",
+    //     "Prof. Nripendra P Rana (Queen's University Belfast, UK)",
+    //     "Prof. Tarik Saikouk (Excelia Business School, La Rochelle, France)",
+    //     "Dr. Heru S. Sartono (Universiti Teknologi Brunei, Brunei)",
+    //     "Dr. Djunaid M Syaikh (Universiti Teknologi Brunei, Brunei)",
+    //     "Dr. Ulagananthan Subramanian (Universiti Teknologi Brunei, Brunei)",
+    //     "Prof. Sandeep Jagtap (Lund University, Sweden)",
+    //     "Dr. Marzena Smol (Polish Academy of Sciences, Cracow, Poland)",
+    //     "Prof. Michael Akim (HSE University, Moscow, Russia)",
+    //     "Dr. Elisabeth Paulet (ICN Business School, France)",
+    //     "Dr. Thierry Houé (ICN Business School, France)"
+    // ],
+
+     advisoryBoardData: [
+  {
+    name: "Prof. Angappa Gunasekaran",
+    location: "(Penn State Harrisburg, USA)"
+  },
+  {
+    name: "Prof. Dongmei Cao",
+    location: "(Nottingham Trent University, UK)"
+  },
+  {
+    name: "Prof. Abhijit Majumdar",
+    location: "(Indian Institute of Technology Delhi, India)"
+  },
+  {
+    name: "Prof. K. Sriharsha Reddy",
+    location: "(Institute of Management Technology Hyderabad, India)"
+  },
+  {
+    name: "Prof. Ravi Shankar",
+    location: "(Indian Institute of Technology Delhi, India)"
+  },
+  {
+    name: "Prof. Aravind Upadhyay",
+    location: "(London Metropolitan University, UK)"
+  },
+  {
+    name: "Prof. V. Raja Sreedharan",
+    location: "(Cardiff Metropolitan University, UK)"
+  },
+  {
+    name: "Prof. Sangeeta Khorana",
+    location: "(Aston University, UK)"
+  },
+  {
+    name: "Prof. Stefan Seuring",
+    location: "(University of Kassel, Germany)"
+  },
+  {
+    name: "Prof. Ramesh Anbanandam",
+    location: "(Indian Institute of Technology Roorkee, India)"
+  },
+  {
+    name: "Prof. Soni Agarwal",
+    location: "(International Management Institute Kolkata, India)"
+  },
+  {
+    name: "Prof. Nripendra P Rana",
+    location: "(Queen's University Belfast, UK)"
+  },
+  {
+    name: "Prof. Tarik Saikouk",
+    location: "(Excelia Business School, La Rochelle, France)"
+  },
+  {
+    name: "Dr. Heru S. Sartono",
+    location: "(Universiti Teknologi Brunei, Brunei)"
+  },
+  {
+    name: "Dr. Djunaid M Syaikh",
+    location: "(Universiti Teknologi Brunei, Brunei)"
+  },
+  {
+    name: "Dr. Ulagananthan Subramanian",
+    location: "(Universiti Teknologi Brunei, Brunei)"
+  },
+  {
+    name: "Prof. Sandeep Jagtap",
+    location: "(Lund University, Sweden)"
+  },
+  {
+    name: "Dr. Marzena Smol",
+    location: "(Polish Academy of Sciences, Cracow, Poland)"
+  },
+  {
+    name: "Prof. Michael Akim",
+    location: "(HSE University, Moscow, Russia)"
+  },
+  {
+    name: "Dr. Elisabeth Paulet",
+    location: "(ICN Business School, France)"
+  },
+  {
+    name: "Dr. Thierry Houé",
+    location: "(ICN Business School, France)"
+  }
+],
+
 
     sponsorsData: [
         {
@@ -575,10 +664,10 @@ export const siteData = {
 
     // guidelines data
 
-    callForPaperDescription: "Ph.D. Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability,seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
+    callForPaperDescription: "Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability,seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
 
     AbstractSubmissionGuidelinesData: {
-        title: "Research Idea Pitch / Doctoral Colloquium(Abstract Format)",
+        title: "Research Idea Pitch / Doctoral Colloquium (Abstract Format)",
         tHeadData: ['SubmissionType', 'Research Idea Pitch'],
         tBodyData: [
             [
@@ -634,10 +723,10 @@ export const siteData = {
     },
 
     presentationGuidelines: [
-        "3-minute research presentation for the research pitch and 15 minutes for the full paper presentation.",
-        "Strictly time-bound.",
-        "Research Pitch – maximum 3 slides or poster (As per the attached format).",
-        "Full Paper – 10 minutes Presentation and 5 minutes for feedback and discussion with the panel."
+        "Meet the Editors: This session provides direct interaction and insights from journal editors, giving participants valuable perspectives on publishing and research.",
+        "Meta-Analysis and Systematic Review: Dedicated to advanced research synthesis techniques, this session focuses on systematic review methods and meta-analytic strategies.",
+        "Advanced Multivariate Analysis & SEM: Featuring a session speaker, this highlight explores sophisticated statistical approaches and Structural Equation Modeling, ideal for experienced researchers",
+        
     ],
 
     publicationAvenuesData: {
@@ -680,23 +769,37 @@ export const siteData = {
         "All-Inclusive Meals: Enjoy daily breakfast, lunch, and dinner - no extra hassle!",
         "Value for Money: Works out to only ₹1500 per day per person.",
         "Convenience Guaranteed: Stay and meals bundled together for a stress-free experience.",
-        "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
+        // "Comfort Assured: Relax in a cozy environment designed for rest after your day's activities."
     ],
 
-    listOfHostels: [
-        "JC Residency Madurai - Rated as the #1 Best Value accommodation among over 400 listings. Noted for its warm hospitality, well-maintained rooms, pool, and excellent breakfast service.",
-        "Grand Madurai By GRT Hotels - A top-rated luxury hotel featuring a spa, pool, and a romantic yet family-friendly vibe. ",
-        "Courtyard by Marriott Madurai - A reliable upscale international chain offering luxurious, modern comforts.",
-        "Fortune Pandiyan Hotel - A mid-range option from the ITC group, offering good value with a neat blend of amenities.",
-        "Heritage Madurai- A unique luxury experience wrapped in historic charm—spacious rooms, plunge pool villas, a spa, and beautiful settings.",
-        "Hotel Royal Court - Ideally situated near both the Meenakshi Temple and railway station, offering modern comfort and convenience. ",
-        "Additional Notables",
-        "Gateway Madurai: Included among best luxury options like Grand Madurai and Courtyard. ",
-        "Poppys Hotel: Frequently mentioned for families; it’s mid-tier, comfortable, and well-rated.",
-        "Astoria Hotel: A good budget-friendly pick with positive guest feedback."
-    ],
+    // listOfHostels: [
+    //     "JC Residency Madurai - Rated as the #1 Best Value accommodation among over 400 listings. Noted for its warm hospitality, well-maintained rooms, pool, and excellent breakfast service.",
+    //     "Grand Madurai By GRT Hotels - A top-rated luxury hotel featuring a spa, pool, and a romantic yet family-friendly vibe. ",
+    //     "Courtyard by Marriott Madurai - A reliable upscale international chain offering luxurious, modern comforts.",
+    //     "Fortune Pandiyan Hotel - A mid-range option from the ITC group, offering good value with a neat blend of amenities.",
+    //     "Heritage Madurai- A unique luxury experience wrapped in historic charm—spacious rooms, plunge pool villas, a spa, and beautiful settings.",
+    //     "Hotel Royal Court - Ideally situated near both the Meenakshi Temple and railway station, offering modern comfort and convenience. ",
+    //     "Additional Notables",
+    //     "Gateway Madurai: Included among best luxury options like Grand Madurai and Courtyard. ",
+    //     "Poppys Hotel: Frequently mentioned for families; it’s mid-tier, comfortable, and well-rated.",
+    //     "Astoria Hotel: A good budget-friendly pick with positive guest feedback."
+    // ],
 
     //  venue data
+    
+     listOfHostels: [
+        "JC Residency Madurai.",
+        "Grand Madurai By GRT Hotels.",
+        "Courtyard by Marriott Madurai. ",
+        "Fortune Pandiyan Hotel.",
+        "Heritage Madurai.",
+        "Hotel Royal Court. ",
+       
+        "Gateway Madurai. ",
+        "Poppys Hotel.",
+        "Astoria Hotel."
+    ],
+    
     venueDetails: [
         {
             title: "Reaching Madurai:",
@@ -727,7 +830,7 @@ export const siteData = {
         }
     ],
 
-    venueImagePath: "/images/way to tsm.jpg",
+    venueImagePath: "/images/waytotsm.jpg",
 
     dayWiseScheduleImagePath: "/images/day_wise_schedule.jpg",
 
@@ -760,7 +863,7 @@ export const siteData = {
             title: "Research Idea Pitch / Doctoral Colloquium",
             subtitle: "(Abstract Format)",
             points: [
-                "For participation in the 3-minute pitch session during the Conference",
+                "3-minute pitch session during the Conference",
                 "Word Limit: 1500 Words.",
                 "Format: Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications.",
                 "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",

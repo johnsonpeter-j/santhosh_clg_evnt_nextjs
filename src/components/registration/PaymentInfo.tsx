@@ -9,7 +9,7 @@ export default function PaymentInfo() {
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
         <h3 className="text-xl font-bold text-gray-700 mb-2">
-          Registration Fee (Includes tax):
+          Registration Fee (Includes tax)
         </h3>
 
         <div className="overflow-x-auto">
@@ -28,7 +28,7 @@ export default function PaymentInfo() {
             <tbody>
               {siteData.paymmentInfoDetails.map((row, index) => (
                 <tr key={index} className="odd:bg-white even:bg-gray-50">
-                  <td className="border border-gray-300 px-4 py-2 font-medium">
+                  <td  className="border border-gray-300 px-4 py-2 font-semibold">
                     {row.category}
                   </td>
                   <td className="border border-gray-300 px-4 py-2 text-center">

@@ -16,13 +16,13 @@ export default function AboutConfernce() {
         </div>
 
         {/* Key Dates Card */}
-        <div id="key-dates" className="scroll-mt-20 bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600">
+        <div id="key-dates" className="scroll-mt-20 bg-white rounded-lg shadow-md p-5 border-t-4 border-green-600">
           <h3 className="text-2xl font-bold text-gray-700 mb-4 text-center">
             Key Dates
           </h3>
           <ul className={` list-inside text-gray-600 space-y-3`}>
             {siteData.keyDates.map((item, idx) => (
-              <li className={`${siteData?.keyDates.length - 1 === idx ? "list-disc" : ""} `} key={idx}>
+              <li className={`${siteData?.keyDates.length - 1 !== idx ? "list-disc" : ""} `} key={idx}>
                 <span className="font-bold">{item.label}:</span> {item.value}
               </li>
             ))}

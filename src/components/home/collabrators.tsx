@@ -8,7 +8,47 @@ export default function Collaborators() {
             <h3 className="text-2xl font-bold text-gray-700 mb-6">
                 Collaborating Institutions
             </h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+           
+
+            <div className="space-y-3">
+                {siteData.collabtaorData?.map((item, index) => (
+                    <div
+                        key={index}
+                        className="grid lg:grid-cols-2 shadow-lg max-h-md  md:items-center gap-10 p-4  rounded-lg "
+                    >
+                        {/* Image Column */}
+                        <div className="place-items-center">
+                            <Image
+                                src={item.img}
+                                alt={item.name}
+                                width={150}
+                                height={150}
+                                className=" w-72 object-contain shadow-md"
+                            />
+                        </div>
+
+                        {/* Text Column */}
+                        <div className="text-center md:text-left">
+                            <a
+                                href={item.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-lg font-bold text-gray-800 hover:underline block"
+                            >
+                                {item.name}
+                            </a>
+                            <p className="text-gray-600 text-sm mt-1">{item.desc}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+        </div>
+    )
+}
+
+
+/*  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
                 {siteData.collabtaorData.slice(0, 3)?.map((collabratorDataItem, collabratorDataIndex) => (
                     <div key={collabratorDataIndex} className="flex gap-2 flex-col items-center">
                         <Image
@@ -18,7 +58,7 @@ export default function Collaborators() {
                             height={120}
                             className="h-24 w-auto mb-2 shadow-md"
                         />
-                        {/* <h4 className="text-lg font-bold text-gray-800">{collabratorDataItem.name}</h4> */}
+                        // <h4 className="text-lg font-bold text-gray-800">{collabratorDataItem.name}</h4> 
                         <a
                             href={collabratorDataItem.link}
                             target="_blank"
@@ -41,7 +81,7 @@ export default function Collaborators() {
                             height={120}
                             className="h-24 w-auto mb-2 shadow-md"
                         />
-                        {/* <h4 className="text-lg font-bold text-gray-800">{collabratorDataItem.name}</h4> */}
+                        // <h4 className="text-lg font-bold text-gray-800">{collabratorDataItem.name}</h4> 
                         <a
                             href={collabratorDataItem.link}
                             target="_blank"
@@ -53,7 +93,4 @@ export default function Collaborators() {
                         <p className="text-gray-600 text-sm">{collabratorDataItem.desc}</p>
                     </div>
                 ))}
-            </div>
-        </div>
-    )
-}
+            </div> */

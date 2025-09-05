@@ -77,10 +77,10 @@ export default function PublicationAvenue() {
           aimed at upgrading the manuscript to meet the standards required for
           peer-reviewed journals.
         </p> */}
-        <p className="text-blue-800 mb-6">
+        {/* <p className="text-blue-800 mb-6">
           Selected full papers based on the internal review committee recommendation, will be invited for submission
           to one of the partnering journals, depending on the scope and quality of the work.
-        </p>
+        </p> */}
 
         {/* Partnering Journals */}
         <h3 className="text-xl font-semibold mb-3">Partnering Journals:</h3>

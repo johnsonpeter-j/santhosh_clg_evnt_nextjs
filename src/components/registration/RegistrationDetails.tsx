@@ -24,20 +24,21 @@ export default function RegistrationDetails() {
           <li>
             <p className="text-gray-600 leading-relaxed">
               Submission is open to Research Scholars, Early-Career Faculty Members / Assistant Professors, and
-              Postdoctoral Researchers.
+              Postdoctoral Researchers.Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and
+              Sustainability are welcome to submit.
             </p>
           </li>
-          <li>
+          {/* <li>
             <p className="text-gray-600 leading-relaxed">
               Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and
               Sustainability are welcome to submit.
             </p>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <p className="text-gray-600 leading-relaxed">
               Conference Website: To be Updated Shortly
             </p>
-          </li>
+          </li> */}
           <li>
             <p className="text-gray-600 leading-relaxed">
               Submission Link: To be Updated Shortly

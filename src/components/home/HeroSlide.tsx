@@ -26,7 +26,7 @@ export default function HeroSlider() {
                         src={src}
                         alt={`Slide ${index + 1}`}
                         fill
-                        className={`object-cover`}
+                        className={`md:object-cover object-contain`}
                         priority={index === 0}
                     />
                 </div>
