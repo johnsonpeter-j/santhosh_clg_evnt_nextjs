@@ -66,13 +66,13 @@ export const siteData = {
             submenus: [
                 { name: "Accommodation", href: "#accommodation" },
                 { name: "List of Hotels ", href: "#list_of_hotels" },
-                { name: "Discover Madurai", href: "#accommodation" },
+                { name: "Discover Madurai", href: "#discover-madurai" },
 
             ],
         },
 
         {
-            name: "Contact",
+            name: "Contact Us",
             href: "/contact",
             submenus: [
                 { name: "Contact Us", href: "#contact-form" },
