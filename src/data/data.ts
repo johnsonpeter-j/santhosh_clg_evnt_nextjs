@@ -70,6 +70,10 @@ export const siteData = {
 
             ],
         },
+        {
+            name: "Sponsors",
+            href: "/sponsors",
+        },
 
         {
             name: "Contact Us",
@@ -922,4 +926,53 @@ export const siteData = {
             ],
         },
     ]
+,
+
+
+     sponsors : [
+    {
+      title: "Title Sponsor",
+      price: "Rs. 2.5 Lakhs",
+      benefits: [
+        "Logo to be embossed in all the conference kits, brochures, consumables and all online and offline communications.",
+        "Session Chair position for representatives",
+        "Five complimentary registrations for participating in pre-conference workshop and paper presentations",
+        "Logo Displayed on the Home page of the website and in the Valediction background",
+        "Separate Exhibit space for display of products",
+      ],
+    },
+    {
+      title: "International Travel Partner",
+      price: "Rs. 2 Lakhs",
+      benefits: [
+        "Logo to be embossed in all the conference kits, brochures, consumables and all online and offline communications",
+        "Three complimentary registrations for participating in pre-conference workshop and paper presentations",
+        "Logo Displayed on the Home page of the website and in the Valediction background",
+        "Separate Exhibit space for display of products",
+       
+      ],
+    },
+    {
+      title: "Awards Partner",
+      price: "Rs. 1.5 Lakhs (9 Awards for Participants)",
+      benefits: [
+        "Logo to be embossed in all online and offline communications. ",
+        "Two complimentary registrations for participating in pre-conference workshop and paper presentations",
+        "Logo Displayed on the Home page of the website ",
+        "Separate Exhibit space for display of products"
+       
+      ],
+    },
+    {
+      title: "Travel Partner ",
+      price: "Rs. 1 Lakhs",
+      benefits: [
+        "Logo to be embossed in all online and offline communications.",
+        "Logo Displayed on the Home page of the website ",
+        "Separate Exhibit space for display of products",
+      
+      ],
+    },
+  ]
+
 }
