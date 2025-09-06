@@ -31,24 +31,27 @@ export default function PaymentInfo() {
                   {siteData.paymmentInfoDetails.length - 1 === index ? (
                     <>
                       <td
-                        colSpan={4}
+                        colSpan={3}
                         className="border border-gray-300 px-4 py-2 font-semibold"
                       >
                         {row.category}
                       </td>
                     </>
                   ) : (
+                    <>
                     <td className="border border-gray-300 px-4 py-2 font-semibold">
                       {row.category}
                     </td>
-                  )}
-
-                  <td className="border border-gray-300 px-4 py-2 text-center">
+                     <td className="border border-gray-300 px-4 py-2 text-center">
                     {row.indian}
                   </td>
                   <td className="border border-gray-300 px-4 py-2 text-center">
                     {row.international}
                   </td>
+                  </>
+                  )}
+
+                 
                 </tr>
               ))}
             </tbody>
