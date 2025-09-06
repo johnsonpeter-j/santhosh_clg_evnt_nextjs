@@ -28,9 +28,21 @@ export default function PaymentInfo() {
             <tbody>
               {siteData.paymmentInfoDetails.map((row, index) => (
                 <tr key={index} className="odd:bg-white even:bg-gray-50">
-                  <td  className="border border-gray-300 px-4 py-2 font-semibold">
-                    {row.category}
-                  </td>
+                  {siteData.paymmentInfoDetails.length - 1 === index ? (
+                    <>
+                      <td
+                        colSpan={4}
+                        className="border border-gray-300 px-4 py-2 font-semibold"
+                      >
+                        {row.category}
+                      </td>
+                    </>
+                  ) : (
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">
+                      {row.category}
+                    </td>
+                  )}
+
                   <td className="border border-gray-300 px-4 py-2 text-center">
                     {row.indian}
                   </td>

@@ -108,30 +108,35 @@ export const siteData = {
 
     collabtaorData: [
         {
+            id:1,
             name: "ICN Business School, France",
             desc: "ICN Business School is a French Business School with campuses in Paris, Nancy, and Berlin. It's known for its interdisciplinary approach, emphasizing creativity and innovation in business education, and holds prestigious triple crown accreditation (AACSB, EQUIS, and AMBA) & QS Ranking 51. The school offers a range of programs from Bachelor’s to Master’s levels, including specialized programs in areas like corporate finance and digital marketing",
             img: "/images/collabrators/icn bs.png",
             link: "https://www.icn-artem.com/en/",
         },
         {
+             id:2,
             name: "Università degli Studi di Napoli Federico II, Italy",
             desc: "Founded in 1224, the Università degli Studi di Napoli Federico II is one of the World’s oldest academic institutions in continuous operation, one among the ten universities globally in continuous operation since its inception (QS Ranking 379). The University hosts 24 Interdepartmental research centres and 17 Interuniversity research centres and is an institution that actively promotes research activities. The Institute actively collaborates with other research institutions, both within Italy and with International Institutions.",
             img: "/images/collabrators/EMI.png",
             link: "https://www.international.unina.it/",
         },
         {
+             id:3,
             name: "University of Sussex, United Kingdom",
             desc: "University of Sussex is a public research university located in Falmer, East Sussex, England. The Universityreceived its Royal Charter in August 1961, the first of the Plate Glass University generation. Overall QS Ranking 278 among the world University rankings in 2026. In the Research Excellence Framework, out of the 89% research submitted, 40.6% are regarded as “world-leading” or “Internationally excellent” 48.4% as per the 2021 REF rankings. The University was also awarded Silver in the 2023 Teaching Excellence Framework.",
             img: "/images/collabrators/sussex.jpg",
             link: "https://www.sussex.ac.uk/",
         },
         {
+             id:4,
             name: "School of Business, Universiti Teknologi Brunei (UTB), Brunei",
             desc: "The School of Business at Universiti Teknologi Brunei (UTB) is a leading institution committed to cultivating innovative, ethical, and globally-minded business leaders. Offering undergraduate, postgraduate, and professional programs, the School emphasizes practical learning, research excellence, and entrepreneurship development. With a strong focus on integrating technology, sustainability, and Islamic business values, UTB’s School of Business equips students to navigate complex business environments and contribute effectively to Brunei’s Smart Nation initiatives. Its dynamic faculty and industry collaborations foster transformative learning experiences that shape future-ready professionals.",
             img: "/images/collabrators/bruneiuniv.jpg",
             link: "https://www.utb.edu.bn/",
         },
         {
+             id:5,
             name: "Center for Application Economics Research (CAER), Ton Duc Thang University in Ho Chi Minh City, Vietnam",
             desc: "The Center for Application Economics Research (CAER) at Ton Duc Thang University in Ho Chi Minh City, Vietnam, is committed to promoting superior research, education, and policy discourse in the fields of economics and finance. CAER encourages interdisciplinary collaboration, advocates for evidence-based solutions for sustainable development, and establishes robust connections among academics, industry, and politicians. CAER significantly aids Vietnam's integration into the global academic and professional world through its research and training activities.",
             img: "/images/image003.png",
@@ -419,31 +424,44 @@ export const siteData = {
         {
             src: "/images/vanhaverbeke.jpg",
             name: "Prof. W. Vanhaverbeke",
-            role: "Editor in Chief of Technovation (Elsevier) (ABS – 3, ABDC-A, Q1, IF-10.9)",
+            role: "Editor-in-Chief, Technovation (Elsevier) (ABS – 3, ABDC-A, Q1, IF-10.9) ",
             place: "University of Antwerp, Belgium",
         },
         {
             src: "/images/britta linnea.jpg",
             name: "Prof. Britta Linnea Gammelgaard ",
-            role: "Editor in Chief of International Journal of Logistics Management (Emerald) (ABDC- A, Q1, IF- 6.4)",
+            role: "Editor-in-Chief International Journal of Logistics Management (Emerald)(ABDC- A, Q1, IF- 6.4)",
             place: "University of Southern Denmark, Denmark",
         },
         {
             src: "/images/andrea patrucco.jpg",
             name: "Dr. Andrea Patrucco",
-            role: "Florida International University, USA. Associate Editor - JSCM (Wiley) (ABDC-A*, Q1,IF 9.9), JPSM (Elsevier) (ABDC-A, Q1, IF 8.7), IJPDLM (Emerald) (ABDC-A, Q1, IF 8.2)",
+            role: "Associate Editor, Journal of Supply Chain Management (Wiley) (ABDC-A*, Q1, IF 9.9) Journal of Purchasing and Supply Management (Elsevier) (ABDC-A, Q1, IF 8.7) Senior Associate Editor & Editorial Assistant, International Journal of Physical Distribution and Logistics Management (Emerald) (ABDC-A, Q1, IF 8.2)",
             place: "Florida International University, USA",
         },
         {
             src: "/images/sunil luthra.jpg",
             name: "Dr. Sunil Luthra",
-            role: "Associate Editor at Journal of Cleaner Production (Elsevier) (ABDC- A, Q1, IF 10.0)",
-            place: "Director at the All-India Council for Technical Education (AICTE) in New Delhi, India",
-        }, {
+            role: "Associate Editor, Journal of Cleaner Production (Elsevier) (ABDC- A, Q1, IF 10.0)",
+            place: "Director, All-India Council for Technical Education (AICTE) New Delhi, India",
+        }, 
+        {
             src: "/images/sachin mangla.jpg",
             name: "Dr. Sachin Mangla",
-            role: "Associate Editor, IJLM (ABDC A) & Corporate Social Responsibility and Environmental Management (Q1, Scopus)",
+            role: "Associate Editor, International Journal of Logistics Management (Emerald)(ABDC- A, Q1, IF- 6.4) Associate Editor, Corporate Social Responsibility and Environmental Management (Q1, Scopus)",
             place: "O.P. Jindal Global University, Haryana, India",
+        },
+        {
+            src: "/images/Nripendra.png",
+            name: "Prof. Nripendra Rana",
+            role: "Editor in Chief of International Journal of Electronic Government Research (IGI Global)(ADBC-C,Q2,IF-1.5) Associate Editor of Journal of Computer Information Systems(Taylor & Francis)(ABDC-A,Q1,IF-9.3)",
+            place: "Queen's University Belfast UK",
+        },
+        {
+            src: "/images/Murugan.png",
+            name: "Dr. Murugan Pattusamy",
+            role: "",
+            place: "School of Management Studies, University of Hyderabad (UoH), Hyderabad",
         },
 
     ],
@@ -874,6 +892,11 @@ export const siteData = {
             category: "Full length paper",
             indian: "INR 5000",
             international: "EUR 150",
+        },
+        {
+            category: "Submission opens on 15th October 2025",
+            indian: "",
+            international: "",
         },
     ],
 

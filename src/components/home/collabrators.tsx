@@ -23,7 +23,7 @@ export default function Collaborators() {
                                 alt={item.name}
                                 width={150}
                                 height={150}
-                                className=" lg:w-40 w-50 h-50 lg:h-40 object-contain "
+                                className={` lg:w-40  ${siteData.collabtaorData[1].id === item.id ? "w-56 h-56":"w-50 h-50"} lg:h-40 object-contain `}
                             />
                         </div>
 

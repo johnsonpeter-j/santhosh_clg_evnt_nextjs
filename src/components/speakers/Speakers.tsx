@@ -16,9 +16,27 @@ export default function Speakers() {
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
                     Key Speakers
                 </h3>
-                <div className="grid md:grid-cols-5 gap-8">
-                    {siteData.keySpeakersData.map((member, idx) => (
-                        <div key={idx} className="flex flex-col items-center text-center">
+                <div className="grid md:grid-cols-4  gap-8">
+                    {siteData.keySpeakersData.slice(0,4).map((member, idx) => (
+                        <div key={idx} className="flex flex-col  items-center text-center">
+                            <Image
+                                src={member.src}
+                                alt={member.name}
+                                width={120}
+                                height={120}
+                                className="w-32  h-32  rounded-full mb-2 shadow-lg"
+                            />
+                            <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
+                            <p className="text-sm font-semibold text-gray-600 mb-1">
+                                {member.role}
+                            </p>
+                            <p className="text-gray-600 text-sm">{member.place}</p>
+                        </div>
+                    ))}
+                </div>
+                <div className="grid md:grid-cols-3 mt-12 gap-8">
+                    {siteData.keySpeakersData.slice(4,7).map((member, idx) => (
+                        <div key={idx} className="flex flex-col  items-center text-center">
                             <Image
                                 src={member.src}
                                 alt={member.name}
