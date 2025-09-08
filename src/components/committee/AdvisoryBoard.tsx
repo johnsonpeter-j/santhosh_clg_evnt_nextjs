@@ -13,7 +13,7 @@ export default function AdvisoryBoard() {
                 className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600"
             >
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
-                    Advisory Board
+                    Conference Advisory Committee
                 </h3>
                 <div className="mx-auto">
                     <ol className="list-decimal list-inside space-y-2">

@@ -27,7 +27,7 @@ export const siteData = {
             submenus: [
 
                 { name: "Organizing Committee", href: "#organization-committe" },
-                { name: "Advisory Board", href: "#advisory" },
+                { name: "Conference Advisory Committee", href: "#advisory" },
                 { name: "Internal Committee", href: "#internal-committee" },
             ],
         },
@@ -43,6 +43,8 @@ export const siteData = {
             href: "/guidelines",
             submenus: [
                 { name: "Who can Apply", href: "#call-for-papers" },
+                { name: "Conference Review Process", href: "#conference-review" },
+                { name: "Publication Options", href: "#publication-options" },
                 { name: "Submission Guidelines", href: "#abstract-guidelines" },
                 { name: "Paper/Abstract Submission", href: "#abstract-guidelines" },
                 // { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
@@ -688,6 +690,43 @@ export const siteData = {
 
     callForPaperDescription: "Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability,seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
 
+    ConferenceReviewProcess: [
+       {
+        content:"The abstract will be evaluated based on the relevance to the conference tracks."
+       },
+       {
+        content:"Post Abstract acceptance authors are invited to submit the full length paper."
+       },
+       {
+        content:"Double-Blind Peer Review: All submissions will undergo a strict double-blind review process as per COPE guidelines to ensure fairness, objectivity, and academic integrity."
+       },
+       {
+        content:"Expert Evaluation Panel: Reviews will be conducted by a panel of experienced national and international academicians, subject matter experts, and journal reviewers. The reviewer board is presented in the conference website."
+       },
+       {
+        content:"Plagiarism Check: Every paper will be screened through advanced plagiarism detection tools (e.g., Turnitin/iThenticate) to maintain ethical publication practices."
+       },
+       {
+        content:"High Acceptance Standards: Only papers that demonstrate academic rigor and innovation will be forwarded to desk level of the journal or journal recommendation. Expected acceptance rate is 20%."
+       },
+       {
+        content:"Acceptance will be communicated post the decision."
+       }
+
+    ],
+
+    Publicationoptions:[
+        {
+            content:"All original full length papers presented at the conference will be considered for publication in Scopus Indexed Proceedings / Edited Book series in Wiley and Elsevier"
+        },
+        {
+            content:"All accepted abstracts will be published in the Book of Abstracts, Publication with ISBN (for research pitch)."
+        },
+        {
+            content:"Authors choosing journal publication route will be invited to extend their work into full-length papers for potential submission to the journal. However, all recommended submissions must adhere to the journal's regular review policy."
+        }
+    ],
+
     AbstractSubmissionGuidelinesData: {
         title: "Research Idea Pitch / Doctoral Colloquium (Abstract Format)",
         tHeadData: ['SubmissionType', 'Research Idea Pitch'],
@@ -711,7 +750,7 @@ export const siteData = {
     },
 
     fullPaperSubmissionGuidelinessData: {
-        title: "Full Paper Submission (Springer Conference Proceedings)",
+        title: "Full Paper Submission (Scopus Conference Proceedings)",
         tHeadData: ['SubmissionType', 'Full Paper Submission'],
         tBodyData: [
             [
@@ -919,7 +958,7 @@ export const siteData = {
             title: "Full Paper Submission",
             subtitle: "(Springer Conference Proceedings)",
             points: [
-                "For consideration in the edited volume (Springer Conference Proceedings).",
+                "For consideration in the edited volume (Scopus Conference Proceedings).",
                 "Word Limit: 5000 to 6000 Words.",
                 "Format: Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications.",
                 "Eligible for Best Paper with Societal Impact & Publication Opportunity.",

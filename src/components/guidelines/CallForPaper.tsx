@@ -2,7 +2,7 @@ import { siteData } from "@/data/data";
 
 export default function CallForPaper() {
     return (
-        <section
+        <section 
             id="call-for-papers"
             className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8"
         >
