@@ -1,6 +1,6 @@
 
 import AdvisoryBoard from "@/components/committee/AdvisoryBoard";
-import InternalBoard from "@/components/committee/InternalComittee";
+
 import OrganizationBoard from "@/components/committee/OrganizationBoard";
 
 export default function ConferenceTeam() {
@@ -10,7 +10,7 @@ export default function ConferenceTeam() {
 
             <AdvisoryBoard />
 
-            <InternalBoard />
+           
         </div>
     );
 }

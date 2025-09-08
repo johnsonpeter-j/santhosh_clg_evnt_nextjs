@@ -15,7 +15,7 @@ export default function ListOfHostel() {
         <ol>
           {
             siteData.listOfHostels.map((accommodationDetailsDataItem, accommodationDetailsDataIndex) => {
-              return (<li key={`list_of_hostel_data_item_${accommodationDetailsDataIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]" >{accommodationDetailsDataItem}</li>)
+              return (<li key={`list_of_hostel_data_item_${accommodationDetailsDataIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]" ><a href={accommodationDetailsDataItem?.link} target="_blank">{accommodationDetailsDataItem?.hotel_name}</a></li>)
             })
           }
         </ol>

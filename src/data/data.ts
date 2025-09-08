@@ -29,8 +29,8 @@ export const siteData = {
       href: "/committee",
       submenus: [
         { name: "Organizing Committee", href: "#organization-committe" },
-        { name: "Conference Advisory Committee", href: "#advisory" },
-        { name: "Internal Committee", href: "#internal-committee" },
+        { name: "Conference Advisory Committee", href: "#advisory" }
+       
       ],
     },
     {
@@ -81,6 +81,7 @@ export const siteData = {
       name: "Contact Us",
       href: "/contact",
       submenus: [
+         { name: "Internal Committee", href: "#internal-committee" },
         { name: "Contact Us", href: "#contact-form" },
         { name: "FAQ", href: "#faq" },
       ],
@@ -90,7 +91,8 @@ export const siteData = {
   // home page data
   heroSlideImages: [
     // "/images/conf logo.jpg",
-    "/images/hero-slides/FOSLogo.png",
+    // "/images/hero-slides/FOSLogo.png",
+    "/images/hero-slides/FOSconferenceDate.jpg",
     "/images/hero-slides/thiyagaraja_3.jpg",
     // "/images/hero-slides/thiyagaraja_1.jpg",
     "/images/hero-slides/Foscollobratinginst.png",
@@ -170,9 +172,13 @@ export const siteData = {
       label: "Final Registration Deadline",
       value: "12th January 2026",
     },
+    // {
+    //   label: "International Conference Venue",
+    //   value: "Thiagarajar School of Management, Madurai, Tamil Nadu, India",
+    // },
     {
-      label: "International Conference Venue",
-      value: "Thiagarajar School of Management, Madurai, Tamil Nadu, India",
+      label: " Conference Dates ",
+      value: "22-24 January 2026",
     },
   ],
 
@@ -912,16 +918,43 @@ export const siteData = {
   //  venue data
 
   listOfHostels: [
-    "JC Residency Madurai",
-    "Grand Madurai By GRT Hotels",
-    "Courtyard by Marriott Madurai ",
-    "Fortune Pandiyan Hotel",
-    "Heritage Madurai",
-    "Hotel Royal Court ",
 
-    "Gateway Madurai ",
-    "Poppys Hotel",
-    "Astoria Hotel",
+    {
+      hotel_name : "JC Residency Madurai",
+      link:"https://maps.app.goo.gl/Uvw7UuTdBqxkeWpU7?g_st=aw"
+    },
+    {
+      hotel_name : "Grand Madurai By GRT Hotels",
+      link:"https://maps.app.goo.gl/DcvQJWK6wTjwspYs9?g_st=aw"
+    },
+    {
+      hotel_name : "Courtyard by Marriott Madurai",
+      link:"https://maps.app.goo.gl/gg2FeCFNnLoFhJR49?g_st=aw"
+    },
+    {
+      hotel_name : "Fortune Pandiyan Hotel",
+      link:"https://maps.app.goo.gl/M7Wocvk9L1Gd5YJR6?g_st=aw"
+    },
+    {
+      hotel_name : "Heritage Madurai",
+      link:"https://maps.app.goo.gl/caEoPyzHkZ95xNr4A?g_st=aw"
+    },
+    {
+      hotel_name : "Hotel Royal Court",
+      link:"https://maps.app.goo.gl/6QhNG7kr3gxT9cwu7?g_st=aw"
+    },
+    {
+      hotel_name : "Gateway Madurai",
+      link:"https://maps.app.goo.gl/fZQexRfxzFeFyXVv7?g_st=aw"
+    },
+    {
+      hotel_name : "Poppys Hotel",
+      link:"https://maps.app.goo.gl/JixaPjn2ZtkzzrbPA?g_st=aw"
+    },
+    {
+      hotel_name : "Astoria Hotel",
+      link:"https://maps.app.goo.gl/MaGWEzka8zF9QkhS9?g_st=aw"
+    }
   ],
 
   venueDetails: [

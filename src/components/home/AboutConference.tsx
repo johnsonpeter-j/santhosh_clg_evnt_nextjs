@@ -22,7 +22,7 @@ export default function AboutConfernce() {
           </h3>
           <ul className={` list-inside text-gray-600 space-y-3`}>
             {siteData.keyDates.map((item, idx) => (
-              <li className={`${siteData?.keyDates.length - 1 !== idx ? "list-disc" : ""} `} key={idx}>
+              <li className={`list-disc`} key={idx}>
                 <span className="font-bold">{item.label}:</span> {item.value}
               </li>
             ))}
