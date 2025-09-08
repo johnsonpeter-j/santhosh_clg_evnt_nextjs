@@ -664,6 +664,10 @@ export const siteData = {
   {
     name: "Dr. Thierry Houé",
     location: "(ICN Business School, France)"
+  },
+  {
+    name: "Prof. G. Ilankumaran",
+    location: "(Alagappa Institute of Management, Alagappa University, India)"
   }
 ],
 
