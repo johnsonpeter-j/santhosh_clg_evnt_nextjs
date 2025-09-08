@@ -13,7 +13,7 @@ export default function Footer() {
                         Thiagarajar School of Management
                     </h5>
                     <p className="text-sm">
-                        &copy; 2026 Thiagarajar School of Management. All rights reserved.
+                        &copy; 2026 Thiagarajar School of Management.<br/> -All rights reserved.
                     </p>
 
                     {/* Sitemap */}

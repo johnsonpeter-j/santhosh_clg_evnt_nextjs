@@ -58,21 +58,20 @@ export default function AboutTSM() {
             <ul className="list-disc">
               <li>
                 <p className="text-gray-600 text-justify tracking-wider">
-                  Engagement with pioneering research and emerging trends ensures participants interact directly with
-                  cutting-edge technologies and breakthrough studies through interactive sessions, keynote talks, and
-                  technical panels.
+                  Engagement with pioneering research and emerging trends enables participants to interact directly with cutting-edge technologies and breakthrough studies through interactive sessions, keynote talks, and technical panels.
+
                 </p>
               </li>
               <li>
                 <p className="text-gray-600 text-justify tracking-wider">
-                  Tailored feedback and one-on-one mentoring support early-career scholars, while deliberate inclusivity
-                  ensures broad representation across regions, disciplines, and genders.
+                 Tailored feedback and one-on-one mentoring support to early-career scholars, while deliberate (is the word deliberate necessary?) inclusivity ensures broad representation across regions, disciplines, and genders.
+
                 </p>
               </li>
               <li>
                 <p className="text-gray-600 text-justify tracking-wider">
-                  Real-world impact is fostered by connecting academic theory to practice and policy through collaborative
-                  dialogue, workshops, and case studies with researchers, practitioners, and policymakers.
+                  Real-world impact is fostered by connecting academic theory to practice and policy through collaborative dialogue, workshops, and case studies with researchers, practitioners, and policymakers.
+
                 </p>
               </li>
             </ul>

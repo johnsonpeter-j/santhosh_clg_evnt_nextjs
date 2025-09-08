@@ -14,7 +14,7 @@ export default function Collaborators() {
                 {siteData.collabtaorData?.map((item, index) => (
                     <div
                         key={index}
-                        className="grid lg:grid-cols-3 shadow-lg max-h-md  md:items-center gap-10 p-8  rounded-lg "
+                        className="grid lg:grid-cols-3 shadow-lg max-h-md  md:items-center  p-8  rounded-lg "
                     >
                         {/* Image Column */}
                         <div className="lg:col-span-1 place-items-center">
@@ -23,7 +23,7 @@ export default function Collaborators() {
                                 alt={item.name}
                                 width={150}
                                 height={150}
-                                className={` lg:w-40  ${siteData.collabtaorData[1].id === item.id ? "w-56 h-56":"w-50 h-50"} lg:h-40 object-contain `}
+                                className={` lg:w-96  ${siteData.collabtaorData[1].id === item.id ? "w-72 h-72":"w-60 h-60"} lg:h-40 object-contain `}
                             />
                         </div>
 
