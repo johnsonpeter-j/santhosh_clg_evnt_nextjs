@@ -29,7 +29,8 @@ export const siteData = {
       href: "/committee",
       submenus: [
         { name: "Organizing Committee", href: "#organization-committe" },
-        { name: "Conference Advisory Committee", href: "#advisory" }
+        { name: "Conference Advisory Committee", href: "#advisory" },
+        { name: " Reviewer Board Members", href: "#reviewer-board-members" }
        
       ],
     },
@@ -92,7 +93,7 @@ export const siteData = {
   heroSlideImages: [
     // "/images/conf logo.jpg",
     // "/images/hero-slides/FOSLogo.png",
-    "/images/hero-slides/FOSconferenceDate.jpg",
+    "/images/hero-slides/FOS.jpg",
     "/images/hero-slides/thiyagaraja_3.jpg",
     // "/images/hero-slides/thiyagaraja_1.jpg",
     "/images/hero-slides/Foscollobratinginst.png",
@@ -158,15 +159,15 @@ export const siteData = {
   keyDates: [
     {
       label: "Submission Deadline",
-      value: "21st November 2025",
+      value: "30st November 2025",
     },
     {
       label: "Author Notification",
-      value: "12th December 2025",
+      value: "20th December 2025",
     },
     {
       label: "Camera Ready Deadline",
-      value: "19th December 2025",
+      value: "29th December 2025",
     },
     {
       label: "Final Registration Deadline",
@@ -1112,4 +1113,134 @@ export const siteData = {
       ],
     },
   ],
+
+  internationalReviewers :[
+    { id:1,
+      name:"Dr. Jędrzej Charłampowicz",
+      designation:"Professor (Assistant), Gdynia Maritime University, Gdynia, Poland"
+    },
+    { id:2,
+      name:"Prof. Da Teng",
+      designation:"Associate Professor ,Beijing University of Chemical Technology, Beijing, China"
+    },
+    { id:3,
+      name:"Prof. Samuel Fosso Wamba",
+      designation:"Professor ,TBS Business School, Toulouse, France"
+    },
+    { id:4,
+      name:"Prof. Andrea Appolloni",
+      designation:"Associate professor ,University of Rome Tor Vergata, Rome, Italy"
+    },
+    {
+      id:5,
+      name:"Dr. Marzena Smol-Aruszanjan",
+      designation:"Professor,Mineral and Energy Economy Research Institute, Polish Academy of Sciences, Poland"
+    },
+    {
+      id:6,
+      name:"Dr. Shilpa Taneja",
+      designation:"Assistant professor ,Sheffield University Management School, University of Sheffield, Sheffield, UK"
+    },
+    { id:7,
+      name:"Dr. Sangeeta Khorana",
+      designation:"Assistant professor ,Aston Business School, Aston University, Birmingham, UK"
+    },
+    { id:8,
+      name:"Dr. Justyna Żywiołek",
+      designation:"Assistant professor ,Czestochowa University of Technology, Czestochowa, Poland"
+    },
+    {
+      id:9,
+      name:"Dr. Dongmei Cao",
+      designation:"Associate professor ,Nottingham Trent University, UK"
+    },
+    {
+      id:10,
+      name:"Dr. Xin Zhao",
+      designation:"Professor ,Anhui University of Finance and Economics, Bengbu, China"
+    },
+    { id:11,
+      name:"Dr. Tarik Saikouk",
+      designation:"Professor ,Excelia Business School, CERIIM, La Rochelle, France"
+    },
+    { id:12,
+      name:"Dr. Angappa Gunasekaran",
+      designation:"Professor ,Penn State University Harrisburg, Middletown, Pennsylvania, USA"
+    },
+    { id:13,
+      name:"Dr. Guoqing Zhao",
+      designation:"Lecturer ,School of Management, Swansea University, Swansea, UK"
+    },
+    { id:14,
+      name:"Dr.Hela Nammouri",
+      designation:"Assistant professor ,IRIT, Toulouse Université, 2 Rue Du Doyen Gabriel Marty, Toulouse Cedex 9, 31042, France"
+    },
+    { id:15,
+      name:"Dr. Nasiru Zubairu",
+      designation:"Lecturer ,Muscat University, Muscat, Oman"
+    },
+  ],
+
+  nationalReviewers : [
+    { id:1,
+      name:"Dr.Vikas Kumar",
+      designation:"Assistant professor ,National Institute of Food Technology Entrepreneurship and Management (NIFTEM-K), 131028 Kundli (Sonepat), India"
+    },
+    { id:2,
+      name:"Dr.Amanpreet Kaur",
+      designation:"Professor ,Punjab School of Economics, Guru Nanak Dev University, Amritsar, Punjab, India"
+    },
+    { id:3,
+      name:"Dr.Hema Gwalani",
+      designation:"Assistant professor ,SVKM's Narsee Monjee Institute of Management Studies (NMIMS) Deemed-to-be-University, Mumbai, India"
+    },
+    { id:4,
+      name:"Dr.Rohit Kumar Singh",
+      designation:"Associate professor ,International Management Institute, Kolkata, India"
+    },
+    {
+      id:5,
+      name:"Dr.Rashmi Ranjan Panigrahi",
+      designation:"Assistant professor ,GITAM School of Business, GITAM (Deemed to be) University, Visakhapatnam, Andhra Pradesh, India"
+    },
+    {
+      id:6,
+      name:"Dr.Avinash K. Shrivastava",
+      designation:"Assistant professor ,IMI Kolkata, West Bengal, India"
+    },
+    { id:7,
+      name:"Dr.Bishal Dey Sarkar",
+      designation:"Assistant professor ,Indian Institute of Management Bodh Gaya, Bodh Gaya, Bihar, India"
+    },
+    { id:8,
+      name:"Dr.Vikas Kumar",
+      designation:"Assistant professor ,Guru Nanak Dev University, Amritsar, India"
+    },
+    {
+      id:9,
+      name:"Dr. Arun Kumar Kaushik",
+      designation:"Associate professor ,Indian Institute of Management Amritsar, Punjab, India"
+    },
+    {
+      id:10,
+      name:"Dr.Pankaj Dutta",
+      designation:"Professor ,Indian Institute of Technology, Mumbai, India"
+    },
+    { id:11,
+      name:"Dr.Soni Agarwal",
+      designation:"Professor ,International Management Institute, Kolkata, India"
+    },
+    { id:12,
+      name:"Dr.Manish Mohan Baral",
+      designation:"Assistant professor ,GITAM School of Business, GITAM (Deemed to be University), Visakhapatnam, India"
+    },
+    { id:13,
+      name:"Dr.Anand Gurumurthi",
+      designation:"Professor ,Indian Institute of Management Kozhikode, Kerala, India"
+    },
+    { id:14,
+      name:"Dr.Yamini",
+      designation:"Assistant professor ,National Institute of Technology Tiruchirappalli, Tiruchirappalli, India"
+    }
+  ]
 };

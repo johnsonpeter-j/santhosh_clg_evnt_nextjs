@@ -36,23 +36,23 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Times";
+  font-family: Times;
   /* src: url("/fonts/times.ttf") format("truetype"); */
-  src: url("/fonts/Nireg.otf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+  src: url("/fonts/times3.ttf") format("truetype");  
   font-display: swap;
 }
 body {
   background: var(--background);
   color: var(--foreground);
   /* font-family: "Inter", sans-serif; */
-  font-family: "Times";
+  font-family: Times !important;
+  /* font-weight: 500; */
 }
 
 * {
   /* font-family: "Inter", sans-serif; */
-  font-family: "Times";
+  font-family: Times !important;
+  /* font-weight: 500; */
 }
 
 h1,
@@ -60,7 +60,7 @@ h2,
 h3,
 h4 {
   /* font-family: "Montserrat", sans-serif; */
-  font-family: "Times";
+  font-family: Times !important;
   color: #1a202c;
 }
 

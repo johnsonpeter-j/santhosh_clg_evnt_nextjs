@@ -20,7 +20,7 @@ export default function AdvisoryBoard() {
                         {siteData.advisoryBoardData.map((prof, index) => (
                             <li key={`advisory_board_data_item_${index}`} className="text-base font-semibold leading-relaxed tracking-wide">
 
-                                {prof.name}
+                               {prof.name}
                                 <p className="inline ms-2 font-light">{prof.location}</p>
 
                             </li>
