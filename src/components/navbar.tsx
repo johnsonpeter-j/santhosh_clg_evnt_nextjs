@@ -28,7 +28,7 @@ export default function Navbar() {
             height={40}
             src="/images/navbar/Ranknirf.jpg"
             alt="TSM Logo"
-            className="h-16 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-20"
+            className="h-16 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-16"
           />
         </div>
 

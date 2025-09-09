@@ -158,7 +158,7 @@ export const siteData = {
   keyDates: [
     {
       label: "Submission Deadline",
-      value: "30st November 2025",
+      value: "30th November 2025",
     },
     {
       label: "Author Notification",
@@ -211,8 +211,7 @@ export const siteData = {
         "Consumer activism, advocacy, and co-creation of sustainability initiatives",
         "Metrics, frameworks, and assessment tools for sustainability impact",
         "Policy implications and regulation shaping sustainable consumer engagement",
-        "Emerging market dynamics and inclusion in sustainable marketing"
-
+        "Emerging market dynamics and inclusion in sustainable marketing",
       ],
       // desc: "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentallyresponsible branding.",
       sdg_link:
@@ -231,7 +230,6 @@ export const siteData = {
         "Circular Economy Indicators & Metrics – Tracking and measuring circularity performance",
         "Life Cycle Sustainability Assessment - A holistic evaluation to compare options and reveal sustainability trade-offs.",
         "ESG Governance in Supply Chains – Embedding environmental, social, and governance standards in supply networks.",
-
       ],
       sdg_link:
         "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
@@ -261,8 +259,7 @@ export const siteData = {
         "Business Models for the Circular Economy —Designing businesses that minimize waste and maximize resource use.",
         "Cooperative & Inclusive Business Models — Ensuring equal benefits for all stakeholders.",
         "SDGs in Entrepreneurial Strategy — Aligning start-ups with UN Sustainable Development Goals.",
-        "Crisis-Driven Sustainable Innovation — Creating eco-friendly solutions in response to global challenges."
-      
+        "Crisis-Driven Sustainable Innovation — Creating eco-friendly solutions in response to global challenges.",
       ],
       sdg_link:
         "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
@@ -276,7 +273,7 @@ export const siteData = {
         "ESD Pedagogy – Teaching approaches that build sustainability mindsets.",
         "Training of Trainers & Capacity Building Initiatives – Equipping educators and leaders with sustainability skills.",
         "Digitalisation & E-learning for Sustainability – Using online learning to spread sustainable practice(s).",
-        "Community Engagement & Lifelong Learning – Involving citizens in ongoing sustainability education."
+        "Community Engagement & Lifelong Learning – Involving citizens in ongoing sustainability education.",
       ],
       // desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
       sdg_link:
@@ -293,7 +290,7 @@ export const siteData = {
         "Employee Well-being & Psychological Contracts – Supporting employee health, trust, and morale.",
         "Ethical & Transformational Leadership – Leading with vision, values, and responsibility.",
         "Workplace Spirituality & Green Leadership – Inspiring purpose and environmental stewardship at work.",
-        "Sustainable work practices in the age of AI and Gen AI. "
+        "Sustainable work practices in the age of AI and Gen AI. ",
       ],
       // desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
       sdg_link:
@@ -316,7 +313,7 @@ export const siteData = {
         "Nature-Positive Digital Innovation – Digital tools for biodiversity monitoring, regenerative agriculture, and nature-based solutions powered by AI and satellite data.",
         "ESG Data Platforms & Accountability – Technologies for transparent ESG reporting, supply chain tracing, compliance tracking, and blockchain-based verification of sustainability claims.",
         "Smart Cities, Infrastructure & Life Cycle Sustainability – Virtual models of urban systems, digital twins, and life cycle analysis (LCA) for emissions forecasting, resource optimization, and sustainable design decision-making.",
-        "Life Cycle Analysis & Digital Sustainability Tools – Integration of LCA with big data, AI, and blockchain and other digital tools to measure, monitor, and reduce environmental impacts across the entire life cycle of products, processes, and services."
+        "Life Cycle Analysis & Digital Sustainability Tools – Integration of LCA with big data, AI, and blockchain and other digital tools to measure, monitor, and reduce environmental impacts across the entire life cycle of products, processes, and services.",
       ],
       sdg_link:
         "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
@@ -341,7 +338,7 @@ export const siteData = {
         "Policy Impact on Sustainable Development – Measuring how laws influence environmental and social progress.",
         "Stakeholder Engagement in Policymaking – Involving citizens and businesses in policy creation.",
         "National & International Sustainability Standards – Guidelines for harmonised global sustainable practices.",
-        "Governing Natural Capital & Biodiversity Disclosure."
+        "Governing Natural Capital & Biodiversity Disclosure.",
       ],
       sdg_link:
         "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
@@ -361,7 +358,7 @@ export const siteData = {
         "Digital and data infrastructure: tracking and tracing systems, digital product passports, IoT and sensor data streams, interoperable data standards, and auditable reporting pipelines to enable measurement at scale.",
         "Actionable insights for decision-making: linking impact baselines to target-setting, translating frontier results into operational levers, and demonstrating scale-up under real-world constraints (capital, capacity, policy, and equity).",
         "Scalability and growth strategies: technology roadmapping, portfolio prioritization, modular scale-up, policy and market instruments, financing models, risk management, and governance mechanisms for scaling sustainability.",
-        "Sectoral and contextual applications: studies addressing hard-to-abate sectors (e.g., steel, cement, chemicals), particular and strategically relevant sectors (e.g., big tech, professional telescopes, research-intensive organizations, etc.), small and medium-sized enterprises (SMEs), and emerging markets. "
+        "Sectoral and contextual applications: studies addressing hard-to-abate sectors (e.g., steel, cement, chemicals), particular and strategically relevant sectors (e.g., big tech, professional telescopes, research-intensive organizations, etc.), small and medium-sized enterprises (SMEs), and emerging markets. ",
       ],
       sdg_link:
         "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
@@ -379,7 +376,7 @@ export const siteData = {
         "Carbon Markets & Offsets: Exploring the role and integrity of carbon trading schemes, carbon credits, and offset mechanisms in achieving climate targets.",
         "Economic Policies for Low-Carbon Futures: Creating incentives for a green economy through policies like carbon pricing, subsidies, and green finance.",
         "Climate Governance & Policy: The role of national governments and international organizations in climate policy-making, including the implementation of the Paris Agreement and other global frameworks",
-        "Climate-Smart Agriculture: Strategies to reduce emissions in the food sector while enhancing food security and resilience."
+        "Climate-Smart Agriculture: Strategies to reduce emissions in the food sector while enhancing food security and resilience.",
       ],
       sdg_link:
         "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
@@ -514,7 +511,7 @@ export const siteData = {
     {
       src: "/images/andrea patrucco.jpg",
       name: "Dr. Andrea Patrucco",
-      role: "Associate Editor, Journal of Supply Chain Management (Wiley) (ABDC-A*, Q1, IF 9.9) Journal of Purchasing and Supply Management (Elsevier) (ABDC-A, Q1, IF 8.7) Senior Associate Editor & Editorial Assistant, International Journal of Physical Distribution and Logistics Management (Emerald) (ABDC-A, Q1, IF 8.2)",
+      role: "Associate Editor, JSCM (Wiley) (ABDC-A*, Q1, IF 9.9) JPSM (Elsevier) (ABDC-A, Q1, IF 8.7) SAEEA, IJPDLM (Emerald) (ABDC-A, Q1, IF 8.2)",
       place: "Florida International University, USA",
     },
     {
@@ -554,7 +551,7 @@ export const siteData = {
     },
     {
       src: "/images/Vishala-Mam.jpg",
-      name: "Ms.Vishala Ramswami",
+      name: "Ms.Vishala Ramaswami",
       role: "Managing Trustee",
       place: "Manickavasagam Charitable Foundation (MCF)",
     },
@@ -840,7 +837,7 @@ export const siteData = {
     },
     {
       content:
-        "All accepted abstracts will be published in the Book of Abstracts, Publication with ISBN (for research pitch).",
+        "All accepted abstracts will be published in the Book of Abstracts, Publication with ISBN (for research pitch) / Research Pitch / Doctoral Colloquium",
     },
     {
       content:
@@ -849,7 +846,7 @@ export const siteData = {
   ],
 
   AbstractSubmissionGuidelinesData: {
-    title: "Research Idea Pitch / Doctoral Colloquium (Abstract Format)",
+    title: "Research Pitch / Doctoral Colloquium (Abstract Format)",
     tHeadData: ["SubmissionType", "Research Idea Pitch"],
     tBodyData: [
       [
@@ -1041,19 +1038,111 @@ export const siteData = {
 
   FaqsData: [
     {
-      question: "What are the dates for the conference?",
+      question: "How can I register?",
       answer:
-        "The International Conference on Frontiers of Sustainability will take place from <b>January 22nd to 24th, 2026</b>.",
+        "a.	Click on the registration link on the website and proceed as per the instructions provided in that section.",
     },
     {
-      question: "Is the registration fee refundable?",
+      question: "How do I submit my paper to the conference?",
       answer:
-        "Registration fees are <b>non-refundable</b>. Please ensure all details are correct before completing your payment.",
+        "a.	Please follow the submission link provided on the conference website. It will guide you towards a smooth submission process.",
     },
     {
-      question: "Who is eligible to participate?",
+      question:
+        "What are the Key dates, like submission deadlines for the conference?",
+      answer: "a.	The key dates are: ",
+      list: [
+        "Submission deadline: 30th November 2025",
+        "Author Notification: 20th December 2025",
+        "Camera-ready deadline: 29th December 2025",
+        "Final Registration Deadline: 12th January 2026",
+      ],
+    },
+    {
+      question: "How long can my presentation be?",
       answer:
-        "The conference is open to <b> Master&apos;s Degree, Ph.D. Research Scholars, Postdoctoral Researchers, and Early-Career &amp; Senior Faculty Members </b> across a wide range of disciplines.",
+        "a. The presentation time for the research pitch is: 3 minutes <br/> b.	The presentation time for full papers is: 10 minutes",
+    },
+    {
+      question:
+        "Is there a possibility of changing or altering my paper after submission?",
+      answer:
+        "a.	Apart from the suggestions from the reviewers, the authors will not be permitted to alter or change the paper after submission. ",
+    },
+    {
+      question: "Is there any possibility of altering my presentation time?",
+      answer:
+        "a.	There is no possibility of altering the presentation time. You are required to present your paper at your allotted time slot.",
+    },
+    {
+      question: "What are the reasons for the rejection of my paper?",
+      answer: "a.	There may be many reasons why a paper was rejected:",
+      list: [
+        "It is possible that the readers did not feel the paper contributed to the field, or that it was one of several papers on the same topic.",
+        "It is possible that the paper did not follow submission guidelines in some way. ",
+      ],
+      subText:
+        "Unfortunately, due to the high volume of submissions, the Program Committee cannot respond to inquiries about rejections. ",
+    },
+    {
+      question:
+        "Can I ask someone else to present my paper, even if I register as the presenting author?",
+      answer:
+        "a.	Only the presenting author must present the paper. No one else is allowed to make presentations in substitution. ",
+    },
+    {
+      question:
+        "What if my paper is accepted but I need to withdraw my submission?",
+      answer:
+        "a.	You can withdraw your paper by writing a formal email to the conference convenor requesting the withdrawal of your submission. Only mail communication is acceptable. ",
+    },
+    {
+      question:
+        "Can I co-present a paper?",
+      answer:
+        "a.	Yes, you are permitted to co-present a paper, but the time limit for presentation remains the same. ",
+    },
+    {
+      question:
+        "How do I pay the registration fee?",
+      answer:
+        "a.	Once the proposed submission is accepted for presentation, the participants can follow the payment link provided in the website for making payments. ",
+    },
+    {
+      question:
+        "Do I get letters of Invitation for the conference?",
+      answer:
+        "a.	Yes you will receive a letter of invitation for the conference by email. ",
+    },
+    {
+      question:
+        "Do I get attendance certificates if I decide to attend the pre-conference workshop only?",
+      answer:
+        "a.	Yes. You will receive attendance certificates even if you attend the pre-conference workshop only.  ",
+    },
+    {
+      question:
+        "What if my transaction gets declined? ",
+      answer:
+        "a.	Please check if any refund is initiated through the payment platform. If not kindly write an email to the conference team, with proof of payment, and the issue will be handled promptly",
+    },
+    {
+      question:
+        "What is the fastest way to reach the venue?",
+      answer:
+        "a.	The venue is well-connected road-wise. Call-taxis and Meter Autos are available round the clock in the city. You can contact any one of the organizing committee members for assistance. ",
+    },
+    {
+      question:
+        "Can I change the title of my accepted paper for presentation?",
+      answer:
+        "a.	No, you are not permitted to change the title of the paper after acceptance. ",
+    },
+    {
+      question:
+        "Is there any restrictions on the number of authors?",
+      answer:
+        "a.	No. But the names of all the contributors should be mentioned at the time of submission, and it is final.  ",
     },
   ],
 
@@ -1125,20 +1214,45 @@ export const siteData = {
       title: "Research Idea Pitch / Doctoral Colloquium",
       subtitle: "(Abstract Format)",
       points: [
-        "3-minute pitch session during the Conference.",
-        "Word Limit: 1500 Words.",
-        "Format: Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications.",
-        "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",
+        {
+          point1:"",
+          point2:"3-minute pitch session during the Conference."
+        },
+        {
+          point1:"Word Limit:",
+          point2:" 1500 Words."
+        },
+        {
+          point1:"Format:",
+          point2:" Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications."
+        },
+        {
+          point1:"",
+          point2:"Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards."
+        }
       ],
     },
     {
       title: "Full Paper Submission",
       subtitle: "(Springer Conference Proceedings)",
       points: [
-        "For consideration in the edited volume (Scopus Conference Proceedings).",
-        "Word Limit: 5000 to 6000 Words.",
-        "Format: Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications.",
-        "Eligible for Best Paper with Societal Impact & Publication Opportunity.",
+        {
+           point1:"",
+           point2:"For consideration in the edited volume (Scopus Conference Proceedings)."
+        },
+        {
+           point1:"Word Limit:",
+           point2:" 5000 to 6000 Words."
+        },
+        {
+           point1:"Format: ",
+           point2:" Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications."
+        },
+        {
+           point1:"",
+           point2:"Eligible for Best Paper with Societal Impact & Publication Opportunity."
+        },
+       
       ],
     },
   ],
@@ -1246,13 +1360,13 @@ export const siteData = {
     },
     {
       id: 11,
-      name: "Dr. Tarik Saikouk",
+      name: "Prof. Tarik Saikouk",
       designation:
         "Professor ,Excelia Business School, CERIIM, La Rochelle, France",
     },
     {
       id: 12,
-      name: "Dr. Angappa Gunasekaran",
+      name: "Prof. Angappa Gunasekaran",
       designation:
         "Professor ,Penn State University Harrisburg, Middletown, Pennsylvania, USA",
     },

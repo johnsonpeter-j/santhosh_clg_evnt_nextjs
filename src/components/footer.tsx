@@ -55,6 +55,12 @@ export default function Footer() {
                             fos2026-grie@tsm.ac.in
                         </a>
                     </p>
+                    <p>
+                        Address:{" "}
+                       
+                            Pamban Swamy Nagar, Thiruparankundram, Tamil Nadu 625005
+                       
+                    </p>
                 </div>
 
                 {/* Right - Map */}

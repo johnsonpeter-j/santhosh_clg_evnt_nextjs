@@ -14,7 +14,7 @@ export default function AbstractSubmissionGuidelines() {
 
                 <ul>
                     {siteData.submissionDetails[0].points.map((point, i) => (
-                        <li key={`abs_paper_sub_item_${i}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]">{point}</li>
+                        <li key={`abs_paper_sub_item_${i}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]"><strong>{point?.point1}</strong>{point?.point2}</li>
                     ))}
                 </ul>
             </div>

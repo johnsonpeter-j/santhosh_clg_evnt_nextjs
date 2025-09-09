@@ -93,8 +93,8 @@ export default function DayWiseSchedule() {
                   rowSpan={2}
                   className="bg-blue-200 text-base border border-gray-400 p-2"
                 >
-                  Research Idea
-                  <br /> Pitch / Doctoral Colloquium <br />
+                  Research
+                   Pitch / Doctoral Colloquium <br />
                   offline/ Online <br />
                   (National level)
                 </td>
@@ -186,7 +186,7 @@ export default function DayWiseSchedule() {
                   Session Speaker
                 </td>
                 <td className="bg-blue-100 text-base border border-gray-400 p-2">
-                  Research Idea <br /> Pitch / Doctoral Colloquium <br />
+                  Research  Pitch / Doctoral Colloquium <br />
                   offline/ Online
                   <br />
                   (National level)

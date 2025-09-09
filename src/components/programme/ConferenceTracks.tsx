@@ -36,7 +36,7 @@ export default function ConferenceTracks() {
 
             {/* Push this to the bottom */}
             <div className="mt-auto flex gap-3">
-              <p>For more details  <a className="underline" href={track.path}>download the track</a></p>
+              <p>For more details  <a className="underline" href={track.path}>Link</a></p>
               {/* <DownloadTrackDetails title={`See More`} path={track.path} fileName={track.fileName} /> */}
             </div>
           </div>

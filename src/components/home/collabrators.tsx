@@ -28,7 +28,7 @@ export default function Collaborators() {
                 className={`object-contain rounded-lg mx-auto 
             ${
               siteData.collabtaorData[1].id === item.id
-                ? "max-w-[220px]  md:max-w-[280px]"
+                ? "max-w-[250px] w-[190px] md:max-w-[280px]"
                 : "max-w-[180px]  md:max-w-[220px]"
             }
           `}
@@ -41,13 +41,13 @@ export default function Collaborators() {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-lg font-bold text-gray-800 hover:underline block"
+                className="text-xl font-bold text-gray-800 hover:underline block"
               >
                 {item.name}
               </a>
               <p
                 style={{ textAlign: "justify" }}
-                className="text-gray-600 text-sm mt-1"
+                className="text-gray-600 text-xl mt-1"
               >
                 {item.desc}
               </p>

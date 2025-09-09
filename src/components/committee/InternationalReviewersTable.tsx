@@ -1,5 +1,5 @@
 import { siteData } from "@/data/data"
-import NationalReviewers from "./NationalReviewers"
+// import NationalReviewers from "./NationalReviewers"
 
 
 const InternationalReviewersTable = () => {

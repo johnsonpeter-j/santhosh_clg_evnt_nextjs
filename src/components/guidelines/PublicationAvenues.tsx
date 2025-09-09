@@ -53,7 +53,7 @@ export default function PublicationAvenue() {
     // },
     {
       title: "Book of Abstracts Publication",
-      details: "with ISBN (for research pitch).",
+      details: "with ISBN (for research pitch). / Research Pitch / Doctoral Colloquium",
     },
   ];
 

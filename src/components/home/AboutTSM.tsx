@@ -70,7 +70,7 @@ export default function AboutTSM() {
               </li>
               <li>
                 <p className="text-gray-600 text-justify tracking-wider">
-                  Real-world impact is fostered by connecting academic theory to practice and policy through collaborative dialogue, workshops, and case studies with researchers, practitioners, and policymakers.
+                 Fostering real-world impact by connecting academic theory to practice and policy through collaborative dialogue, workshops, and case studies with researchers, practitioners, and policymakers.
 
                 </p>
               </li>
