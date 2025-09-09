@@ -12,16 +12,23 @@ export default function Navbar() {
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
 
   return (
-    <header className="h-16 lg:h-18 bg-[#f9f9f9] p-4 fixed top-0 left-0 w-full z-50 ">
+    <header className="h-16 lg:h-24 bg-[#f9f9f9] p-4 fixed top-0 left-0 w-full z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo + Title */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center ">
           <Image
             width={100}
             height={40}
             src="/images/navbar/fos_conference_logo.png"
             alt="TSM Logo"
             className="h-8 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-10 lg:w-40"
+          />
+          <Image
+            width={100}
+            height={40}
+            src="/images/navbar/Ranknirf.jpg"
+            alt="TSM Logo"
+            className="h-16 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-20"
           />
         </div>
 

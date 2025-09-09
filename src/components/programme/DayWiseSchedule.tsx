@@ -57,15 +57,15 @@ export default function DayWiseSchedule() {
                   className="bg-purple-300 text-base text-center border border-gray-400 p-2"
                   colSpan={2}
                 >
-                  FOS Release &amp; Inaugural Address(IIM Director)
+                  FOS Release &amp; Inaugural Address
                 </td>
                 <td className="bg-cyan-200 text-base border border-gray-400 p-2">
                   Guest Speaker Session <br />
-                  (Prof. Britta Linnea Gammelgaard)
+                 
                 </td>
                 <td className="bg-green-200 text-base border border-gray-400 p-2">
                   Guest Speaker Session <br />
-                  (Dr. Andrea Patrucco)
+                 
                 </td>
               </tr>
               <tr>
@@ -87,7 +87,7 @@ export default function DayWiseSchedule() {
                   colSpan={2}
                   className="bg-red-200 text-base border border-gray-400 text-center p-2"
                 >
-                  Keynote Address- Prof. W. Vanhaverbeke
+                  Keynote Address
                 </td>
                 <td
                   rowSpan={2}
@@ -116,7 +116,7 @@ export default function DayWiseSchedule() {
                   colSpan={2}
                   className="bg-red-200 text-base border border-gray-400 text-center p-2"
                 >
-                  Invited Session -Dr.Sunil Luthra
+                  Invited Session 
                 </td>
                 {/* <td className="bg-blue-200 border border-gray-400 p-2">
                   Conference Presentation
@@ -150,13 +150,12 @@ export default function DayWiseSchedule() {
                   className="bg-green-300 text-base border border-gray-400 p-2 text-center"
                 >
                   Meet the Editors Modertor
-                  <br /> Prof.Nachiappan Subramanian
+                  
                 </td>
                 {/* <td className="border border-gray-400 p-2"></td> */}
                 <td className="bg-indigo-200 text-base border border-gray-400 p-2">
                   Meta-Analysis and Systematic Review
-                  <br />
-                  (Prof. Nripendra P Rana)
+                 
                 </td>
                 <td className="bg-indigo-200 text-base border border-gray-400 p-2">
                   Conference Presentation
@@ -184,7 +183,7 @@ export default function DayWiseSchedule() {
                   className="bg-pink-300 text-base text-center border border-gray-400 p-2"
                 >
                   Advanced Multivariate Analysis &amp; SEM <br />
-                  Session Speaker: Dr.Murgan Pattusamy
+                  Session Speaker
                 </td>
                 <td className="bg-blue-100 text-base border border-gray-400 p-2">
                   Research Idea <br /> Pitch / Doctoral Colloquium <br />
