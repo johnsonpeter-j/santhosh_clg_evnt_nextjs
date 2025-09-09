@@ -14,7 +14,7 @@ export default function FullPaperSubmissionGuidelines() {
           {siteData.submissionDetails[1].points.map((point, i) => (
             <li
               key={`full_paper_sub_item_${i}`}
-              className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]"
+              className="ml-10 text-lg list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]"
             >
               <strong>{point?.point1}</strong>{point?.point2}
             </li>

@@ -15,7 +15,7 @@ export default function Accomodation() {
         <ol>
           {
             siteData.accommodationDetails.map((accommodationDetailsDataItem, accommodationDetailsDataIndex) => {
-              return (<li key={`accomodation_details_data_item_${accommodationDetailsDataIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]" >{accommodationDetailsDataItem}</li>)
+              return (<li key={`accomodation_details_data_item_${accommodationDetailsDataIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed text-lg marker:text-green-600 marker:text-[20px]" >{accommodationDetailsDataItem}</li>)
             })
           }
         </ol>

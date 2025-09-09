@@ -18,7 +18,7 @@ export default function AdvisoryBoard() {
                 <div className="mx-auto">
                     <ol className=" list-inside space-y-2">
                         {siteData.advisoryBoardData.map((prof, index) => (
-                            <li key={`advisory_board_data_item_${index}`} className="text-base font-semibold leading-relaxed tracking-wide">
+                            <li key={`advisory_board_data_item_${index}`} className="text-lg font-semibold leading-relaxed tracking-wide">
 
                                {prof.name}
                                 <p className="inline ms-2 font-light">{prof.location}</p>
@@ -29,7 +29,7 @@ export default function AdvisoryBoard() {
                 </div>
             </div>
             <div className="mt-2">
- <p className="text-sm font-semibold text-gray-600 mb-1">
+ <p className="text-lg font-semibold text-gray-600 mb-1">
                               Co-Organized by Faculty of Thiagarajar school of management
                             </p>
                

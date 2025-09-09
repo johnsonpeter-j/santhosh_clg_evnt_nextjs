@@ -18,37 +18,37 @@ export default function OrganizationBoard() {
                 </h3>
                 <div className="grid md:grid-cols-3 place-content-center gap-8">
                     {siteData.chiefPatron.slice(0, 3).map((member, idx) => (
-                        <div key={idx} className="flex flex-col items-center text-center gap-2">
+                        <div key={idx} className="flex flex-col items-center text-center ">
                             <Image
                                 src={member.src}
                                 alt={member.name}
                                 width={128}
                                 height={128}
-                                className=" object-cover w-32 h-32 rounded-full mb-2 shadow-lg"
+                                className=" object-cover w-32 h-32 rounded-full  shadow-lg"
                             />
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-                            <p className="text-sm font-semibold text-gray-600 mb-1">
+                            <p className="text-lg font-semibold text-gray-600 ">
                                 {member.role}
                             </p>
-                            <p className="text-gray-600 text-sm">{member.place}</p>
+                            <p className="text-gray-600 text-lg">{member.place}</p>
                         </div>
                     ))}
                 </div>
-                <div className="grid md:grid-cols-2 place-content-center gap-8 mt-4">
+                <div className="grid md:grid-cols-2 place-content-center gap-8 mt-8">
                     {siteData.chiefPatron.slice(3, 5).map((member, idx) => (
-                        <div key={idx} className="flex flex-col items-center text-center gap-2">
+                        <div key={idx} className="flex flex-col items-center text-center ">
                             <Image
                                 src={member.src}
                                 alt={member.name}
                                 width={128}
                                 height={128}
-                                className=" object-cover w-32 h-32 rounded-full mb-2 shadow-lg"
+                                className=" object-cover w-32 h-32 rounded-full  shadow-lg"
                             />
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-                            <p className="text-sm font-semibold text-gray-600 mb-1">
+                            <p className="text-lg font-semibold text-gray-600 ">
                                 {member.role}
                             </p>
-                            <p className="text-gray-600 text-sm">{member.place}</p>
+                            <p className="text-gray-600 text-lg">{member.place}</p>
                         </div>
                     ))}
                 </div>
@@ -61,19 +61,19 @@ export default function OrganizationBoard() {
                     Conference Convenor
                 </h3>
                 <div className="grid md:grid-cols-1 place-content-center gap-8">
-                    <div className="flex flex-col items-center text-center gap-2">
+                    <div className="flex flex-col items-center text-center">
                         <Image
                             src={'/images/11.webp'}
                             alt=""
                             width={128}
                             height={128}
-                            className=" object-cover w-32 h-32 rounded-full mb-2 shadow-lg"
+                            className=" object-cover w-32 h-32 rounded-full mb-1 shadow-lg"
                         />
                         <h4 className="text-xl font-bold text-gray-800">Dr. K. Mathiyazhagan</h4>
-                        <p className="text-sm font-semibold text-gray-600 mb-1">
+                        <p className="text-lg font-semibold text-gray-600 ">
                             Professor & Head of Research Centre
                         </p>
-                        <p className="text-gray-600 text-sm">
+                        <p className="text-gray-600 text-lg">
                             Thiagarajar School of Management, Madurai,
                             India
                         </p>

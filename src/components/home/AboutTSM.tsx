@@ -14,7 +14,7 @@ export default function AboutTSM() {
               Thiagarajar School of Management, Madurai, India
             </Link>
           </h3>
-          <p className="text-gray-600 text-justify tracking-wider">{siteData.aboutData[0].description}</p>
+          <p className="text-gray-600 text-lg text-justify tracking-wider">{siteData.aboutData[0].description}</p>
          
         </div >
 
@@ -57,19 +57,19 @@ export default function AboutTSM() {
             </h3>
             <ul className="list-disc">
               <li>
-                <p className="text-gray-600 text-justify tracking-wider">
+                <p className="text-gray-600 text-lg text-justify tracking-wider">
                   Engagement with pioneering research and emerging trends enables participants to interact directly with cutting-edge technologies and breakthrough studies through interactive sessions, keynote talks, and technical panels.
 
                 </p>
               </li>
               <li>
-                <p className="text-gray-600 text-justify tracking-wider">
+                <p className="text-gray-600 text-lg text-justify tracking-wider">
                  Tailored feedback and one-on-one mentoring support to early-career scholars, while deliberate (is the word deliberate necessary?) inclusivity ensures broad representation across regions, disciplines, and genders.
 
                 </p>
               </li>
               <li>
-                <p className="text-gray-600 text-justify tracking-wider">
+                <p className="text-gray-600 text-lg text-justify tracking-wider">
                  Fostering real-world impact by connecting academic theory to practice and policy through collaborative dialogue, workshops, and case studies with researchers, practitioners, and policymakers.
 
                 </p>

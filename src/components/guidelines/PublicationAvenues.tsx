@@ -117,17 +117,17 @@ export default function PublicationAvenue() {
         <h3 className="text-xl font-semibold mb-3">Partnering Journals:</h3>
         <ul className="list-disc list-inside space-y-2 mb-2">
           {journals.map((journal, index) => (
-            <li key={index} className="text-gray-800">
+            <li key={index} className="text-gray-800 text-lg">
               {journal.title} ({journal.publisher}, {journal.index})
             </li>
           ))}
         </ul>
-        <p className="italic text-sm text-gray-600 mb-6">
+        <p className="italic text-base text-gray-600 mb-6">
           *A few more journals are yet to be confirmed.
         </p>
 
         {/* Note */}
-        <p className="text-sm font-semibold text-gray-700 italic mb-8">
+        <p className="text-lg font-semibold text-gray-700 italic mb-8">
           <span className="font-semibold">Note:</span> Authors of selected
           high-quality contributions will be invited to extend their work into
           full-length papers for potential submission to the journal. However, all
@@ -141,7 +141,7 @@ export default function PublicationAvenue() {
         </h3>
         <ul className="list-disc list-inside space-y-2 mb-8">
           {proceedings.map((item, index) => (
-            <li key={index} className="text-gray-800">
+            <li key={index} className="text-gray-800 text-lg">
               <span className="font-semibold">{item.title}</span> {item.details}
             </li>
           ))}
@@ -151,8 +151,8 @@ export default function PublicationAvenue() {
         </h3>
           <ul className=" list-inside space-y-2 mb-8">
           {EditorialBoard.map((item, index) => (
-            <li key={index} className="text-gray-800">
-              <p className="font-semibold">{item.name}</p> 
+            <li key={index} className="text-gray-800 text-lg">
+              <p className="font-semibold text-lg">{item.name}</p> 
               {item.designation}
             </li>
           ))}

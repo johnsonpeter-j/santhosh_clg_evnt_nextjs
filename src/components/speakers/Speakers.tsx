@@ -27,10 +27,10 @@ export default function Speakers() {
                                 className="w-32  h-32  rounded-full mb-2 shadow-lg"
                             />
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-                            <p className="text-sm font-semibold text-gray-600 mb-1">
+                            <p className="text-lg font-semibold text-gray-600 mb-1">
                                 {member.role}
                             </p>
-                            <p className="text-gray-600 text-sm">{member.place}</p>
+                            <p className="text-gray-600 text-base">{member.place}</p>
                         </div>
                     ))}
                 </div>
@@ -45,16 +45,16 @@ export default function Speakers() {
                                 className="w-32  h-32  rounded-full mb-2 shadow-lg"
                             />
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-                            <p className="text-sm font-semibold text-gray-600 mb-1">
+                            <p className="text-lg font-semibold text-gray-600 mb-1">
                                 {member.role}
                             </p>
-                            <p className="text-gray-600 text-sm">{member.place}</p>
+                            <p className="text-gray-600 text-base">{member.place}</p>
                         </div>
                     ))}
                 </div>
                 <div className="p-1">
 
-                    <p>* A few more editors yet to be confirmed</p>
+                    <p className="text-base">* A few more editors yet to be confirmed</p>
                 </div>
             </div>
         </section>

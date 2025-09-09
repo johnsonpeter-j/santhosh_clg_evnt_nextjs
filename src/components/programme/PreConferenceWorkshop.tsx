@@ -17,7 +17,7 @@ export default function PreConferenceWorkshop() {
                   key={`presentation_guidelines_item_${presentationGuidelinesIndex}`}
                   className="ml-10 list-disc  text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]"
                 >
-                  <p className="inline font-semibold">{presentationGuidelinesItem?.title}</p> {presentationGuidelinesItem.content}
+                  <p className="inline text-lg font-semibold">{presentationGuidelinesItem?.title}</p> {presentationGuidelinesItem.content}
                 </li>
               );
             }

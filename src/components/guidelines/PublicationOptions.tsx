@@ -16,7 +16,7 @@ const PublicationOptions = () => {
               {siteData?.Publicationoptions.map((content, i) => (
                 <li
                   key={`full_paper_sub_item_${i}`}
-                  className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[16px]"
+                  className="ml-10 list-disc text-lg text-gray-600 leading-relaxed marker:text-green-600 marker:text-[16px]"
                 >
                   {content?.content}
                 </li>

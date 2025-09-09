@@ -16,7 +16,7 @@ export default function Madurai() {
         className="bg-white rounded-lg shadow-md p-6 mb-  4 border-l-4 border-green-600"
       >
         <h3 className="text-2xl font-bold text-gray-700 mb-4">Discover Madurai</h3>
-        <p className="text-gray-600 mb-4">
+        <p className="text-gray-600 mb-4 text-lg">
           Madurai, the cultural capital of Tamil Nadu, is a city with a rich history and vibrant
           traditions. Known for its magnificent temples, bustling markets, and delicious cuisine,
           it is a city that offers a unique and unforgettable experience.

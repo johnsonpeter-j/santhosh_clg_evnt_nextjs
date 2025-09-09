@@ -6,13 +6,13 @@ export default function AboutConfernce() {
 
     <div className=" mt-4 mx-4">
       {/* Responsive Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-12">
         {/* About Conference Card */}
         <div id="about-the-conference" className="scroll-mt-20 bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 md:col-span-2">
           <h3 className="text-2xl font-bold text-gray-700 mb-4">
             About The Conference
           </h3>
-          <p className="text-gray-600 text-justify tracking-wider">{siteData.aboutData[1].description}</p>
+          <p className="text-gray-600 text-lg text-justify tracking-wider">{siteData.aboutData[1].description}</p>
         </div>
 
         {/* Key Dates Card */}
@@ -20,7 +20,7 @@ export default function AboutConfernce() {
           <h3 className="text-3xl font-bold text-gray-700 mb-4 text-center">
             Key Dates
           </h3>
-          <ul className={` list-inside text-lg text-gray-600 space-y-3`}>
+          <ul className={` list-inside text-xl text-gray-600 space-y-3`}>
             {siteData.keyDates.map((item, idx) => (
               <li className={`list-disc`} key={idx}>
                 <span className="font-bold">{item.label}:</span> {item.value}

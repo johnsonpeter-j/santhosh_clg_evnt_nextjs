@@ -20,42 +20,42 @@ const OrganizationCommitee = () => {
           {siteData.organizationBoardData.slice(2, 5).map((member, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center gap-2"
+              className="flex flex-col items-center text-center "
             >
               <Image
                 src={member.src}
                 alt={member.name}
                 width={128}
                 height={128}
-                className=" object-cover w-32 h-32 rounded-full mb-2 shadow-lg"
+                className=" object-cover w-32 h-32 rounded-full  shadow-lg"
               />
               <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-              <p className="text-sm font-semibold text-gray-600 mb-1">
+              <p className="text-lg font-semibold text-gray-600 ">
                 {member.role}
               </p>
-              <p className="text-gray-600 text-sm">{member.place}</p>
+              <p className="text-gray-600 text-lg">{member.place}</p>
             </div>
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 mt-5 place-content-center gap-8">
+        <div className="grid md:grid-cols-2 mt-8 place-content-center gap-8">
           {siteData.organizationBoardData.slice(5, 8).map((member, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center gap-2"
+              className="flex flex-col items-center text-center "
             >
               <Image
                 src={member.src}
                 alt={member.name}
                 width={128}
                 height={128}
-                className={` object-top w-32 h-32 rounded-full mb-2 shadow-lg`}
+                className={` object-top w-32 h-32 rounded-full  shadow-lg`}
               />
               <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-              <p className="text-sm font-semibold text-gray-600 mb-1">
+              <p className="text-lg font-semibold text-gray-600 ">
                 {member.role}
               </p>
-              <p className="text-gray-600 text-sm">{member.place}</p>
+              <p className="text-gray-600 text-lg">{member.place}</p>
             </div>
           ))}
         </div>

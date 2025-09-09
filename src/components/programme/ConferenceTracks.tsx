@@ -19,13 +19,13 @@ export default function ConferenceTracks() {
             key={idx}
             className="flex flex-col bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow"
           >
-            <h3 className="text-md font-bold text-gray-500  mb-2">
-              Track {idx + 1} <span className="text-gray-700"><br />{track.title}</span>
+            <h3 className="text-md font-bold text-gray-500 text-xl mb-2">
+              Track {idx + 1} <span className="text-gray-700 text-xl"><br />{track.title}</span>
             </h3>
             <ul className="list-disc p-3">
               {track.desc.map((item, index) =>
                 <li key={index}>
-                  <p className="text-gray-600 text-sm leading tracking-wide">
+                  <p style={{ textAlign: "justify" }} className="text-gray-600 text-lg leading tracking-wide">
                     {item}
                   </p>
                 </li>

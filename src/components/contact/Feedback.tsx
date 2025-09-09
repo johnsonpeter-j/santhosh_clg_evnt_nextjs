@@ -98,7 +98,7 @@ export default function Feedback() {
             <div>
               <label
                 htmlFor="name"
-                className="block text-gray-700 font-bold mb-1"
+                className="block text-gray-700 text-lg font-bold mb-1"
               >
                 Your Name
               </label>
@@ -117,7 +117,7 @@ export default function Feedback() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-gray-700 font-bold mb-1"
+                className="block text-lg text-gray-700 font-bold mb-1"
               >
                 Your Email
               </label>
@@ -136,7 +136,7 @@ export default function Feedback() {
             <div>
               <label
                 htmlFor="comments"
-                className="block text-gray-700 font-bold mb-1"
+                className="block text-lg text-gray-700 font-bold mb-1"
               >
                 Comments
               </label>
@@ -156,7 +156,7 @@ export default function Feedback() {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-green-600 text-white font-bold py-2 px-6 rounded-full hover:bg-green-700 transition-colors duration-300 transform hover:scale-105 shadow-lg disabled:opacity-60"
+                className="bg-green-600 text-lg text-white font-bold py-2 px-6 rounded-full hover:bg-green-700 transition-colors duration-300 transform hover:scale-105 shadow-lg disabled:opacity-60"
               >
                 {loading ? "Submitting..." : "Submit"}
               </button>

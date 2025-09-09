@@ -21,7 +21,7 @@ export default function AccountDetails() {
                        key={index}
                        className="ml-10 list-disc  text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]"
                      >
-                       <p className="inline font-semibold">{account?.title}</p> {account.content}
+                       <p className="inline font-semibold text-lg">{account?.title}</p> {account.content}
                      </li>
                    );
                  }

@@ -11,7 +11,7 @@ export default function CallForPaper() {
                 <h3 className="text-xl font-bold text-gray-700 mb-2">
                     Who Can Apply ?
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 text-lg leading-relaxed">
                     {siteData.callForPaperDescription}
                 </p>
                

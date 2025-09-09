@@ -31,7 +31,7 @@ export default function FAQs() {
               </summary>
               {faqDataItem.answer && (
                 <p
-                  className="text-gray-600 mt-2"
+                  className="text-gray-600 text-lg mt-2"
                   dangerouslySetInnerHTML={{
                     __html: sanitizeHtml(faqDataItem.answer),
                   }}
@@ -41,7 +41,7 @@ export default function FAQs() {
               {faqDataItem.list && (
                 <ul className="list-disc list-inside space-y-1">
                   {faqDataItem.list.map((item, idx) => (
-                    <li key={idx} className="ps-5 text-gray-600">
+                    <li style={{textAlign:'justify'}} key={idx} className="ps-5 text-lg  text-gray-600">
                       {item}
                     </li>
                   ))}
@@ -50,7 +50,7 @@ export default function FAQs() {
 
               {faqDataItem.subText && (
                 <p
-                  className="text-gray-600 mt-2"
+                  className="text-gray-600 mt-2 text-lg"
                   dangerouslySetInnerHTML={{
                     __html: sanitizeHtml(faqDataItem.subText),
                   }}

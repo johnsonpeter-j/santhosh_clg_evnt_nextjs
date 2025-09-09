@@ -12,19 +12,19 @@ export default function Footer() {
                     <h5 className="font-bold text-lg mb-2 text-white">
                         Thiagarajar School of Management
                     </h5>
-                    <p className="text-sm">
+                    <p className="text-base">
                         &copy; 2026 Thiagarajar School of Management.<br/> -All rights reserved.
                     </p>
 
                     {/* Sitemap */}
                     <div className="mt-4">
-                        <h5 className="font-bold text-md mb-1 text-white">Sitemap</h5>
+                        <h5 className="font-bold text-md mb-1 text-lg text-white">Sitemap</h5>
                         <ul className="flex flex-wrap gap-x-4 text-sm">
                             {footerData.map((item) => (
                                 <li key={item.id}>
                                     <Link
                                         href={`${item.id}`}
-                                        className="hover:text-green-500 transition-colors"
+                                        className="hover:text-green-500 text-base transition-colors"
                                     >
                                         {item.label}
                                     </Link>
@@ -46,7 +46,7 @@ export default function Footer() {
                             chairperson@tsm.ac.in 
                         </a>
                     </p> */}
-                    <p>
+                    <p className="text-base">
                         For Any Queries:{" "}
                         <a
                             href="mailto:fos2026-grie@tsm.ac.in"
@@ -55,7 +55,7 @@ export default function Footer() {
                             fos2026-grie@tsm.ac.in
                         </a>
                     </p>
-                    <p>
+                    <p className="text-base">
                         Address:{" "}
                        
                             Pamban Swamy Nagar, Thiruparankundram, Tamil Nadu 625005

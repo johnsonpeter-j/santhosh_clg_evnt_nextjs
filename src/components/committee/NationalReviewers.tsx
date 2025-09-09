@@ -20,8 +20,8 @@ const NationalReviewers = () => {
             <thead className="bg-white ">
               <tr className="divide-gray-300 border border-gray-300">
              
-                <th scope="col" className="px-4 py-3 font-semibold  text-sm text-gray-700">National Reviewer</th>
-                <th scope="col" className="px-4 py-3  text-sm font-semibold text-gray-700">Affiliation</th>
+                <th scope="col" className="px-4 py-3 font-semibold  text-lg text-gray-700">National Reviewer</th>
+                <th scope="col" className="px-4 py-3  text-lg font-semibold text-gray-700">Affiliation</th>
               </tr>
             </thead>
 
@@ -33,7 +33,7 @@ const NationalReviewers = () => {
                 >
                   
 
-                  <td className="px-4 py-4 whitespace-normal text-sm  align-top">
+                  <td className="px-4 py-4 whitespace-normal text-base  align-top">
                     <div className="flex items-start gap-3">
                       <div className="">
                         <div className="font-medium ">{r.name}</div>
@@ -42,7 +42,7 @@ const NationalReviewers = () => {
                   </td>
 
                   <td className="px-4 py-4 text-sm ">
-                    <div className="text-sm  break-words">
+                    <div className="text-base break-words">
                       {r.designation}
                     </div>
                   </td>

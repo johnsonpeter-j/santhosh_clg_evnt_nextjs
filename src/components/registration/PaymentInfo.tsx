@@ -17,18 +17,18 @@ export default function PaymentInfo() {
             <thead className="bg-gray-100">
               <tr>
                 <th className="border border-gray-300 px-4 py-2"></th>
-                <th className="border border-gray-300 px-4 py-2 text-center">
+                <th className="border text-base border-gray-300 px-4 py-2 text-center">
                   Early Bird <br />
                   (Before 31/12/2025)
                 </th>
-                <th className="border border-gray-300 px-4 py-2 text-center">
+                <th className="border  text-base border-gray-300 px-4 py-2 text-center">
                   Indian Participants
                 </th>
-                <th className="border border-gray-300 px-4 py-2 text-center">
+                <th className="border  text-base border-gray-300 px-4 py-2 text-center">
                   Early Bird for International Participants
                   <br /> (Before 31/12/2025)
                 </th>
-                <th className="border border-gray-300 px-4 py-2 text-center">
+                <th className="border  text-base border-gray-300 px-4 py-2 text-center">
                   International Participants
                 </th>
               </tr>
@@ -40,26 +40,26 @@ export default function PaymentInfo() {
                     <>
                       <td
                         colSpan={5}
-                        className="border mx-auto border-gray-300 px-4 py-2 font-semibold"
+                        className="border text-base mx-auto border-gray-300 px-4 py-2 font-semibold"
                       >
                         {row.category}
                       </td>
                     </>
                   ) : (
                     <>
-                      <td className="border border-gray-300 px-4 py-2 font-semibold">
+                      <td className="border text-base border-gray-300 px-4 py-2 font-semibold">
                         {row?.category}</td>
-                      <td className="border border-gray-300 px-4 py-2 text-center">
+                      <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.EarlyBirdInd}
                       </td>
-                      <td className="border border-gray-300 px-4 py-2 text-center">
+                      <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.indian}
                       </td>
-                      <td className="border border-gray-300 px-4 py-2 text-center">
+                      <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.EarlyBirdNat}
                       </td>
                       
-                      <td className="border border-gray-300 px-4 py-2 text-center">
+                      <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.international}
                       </td>
                     </>

@@ -29,16 +29,16 @@ export default function SponsorshipSection() {
                 <BadgePercent />
               </div>
               {/* Title */}
-              <h3 className="text-lg font-bold text-gray-900">
+              <h3 className="text-xl font-bold text-gray-900">
                 {sponsor.title}
               </h3>
-              <p className="text-sm font-semibold text-gray-700 mb-4">
+              <p className="text-lg font-semibold text-gray-700 mb-4">
                 {sponsor.price}
               </p>
               {/* Benefits */}
-              <ul className="list-disc list-inside text-left text-gray-600 text-sm space-y-2">
+              <ul className="list-disc list-inside text-left text-gray-600 text-lg space-y-2">
                 {sponsor.benefits.map((benefit, i) => (
-                  <li key={i}>{benefit}</li>
+                  <li style={{textAlign:'justify'}} key={i}>{benefit}</li>
                 ))}
               </ul>
             </div>

@@ -15,7 +15,7 @@ export default function PresentationGuidelines() {
                 <ul>
                     {
                         siteData.presentationGuidelines.map((presentationGuidelinesItem, presentationGuidelinesIndex) => {
-                            return (<li key={`presentation_guidelines_item_${presentationGuidelinesIndex}`} className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]">{presentationGuidelinesItem}</li>)
+                            return (<li key={`presentation_guidelines_item_${presentationGuidelinesIndex}`} className="ml-10 text-lg list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]">{presentationGuidelinesItem}</li>)
                         })
                     }
                 </ul>

@@ -28,7 +28,7 @@ export default function Navbar() {
             height={40}
             src="/images/navbar/Ranknirf.jpg"
             alt="TSM Logo"
-            className="h-16 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-16"
+            className="h-16 w-20 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-16"
           />
         </div>
 
@@ -40,7 +40,7 @@ export default function Navbar() {
                 <li key={item.name} className="relative group">
                   <Link
                     href={item.href}
-                    className="text-sm flex items-center space-x-1 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                    className="text-base flex items-center space-x-1 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                   >
                     <span>{item.name}</span>
                     {item.submenus && <ChevronDown size={16} />}
@@ -53,7 +53,7 @@ export default function Navbar() {
                         <li key={sub.name}>
                           <Link
                             href={`${item.href}${sub.href}`}
-                            className="text-sm block px-4 py-2 text-gray-800 hover:bg-gray-100"
+                            className="text-base block px-4 py-2 text-gray-800 hover:bg-gray-100"
                           >
                             {sub.name}
                           </Link>
@@ -110,7 +110,7 @@ export default function Navbar() {
                         // router.push(item?.href); // navigate to /dashboard
                         // setMobileOpen(false);
                       }}
-                      className="text-sm flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                      className="text-base flex justify-between items-center w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                     >
                       {item.name}
                       {item.submenus && <ChevronDown size={16} />}
@@ -122,7 +122,7 @@ export default function Navbar() {
                             <Link
                               href={`${item.href}${sub.href}`}
                               onClick={() => setMobileOpen(false)}
-                              className="text-sm block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
+                              className="text-base block px-2 py-1 text-gray-700 hover:bg-gray-100 rounded"
                             >
                               {sub.name}
                             </Link>

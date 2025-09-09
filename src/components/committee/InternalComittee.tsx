@@ -18,10 +18,10 @@ export default function InternalBoard() {
                     {siteData.internalBoardData.map((member, idx) => (
                         <div key={idx} className="flex flex-col bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 hover:shadow-lg transition-shadow gap-2">
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
-                            <p className="text-sm font-semibold text-gray-600 mb-1">
+                            <p className="text-lg font-semibold text-gray-600 ">
                                 {member.email}
                             </p>
-                            <p className="text-gray-600 text-sm">{member.phone}</p>
+                            <p className="text-gray-600 text-lg">{member.phone}</p>
                         </div>
                     ))}
                 </div>

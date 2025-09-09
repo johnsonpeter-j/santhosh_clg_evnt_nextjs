@@ -23,8 +23,8 @@ const InternationalReviewersTable = () => {
             <thead className="bg-white">
               <tr className="divide-gray-300 border border-gray-300">
               
-                <th scope="col" className="px-4 py-3 font-semibold  text-sm text-gray-700">International Reviewer</th>
-                <th scope="col" className="px-4 py-3  text-sm font-semibold text-gray-700">Affiliation</th>
+                <th scope="col" className="px-4 py-3 font-semibold  text-lg text-gray-700">International Reviewer</th>
+                <th scope="col" className="px-4 py-3  text-lg font-semibold text-gray-700">Affiliation</th>
               </tr>
             </thead>
 
@@ -36,7 +36,7 @@ const InternationalReviewersTable = () => {
                 >
                  
 
-                  <td className="px-4 py-4 whitespace-normal text-sm  align-top">
+                  <td className="px-4 py-4 whitespace-normal text-base  align-top">
                     <div className="flex items-start gap-3">
                       <div className="">
                         <div className="font-medium ">{r.name}</div>
@@ -44,8 +44,8 @@ const InternationalReviewersTable = () => {
                     </div>
                   </td>
 
-                  <td className="px-4 py-4 text-sm ">
-                    <div className="text-sm  break-words">
+                  <td className="px-4 py-4  ">
+                    <div className="text-base  break-words">
                       {r.designation}
                     </div>
                   </td>

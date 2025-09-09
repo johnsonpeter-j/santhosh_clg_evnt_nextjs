@@ -19,7 +19,7 @@ export default function RegistrationDetails() {
         </ol> */}
         <ol className=" px-4 mt-3">
           <li>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               Submission is open to Research Scholars, Early-Career Faculty Members / Assistant Professors, and
               Postdoctoral Researchers.Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and
               Sustainability are welcome to submit.
@@ -37,7 +37,7 @@ export default function RegistrationDetails() {
             </p>
           </li> */}
           <li>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-gray-600 text-lg leading-relaxed">
               Submission Link: To be Updated Shortly
             </p>
           </li>
