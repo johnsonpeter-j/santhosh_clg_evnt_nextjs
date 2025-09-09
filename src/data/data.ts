@@ -31,7 +31,6 @@ export const siteData = {
         { name: "Organizing Committee", href: "#organization-committe" },
         { name: "Conference Advisory Committee", href: "#advisory" },
         { name: " Reviewer Board Members", href: "#reviewer-board-members" }
-       
       ],
     },
     {
@@ -82,7 +81,7 @@ export const siteData = {
       name: "Contact Us",
       href: "/contact",
       submenus: [
-         { name: "Internal Committee", href: "#internal-committee" },
+        { name: "Internal Committee", href: "#internal-committee" },
         { name: "Contact Us", href: "#contact-form" },
         { name: "FAQ", href: "#faq" },
       ],
@@ -919,43 +918,42 @@ export const siteData = {
   //  venue data
 
   listOfHostels: [
-
     {
-      hotel_name : "JC Residency Madurai",
-      link:"https://maps.app.goo.gl/Uvw7UuTdBqxkeWpU7?g_st=aw"
+      hotel_name: "JC Residency Madurai",
+      link: "https://maps.app.goo.gl/Uvw7UuTdBqxkeWpU7?g_st=aw",
     },
     {
-      hotel_name : "Grand Madurai By GRT Hotels",
-      link:"https://maps.app.goo.gl/DcvQJWK6wTjwspYs9?g_st=aw"
+      hotel_name: "Grand Madurai By GRT Hotels",
+      link: "https://maps.app.goo.gl/DcvQJWK6wTjwspYs9?g_st=aw",
     },
     {
-      hotel_name : "Courtyard by Marriott Madurai",
-      link:"https://maps.app.goo.gl/gg2FeCFNnLoFhJR49?g_st=aw"
+      hotel_name: "Courtyard by Marriott Madurai",
+      link: "https://maps.app.goo.gl/gg2FeCFNnLoFhJR49?g_st=aw",
     },
     {
-      hotel_name : "Fortune Pandiyan Hotel",
-      link:"https://maps.app.goo.gl/M7Wocvk9L1Gd5YJR6?g_st=aw"
+      hotel_name: "Fortune Pandiyan Hotel",
+      link: "https://maps.app.goo.gl/M7Wocvk9L1Gd5YJR6?g_st=aw",
     },
     {
-      hotel_name : "Heritage Madurai",
-      link:"https://maps.app.goo.gl/caEoPyzHkZ95xNr4A?g_st=aw"
+      hotel_name: "Heritage Madurai",
+      link: "https://maps.app.goo.gl/caEoPyzHkZ95xNr4A?g_st=aw",
     },
     {
-      hotel_name : "Hotel Royal Court",
-      link:"https://maps.app.goo.gl/6QhNG7kr3gxT9cwu7?g_st=aw"
+      hotel_name: "Hotel Royal Court",
+      link: "https://maps.app.goo.gl/6QhNG7kr3gxT9cwu7?g_st=aw",
     },
     {
-      hotel_name : "Gateway Madurai",
-      link:"https://maps.app.goo.gl/fZQexRfxzFeFyXVv7?g_st=aw"
+      hotel_name: "Gateway Madurai",
+      link: "https://maps.app.goo.gl/fZQexRfxzFeFyXVv7?g_st=aw",
     },
     {
-      hotel_name : "Poppys Hotel",
-      link:"https://maps.app.goo.gl/JixaPjn2ZtkzzrbPA?g_st=aw"
+      hotel_name: "Poppys Hotel",
+      link: "https://maps.app.goo.gl/JixaPjn2ZtkzzrbPA?g_st=aw",
     },
     {
-      hotel_name : "Astoria Hotel",
-      link:"https://maps.app.goo.gl/MaGWEzka8zF9QkhS9?g_st=aw"
-    }
+      hotel_name: "Astoria Hotel",
+      link: "https://maps.app.goo.gl/MaGWEzka8zF9QkhS9?g_st=aw",
+    },
   ],
 
   venueDetails: [
@@ -1006,23 +1004,31 @@ export const siteData = {
 
   paymmentInfoDetails: [
     {
-      category: "Pre-conference Workshop",
-      indian: "INR 1500",
-      international: "EUR 50",
+      category: "Pre-conference Workshop Only",
+      EarlyBirdInd: "INR 1500",
+      indian: "INR 2000",
+      EarlyBirdNat: "EUR 50",
+      international: "EUR 70",
     },
     {
       category: "Research Pitch / Doctoral Colloquium",
-      indian: "INR 3500",
-      international: "EUR 100",
+      EarlyBirdInd: "INR 3500",
+      indian: "INR 4000",
+      EarlyBirdNat: "EUR 100",
+      international: "EUR 120",
     },
     {
       category: "Full length paper",
-      indian: "INR 5000",
-      international: "EUR 150",
+      EarlyBirdInd: "INR 500",
+      indian: "INR 5800",
+      EarlyBirdNat: "EUR 150",
+      international: "EUR 170",
     },
     {
       category: "Submission opens on 15th October 2025",
+      EarlyBirdInd: "",
       indian: "",
+      EarlyBirdNat: "",
       international: "",
     },
   ],
@@ -1114,133 +1120,178 @@ export const siteData = {
     },
   ],
 
-  internationalReviewers :[
-    { id:1,
-      name:"Dr. Jędrzej Charłampowicz",
-      designation:"Professor (Assistant), Gdynia Maritime University, Gdynia, Poland"
-    },
-    { id:2,
-      name:"Prof. Da Teng",
-      designation:"Associate Professor ,Beijing University of Chemical Technology, Beijing, China"
-    },
-    { id:3,
-      name:"Prof. Samuel Fosso Wamba",
-      designation:"Professor ,TBS Business School, Toulouse, France"
-    },
-    { id:4,
-      name:"Prof. Andrea Appolloni",
-      designation:"Associate professor ,University of Rome Tor Vergata, Rome, Italy"
+  internationalReviewers: [
+    {
+      id: 1,
+      name: "Dr. Jędrzej Charłampowicz",
+      designation:
+        "Professor (Assistant), Gdynia Maritime University, Gdynia, Poland",
     },
     {
-      id:5,
-      name:"Dr. Marzena Smol-Aruszanjan",
-      designation:"Professor,Mineral and Energy Economy Research Institute, Polish Academy of Sciences, Poland"
+      id: 2,
+      name: "Prof. Da Teng",
+      designation:
+        "Associate Professor ,Beijing University of Chemical Technology, Beijing, China",
     },
     {
-      id:6,
-      name:"Dr. Shilpa Taneja",
-      designation:"Assistant professor ,Sheffield University Management School, University of Sheffield, Sheffield, UK"
-    },
-    { id:7,
-      name:"Dr. Sangeeta Khorana",
-      designation:"Assistant professor ,Aston Business School, Aston University, Birmingham, UK"
-    },
-    { id:8,
-      name:"Dr. Justyna Żywiołek",
-      designation:"Assistant professor ,Czestochowa University of Technology, Czestochowa, Poland"
+      id: 3,
+      name: "Prof. Samuel Fosso Wamba",
+      designation: "Professor ,TBS Business School, Toulouse, France",
     },
     {
-      id:9,
-      name:"Dr. Dongmei Cao",
-      designation:"Associate professor ,Nottingham Trent University, UK"
+      id: 4,
+      name: "Prof. Andrea Appolloni",
+      designation:
+        "Associate professor ,University of Rome Tor Vergata, Rome, Italy",
     },
     {
-      id:10,
-      name:"Dr. Xin Zhao",
-      designation:"Professor ,Anhui University of Finance and Economics, Bengbu, China"
+      id: 5,
+      name: "Dr. Marzena Smol-Aruszanjan",
+      designation:
+        "Professor,Mineral and Energy Economy Research Institute, Polish Academy of Sciences, Poland",
     },
-    { id:11,
-      name:"Dr. Tarik Saikouk",
-      designation:"Professor ,Excelia Business School, CERIIM, La Rochelle, France"
+    {
+      id: 6,
+      name: "Dr. Shilpa Taneja",
+      designation:
+        "Assistant professor ,Sheffield University Management School, University of Sheffield, Sheffield, UK",
     },
-    { id:12,
-      name:"Dr. Angappa Gunasekaran",
-      designation:"Professor ,Penn State University Harrisburg, Middletown, Pennsylvania, USA"
+    {
+      id: 7,
+      name: "Dr. Sangeeta Khorana",
+      designation:
+        "Assistant professor ,Aston Business School, Aston University, Birmingham, UK",
     },
-    { id:13,
-      name:"Dr. Guoqing Zhao",
-      designation:"Lecturer ,School of Management, Swansea University, Swansea, UK"
+    {
+      id: 8,
+      name: "Dr. Justyna Żywiołek",
+      designation:
+        "Assistant professor ,Czestochowa University of Technology, Czestochowa, Poland",
     },
-    { id:14,
-      name:"Dr.Hela Nammouri",
-      designation:"Assistant professor ,IRIT, Toulouse Université, 2 Rue Du Doyen Gabriel Marty, Toulouse Cedex 9, 31042, France"
+    {
+      id: 9,
+      name: "Dr. Dongmei Cao",
+      designation: "Associate professor ,Nottingham Trent University, UK",
     },
-    { id:15,
-      name:"Dr. Nasiru Zubairu",
-      designation:"Lecturer ,Muscat University, Muscat, Oman"
+    {
+      id: 10,
+      name: "Dr. Xin Zhao",
+      designation:
+        "Professor ,Anhui University of Finance and Economics, Bengbu, China",
+    },
+    {
+      id: 11,
+      name: "Dr. Tarik Saikouk",
+      designation:
+        "Professor ,Excelia Business School, CERIIM, La Rochelle, France",
+    },
+    {
+      id: 12,
+      name: "Dr. Angappa Gunasekaran",
+      designation:
+        "Professor ,Penn State University Harrisburg, Middletown, Pennsylvania, USA",
+    },
+    {
+      id: 13,
+      name: "Dr. Guoqing Zhao",
+      designation:
+        "Lecturer ,School of Management, Swansea University, Swansea, UK",
+    },
+    {
+      id: 14,
+      name: "Dr.Hela Nammouri",
+      designation:
+        "Assistant professor ,IRIT, Toulouse Université, 2 Rue Du Doyen Gabriel Marty, Toulouse Cedex 9, 31042, France",
+    },
+    {
+      id: 15,
+      name: "Dr. Nasiru Zubairu",
+      designation: "Lecturer ,Muscat University, Muscat, Oman",
     },
   ],
 
-  nationalReviewers : [
-    { id:1,
-      name:"Dr.Vikas Kumar",
-      designation:"Assistant professor ,National Institute of Food Technology Entrepreneurship and Management (NIFTEM-K), 131028 Kundli (Sonepat), India"
-    },
-    { id:2,
-      name:"Dr.Amanpreet Kaur",
-      designation:"Professor ,Punjab School of Economics, Guru Nanak Dev University, Amritsar, Punjab, India"
-    },
-    { id:3,
-      name:"Dr.Hema Gwalani",
-      designation:"Assistant professor ,SVKM's Narsee Monjee Institute of Management Studies (NMIMS) Deemed-to-be-University, Mumbai, India"
-    },
-    { id:4,
-      name:"Dr.Rohit Kumar Singh",
-      designation:"Associate professor ,International Management Institute, Kolkata, India"
+  nationalReviewers: [
+    {
+      id: 1,
+      name: "Dr.Vikas Kumar",
+      designation:
+        "Assistant professor ,National Institute of Food Technology Entrepreneurship and Management (NIFTEM-K), 131028 Kundli (Sonepat), India",
     },
     {
-      id:5,
-      name:"Dr.Rashmi Ranjan Panigrahi",
-      designation:"Assistant professor ,GITAM School of Business, GITAM (Deemed to be) University, Visakhapatnam, Andhra Pradesh, India"
+      id: 2,
+      name: "Dr.Amanpreet Kaur",
+      designation:
+        "Professor ,Punjab School of Economics, Guru Nanak Dev University, Amritsar, Punjab, India",
     },
     {
-      id:6,
-      name:"Dr.Avinash K. Shrivastava",
-      designation:"Assistant professor ,IMI Kolkata, West Bengal, India"
-    },
-    { id:7,
-      name:"Dr.Bishal Dey Sarkar",
-      designation:"Assistant professor ,Indian Institute of Management Bodh Gaya, Bodh Gaya, Bihar, India"
-    },
-    { id:8,
-      name:"Dr.Vikas Kumar",
-      designation:"Assistant professor ,Guru Nanak Dev University, Amritsar, India"
+      id: 3,
+      name: "Dr.Hema Gwalani",
+      designation:
+        "Assistant professor ,SVKM's Narsee Monjee Institute of Management Studies (NMIMS) Deemed-to-be-University, Mumbai, India",
     },
     {
-      id:9,
-      name:"Dr. Arun Kumar Kaushik",
-      designation:"Associate professor ,Indian Institute of Management Amritsar, Punjab, India"
+      id: 4,
+      name: "Dr.Rohit Kumar Singh",
+      designation:
+        "Associate professor ,International Management Institute, Kolkata, India",
     },
     {
-      id:10,
-      name:"Dr.Pankaj Dutta",
-      designation:"Professor ,Indian Institute of Technology, Mumbai, India"
+      id: 5,
+      name: "Dr.Rashmi Ranjan Panigrahi",
+      designation:
+        "Assistant professor ,GITAM School of Business, GITAM (Deemed to be) University, Visakhapatnam, Andhra Pradesh, India",
     },
-    { id:11,
-      name:"Dr.Soni Agarwal",
-      designation:"Professor ,International Management Institute, Kolkata, India"
+    {
+      id: 6,
+      name: "Dr.Avinash K. Shrivastava",
+      designation: "Assistant professor ,IMI Kolkata, West Bengal, India",
     },
-    { id:12,
-      name:"Dr.Manish Mohan Baral",
-      designation:"Assistant professor ,GITAM School of Business, GITAM (Deemed to be University), Visakhapatnam, India"
+    {
+      id: 7,
+      name: "Dr.Bishal Dey Sarkar",
+      designation:
+        "Assistant professor ,Indian Institute of Management Bodh Gaya, Bodh Gaya, Bihar, India",
     },
-    { id:13,
-      name:"Dr.Anand Gurumurthi",
-      designation:"Professor ,Indian Institute of Management Kozhikode, Kerala, India"
+    {
+      id: 8,
+      name: "Dr.Vikas Kumar",
+      designation:
+        "Assistant professor ,Guru Nanak Dev University, Amritsar, India",
     },
-    { id:14,
-      name:"Dr.Yamini",
-      designation:"Assistant professor ,National Institute of Technology Tiruchirappalli, Tiruchirappalli, India"
-    }
-  ]
+    {
+      id: 9,
+      name: "Dr. Arun Kumar Kaushik",
+      designation:
+        "Associate professor ,Indian Institute of Management Amritsar, Punjab, India",
+    },
+    {
+      id: 10,
+      name: "Dr.Pankaj Dutta",
+      designation: "Professor ,Indian Institute of Technology, Mumbai, India",
+    },
+    {
+      id: 11,
+      name: "Dr.Soni Agarwal",
+      designation:
+        "Professor ,International Management Institute, Kolkata, India",
+    },
+    {
+      id: 12,
+      name: "Dr.Manish Mohan Baral",
+      designation:
+        "Assistant professor ,GITAM School of Business, GITAM (Deemed to be University), Visakhapatnam, India",
+    },
+    {
+      id: 13,
+      name: "Dr.Anand Gurumurthi",
+      designation:
+        "Professor ,Indian Institute of Management Kozhikode, Kerala, India",
+    },
+    {
+      id: 14,
+      name: "Dr.Yamini",
+      designation:
+        "Assistant professor ,National Institute of Technology Tiruchirappalli, Tiruchirappalli, India",
+    },
+  ],
 };

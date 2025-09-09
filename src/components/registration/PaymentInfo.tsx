@@ -18,7 +18,15 @@ export default function PaymentInfo() {
               <tr>
                 <th className="border border-gray-300 px-4 py-2"></th>
                 <th className="border border-gray-300 px-4 py-2 text-center">
+                  Early Bird <br />
+                  (Before 31/12/2025)
+                </th>
+                <th className="border border-gray-300 px-4 py-2 text-center">
                   Indian Participants
+                </th>
+                <th className="border border-gray-300 px-4 py-2 text-center">
+                  Early Bird for International Participants
+                  <br /> (Before 31/12/2025)
                 </th>
                 <th className="border border-gray-300 px-4 py-2 text-center">
                   International Participants
@@ -31,27 +39,31 @@ export default function PaymentInfo() {
                   {siteData.paymmentInfoDetails.length - 1 === index ? (
                     <>
                       <td
-                        colSpan={3}
-                        className="border border-gray-300 px-4 py-2 font-semibold"
+                        colSpan={5}
+                        className="border mx-auto border-gray-300 px-4 py-2 font-semibold"
                       >
                         {row.category}
                       </td>
                     </>
                   ) : (
                     <>
-                    <td className="border border-gray-300 px-4 py-2 font-semibold">
-                      {row.category}
-                    </td>
-                     <td className="border border-gray-300 px-4 py-2 text-center">
-                    {row.indian}
-                  </td>
-                  <td className="border border-gray-300 px-4 py-2 text-center">
-                    {row.international}
-                  </td>
-                  </>
+                      <td className="border border-gray-300 px-4 py-2 font-semibold">
+                        {row?.category}</td>
+                      <td className="border border-gray-300 px-4 py-2 text-center">
+                        {row?.EarlyBirdInd}
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2 text-center">
+                        {row?.indian}
+                      </td>
+                      <td className="border border-gray-300 px-4 py-2 text-center">
+                        {row?.EarlyBirdNat}
+                      </td>
+                      
+                      <td className="border border-gray-300 px-4 py-2 text-center">
+                        {row?.international}
+                      </td>
+                    </>
                   )}
-
-                 
                 </tr>
               ))}
             </tbody>
