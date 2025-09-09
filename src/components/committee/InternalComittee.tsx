@@ -5,7 +5,7 @@ export default function InternalBoard() {
     return (
         <section
             id="internal-committee"
-            className="scroll-mt-20 mx-auto px-4 pt-8 mb-4"
+            className="scroll-mt-20 mx-auto px-4 pt-8"
         >
 
             <div

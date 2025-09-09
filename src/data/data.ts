@@ -30,7 +30,7 @@ export const siteData = {
       submenus: [
         { name: "Organizing Committee", href: "#organization-committe" },
         { name: "Conference Advisory Committee", href: "#advisory" },
-        { name: " Reviewer Board Members", href: "#reviewer-board-members" }
+        { name: " Reviewer Board Members", href: "#reviewer-board-members" },
       ],
     },
     {
@@ -200,13 +200,19 @@ export const siteData = {
   // programme page data
   conferenceTracks: [
     {
-      title: "Sustainable Marketing & Responsible Consumer Engagement ",
+      title: "Sustainable Marketing & Responsible Consumer Engagement",
       desc: [
-        "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentally responsible branding.",
-        "Ethical Consumer Behavior & Influence – Understanding how values-driven choices impact markets and society.",
-        "Circular Economy Marketing – Promoting reuse, recycling, and waste reduction in consumer offerings.",
-        "Digital and Social Media for Sustainability – Leveraging online platforms to raise awareness and drive ecofriendly actions.",
-        "Carbon-Conscious Marketing Practices – Designing campaigns that reduce and offset carbon footprints.",
+        "Sustainable marketing strategies, business models, and innovations",
+        "Cross-cultural perspectives on responsible consumer behaviour and engagement",
+        "Green branding, eco-labelling, and ethical consumption practices",
+        "Digital transformation and technology-enabled sustainability marketing",
+        "Corporate social responsibility (CSR) and stakeholder engagement",
+        "Circular economy and sustainable supply chain marketing",
+        "Consumer activism, advocacy, and co-creation of sustainability initiatives",
+        "Metrics, frameworks, and assessment tools for sustainability impact",
+        "Policy implications and regulation shaping sustainable consumer engagement",
+        "Emerging market dynamics and inclusion in sustainable marketing"
+
       ],
       // desc: "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentallyresponsible branding.",
       sdg_link:
@@ -216,14 +222,16 @@ export const siteData = {
     },
     {
       title:
-        "Sustainable Supply Chain, Operations & Circular Economy Practices ",
+        "Sustainable Supply Chain, Operations & Circular Economy Practices",
       // desc: "Exploring sustainable logistics, production processes, and circular economy practices to minimize waste and optimize resource use.",
       desc: [
         "Green Supply Chain Management – Reducing environmental impacts across sourcing, production, and delivery.",
         "Ethical Sourcing & Procurement – Ensuring materials are sourced responsibly and fairly.",
-        "Zero-Waste Operations & Closed-Loop Logistics – Designing processes where nothing goes to waste.",
-        "Circular Economy Indicators & Metrics – Tracking and measuring circularity performance.",
-        "ESG in Supply Chains – Embedding environmental, social, and governance standards in supply networks.",
+        "Zero-Waste Operations & Closed-Loop Logistics – Designing processes where nothing goes to waste",
+        "Circular Economy Indicators & Metrics – Tracking and measuring circularity performance",
+        "Life Cycle Sustainability Assessment - A holistic evaluation to compare options and reveal sustainability trade-offs.",
+        "ESG Governance in Supply Chains – Embedding environmental, social, and governance standards in supply networks.",
+
       ],
       sdg_link:
         "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
@@ -231,14 +239,14 @@ export const siteData = {
       fileName: "temp_track_2.pdf",
     },
     {
-      title: "Sustainable Finance, Impact Investing & Green Economics ",
+      title: "Sustainable Finance, Impact Investing & Green Economics  ",
       // desc: "Leveraging finance and investments to drive sustainability, green projects, and inclusive economic growth.",
       desc: [
-        "ESG Integration in Investment Decisions – Incorporating environmental, social, and governance factors in portfolio choices.",
+        "ESG Integration in Investment Decisions – Incorporating environmental, social, and governance factors in portfolio management.",
         "Green Bonds & Climate Finance – Funding projects with measurable environmental benefits.",
-        "Impact Measurement in Finance – Assessing the social and environmental outcomes of investments.",
-        "Socially Responsible Banking – Banking practices that prioritize sustainability and community impact.",
-        "Regulatory Frameworks for Sustainable Investing – Policies guiding ethical and green finance.",
+        "Impact Measurement in Finance – Evaluating the social and environmental outcomes of investments",
+        "Socially Responsible Banking – Embedding sustainability and ethical priorities in banking practices.",
+        "Regulatory Frameworks for Sustainable Investing – Policies and taxonomies guiding ethical and green finance.",
       ],
       sdg_link:
         "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
@@ -249,12 +257,12 @@ export const siteData = {
       title: "Sustainable Entrepreneurship & Innovative Business Models ",
       // desc: "Encouraging entrepreneurs to adopt innovative, eco-friendly, and socially responsible business models.",
       desc: [
-        "Social Entrepreneurship for Sustainability – Building ventures to solve social and environmental issues.",
-        "Business Models for the Circular Economy – Designing businesses that minimize waste and maximize resource use.",
-        "Ecopreneurs for smart and sustainable tourism.",
-        "Social Cooperative & Inclusive Business Models – Ensuring equal benefits for all stakeholders.",
-        "SDGs in Entrepreneurial Strategy – Aligning start-ups with UN Sustainable Development Goals.",
-        "Crisis-Driven Sustainable Innovation – Creating eco-friendly solutions in response to global challenges.",
+        "Social Entrepreneurship for Sustainability — Building ventures to solve social and environmental issues.",
+        "Business Models for the Circular Economy —Designing businesses that minimize waste and maximize resource use.",
+        "Cooperative & Inclusive Business Models — Ensuring equal benefits for all stakeholders.",
+        "SDGs in Entrepreneurial Strategy — Aligning start-ups with UN Sustainable Development Goals.",
+        "Crisis-Driven Sustainable Innovation — Creating eco-friendly solutions in response to global challenges."
+      
       ],
       sdg_link:
         "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
@@ -262,13 +270,13 @@ export const siteData = {
       fileName: "track.pdf",
     },
     {
-      title: "Sustainability Education, Training & Capacity Building ",
+      title: "Sustainability Education, Training & Capacity Building (SETCB) ",
       desc: [
-        " Curriculum Innovations for Sustainability – Embedding sustainability themes into learning programs.",
+        "Curriculum Innovations for Sustainability – Embedding sustainability themes into learning programmes.",
         "ESD Pedagogy – Teaching approaches that build sustainability mindsets.",
         "Training of Trainers & Capacity Building Initiatives – Equipping educators and leaders with sustainability skills.",
-        "Digitalization & E-learning for Sustainability – Using online learning to spread sustainable practices.",
-        "Community Engagement & Lifelong Learning – Involving citizens in ongoing sustainability education.",
+        "Digitalisation & E-learning for Sustainability – Using online learning to spread sustainable practice(s).",
+        "Community Engagement & Lifelong Learning – Involving citizens in ongoing sustainability education."
       ],
       // desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
       sdg_link:
@@ -278,13 +286,14 @@ export const siteData = {
     },
     {
       title:
-        "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership ",
+        "Sustainable Human Resource Management, Workplace Well-being & Ethical Leadership",
       desc: [
         "Green HR Practices & Policies – HR strategies that reduce environmental impact.",
         "Workplace Diversity & Inclusion – Building fair and representative organizations.",
         "Employee Well-being & Psychological Contracts – Supporting employee health, trust, and morale.",
         "Ethical & Transformational Leadership – Leading with vision, values, and responsibility.",
         "Workplace Spirituality & Green Leadership – Inspiring purpose and environmental stewardship at work.",
+        "Sustainable work practices in the age of AI and Gen AI. "
       ],
       // desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
       sdg_link:
@@ -294,14 +303,20 @@ export const siteData = {
     },
     {
       title:
-        "Technological Innovations & Digital Transformation for Sustainability ",
+        "Technological Innovations & Digital Transformation for Sustainability",
       // desc: "Harnessing technology, digitalization, and innovation to accelerate sustainable solutions.",
       desc: [
-        "Green Tech Solutions (AI/IoT/Blockchain) – Using emerging tech to solve environmental challenges.",
-        "Smart Resource Management – Optimizing energy, water, and material use.",
-        "Big Data & Analytics for Sustainability – Informing decisions with environmental data insights.",
-        "Digital Platforms for Circular Economy – Enabling sharing, reuse, and recycling through online tools.",
-        "Cybersecurity and Ethics in Green Tech – Protecting data while upholding sustainability principles.",
+        "Green Tech Solutions – Exploring how AI, IoT, blockchain, and edge computing can address environmental challenges such as pollution, emissions, and resource inefficiency.",
+        "Smart Resource Management – Technologies for optimizing energy, water, and material usage through predictive analytics, sensor networks, and intelligent automation.",
+        "Big Data & Analytics for Sustainability – Using environmental data to inform decisions in climate action, agriculture, biodiversity, and urban planning.",
+        "Digital Platforms for Circular Economy – Online tools and marketplaces that support reuse, recycling, remanufacturing, and sustainable supply chain collaboration.",
+        "Cybersecurity & Ethics in Green Tech – Ensuring secure and ethical deployment of digital sustainability solutions, including smart grids, IoT systems, and AI governance.",
+        "Industry 4.0/5.0 for Sustainability – Leveraging automation, robotics, human-centric innovation, and collaborative AI to create sustainable industrial ecosystems",
+        "Immersive Technologies & XR – Using XR, e.g., virtual reality (VR), augmented reality (AR), and mixed reality (MR), for environmental education, low-carbon training, and virtual simulations of sustainable infrastructure.",
+        "Nature-Positive Digital Innovation – Digital tools for biodiversity monitoring, regenerative agriculture, and nature-based solutions powered by AI and satellite data.",
+        "ESG Data Platforms & Accountability – Technologies for transparent ESG reporting, supply chain tracing, compliance tracking, and blockchain-based verification of sustainability claims.",
+        "Smart Cities, Infrastructure & Life Cycle Sustainability – Virtual models of urban systems, digital twins, and life cycle analysis (LCA) for emissions forecasting, resource optimization, and sustainable design decision-making.",
+        "Life Cycle Analysis & Digital Sustainability Tools – Integration of LCA with big data, AI, and blockchain and other digital tools to measure, monitor, and reduce environmental impacts across the entire life cycle of products, processes, and services."
       ],
       sdg_link:
         "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
@@ -310,14 +325,23 @@ export const siteData = {
     },
     {
       title:
-        "Sustainable Policy, Regulation, Governance & Global Responsibility ",
+        "Sustainable Policy, Regulation, Governance & Global Responsibility",
       // desc: "Strengthening governance, regulatory frameworks, and international collaboration for sustainability.",
       desc: [
         "Global Regulatory Trends in Sustainability – Understanding changing international sustainability laws.",
         "Corporate Governance & Risk Management – Ensuring companies remain compliant and future-ready.",
+        "Sustainable & Climate Finance Policy – Regulating green finance flows, climate risk disclosures, and transition instruments (e.g., ECB, SEBI, RBI policies)",
+        "ESG Reporting Frameworks & Financial Governance – ISSB, GRI, SASB, BRSR, and their institutional implications",
+        "Green Bond Taxonomies & Disclosure Standards – Legal harmonisation of green finance rules",
+        "Policy Design for Sustainability Transitions – Instruments, incentives, trade-offs",
+        "Regulatory Innovations for Social Equity – Addressing justice, inclusion, and participatory mechanisms in policy",
+        "Ethics in Global Sustainability Governance – Responsibility, transparency, and legitimacy",
+        "Implementing SDGs at Multiple Scales – National policy, city-level governance, and cross-border coordination",
+        "Governance of Water, Energy, Waste & Agriculture Systems – Integrated resource governance models",
         "Policy Impact on Sustainable Development – Measuring how laws influence environmental and social progress.",
         "Stakeholder Engagement in Policymaking – Involving citizens and businesses in policy creation.",
-        "National & International Sustainability Standards – Guidelines for harmonized global sustainable practices.",
+        "National & International Sustainability Standards – Guidelines for harmonised global sustainable practices.",
+        "Governing Natural Capital & Biodiversity Disclosure."
       ],
       sdg_link:
         "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
@@ -329,10 +353,15 @@ export const siteData = {
         "Sustainability Impact Measurement, Scalability & Growth Strategies ",
       // desc: "Measuring, scaling, and evaluating the impact of sustainability initiatives for long-term growth.",
       desc: [
-        "Metrics & Reporting for Sustainability Impact – Documenting environmental and social contributions.",
-        "Tools for Scaling Social/Environmental Businesses – Resources to grow sustainable ventures.",
-        "Innovation in Impact Assessment Methodologies – New ways to evaluate sustainability outcomes.",
-        "Growth Strategies for Sustainable Enterprises – Expanding businesses without compromising the planet.",
+        "Life cycle–based approaches: Life Cycle Assessment (LCA), hybrid LCA, dynamic/prospective LCA, Business Model LCA (BM-LCA), and applications across products, processes, business models, organizations, and networks.",
+        "Footprint measurement: carbon (including Scope 1–3), water, material, biodiversity/land use, and social footprints, including novel propositions of uncertainty and sensitivity analysis.",
+        "Efficiency and benchmarking methods: Data Envelopment Analysis (DEA), Stochastic DEA (SDEA), Stochastic Frontier Analysis (SFA), Malmquist indices, and frontier-based eco-efficiency evaluation.",
+        "Hybrid and advanced methodologies: combinations of LCA/footprinting with DEA(SDEA), multi-criteria decision making (MCDM), econometrics, system dynamics, agent-based modeling, optimization, big data analytics, artificial intelligence, and machine learning.",
+        "Circular economy strategies: measuring and scaling circular practices through LCA, and frontier methods (DEA/SDEA), with applications in several sectors and contexts.",
+        "Digital and data infrastructure: tracking and tracing systems, digital product passports, IoT and sensor data streams, interoperable data standards, and auditable reporting pipelines to enable measurement at scale.",
+        "Actionable insights for decision-making: linking impact baselines to target-setting, translating frontier results into operational levers, and demonstrating scale-up under real-world constraints (capital, capacity, policy, and equity).",
+        "Scalability and growth strategies: technology roadmapping, portfolio prioritization, modular scale-up, policy and market instruments, financing models, risk management, and governance mechanisms for scaling sustainability.",
+        "Sectoral and contextual applications: studies addressing hard-to-abate sectors (e.g., steel, cement, chemicals), particular and strategically relevant sectors (e.g., big tech, professional telescopes, research-intensive organizations, etc.), small and medium-sized enterprises (SMEs), and emerging markets. "
       ],
       sdg_link:
         "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
@@ -341,14 +370,16 @@ export const siteData = {
     },
     {
       title:
-        "Climate Action, Low-Carbon Strategies & Sustainable Future Economies ",
+        "Climate Action, Low-Carbon Strategies & Sustainable Future Economies",
       // desc: "Advancing climate solutions, carbon reduction strategies, and future-proof sustainable economies.",
       desc: [
-        "Decarbonization Roadmaps – Strategic plans to cut carbon emissions.",
-        "Climate Adaptation & Resilience – Preparing for the impacts of climate change.",
-        "Renewable Energy Transitions – Moving from fossil fuels to clean energy sources.",
-        "Carbon Markets & Offsets – Trading credits to balance emissions.",
-        "Economic Policies for Low-Carbon Futures – Creating incentives for a green economy.",
+        "Decarbonization Roadmaps: Strategic plans to cut carbon emissions across sectors (e.g., transport, energy, agriculture).",
+        "Climate Adaptation & Resilience: Preparing for the impacts of climate change, including building flood defenses, developing early warning systems, and creating climate-resilient infrastructure.",
+        "Renewable Energy Transitions: Moving from fossil fuels to clean energy sources like solar and wind, and addressing challenges like grid integration and energy storage.",
+        "Carbon Markets & Offsets: Exploring the role and integrity of carbon trading schemes, carbon credits, and offset mechanisms in achieving climate targets.",
+        "Economic Policies for Low-Carbon Futures: Creating incentives for a green economy through policies like carbon pricing, subsidies, and green finance.",
+        "Climate Governance & Policy: The role of national governments and international organizations in climate policy-making, including the implementation of the Paris Agreement and other global frameworks",
+        "Climate-Smart Agriculture: Strategies to reduce emissions in the food sector while enhancing food security and resilience."
       ],
       sdg_link:
         "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
@@ -514,6 +545,39 @@ export const siteData = {
     },
   ],
 
+  chiefPatron: [
+    {
+      src: "/images/Valli-Ramaswami.jpg",
+      name: "Smt. Valli Ramaswami",
+      role: "Managing Trustee",
+      place: "Manickavasagam Charitable Foundation (MCF)",
+    },
+    {
+      src: "/images/Vishala-Mam.jpg",
+      name: "Ms.Vishala Ramswami",
+      role: "Managing Trustee",
+      place: "Manickavasagam Charitable Foundation (MCF)",
+    },
+    {
+      src: "/images/BT-Bangara.webp",
+      name: "SHRI B.T. BANGERA",
+      role: "Chairman-TSM",
+      place: "Managing Director, Hi-Tech Arai Limited, Madurai",
+    },
+    {
+      src: "/images/MURALISAMBASIVAN.jpg",
+      name: "Dr. Murali Sambasivan",
+      role: "Director & Professor",
+      place: "Thiagarajar School of Management, Madurai,India",
+    },
+    {
+      src: "/images/Selvalakshmi.jpg",
+      name: "Dr. M. Selvalakshmi",
+      role: "Principal & Professor",
+      place: "Thiagarajar School of Management, Madurai, India",
+    },
+  ],
+
   organizationBoardData: [
     // {
     //     src: "/images/11.webp",
@@ -521,6 +585,7 @@ export const siteData = {
     //     role: "Conference Convenor ",
     //     place: "Head of the Research Centre & Professor,Thiagarajar School of Management, Madurai",
     // },
+
     {
       src: "/images/MURALISAMBASIVAN.jpg",
       name: "Dr. Murali Sambasivan",

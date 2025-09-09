@@ -16,7 +16,7 @@ export default function AdvisoryBoard() {
                     Conference Advisory Committee
                 </h3>
                 <div className="mx-auto">
-                    <ol className="list-decimal list-inside space-y-2">
+                    <ol className=" list-inside space-y-2">
                         {siteData.advisoryBoardData.map((prof, index) => (
                             <li key={`advisory_board_data_item_${index}`} className="text-base font-semibold leading-relaxed tracking-wide">
 
@@ -27,6 +27,12 @@ export default function AdvisoryBoard() {
                         ))}
                     </ol>
                 </div>
+            </div>
+            <div className="mt-2">
+ <p className="text-sm font-semibold text-gray-600 mb-1">
+                              Co-Organized by Faculty of Thiagarajar school of management
+                            </p>
+               
             </div>
         </section>
     )

@@ -10,7 +10,7 @@ export default function Madurai() {
 
     <section
       id="discover-madurai"
-      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-8"
+      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-4"
     >
       <div
         className="bg-white rounded-lg shadow-md p-6 mb-  4 border-l-4 border-green-600"

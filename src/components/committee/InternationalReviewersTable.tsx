@@ -12,7 +12,7 @@ const InternationalReviewersTable = () => {
                 </h3>
 
             <div
-                id="organizing-committee"
+                id="reviewer-board-memberss"
                 className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600"
             >
    <div className="px-4 sm:px-6 lg:px-8">
@@ -22,7 +22,7 @@ const InternationalReviewersTable = () => {
           <table className="min-w-full divide-y ">
             <thead className="bg-white">
               <tr className="divide-gray-300 border border-gray-300">
-                <th scope="col" className="px-4 py-3 font-semibold  text-sm  text-gray-700">S.No</th>
+              
                 <th scope="col" className="px-4 py-3 font-semibold  text-sm text-gray-700">International Reviewer</th>
                 <th scope="col" className="px-4 py-3  text-sm font-semibold text-gray-700">Affiliation</th>
               </tr>
@@ -34,9 +34,7 @@ const InternationalReviewersTable = () => {
                   key={r.id}
                   className={ `${idx % 2 === 0 ? "bg-white" : "bg-gray-50 "}    border border-gray-300`}
                 >
-                  <td className="px-4 py-4 whitespace-nowrap text-sm align-top">
-                    {idx + 1}
-                  </td>
+                 
 
                   <td className="px-4 py-4 whitespace-normal text-sm  align-top">
                     <div className="flex items-start gap-3">

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function TravelToTSM() {
   return (
     <section
-      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-8"
+      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 py-4"
     >
       {/* Content Box */}
 
