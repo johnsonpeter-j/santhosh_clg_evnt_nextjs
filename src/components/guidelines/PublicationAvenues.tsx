@@ -91,7 +91,7 @@ export default function PublicationAvenue() {
   return (
     <section
       id="publication-avenue"
-      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8 mb-4"
+      className="scroll-mt-20 max-w-[1200px] mx-auto px-4 mb-4"
     >
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">

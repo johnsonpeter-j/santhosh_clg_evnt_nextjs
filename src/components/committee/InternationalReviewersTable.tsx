@@ -20,7 +20,7 @@ const InternationalReviewersTable = () => {
        
         <div className="overflow-x-auto border border-gray-300   bg-white  rounded-lg shadow-sm">
           <table className="min-w-full divide-y ">
-            <thead className="bg-white">
+            <thead className="bg-white text-left">
               <tr className="divide-gray-300 border border-gray-300">
               
                 <th scope="col" className="px-4 py-3 font-semibold  text-lg text-gray-700">International Reviewer</th>
@@ -39,13 +39,13 @@ const InternationalReviewersTable = () => {
                   <td className="px-4 py-4 whitespace-normal text-base  align-top">
                     <div className="flex items-start gap-3">
                       <div className="">
-                        <div className="font-medium ">{r.name}</div>
+                        <div style={{textAlign:'justify'}} className="font-medium ">{r.name}</div>
                       </div>
                     </div>
                   </td>
 
                   <td className="px-4 py-4  ">
-                    <div className="text-base  break-words">
+                    <div style={{textAlign:'justify'}} className="text-base  break-words">
                       {r.designation}
                     </div>
                   </td>

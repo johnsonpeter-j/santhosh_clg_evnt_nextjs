@@ -64,7 +64,7 @@ export default function AboutTSM() {
               </li>
               <li>
                 <p className="text-gray-600 text-lg text-justify tracking-wider">
-                 Tailored feedback and one-on-one mentoring support to early-career scholars, while deliberate (is the word deliberate necessary?) inclusivity ensures broad representation across regions, disciplines, and genders.
+                 Tailored feedback and one-on-one mentoring support to early-career scholars, while deliberate  inclusivity ensures broad representation across regions, disciplines, and genders.
 
                 </p>
               </li>

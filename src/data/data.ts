@@ -44,7 +44,7 @@ export const siteData = {
       name: "Submission",
       href: "/guidelines",
       submenus: [
-        { name: "Who can Apply", href: "#call-for-papers" },
+        { name: "Who can Participate", href: "#call-for-papers" },
         { name: "Conference Review Process", href: "#conference-review" },
         { name: "Publication Options", href: "#publication-options" },
         { name: "Submission Guidelines", href: "#abstract-guidelines" },
@@ -497,6 +497,12 @@ export const siteData = {
   // conference team data
   keySpeakersData: [
     {
+      src: "/images/dr_bhimaraya.jpg",
+      name: "Prof.Bhimaraya Metri",
+      role: "Director",
+      place: "Indian Institute of Management, Nagpur, Maharashtra , India",
+    },
+    {
       src: "/images/vanhaverbeke.jpg",
       name: "Prof. W. Vanhaverbeke",
       role: "Editor-in-Chief, Technovation (Elsevier) (ABS – 3, ABDC-A, Q1, IF-10.9) ",
@@ -618,13 +624,13 @@ export const siteData = {
       name: "Dr. Ngo Nguyen Quynh Nhu",
       role: "Lecturer",
       place:
-        "Faculty of Finance and Banking Center for Application Economics Research Ton Duc Thang University,Vietnam",
+        "Faculty of Finance and Banking, Center for Application Economics Research, Ton Duc Thang University, Vietnam",
     },
     {
       src: "/images/mohammad saleem.jpg",
       name: "Dr. Mohamed Saleem Haja Nazmudeen",
-      role: "Dean of Graduate Studies & Senior Assistant Professor",
-      place: "Universiti Teknologi Brunei, Brunei",
+      role: "Dean, UTB School of Business & Associate Professor",
+      place: "UTB School of Business, Universiti Teknologi Brunei, Brunei",
     },
   ],
 
@@ -739,15 +745,15 @@ export const siteData = {
       location: "(Excelia Business School, La Rochelle, France)",
     },
     {
-      name: "Dr. Heru S. Sartono",
+      name: "Dr. Heru S Susanto",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {
-      name: "Dr. Djunaid M Syaikh",
+      name: "Dr. junaid M Shaikh",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {
-      name: "Dr. Ulagananthan Subramanian",
+      name: "Dr. Ulagananthan Subramaniam",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {

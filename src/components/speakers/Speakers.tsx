@@ -34,8 +34,8 @@ export default function Speakers() {
                         </div>
                     ))}
                 </div>
-                <div className="grid md:grid-cols-3 mt-12 gap-8">
-                    {siteData.keySpeakersData.slice(4,7).map((member, idx) => (
+                <div className="grid md:grid-cols-4 mt-12 gap-8">
+                    {siteData.keySpeakersData.slice(4,8).map((member, idx) => (
                         <div key={idx} className="flex flex-col  items-center text-center">
                             <Image
                                 src={member.src}

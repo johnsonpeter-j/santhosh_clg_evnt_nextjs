@@ -36,9 +36,9 @@ export default function SponsorshipSection() {
                 {sponsor.price}
               </p>
               {/* Benefits */}
-              <ul className="list-disc list-inside text-left text-gray-600 text-lg space-y-2">
+              <ul className="list-disc  text-left p-2 text-gray-600 text-lg space-y-2">
                 {sponsor.benefits.map((benefit, i) => (
-                  <li style={{textAlign:'justify'}} key={i}>{benefit}</li>
+                  <li className="tracking-wide" key={i}>{benefit}</li>
                 ))}
               </ul>
             </div>
