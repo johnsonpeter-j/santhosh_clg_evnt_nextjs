@@ -29,7 +29,7 @@ export default function AdvisoryBoard() {
         className="bg-white rounded-lg shadow-md p-6 mt-7 border-t-4 border-green-600"
       >
         <p className="text-lg text-center font-semibold text-gray-600 mb-1">
-          Co-Organized by Faculty of Thiagarajar school of management
+          Co-Organized by Faculty of Thiagarajar School of Management
         </p>
       </div>
     </section>
