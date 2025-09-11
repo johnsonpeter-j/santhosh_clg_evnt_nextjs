@@ -8,6 +8,7 @@ export const siteData = {
         { name: "About the Conference", href: "#about_the_conference" },
         { name: "Key Dates", href: "#key_dates" },
         { name: "About TSM Madurai", href: "#about_tsm_madurai" },
+        { name: "Publication Avenue", href: "#publication-avenue" },
         {
           name: "Collaborating Institutions",
           href: "#collaborating-institutions",
@@ -52,13 +53,14 @@ export const siteData = {
         // { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
         // { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
         // { name: "Presentation Guidelines", href: "#presentation-guidelines" },
-        { name: "Publication Avenue", href: "#publication-avenue" },
+        { name: "editorial_board", href: "#editorial_board" },
       ],
     },
     {
       name: "Registration",
       href: "/registration",
       submenus: [
+        { name: "Proposal Submission", href: "#proposal_submission" },
         { name: "Registration Details", href: "#registration-details" },
         { name: "Payment Info", href: "#payment" },
       ],
@@ -1104,20 +1106,17 @@ export const siteData = {
         "a.	You can withdraw your paper by writing a formal email to the conference convenor requesting the withdrawal of your submission. Only mail communication is acceptable. ",
     },
     {
-      question:
-        "Can I co-present a paper?",
+      question: "Can I co-present a paper?",
       answer:
         "a.	Yes, you are permitted to co-present a paper, but the time limit for presentation remains the same. ",
     },
     {
-      question:
-        "How do I pay the registration fee?",
+      question: "How do I pay the registration fee?",
       answer:
         "a.	Once the proposed submission is accepted for presentation, the participants can follow the payment link provided in the website for making payments. ",
     },
     {
-      question:
-        "Do I get letters of Invitation for the conference?",
+      question: "Do I get letters of Invitation for the conference?",
       answer:
         "a.	Yes you will receive a letter of invitation for the conference by email. ",
     },
@@ -1128,26 +1127,22 @@ export const siteData = {
         "a.	Yes. You will receive attendance certificates even if you attend the pre-conference workshop only.  ",
     },
     {
-      question:
-        "What if my transaction gets declined? ",
+      question: "What if my transaction gets declined? ",
       answer:
         "a.	Please check if any refund is initiated through the payment platform. If not kindly write an email to the conference team, with proof of payment, and the issue will be handled promptly",
     },
     {
-      question:
-        "What is the fastest way to reach the venue?",
+      question: "What is the fastest way to reach the venue?",
       answer:
         "a.	The venue is well-connected road-wise. Call-taxis and Meter Autos are available round the clock in the city. You can contact any one of the organizing committee members for assistance. ",
     },
     {
-      question:
-        "Can I change the title of my accepted paper for presentation?",
+      question: "Can I change the title of my accepted paper for presentation?",
       answer:
         "a.	No, you are not permitted to change the title of the paper after acceptance. ",
     },
     {
-      question:
-        "Is there any restrictions on the number of authors?",
+      question: "Is there any restrictions on the number of authors?",
       answer:
         "a.	No. But the names of all the contributors should be mentioned at the time of submission, and it is final.  ",
     },
@@ -1170,6 +1165,13 @@ export const siteData = {
       indian: "INR 2000",
       EarlyBirdNat: "EUR 50",
       international: "EUR 70",
+    },
+    {
+      category: "AttenDee",
+      EarlyBirdInd: "INR 2500",
+      indian: "INR 2800",
+      EarlyBirdNat: "EUR 75",
+      international: "EUR 100",
     },
     {
       category: "Research Pitch / Doctoral Colloquium",
@@ -1216,27 +1218,44 @@ export const siteData = {
     },
   ],
 
+  proposal_submission: [
+    {
+      point1: "Create an Account :",
+      point2: "Please register on the website to create your account.",
+    },
+    {
+      point1: "Receive Credentials :",
+      point2: "Upon successful registration, you will receive a username and password.",
+    },
+    {
+      point1: "Track Submission Status: ",
+      point2: "With your credentials, you can check the status of your submissions at any time.",
+    },
+  ],
+
   submissionDetails: [
     {
       title: "Research Idea Pitch / Doctoral Colloquium",
       subtitle: "(Abstract Format)",
       points: [
         {
-          point1:"",
-          point2:"3-minute pitch session during the Conference."
+          point1: "",
+          point2: "3-minute pitch session during the Conference.",
         },
         {
-          point1:"Word Limit:",
-          point2:" 1500 Words."
+          point1: "Word Limit:",
+          point2: " 1500 Words.",
         },
         {
-          point1:"Format:",
-          point2:" Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications."
+          point1: "Format:",
+          point2:
+            " Purpose / Design - Methodology - Approach / Findings / Originality – Research Limitations / Implications - Practical - Societal Implications.",
         },
         {
-          point1:"",
-          point2:"Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards."
-        }
+          point1: "",
+          point2:
+            "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",
+        },
       ],
     },
     {
@@ -1244,22 +1263,24 @@ export const siteData = {
       subtitle: "(Springer Conference Proceedings)",
       points: [
         {
-           point1:"",
-           point2:"For consideration in the edited volume (Scopus Conference Proceedings)."
+          point1: "",
+          point2:
+            "For consideration in the edited volume (Scopus Conference Proceedings).",
         },
         {
-           point1:"Word Limit:",
-           point2:" 5000 to 6000 Words."
+          point1: "Word Limit:",
+          point2: " 5000 to 6000 Words.",
         },
         {
-           point1:"Format: ",
-           point2:" Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications."
+          point1: "Format: ",
+          point2:
+            " Introduction & Problem Statement - Literature Review - Methodology - Findings - Discussion & Implications.",
         },
         {
-           point1:"",
-           point2:"Eligible for Best Paper with Societal Impact & Publication Opportunity."
+          point1: "",
+          point2:
+            "Eligible for Best Paper with Societal Impact & Publication Opportunity.",
         },
-       
       ],
     },
   ],
