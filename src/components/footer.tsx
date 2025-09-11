@@ -61,6 +61,15 @@ export default function Footer() {
                             Pamban Swamy Nagar, Thiruparankundram, Tamil Nadu 625005
                        
                     </p>
+                
+                   
+                   
+                    <p className="text-base mt-3">
+                      The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+                      
+                    </p>
+                    
+                
                 </div>
 
                 {/* Right - Map */}

@@ -165,7 +165,8 @@ export const siteData = {
       value: "20th December 2025",
     },
     {
-      label: "Camera Ready Deadline",
+      // label: "Camera Ready Deadline",
+      label: "Final Submission",
       value: "29th December 2025",
     },
     {
@@ -1179,7 +1180,7 @@ export const siteData = {
     },
     {
       category: "Full length paper",
-      EarlyBirdInd: "INR 500",
+      EarlyBirdInd: "INR 5000",
       indian: "INR 5800",
       EarlyBirdNat: "EUR 150",
       international: "EUR 170",
