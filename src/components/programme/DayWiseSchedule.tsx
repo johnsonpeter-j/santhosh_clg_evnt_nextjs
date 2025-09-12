@@ -36,16 +36,19 @@ export default function DayWiseSchedule() {
                 <th colSpan={2} className="border text-lg border-gray-400 p-2">
                   {/* Day 1<br /> */}
                   Session Room{" "}
+                  <br/>
+                  Day 1
                 </th>
                 {/* <th className="border text-base border-gray-400 p-2">Day 1<br />Session Room B</th> */}
-                <th colSpan={2} className="border text-lg border-gray-400 p-2">
-                  {/* Day 2<br /> */}
-                  Session Room
+                <th  className="border text-lg border-gray-400 p-2">
+                  Session Room <br />
+                   Day 2 
                 </th>
-                {/* <th className="border border-gray-400 p-2">
-                  Day 3<br />
-                  Session Room
-                </th> */}
+                <th className="border text-lg border-gray-400 p-2">
+                 
+                  Session Room <br />
+                   Day 3
+                </th>
               </tr>
             </thead>
             <tbody>
