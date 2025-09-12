@@ -23,10 +23,17 @@ export default function Navbar() {
             alt="TSM Logo"
             className="h-8 w-30 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-10 lg:w-40"
           />
-          <Image
+          {/* <Image
             width={100}
             height={40}
             src="/images/80THrankdesign.jpg"
+            alt="TSM Logo"
+            className="h-16 w-20 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-16"
+          /> */}
+          <Image
+            width={100}
+            height={40}
+            src="/images/navbar/TSM.png"
             alt="TSM Logo"
             className="h-16 w-20 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-16"
           />

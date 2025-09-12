@@ -95,6 +95,8 @@ export const siteData = {
     // "/images/conf logo.jpg",
     // "/images/hero-slides/FOSLogo.png",
     "/images/hero-slides/FOS.jpg",
+    "/images/80THrankdesign.jpg",
+
     "/images/hero-slides/thiyagaraja_3.jpg",
     // "/images/hero-slides/thiyagaraja_1.jpg",
     "/images/hero-slides/Foscollobratinginst.png",
