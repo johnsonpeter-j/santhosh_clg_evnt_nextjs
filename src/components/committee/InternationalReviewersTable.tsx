@@ -39,13 +39,13 @@ const InternationalReviewersTable = () => {
                   <td className="px-4 py-4 whitespace-normal text-base  align-top">
                     <div className="flex items-start gap-3">
                       <div className="">
-                        <div style={{textAlign:'justify'}} className="font-medium ">{r.name}</div>
+                        <div style={{textAlign:'left'}} className="font-medium text-lg">{r.name}</div>
                       </div>
                     </div>
                   </td>
 
                   <td className="px-4 py-4  ">
-                    <div style={{textAlign:'justify'}} className="text-base  break-words">
+                    <div style={{textAlign:'left'}} className="text-lg  break-words">
                       {r.designation}
                     </div>
                   </td>

@@ -12,7 +12,7 @@ export default function Navbar() {
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
 
   return (
-    <header className="h-16 lg:h-24 bg-[#f9f9f9] p-4 fixed top-0 left-0 w-full z-50 ">
+    <header className="h-24 lg:h-24 bg-[#f9f9f9] p-4 fixed top-0 left-0 w-full z-50 ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo + Title */}
         <div className="flex items-center ">
@@ -26,7 +26,7 @@ export default function Navbar() {
           <Image
             width={100}
             height={40}
-            src="/images/navbar/Ranknirf.jpg"
+            src="/images/80THrankdesign.jpg"
             alt="TSM Logo"
             className="h-16 w-20 sm:h-10 sm:w-20 xs:h-10 xs:w-20 lg:h-16 lg:w-16"
           />
@@ -136,7 +136,7 @@ export default function Navbar() {
                     <Link
                       href={item.href}
                       onClick={() => setMobileOpen(false)}
-                      className="text-sm block w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
+                      className="text-base block w-full py-2 text-gray-600 hover:text-green-600 font-semibold transition-colors duration-300"
                     >
                       {item.name}
                     </Link>

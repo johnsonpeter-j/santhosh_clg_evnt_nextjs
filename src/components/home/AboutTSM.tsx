@@ -1,4 +1,5 @@
 import { siteData } from "@/data/data";
+import Image from "next/image";
 import Link from "next/link";
 
 interface Journal {
@@ -68,8 +69,15 @@ export default function AboutTSM() {
         {/* About Conference Card */}
         < div className="bg-white rounded-lg shadow-md p-6 border-t-4 border-green-600 md:col-span-2" >
           <h3 className="text-2xl font-bold text-gray-700 mb-4">
-            <Link href={"https://tsm.ac.in/"} target="_blank" >
+            <Link className="flex items-center gap-2" href={"https://tsm.ac.in/"} target="_blank" >
               Thiagarajar School of Management, Madurai, India
+               <Image
+                          width={100}
+                          height={40}
+                          src="/images/80THrankdesign.jpg"
+                          alt="TSM Logo"
+                          className=""
+                        />
             </Link>
           </h3>
           <p className="text-gray-600 text-lg text-justify tracking-wider">{siteData.aboutData[0].description}</p>

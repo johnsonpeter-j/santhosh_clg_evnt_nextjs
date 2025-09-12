@@ -42,7 +42,7 @@ export default function OrganizationBoard() {
                                 alt={member.name}
                                 width={128}
                                 height={128}
-                                className=" object-cover w-32 h-32 rounded-full  shadow-lg"
+                                className=" object-fit w-32 h-32 rounded-full  shadow-lg"
                             />
                             <h4 className="text-xl font-bold text-gray-800">{member.name}</h4>
                             <p className="text-lg font-semibold text-gray-600 ">

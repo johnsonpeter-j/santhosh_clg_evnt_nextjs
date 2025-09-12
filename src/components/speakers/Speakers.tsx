@@ -52,10 +52,10 @@ export default function Speakers() {
                         </div>
                     ))}
                 </div>
-                <div className="p-1">
+                {/* <div className="p-1">
 
                     <p className="text-base">* A few more editors yet to be confirmed</p>
-                </div>
+                </div> */}
             </div>
         </section>
     )

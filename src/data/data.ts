@@ -1167,7 +1167,7 @@ export const siteData = {
       international: "EUR 70",
     },
     {
-      category: "AttenDee",
+      category: "Attendee",
       EarlyBirdInd: "INR 2500",
       indian: "INR 2800",
       EarlyBirdNat: "EUR 75",
