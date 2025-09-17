@@ -11,7 +11,7 @@ export default function AboutTSM() {
 
   return (
 
-    <div id="about-tsm-madurai" className="scroll-mt-20 mt-4 mx-4">
+    <div id="about_tsm_madurai" className="scroll-mt-20 mt-4 mx-4">
       {/* Responsive Grid */}
       < div className="grid grid-cols-1 md:grid-cols-1 gap-8 mb-12" >
         {/* About Conference Card */}
@@ -84,7 +84,7 @@ export default function AboutTSM() {
               </li>
               <li>
                 <p className="text-gray-600 text-lg text-justify tracking-wider">
-                 Fostering real-world impact by connecting academic theory to practice and policy through collaborative dialogue, workshops, and case studies with researchers, practitioners, and policymakers.
+                 Fostering real-world impact by connecting academic theory to practice and policy through collaborative dialogue, workshops, and case studies with researchers, practitioners, and Policymakers.
 
                 </p>
               </li>

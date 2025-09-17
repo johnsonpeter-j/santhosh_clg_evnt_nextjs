@@ -72,20 +72,20 @@ export default function Navbar() {
               ))}
             </ul>
           </nav>
-          <Link href={`/registration`}>
+          <a href={`https://forms.gle/TyKm7UVj9x3cm7YD7`} target="_blank">
             <button className="bg-[green] px-2 py-2 text-white  cursor-pointer rounded-md">
               Submit
             </button>
-          </Link>
+          </a>
         </div>
 
         <div className="flex lg:hidden justify-center items-center gap-2">
           {/* Burger Icon (mobile) */}
-          <Link href={`/registration`}>
+          <a href={`https://forms.gle/TyKm7UVj9x3cm7YD7`} target="_blank">
             <button className="bg-[green] px-3 py-2 text-white  cursor-pointer rounded-md">
               Submit
             </button>
-          </Link>
+          </a>
           <div className="lg:hidden">
             <button
               onClick={() => {

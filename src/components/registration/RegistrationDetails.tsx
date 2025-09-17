@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function RegistrationDetails() {
   return (
     <section
@@ -38,7 +40,7 @@ export default function RegistrationDetails() {
           </li> */}
           <li>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Submission Link: To be Updated Shortly
+              Submission Link: <a href="https://forms.gle/TyKm7UVj9x3cm7YD7" target="_blank" className="underline">Click hear</a> 
             </p>
           </li>
         </ol>

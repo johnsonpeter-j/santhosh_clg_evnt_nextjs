@@ -35,18 +35,18 @@ export default function DayWiseSchedule() {
                 </th>
                 <th colSpan={2} className="border text-lg border-gray-400 p-2">
                   {/* Day 1<br /> */}
-                  Session Room{" "}
-                  <br/>
+                  22nd January 2026<br />
+               
                   Day 1
                 </th>
                 {/* <th className="border text-base border-gray-400 p-2">Day 1<br />Session Room B</th> */}
                 <th  className="border text-lg border-gray-400 p-2">
-                  Session Room <br />
+                 23rd January 2026<br />
                    Day 2 
                 </th>
                 <th className="border text-lg border-gray-400 p-2">
                  
-                  Session Room <br />
+                  24th January 2026 <br />
                    Day 3
                 </th>
               </tr>
@@ -152,7 +152,7 @@ export default function DayWiseSchedule() {
                   colSpan={2}
                   className="bg-green-300 text-lg border border-gray-400 p-2 text-center"
                 >
-                  Meet the Editors Modertor
+                  Meet the Editors Moderator
                   
                 </td>
                 {/* <td className="border border-gray-400 p-2"></td> */}

@@ -49,11 +49,12 @@ export const siteData = {
         { name: "Conference Review Process", href: "#conference-review" },
         { name: "Publication Options", href: "#publication-options" },
         { name: "Submission Guidelines", href: "#abstract-guidelines" },
+        { name: "Publication Avenues", href: "#publication-avenue" },
         { name: "Paper/Abstract Submission", href: "#abstract-guidelines" },
         // { name: "Abstract Submission Guidelines", href: "#abstract-guidelines" },
         // { name: "Full Paper Submission Guidelines", href: "#paper-guidelines" },
         // { name: "Presentation Guidelines", href: "#presentation-guidelines" },
-        { name: "editorial_board", href: "#editorial_board" },
+        { name: "Editorial Board", href: "#editorial_board" },
       ],
     },
     {
@@ -112,7 +113,7 @@ export const siteData = {
     {
       title: "The Conference",
       description:
-        "The International Conference on Frontiers of Sustainability - Global Responsibility for Innovation and Entrepreneurship (FOS 2026 – GRIE), organized by the Research Centre, Thiagarajar School of Management, India. The conference aims to explore cutting-edge strategies for a sustainable future. It brings together Global Researchers, Innovators, Practitioners, and policymakers to foster collaborative solutions. The event promotes inter-disciplinary dialogue addressing Climate Change, Social Equity, and Digital Transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and Research pitches will be presented for both academic and practical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world.",
+        "The International Conference on Frontiers of Sustainability - Global Responsibility for Innovation and Entrepreneurship (FOS 2026 – GRIE), organized by the Research Centre, Thiagarajar School of Management, India. The conference aims to explore cutting-edge strategies for a sustainable future. It brings together Global Researchers, Innovators, Practitioners, and Policymakers to foster collaborative solutions. The event promotes inter-disciplinary dialogue addressing Climate Change, Social Equity, and Digital Transformation. Participants will engage in thought-provoking discussions on sustainable innovation and inclusive development. It will highlight responsible practices across sectors, aligning with the UN Sustainable Development Goals (SDGs). Research papers and Research pitches will be presented for both academic and practical relevance. This platform will empower institutions and individuals to rethink sustainability in a globalized, digital world.",
     },
   ],
 
@@ -217,7 +218,7 @@ export const siteData = {
         "Consumer activism, advocacy, and co-creation of sustainability initiatives",
         "Metrics, frameworks, and assessment tools for sustainability impact",
         "Policy implications and regulation shaping sustainable consumer engagement",
-        "Emerging market dynamics and inclusion in sustainable marketing",
+        "Emerging market dynamics and inclusion in sustainable marketing.",
       ],
       // desc: "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentallyresponsible branding.",
       sdg_link:
@@ -1067,7 +1068,7 @@ export const siteData = {
     {
       question: "How can I register?",
       answer:
-        "a.	Click on the registration link on the website and proceed as per the instructions provided in that section.",
+        "a.	Click on the registration <a href='https://forms.gle/TyKm7UVj9x3cm7YD7' target='_blank' class='text-green-600 underline'>Link</a> on the website and proceed as per the instructions provided in that section.",
     },
     {
       question: "How do I submit my paper to the conference?",
@@ -1470,9 +1471,9 @@ export const siteData = {
     },
     {
       id: 3,
-      name: "Dr.Hema Gwalani",
+      name: "Dr. Hema Gwalani ",
       designation:
-        "Assistant professor ,SVKM's Narsee Monjee Institute of Management Studies (NMIMS) Deemed-to-be-University, Mumbai, India",
+        "Assistant Professor, Indian Institute of Management Nagpur, India ",
     },
     {
       id: 4,

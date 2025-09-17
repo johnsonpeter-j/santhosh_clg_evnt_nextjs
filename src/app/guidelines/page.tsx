@@ -6,7 +6,7 @@ import FullPaperSubmissionGuidelines from "@/components/guidelines/FullPaperSubm
 import PresentationGuidelines from "@/components/guidelines/presentationGuidelines";
 import PublicationAvenue2 from "@/components/guidelines/PublicationAvenue2";
 import PublicationAvenues from "@/components/guidelines/PublicationAvenues";
-import PublicationOptions from "@/components/guidelines/PublicationOptions";
+// import PublicationOptions from "@/components/guidelines/PublicationOptions";
 
 export default function Guidelines() {
   
