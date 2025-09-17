@@ -70,6 +70,7 @@ export const siteData = {
       name: "Accommodation",
       href: "/accomodation",
       submenus: [
+        { name: "Connectivity", href: "#connectivity" },
         { name: "Accommodation", href: "#accommodation" },
         { name: "List of Hotels ", href: "#list_of_hotels" },
         { name: "Discover Madurai", href: "#discover-madurai" },
