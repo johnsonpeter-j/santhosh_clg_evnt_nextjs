@@ -12,10 +12,10 @@ const Connectivity = () => {
 
         <ol>
           <li className="ml-10 list-disc text-gray-600 leading-relaxed text-lg marker:text-green-600 marker:text-[20px]">
-           <strong> Madurai airport -</strong> 8 kms from Thiagarajar School of Management .
+           <strong> Madurai airport -</strong> 8 kms from Thiagarajar School of Management.
           </li>
           <li className="ml-10 list-disc text-gray-600 leading-relaxed text-lg marker:text-green-600 marker:text-[20px]">
-          <strong> Madurai railway station - </strong> 8 kms from Thiagarajar School of Management .
+          <strong> Madurai railway station - </strong> 8 kms from Thiagarajar School of Management.
           </li>
         </ol>
       </div>
