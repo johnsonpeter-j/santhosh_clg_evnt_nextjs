@@ -1,4 +1,5 @@
 import AccountDetails from "@/components/registration/AccountDetails";
+import AccountDetails2 from "@/components/registration/AccountDetails2";
 import PaymentInfo from "@/components/registration/PaymentInfo";
 import ProposalSubmission from "@/components/registration/ProposalSubmission";
 import RegistrationDetails from "@/components/registration/RegistrationDetails";
@@ -10,6 +11,7 @@ export default function Registration() {
             <RegistrationDetails />
             <PaymentInfo />
             <AccountDetails/>
+            <AccountDetails2/>
         </div>
     );
 }

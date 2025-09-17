@@ -74,7 +74,7 @@ export default function Navbar() {
           </nav>
           <Link href={`/registration`}>
             <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">
-              Login
+              Submit
             </button>
           </Link>
         </div>
@@ -83,7 +83,7 @@ export default function Navbar() {
           {/* Burger Icon (mobile) */}
           <Link href={`/registration`}>
             <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">
-              Login
+              Submit
             </button>
           </Link>
           <div className="lg:hidden">

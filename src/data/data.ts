@@ -42,7 +42,7 @@ export const siteData = {
       // ],
     },
     {
-      name: "Submission",
+      name: "Publications ",
       href: "/guidelines",
       submenus: [
         { name: "Who can Participate", href: "#call-for-papers" },
@@ -221,8 +221,9 @@ export const siteData = {
       // desc: "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentallyresponsible branding.",
       sdg_link:
         "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth)",
-      path: "/pdfs/tracks/temp_track_1.pdf",
-      fileName: "temp_track_1.pdf",
+      // path: "/pdfs/tracks/temp_track_1.pdf",
+      path: "/pdfs/Newtracks/Track1.pdf",
+      fileName: "Track1.pdf",
     },
     {
       title:
@@ -238,8 +239,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
-      path: "/pdfs/tracks/temp_track_2.pdf",
-      fileName: "temp_track_2.pdf",
+      // path: "/pdfs/tracks/temp_track_2.pdf",
+      path: "/pdfs/Newtracks/Track2.pdf",
+      fileName: "Track2.pdf",
     },
     {
       title: "Sustainable Finance, Impact Investing & Green Economics  ",
@@ -253,8 +255,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track3.pdf",
+      fileName: "Track3.pdf",
     },
     {
       title: "Sustainable Entrepreneurship & Innovative Business Models ",
@@ -268,8 +271,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 8 (Decent Work & Economic Growth), SDG 9 (Industry, Innovation & Infrastructure).",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track4.pdf",
+      fileName: "Track4.pdf",
     },
     {
       title: "Sustainability Education, Training & Capacity Building (SETCB) ",
@@ -283,8 +287,9 @@ export const siteData = {
       // desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
       sdg_link:
         "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals)",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track5.pdf",
+      fileName: "Track5.pdf",
     },
     {
       title:
@@ -300,8 +305,9 @@ export const siteData = {
       // desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
       sdg_link:
         "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality)",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track6.pdf",
+      fileName: "Track6.pdf",
     },
     {
       title:
@@ -322,8 +328,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track7.pdf",
+      fileName: "Track7.pdf",
     },
     {
       title:
@@ -347,8 +354,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track8.pdf",
+      fileName: "Track8.pdf",
     },
     {
       title:
@@ -367,8 +375,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track9.pdf",
+      fileName: "Track9.pdf",
     },
     {
       title:
@@ -385,8 +394,9 @@ export const siteData = {
       ],
       sdg_link:
         "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
-      path: "/pdfs/tracks/track.pdf",
-      fileName: "track.pdf",
+      // path: "/pdfs/tracks/track.pdf",
+      path: "/pdfs/Newtracks/Track10.pdf",
+      fileName: "Track10.pdf",
     },
   ],
 
@@ -786,6 +796,11 @@ export const siteData = {
       location:
         "(Alagappa Institute of Management, Alagappa University, India)",
     },
+    {
+      name: "Mr. Kumod Kumar",
+      location:
+        "(Chief Administrative Officer, Director & CEO | CIMP - Business Incubation & Innovation Foundation)",
+    },
   ],
 
   sponsorsData: [
@@ -809,7 +824,7 @@ export const siteData = {
   // guidelines data
 
   callForPaperDescription:
-    "Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability,seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
+    "Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability and industry people working in the sustainability areas, seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
 
   ConferenceReviewProcess: [
     {
@@ -1215,6 +1230,10 @@ export const siteData = {
       content: "FDRL0002094",
     },
     {
+      title: "Swift code",
+      content: "FDRLINBBIBD",
+    },
+    {
       title: "Branch :",
       content: "Thuvariman, Madurai, India",
     },
@@ -1227,11 +1246,13 @@ export const siteData = {
     },
     {
       point1: "Receive Credentials :",
-      point2: "Upon successful registration, you will receive a username and password.",
+      point2:
+        "Upon successful registration, you will receive a username and password.",
     },
     {
       point1: "Track Submission Status: ",
-      point2: "With your credentials, you can check the status of your submissions at any time.",
+      point2:
+        "With your credentials, you can check the status of your submissions at any time.",
     },
   ],
 
