@@ -63,7 +63,7 @@ const PublicationAvenue2 = () => {
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
         {/* Title */}
         <h2 className="text-2xl font-bold text-left mb-6">
-          Publication Avenue for Selected Research Work
+          Publication Avenues for Selected Research Work
         </h2>
 
         {/* Intro in blue */}

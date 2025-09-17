@@ -8,7 +8,7 @@ export const siteData = {
         { name: "About the Conference", href: "#about_the_conference" },
         { name: "Key Dates", href: "#key_dates" },
         { name: "About TSM Madurai", href: "#about_tsm_madurai" },
-        { name: "Publication Avenue", href: "#publication-avenue" },
+       
         {
           name: "Collaborating Institutions",
           href: "#collaborating-institutions",
@@ -107,7 +107,7 @@ export const siteData = {
     {
       title: "Thiagarajar School of Management, India",
       description:
-        "Established in 1962, Thiagarajar School of Management (TSM), Madurai, is a premier Institute offering quality management education in a lush 17-acre campus. The Institute began with Executive Development Programs and later launched its MBA in 1972, followed by a full-time MBA in 1986. TSM offers AICTE-approved MBA and PGDM programs, accredited by the National Board of Accreditation (NBA) and awarded an ‘A’ grade by NAAC for academic excellence. In recognition of its standards, TSM is consistently ranked among the top 100 B-schools in India by the NIRF Rankings. The Institute offers a PhD program affiliated with Alagappa University. With strong Industry linkages, excellent placement records, and a focus on holistic education, TSM equips students with managerial, analytical, and life skills while providing rich exposure through Internships, Research, and Consultancy Opportunities.",
+        "Established in 1962, Thiagarajar School of Management (TSM), Madurai, is a premier Institute offering quality management education in a lush 17-acre campus. The Institute began with Executive Development Programs and later launched its MBA in 1972, followed by a full-time MBA in 1986. TSM offers AICTE-approved MBA and PGDM programs, accredited by the National Board of Accreditation (NBA) and awarded an ‘A+’ grade by NAAC for academic excellence. In recognition of its standards, TSM is consistently ranked among the top 100 B-schools in India by the NIRF Rankings. The Institute offers a PhD program affiliated with Alagappa University. With strong Industry linkages, excellent placement records, and a focus on holistic education, TSM equips students with managerial, analytical, and life skills while providing rich exposure through Internships, Research, and Consultancy Opportunities.",
     },
     {
       title: "The Conference",

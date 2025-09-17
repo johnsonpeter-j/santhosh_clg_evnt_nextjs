@@ -73,7 +73,7 @@ export default function Navbar() {
             </ul>
           </nav>
           <Link href={`/registration`}>
-            <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">
+            <button className="bg-[green] px-2 py-2 text-white  cursor-pointer rounded-md">
               Submit
             </button>
           </Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
         <div className="flex lg:hidden justify-center items-center gap-2">
           {/* Burger Icon (mobile) */}
           <Link href={`/registration`}>
-            <button className="bg-[green] px-4 py-2 text-white uppercase cursor-pointer rounded-md">
+            <button className="bg-[green] px-3 py-2 text-white  cursor-pointer rounded-md">
               Submit
             </button>
           </Link>
