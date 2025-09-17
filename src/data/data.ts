@@ -119,7 +119,8 @@ export const siteData = {
   aboutTsmVideoLink:
     "https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
 
-  brochurePdfPath: "/pdfs/brochure.pdf",
+  brochurePdfPath: "/pdfs/FOS2026GRIEBrochure.pdf",
+  posterPath : "/images/Poster.png",
 
   collabtaorData: [
     {
@@ -1193,16 +1194,30 @@ export const siteData = {
     {
       category: "Research Pitch / Doctoral Colloquium",
       EarlyBirdInd: "INR 3500",
-      indian: "INR 4000",
+      indian: "INR 3500",
       EarlyBirdNat: "EUR 100",
       international: "EUR 120",
     },
     {
       category: "Full length paper",
       EarlyBirdInd: "INR 5000",
+      indian: "INR 4000",
+      EarlyBirdNat: "EUR 150",
+      international: "EUR 140",
+    },
+    {
+      category: "Full length paper (Faculty/Academicians)",
+      EarlyBirdInd: "INR 5000",
       indian: "INR 5800",
       EarlyBirdNat: "EUR 150",
       international: "EUR 170",
+    },
+    {
+      category: "Full length paper (Industry Professionals)",
+      EarlyBirdInd: "INR 5000",
+      indian: "INR 7500",
+      EarlyBirdNat: "EUR 150",
+      international: "EUR 220",
     },
     {
       category: "Submission opens on 15th October 2025",

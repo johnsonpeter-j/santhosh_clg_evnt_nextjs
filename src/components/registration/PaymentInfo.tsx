@@ -9,28 +9,24 @@ export default function PaymentInfo() {
       {/* Content Box */}
       <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600 mx-auto">
         <h3 className="text-xl font-bold text-gray-700 mb-2">
-          Registration Fee (Includes tax)
+          Registration Fee (Inclusive of tax)
         </h3>
 
         <div className="overflow-x-auto">
           <table className="w-full border border-gray-300 text-left text-sm">
             <thead className="bg-gray-100">
               <tr>
-                <th className="border border-gray-300 px-4 py-2"></th>
+                
                 <th className="border text-base border-gray-300 px-4 py-2 text-center">
-                  Early Bird <br />
-                  (Before 31/12/2025)
+                 Events / Participants
                 </th>
                 <th className="border  text-base border-gray-300 px-4 py-2 text-center">
-                  Indian Participants
+                 Indian Participants
                 </th>
                 <th className="border  text-base border-gray-300 px-4 py-2 text-center">
-                  Early Bird for International Participants
-                  <br /> (Before 31/12/2025)
+                 International Participants
                 </th>
-                <th className="border  text-base border-gray-300 px-4 py-2 text-center">
-                  International Participants
-                </th>
+              
               </tr>
             </thead>
             <tbody>
@@ -47,17 +43,17 @@ export default function PaymentInfo() {
                     </>
                   ) : (
                     <>
-                      <td className="border text-base border-gray-300 px-4 py-2 font-semibold">
+                      <td className="border text-base border-gray-300 px-4 py-2 ">
                         {row?.category}</td>
-                      <td className="border text-base border-gray-300 px-4 py-2 text-center">
+                      {/* <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.EarlyBirdInd}
-                      </td>
+                      </td> */}
                       <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.indian}
                       </td>
-                      <td className="border text-base border-gray-300 px-4 py-2 text-center">
+                      {/* <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.EarlyBirdNat}
-                      </td>
+                      </td> */}
                       
                       <td className="border text-base border-gray-300 px-4 py-2 text-center">
                         {row?.international}
