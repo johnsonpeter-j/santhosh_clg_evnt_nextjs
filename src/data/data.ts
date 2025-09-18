@@ -13,6 +13,10 @@ export const siteData = {
           name: "Collaborating Institutions",
           href: "#collaborating-institutions",
         },
+        {
+          name: "Outreach Partner",
+          href: "#outreach_partner",
+        },
       ],
     },
     {
@@ -32,6 +36,7 @@ export const siteData = {
         { name: "Organizing Committee", href: "#organization-committe" },
         { name: "Conference Advisory Committee", href: "#advisory" },
         { name: " Reviewer Board Members", href: "#reviewer-board-members" },
+        { name: "Internal Review Committee", href: "#internal_review_committee" },
       ],
     },
     {
@@ -121,8 +126,8 @@ export const siteData = {
   aboutTsmVideoLink:
     "https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
 
-  brochurePdfPath: "/pdfs/FOS2026GRIEBrochure.pdf",
-  posterPath : "/images/Poster.png",
+  brochurePdfPath: "/pdfs/brochureUpdated.pdf",
+  posterPath : "/images/PosterUpdated.png",
 
   collabtaorData: [
     {
@@ -160,6 +165,18 @@ export const siteData = {
       img: "/images/image003.png",
       link: "https://www.tdtu.edu.vn/en",
     },
+   
+  ],
+
+  outReachPartners : [
+     {
+      id: 6,
+      Title:"Outreach Partner ",
+      name: "ServiceSetu Academics",
+      desc: "ServiceSetu Academics is a trusted partner in higher education, empowering the academic community through knowledge, upskilling, and global collaborations. Since 2021, we have partnered with leading B-Schools and universities worldwide to drive academic and research excellence. Our portfolio spans strategic outreach, recruitment, and event co-creation, alongside certification programmes, short-term courses, and training with top international institutions.",
+      img: "/images/ServiceSetu.png",
+      link: "https://servicesetu.org/",
+    }
   ],
 
   keyDates: [
@@ -575,7 +592,7 @@ export const siteData = {
     },
     {
       src: "/images/Vishala-Mam.jpg",
-      name: "Ms.Vishala Ramaswami",
+      name: "Ms.Vishala Ramswami",
       role: "Managing Trustee",
       place: "Manickavasagam Charitable Foundation (MCF)",
     },
@@ -626,10 +643,10 @@ export const siteData = {
       place: "ICN Business School, Paris, France",
     },
     {
-      src: "/images/veronica.jpg",
+      src: "/images/VeronicaNew.jpg",
       name: "Dr. Veronica Scuotto",
-      role: "Second-Tier Tenured Professor",
-      place: "Universita delgi Studi di Napoli Federico II,Italy",
+      role: "Associate Professor",
+      place: "Universita degli Studi di Napoli Federico II, Italy",
     },
     {
       src: "/images/nachiappan.jpg",
@@ -827,7 +844,7 @@ export const siteData = {
   // guidelines data
 
   callForPaperDescription:
-    "Research Scholars, Postdoctoral Researchers, Early-Career and Senior Faculty Members across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability and industry people working in the sustainability areas, seeking collaboration,visibility to build their publication portfolio, and gain international exposure.",
+    "Research Scholars, Postdoctoral Researchers, Early-career and Senior faculty members, as well as Industry practitioners across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, are invited to collaborate, gain visibility, build their publication portfolio, and secure international exposure.",
 
   ConferenceReviewProcess: [
     {
@@ -986,7 +1003,7 @@ export const siteData = {
   ],
 
   accommodationDetails: [
-    "Affordable Package: Comfortable stay at just ₹4500 for 3 days (AC - double occupancy).",
+    "Affordable Package: Comfortable stay at just ₹4500 for 3 days (AC - double occupancy) in twin sharing.",
     "All-Inclusive Meals: Enjoy daily breakfast, lunch, and dinner - no extra hassle!",
     "Value for Money: Works out to only ₹1500 per day per person.",
     "Convenience Guaranteed: Stay and meals bundled together for a stress-free experience.",
@@ -1541,4 +1558,169 @@ export const siteData = {
         "Assistant professor ,National Institute of Technology Tiruchirappalli, Tiruchirappalli, India",
     },
   ],
+
+  internalReviewers:[
+ {
+      id: 1,
+      name: "Dr Anandan T R",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 2,
+      name: "Dr Anupam Keshari ",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 3,
+      name: "Dr Balaji M",
+      designation:
+        "Associate Professor ",
+    },
+    {
+      id: 4,
+      name: "Dr Dona Ghosh",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 5,
+      name: "Dr Goutam Sutar",
+      designation:
+        "Associate Professor",
+    },
+    {
+      id: 6,
+      name: "Dr Haritha T",
+      designation: "Asst Professor",
+    },
+    {
+      id: 7,
+      name: "Dr Janaki Bhojiah",
+      designation:
+        "Associate Professor",
+    },
+    {
+      id: 8,
+      name: "Dr Manju Jayakumar ",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 9,
+      name: "Dr Manjula N",
+      designation:
+        "Associate Professor",
+    },
+    {
+      id: 10,
+      name: "Dr Mutharasi P",
+      designation:
+        "Associate Professor",
+    },
+    {
+      id: 11,
+      name: "Dr Nachiketas N",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 12,
+      name: "Dr Nalini G S",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 13,
+      name: "Dr Nancy Prabha",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 14,
+      name: "Dr Nataraj B",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 15,
+      name: "Dr Packiaraj T",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 16,
+      name: "Dr Pradeep V",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 17,
+      name: "Dr Preethi R",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 18,
+      name: "Dr Rameshkumar J",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 19,
+      name: "Dr S M Aparna",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 20,
+      name: "Dr Sathish G",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 21,
+      name: "Dr Senthil V",
+      designation:
+        "Associate Professor",
+    },
+    {
+      id: 22,
+      name: "Dr Sivapragasam P ",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 23,
+      name: "Dr Vikash Sharma",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 24,
+      name: "Mr Rakesh G Nair",
+      designation:
+        "Asst Professor",
+    },
+    {
+      id: 25,
+      name: "Ms Anima Pramanik ",
+      designation:
+        "Asst Professor ",
+    },
+    {
+      id: 26,
+      name: "Prof Arunkumar A ",
+      designation:
+        "Asst Professor ",
+    },
+    {
+      id: 27,
+      name: "Prof Ved Srinivas ",
+      designation:
+        "Asst Professor ",
+    },
+
+  ]
 };

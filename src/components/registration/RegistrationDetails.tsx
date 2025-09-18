@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function RegistrationDetails() {
   return (
@@ -22,10 +22,9 @@ export default function RegistrationDetails() {
         <ol className=" px-4 mt-3">
           <li>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Submission is open to Research Scholars, Early-Career Faculty Members / Assistant Professors, and
-              Postdoctoral Researchers.Scholars from disciplines such as Management, Engineering, Computer Science, Social Sciences, and
-              Sustainability are welcome to submit.
+              Research Scholars, Postdoctoral Researchers, Early-career and Senior faculty members, as well as Industry practitioners across disciplines such as Management, Engineering, Computer Science, Social Sciences, and Sustainability, are invited to collaborate, gain visibility, build their publication portfolio, and secure international exposure.
             </p>
+            <strong>Note: Hybrid (For Foreign Participants)</strong>
           </li>
           {/* <li>
             <p className="text-gray-600 leading-relaxed">
@@ -40,7 +39,7 @@ export default function RegistrationDetails() {
           </li> */}
           <li>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Submission Link: <a href="https://forms.gle/TyKm7UVj9x3cm7YD7" target="_blank" className="underline">Click hear</a> 
+              Submission Link: <a href="https://forms.gle/TyKm7UVj9x3cm7YD7" target="_blank" className="underline">Click here</a> 
             </p>
           </li>
         </ol>

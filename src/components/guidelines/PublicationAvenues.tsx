@@ -15,8 +15,8 @@ export default function PublicationAvenue() {
       designation:"Assistant Professor, ICN Business School- Paris, France"
      },
      {
-      name:"Dr. Veronica Scuotto",
-      designation:"Second-Tier Tenured Professor, Universita Delgi Studi Di Napoli Federico II, Italy"
+      name:"Dr. Veronica Scuotto ",
+      designation:"Associate Professor Universita degli Studi di Napoli Federico II, Italy"
      },
      {
       name:"Dr. Nachiappan Subramanian",

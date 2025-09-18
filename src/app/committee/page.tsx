@@ -1,4 +1,7 @@
 import AdvisoryBoard from "@/components/committee/AdvisoryBoard";
+import InternalReviewerTable from "@/components/committee/InternalReviewerTable";
+
+
 import InternationalReviewersTable from "@/components/committee/InternationalReviewersTable";
 import NationalReviewers from "@/components/committee/NationalReviewers";
 
@@ -13,6 +16,7 @@ export default function ConferenceTeam() {
 
       <InternationalReviewersTable />
       <NationalReviewers />
+     <InternalReviewerTable/>
     </div>
   );
 }
