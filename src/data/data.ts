@@ -8,7 +8,7 @@ export const siteData = {
         { name: "About the Conference", href: "#about_the_conference" },
         { name: "Key Dates", href: "#key_dates" },
         { name: "About TSM Madurai", href: "#about_tsm_madurai" },
-       
+
         {
           name: "Collaborating Institutions",
           href: "#collaborating-institutions",
@@ -33,10 +33,16 @@ export const siteData = {
       name: "Committee",
       href: "/committee",
       submenus: [
+        { name: "Chief Patrons", href: "#chief_patrons" },
+        { name: "Conference Convenor", href: "#conference_convenor" },
         { name: "Organizing Committee", href: "#organization-committe" },
+        { name: "Internal Organizing Committee", href: "#internal_organizing_committee" },
         { name: "Conference Advisory Committee", href: "#advisory" },
         { name: " Reviewer Board Members", href: "#reviewer-board-members" },
-        { name: "Internal Review Committee", href: "#internal_review_committee" },
+        {
+          name: "Internal Review Committee",
+          href: "#internal_review_committee",
+        },
       ],
     },
     {
@@ -127,7 +133,7 @@ export const siteData = {
     "https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
 
   brochurePdfPath: "/pdfs/brochureUpdated.pdf",
-  posterPath : "/images/PosterUpdated.png",
+  posterPath: "/images/PosterUpdated.png",
 
   collabtaorData: [
     {
@@ -165,18 +171,17 @@ export const siteData = {
       img: "/images/image003.png",
       link: "https://www.tdtu.edu.vn/en",
     },
-   
   ],
 
-  outReachPartners : [
-     {
+  outReachPartners: [
+    {
       id: 6,
-      Title:"Outreach Partner ",
+      Title: "Outreach Partner ",
       name: "ServiceSetu Academics",
       desc: "ServiceSetu Academics is a trusted partner in higher education, empowering the academic community through knowledge, upskilling, and global collaborations. Since 2021, we have partnered with leading B-Schools and universities worldwide to drive academic and research excellence. Our portfolio spans strategic outreach, recruitment, and event co-creation, alongside certification programmes, short-term courses, and training with top international institutions.",
       img: "/images/ServiceSetu.png",
       link: "https://servicesetu.org/",
-    }
+    },
   ],
 
   keyDates: [
@@ -725,6 +730,41 @@ export const siteData = {
   //     "Dr. Elisabeth Paulet (ICN Business School, France)",
   //     "Dr. Thierry Houé (ICN Business School, France)"
   // ],
+
+  Internal_Organizing_Committee: [
+    {
+      name: "Dr Anupam Keshari",
+      location: "Asst Professor",
+    },
+    {
+      name: "Dr Janaki Bhojiah",
+      location: "Associate Professor",
+    },
+    {
+      name: "Dr Nachiketas N",
+      location: "Asst Professor",
+    },
+    {
+      name: "Dr Packiaraj T",
+      location: "Asst Professor",
+    },
+    {
+      name: "Dr S M Aparna",
+      location: "Asst Professor",
+    },
+    {
+      name: "Dr Sathish G",
+      location: "Asst Professor",
+    },
+    {
+      name: "Dr Senthil V",
+      location: "Associate Professor",
+    },
+    {
+      name: "Dr Vikash Sharma",
+      location: "Asst Professor",
+    },
+  ],
 
   advisoryBoardData: [
     {
@@ -1395,82 +1435,82 @@ export const siteData = {
       id: 2,
       name: "Prof. Da Teng",
       designation:
-        "Associate Professor ,Beijing University of Chemical Technology, Beijing, China",
+        "Associate Professor, Beijing University of Chemical Technology, Beijing, China",
     },
     {
       id: 3,
       name: "Prof. Samuel Fosso Wamba",
-      designation: "Professor ,TBS Business School, Toulouse, France",
+      designation: "Professor, TBS Business School, Toulouse, France",
     },
     {
       id: 4,
       name: "Prof. Andrea Appolloni",
       designation:
-        "Associate professor ,University of Rome Tor Vergata, Rome, Italy",
+        "Associate professor, University of Rome Tor Vergata, Rome, Italy",
     },
     {
       id: 5,
       name: "Dr. Marzena Smol-Aruszanjan",
       designation:
-        "Professor,Mineral and Energy Economy Research Institute, Polish Academy of Sciences, Poland",
+        "Professor, Mineral and Energy Economy Research Institute, Polish Academy of Sciences, Poland",
     },
     {
       id: 6,
       name: "Dr. Shilpa Taneja",
       designation:
-        "Assistant professor ,Sheffield University Management School, University of Sheffield, Sheffield, UK",
+        "Assistant professor, Sheffield University Management School, University of Sheffield, Sheffield, UK",
     },
     {
       id: 7,
       name: "Dr. Sangeeta Khorana",
       designation:
-        "Assistant professor ,Aston Business School, Aston University, Birmingham, UK",
+        "Assistant professor, Aston Business School, Aston University, Birmingham, UK",
     },
     {
       id: 8,
       name: "Dr. Justyna Żywiołek",
       designation:
-        "Assistant professor ,Czestochowa University of Technology, Czestochowa, Poland",
+        "Assistant professor, Czestochowa University of Technology, Czestochowa, Poland",
     },
     {
       id: 9,
       name: "Dr. Dongmei Cao",
-      designation: "Associate professor ,Nottingham Trent University, UK",
+      designation: "Associate professor, Nottingham Trent University, UK",
     },
     {
       id: 10,
       name: "Dr. Xin Zhao",
       designation:
-        "Professor ,Anhui University of Finance and Economics, Bengbu, China",
+        "Professor, Anhui University of Finance and Economics, Bengbu, China",
     },
     {
       id: 11,
       name: "Prof. Tarik Saikouk",
       designation:
-        "Professor ,Excelia Business School, CERIIM, La Rochelle, France",
+        "Professor, Excelia Business School, CERIIM, La Rochelle, France",
     },
     {
       id: 12,
       name: "Prof. Angappa Gunasekaran",
       designation:
-        "Professor ,Penn State University Harrisburg, Middletown, Pennsylvania, USA",
+        "Professor, Penn State University Harrisburg, Middletown, Pennsylvania, USA",
     },
     {
       id: 13,
       name: "Dr. Guoqing Zhao",
       designation:
-        "Lecturer ,School of Management, Swansea University, Swansea, UK",
+        "Lecturer, School of Management, Swansea University, Swansea, UK",
     },
     {
       id: 14,
       name: "Dr.Hela Nammouri",
       designation:
-        "Assistant professor ,IRIT, Toulouse Université, 2 Rue Du Doyen Gabriel Marty, Toulouse Cedex 9, 31042, France",
+        "Assistant professor, IRIT, Toulouse Université, 2 Rue Du Doyen Gabriel Marty, Toulouse Cedex 9, 31042, France",
     },
     {
       id: 15,
       name: "Dr. Nasiru Zubairu",
-      designation: "Lecturer ,Muscat University, Muscat, Oman",
+      designation: "Lecturer, Muscat University, Muscat, Oman",
     },
   ],
 
@@ -1479,13 +1519,13 @@ export const siteData = {
       id: 1,
       name: "Dr.Vikas Kumar",
       designation:
-        "Assistant professor ,National Institute of Food Technology Entrepreneurship and Management (NIFTEM-K), 131028 Kundli (Sonepat), India",
+        "Assistant professor, National Institute of Food Technology Entrepreneurship and Management (NIFTEM-K), 131028 Kundli (Sonepat), India",
     },
     {
       id: 2,
       name: "Dr.Amanpreet Kaur",
       designation:
-        "Professor ,Punjab School of Economics, Guru Nanak Dev University, Amritsar, Punjab, India",
+        "Professor, Punjab School of Economics, Guru Nanak Dev University, Amritsar, Punjab, India",
     },
     {
       id: 3,
@@ -1497,98 +1537,93 @@ export const siteData = {
       id: 4,
       name: "Dr.Rohit Kumar Singh",
       designation:
-        "Associate professor ,International Management Institute, Kolkata, India",
+        "Associate professor, International Management Institute, Kolkata, India",
     },
     {
       id: 5,
       name: "Dr.Rashmi Ranjan Panigrahi",
       designation:
-        "Assistant professor ,GITAM School of Business, GITAM (Deemed to be) University, Visakhapatnam, Andhra Pradesh, India",
+        "Assistant professor, GITAM School of Business, GITAM (Deemed to be) University, Visakhapatnam, Andhra Pradesh, India",
     },
     {
       id: 6,
       name: "Dr.Avinash K. Shrivastava",
-      designation: "Assistant professor ,IMI Kolkata, West Bengal, India",
+      designation: "Assistant professor, IMI Kolkata, West Bengal, India",
     },
     {
       id: 7,
       name: "Dr.Bishal Dey Sarkar",
       designation:
-        "Assistant professor ,Indian Institute of Management Bodh Gaya, Bodh Gaya, Bihar, India",
+        "Assistant professor, Indian Institute of Management Bodh Gaya, Bodh Gaya, Bihar, India",
     },
     {
       id: 8,
       name: "Dr.Vikas Kumar",
       designation:
-        "Assistant professor ,Guru Nanak Dev University, Amritsar, India",
+        "Assistant professor, Guru Nanak Dev University, Amritsar, India",
     },
     {
       id: 9,
       name: "Dr. Arun Kumar Kaushik",
       designation:
-        "Associate professor ,Indian Institute of Management Amritsar, Punjab, India",
+        "Associate professor, Indian Institute of Management Amritsar, Punjab, India",
     },
     {
       id: 10,
       name: "Dr.Pankaj Dutta",
-      designation: "Professor ,Indian Institute of Technology, Mumbai, India",
+      designation: "Professor, Indian Institute of Technology, Mumbai, India",
     },
     {
       id: 11,
       name: "Dr.Soni Agarwal",
       designation:
-        "Professor ,International Management Institute, Kolkata, India",
+        "Professor, International Management Institute, Kolkata, India",
     },
     {
       id: 12,
       name: "Dr.Manish Mohan Baral",
       designation:
-        "Assistant professor ,GITAM School of Business, GITAM (Deemed to be University), Visakhapatnam, India",
+        "Assistant professor, GITAM School of Business, GITAM (Deemed to be University), Visakhapatnam, India",
     },
     {
       id: 13,
       name: "Dr.Anand Gurumurthi",
       designation:
-        "Professor ,Indian Institute of Management Kozhikode, Kerala, India",
+        "Professor, Indian Institute of Management Kozhikode, Kerala, India",
     },
     {
       id: 14,
       name: "Dr.Yamini",
       designation:
-        "Assistant professor ,National Institute of Technology Tiruchirappalli, Tiruchirappalli, India",
+        "Assistant professor, National Institute of Technology Tiruchirappalli, Tiruchirappalli, India",
     },
   ],
 
-  internalReviewers:[
- {
+  internalReviewers: [
+    {
       id: 1,
       name: "Dr Anandan T R",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 2,
       name: "Dr Anupam Keshari ",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 3,
       name: "Dr Balaji M",
-      designation:
-        "Associate Professor ",
+      designation: "Associate Professor ",
     },
     {
       id: 4,
       name: "Dr Dona Ghosh",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 5,
       name: "Dr Goutam Sutar",
-      designation:
-        "Associate Professor",
+      designation: "Associate Professor",
     },
     {
       id: 6,
@@ -1598,129 +1633,107 @@ export const siteData = {
     {
       id: 7,
       name: "Dr Janaki Bhojiah",
-      designation:
-        "Associate Professor",
+      designation: "Associate Professor",
     },
     {
       id: 8,
       name: "Dr Manju Jayakumar ",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 9,
       name: "Dr Manjula N",
-      designation:
-        "Associate Professor",
+      designation: "Associate Professor",
     },
     {
       id: 10,
       name: "Dr Mutharasi P",
-      designation:
-        "Associate Professor",
+      designation: "Associate Professor",
     },
     {
       id: 11,
       name: "Dr Nachiketas N",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 12,
       name: "Dr Nalini G S",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 13,
       name: "Dr Nancy Prabha",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 14,
       name: "Dr Nataraj B",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 15,
       name: "Dr Packiaraj T",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 16,
       name: "Dr Pradeep V",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 17,
       name: "Dr Preethi R",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 18,
       name: "Dr Rameshkumar J",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 19,
       name: "Dr S M Aparna",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 20,
       name: "Dr Sathish G",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 21,
       name: "Dr Senthil V",
-      designation:
-        "Associate Professor",
+      designation: "Associate Professor",
     },
     {
       id: 22,
       name: "Dr Sivapragasam P ",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 23,
       name: "Dr Vikash Sharma",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 24,
       name: "Mr Rakesh G Nair",
-      designation:
-        "Asst Professor",
+      designation: "Asst Professor",
     },
     {
       id: 25,
       name: "Ms Anima Pramanik ",
-      designation:
-        "Asst Professor ",
+      designation: "Asst Professor ",
     },
     {
       id: 26,
       name: "Prof Arunkumar A ",
-      designation:
-        "Asst Professor ",
+      designation: "Asst Professor ",
     },
     {
       id: 27,
       name: "Prof Ved Srinivas ",
-      designation:
-        "Asst Professor ",
+      designation: "Asst Professor ",
     },
-
-  ]
+  ],
 };

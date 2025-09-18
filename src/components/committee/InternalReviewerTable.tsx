@@ -1,4 +1,5 @@
 import { siteData } from "@/data/data";
+import Link from "next/link";
 // import NationalReviewers from "./NationalReviewers"
 
 const InternalReviewerTable = () => {
@@ -67,9 +68,16 @@ const InternalReviewerTable = () => {
                       </td>
                     </tr>
                   ))}
+                 
                 </tbody>
               </table>
+              
             </div>
+             <div>
+
+                <p className="text-base mt-2 text-left">For More Details <Link href="https://tsm.ac.in/faculty-research/full-time-faculty/">Click here</Link></p>
+                  </div>
+
           </div>
         </div>
       </div>

@@ -10,8 +10,8 @@ export default function OrganizationBoard() {
             className="scroll-mt-20 mx-auto px-4 pt-8"
         >
             <div
-                id="organizing-committee"
-                className="bg-white rounded-lg text-center shadow-md p-6 border-t-4 border-green-600"
+                id="chief_patrons"
+                className="bg-white scroll-mt-20 rounded-lg text-center shadow-md p-6 border-t-4 border-green-600"
             >
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
                     Chief Patrons
@@ -54,8 +54,8 @@ export default function OrganizationBoard() {
                 </div>
             </div>
             <div
-                id="organizing-committee"
-                className="bg-white rounded-lg shadow-md text-center p-6 border-t-4 border-green-600"
+                id="conference_convenor"
+                className="bg-white scroll-mt-20 rounded-lg shadow-md text-center p-6 border-t-4 border-green-600"
             >
                 <h3 className="text-2xl font-bold text-gray-700 mb-6">
                     Conference Convenor
