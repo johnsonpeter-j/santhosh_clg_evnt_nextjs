@@ -6,6 +6,14 @@ import Navbar from "@/components/navbar";
 export const metadata: Metadata = {
   title: "FOS 2026-IRGR - Thiagarajar School of Management",
   description: "Thiagarajar School of Management, Madurai",
+  icons: {
+    icon: [
+      { url: "/tsmlogo-v2.png", type: "image/png", sizes: "32x32" },
+      { url: "/tsmlogo-v2.png", type: "image/png", sizes: "16x16" },
+    ],
+    shortcut: { url: "/tsmlogo-v2.png", type: "image/png" },
+    apple: { url: "/tsmlogo-v2.png", type: "image/png" },
+  },
 };
 
 export default function RootLayout({
