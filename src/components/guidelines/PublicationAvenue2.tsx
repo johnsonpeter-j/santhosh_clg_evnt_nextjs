@@ -41,7 +41,7 @@ const PublicationAvenue2 = () => {
     {
       title: "",
       details:
-        "All the accepted full length papers in the conference will be published in Scopus Indexed Proceedings / Edited Book series in Wiley and Elsevier",
+        "All the accepted full length papers in the conference will be published in Scopus Indexed Proceedings / Edited Book series in Wiley and Elsevier.",
     },
     // {
     //   title: "Book chapters in Edited Book Series",
@@ -50,7 +50,7 @@ const PublicationAvenue2 = () => {
     {
       title: "Book of Abstracts Publication",
       details:
-        "with ISBN (for research pitch). / Research Pitch / Doctoral Colloquium",
+        "with ISBN (for research pitch). / Research Pitch / Doctoral Colloquium.",
     },
   ];
 

@@ -26,7 +26,7 @@ export const siteData = {
         // { name: "Conference Tracks & Themes", href: "#tracks" },
         { name: "Conference Tracks", href: "#tracks" },
         { name: "Day-wise Schedule", href: "#schedule" },
-        { name: "Preconference Workshop", href: "#workshop" },
+        { name: "Pre-Conference Workshop", href: "#workshop" },
       ],
     },
     {
@@ -36,7 +36,10 @@ export const siteData = {
         { name: "Chief Patrons", href: "#chief_patrons" },
         { name: "Conference Convenor", href: "#conference_convenor" },
         { name: "Organizing Committee", href: "#organization-committe" },
-        { name: "Internal Organizing Committee", href: "#internal_organizing_committee" },
+        {
+          name: "Internal Organizing Committee",
+          href: "#internal_organizing_committee",
+        },
         { name: "Conference Advisory Committee", href: "#advisory" },
         { name: " Reviewer Board Members", href: "#reviewer-board-members" },
         {
@@ -139,7 +142,7 @@ export const siteData = {
     {
       id: 1,
       name: "ICN Business School, France",
-      desc: "ICN Business School is a French Business School with campuses in Paris, Nancy, and Berlin. It's known for its interdisciplinary approach, emphasizing Creativity and Innovation in Business Education, and holds prestigious Triple Crown accreditation (AACSB, EQUIS, and AMBA) & QS Ranking 51. The school offers a range of programs from Bachelor’s to Master’s levels, including specialized programs in areas like Corporate Finance and Digital Marketing",
+      desc: "ICN Business School is a French Business School with campuses in Paris, Nancy, and Berlin. It's known for its interdisciplinary approach, emphasizing Creativity and Innovation in Business Education, and holds prestigious Triple Crown accreditation (AACSB, EQUIS, and AMBA) & QS Ranking 51. The school offers a range of programs from Bachelor’s to Master’s levels, including specialized programs in areas like Corporate Finance and Digital Marketing.",
       img: "/images/collabrators/icn bs.png",
       link: "https://www.icn-artem.com/en/",
     },
@@ -232,20 +235,20 @@ export const siteData = {
     {
       title: "Sustainable Marketing & Responsible Consumer Engagement",
       desc: [
-        "Sustainable marketing strategies, business models, and innovations",
-        "Cross-cultural perspectives on responsible consumer behaviour and engagement",
-        "Green branding, eco-labelling, and ethical consumption practices",
-        "Digital transformation and technology-enabled sustainability marketing",
-        "Corporate social responsibility (CSR) and stakeholder engagement",
-        "Circular economy and sustainable supply chain marketing",
-        "Consumer activism, advocacy, and co-creation of sustainability initiatives",
-        "Metrics, frameworks, and assessment tools for sustainability impact",
-        "Policy implications and regulation shaping sustainable consumer engagement",
+        "Sustainable marketing strategies, business models, and innovations.",
+        "Cross-cultural perspectives on responsible consumer behaviour and engagement.",
+        "Green branding, eco-labelling, and ethical consumption practices.",
+        "Digital transformation and technology-enabled sustainability marketing.",
+        "Corporate social responsibility (CSR) and stakeholder engagement.",
+        "Circular economy and sustainable supply chain marketing.",
+        "Consumer activism, advocacy, and co-creation of sustainability initiatives.",
+        "Metrics, frameworks, and assessment tools for sustainability impact.",
+        "Policy implications and regulation shaping sustainable consumer engagement.",
         "Emerging market dynamics and inclusion in sustainable marketing.",
       ],
       // desc: "Green Branding & Eco-labeling Strategies – Building trust through authentic eco-labels and environmentallyresponsible branding.",
       sdg_link:
-        "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth)",
+        "SDG 12 (Responsible Consumption & Production), SDG 8 (Decent Work & Economic Growth).",
       // path: "/pdfs/tracks/temp_track_1.pdf",
       path: "/pdfs/Newtracks/Track1.pdf",
       fileName: "Track1.pdf",
@@ -257,13 +260,13 @@ export const siteData = {
       desc: [
         "Green Supply Chain Management – Reducing environmental impacts across sourcing, production, and delivery.",
         "Ethical Sourcing & Procurement – Ensuring materials are sourced responsibly and fairly.",
-        "Zero-Waste Operations & Closed-Loop Logistics – Designing processes where nothing goes to waste",
-        "Circular Economy Indicators & Metrics – Tracking and measuring circularity performance",
+        "Zero-Waste Operations & Closed-Loop Logistics – Designing processes where nothing goes to waste.",
+        "Circular Economy Indicators & Metrics – Tracking and measuring circularity performance.",
         "Life Cycle Sustainability Assessment - A holistic evaluation to compare options and reveal sustainability trade-offs.",
         "ESG Governance in Supply Chains – Embedding environmental, social, and governance standards in supply networks.",
       ],
       sdg_link:
-        "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production)",
+        "SDG 9 (Industry, Innovation & Infrastructure), SDG 12 (Responsible Consumption & Production).",
       // path: "/pdfs/tracks/temp_track_2.pdf",
       path: "/pdfs/Newtracks/Track2.pdf",
       fileName: "Track2.pdf",
@@ -274,12 +277,12 @@ export const siteData = {
       desc: [
         "ESG Integration in Investment Decisions – Incorporating environmental, social, and governance factors in portfolio management.",
         "Green Bonds & Climate Finance – Funding projects with measurable environmental benefits.",
-        "Impact Measurement in Finance – Evaluating the social and environmental outcomes of investments",
+        "Impact Measurement in Finance – Evaluating the social and environmental outcomes of investments.",
         "Socially Responsible Banking – Embedding sustainability and ethical priorities in banking practices.",
         "Regulatory Frameworks for Sustainable Investing – Policies and taxonomies guiding ethical and green finance.",
       ],
       sdg_link:
-        "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals",
+        "SDG 8 (Decent Work & Economic Growth), SDG 17 (Partnerships for the Goals.",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track3.pdf",
       fileName: "Track3.pdf",
@@ -311,7 +314,7 @@ export const siteData = {
       ],
       // desc: "Building awareness and skills through education, training, and capacity development for a sustainable future.",
       sdg_link:
-        "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals)",
+        "SDG 4 (Quality Education), SDG 17 (Partnerships for the Goals).",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track5.pdf",
       fileName: "Track5.pdf",
@@ -325,11 +328,11 @@ export const siteData = {
         "Employee Well-being & Psychological Contracts – Supporting employee health, trust, and morale.",
         "Ethical & Transformational Leadership – Leading with vision, values, and responsibility.",
         "Workplace Spirituality & Green Leadership – Inspiring purpose and environmental stewardship at work.",
-        "Sustainable work practices in the age of AI and Gen AI. ",
+        "Sustainable work practices in the age of AI and Gen AI.",
       ],
       // desc: "Promoting employee well-being, diversity, ethics, and responsible leadership in organizations.",
       sdg_link:
-        "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality)",
+        "SDG 3 (Good Health & Well-being), SDG 8 (Decent Work & Economic Growth), SDG 5 (Gender Equality).",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track6.pdf",
       fileName: "Track6.pdf",
@@ -344,7 +347,7 @@ export const siteData = {
         "Big Data & Analytics for Sustainability – Using environmental data to inform decisions in climate action, agriculture, biodiversity, and urban planning.",
         "Digital Platforms for Circular Economy – Online tools and marketplaces that support reuse, recycling, remanufacturing, and sustainable supply chain collaboration.",
         "Cybersecurity & Ethics in Green Tech – Ensuring secure and ethical deployment of digital sustainability solutions, including smart grids, IoT systems, and AI governance.",
-        "Industry 4.0/5.0 for Sustainability – Leveraging automation, robotics, human-centric innovation, and collaborative AI to create sustainable industrial ecosystems",
+        "Industry 4.0/5.0 for Sustainability – Leveraging automation, robotics, human-centric innovation, and collaborative AI to create sustainable industrial ecosystems.",
         "Immersive Technologies & XR – Using XR, e.g., virtual reality (VR), augmented reality (AR), and mixed reality (MR), for environmental education, low-carbon training, and virtual simulations of sustainable infrastructure.",
         "Nature-Positive Digital Innovation – Digital tools for biodiversity monitoring, regenerative agriculture, and nature-based solutions powered by AI and satellite data.",
         "ESG Data Platforms & Accountability – Technologies for transparent ESG reporting, supply chain tracing, compliance tracking, and blockchain-based verification of sustainability claims.",
@@ -352,7 +355,7 @@ export const siteData = {
         "Life Cycle Analysis & Digital Sustainability Tools – Integration of LCA with big data, AI, and blockchain and other digital tools to measure, monitor, and reduce environmental impacts across the entire life cycle of products, processes, and services.",
       ],
       sdg_link:
-        "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy)",
+        "SDG 9 (Industry, Innovation & Infrastructure), SDG 7 (Affordable & Clean Energy).",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track7.pdf",
       fileName: "Track7.pdf",
@@ -364,21 +367,21 @@ export const siteData = {
       desc: [
         "Global Regulatory Trends in Sustainability – Understanding changing international sustainability laws.",
         "Corporate Governance & Risk Management – Ensuring companies remain compliant and future-ready.",
-        "Sustainable & Climate Finance Policy – Regulating green finance flows, climate risk disclosures, and transition instruments (e.g., ECB, SEBI, RBI policies)",
-        "ESG Reporting Frameworks & Financial Governance – ISSB, GRI, SASB, BRSR, and their institutional implications",
-        "Green Bond Taxonomies & Disclosure Standards – Legal harmonisation of green finance rules",
-        "Policy Design for Sustainability Transitions – Instruments, incentives, trade-offs",
-        "Regulatory Innovations for Social Equity – Addressing justice, inclusion, and participatory mechanisms in policy",
-        "Ethics in Global Sustainability Governance – Responsibility, transparency, and legitimacy",
-        "Implementing SDGs at Multiple Scales – National policy, city-level governance, and cross-border coordination",
-        "Governance of Water, Energy, Waste & Agriculture Systems – Integrated resource governance models",
+        "Sustainable & Climate Finance Policy – Regulating green finance flows, climate risk disclosures, and transition instruments (e.g., ECB, SEBI, RBI policies).",
+        "ESG Reporting Frameworks & Financial Governance – ISSB, GRI, SASB, BRSR, and their institutional implications.",
+        "Green Bond Taxonomies & Disclosure Standards – Legal harmonisation of green finance rules.",
+        "Policy Design for Sustainability Transitions – Instruments, incentives, trade-offs.",
+        "Regulatory Innovations for Social Equity – Addressing justice, inclusion, and participatory mechanisms in policy.",
+        "Ethics in Global Sustainability Governance – Responsibility, transparency, and legitimacy.",
+        "Implementing SDGs at Multiple Scales – National policy, city-level governance, and cross-border coordination.",
+        "Governance of Water, Energy, Waste & Agriculture Systems – Integrated resource governance models.",
         "Policy Impact on Sustainable Development – Measuring how laws influence environmental and social progress.",
         "Stakeholder Engagement in Policymaking – Involving citizens and businesses in policy creation.",
         "National & International Sustainability Standards – Guidelines for harmonised global sustainable practices.",
         "Governing Natural Capital & Biodiversity Disclosure.",
       ],
       sdg_link:
-        "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals)",
+        "SDG 16 (Peace, Justice & Strong Institutions), SDG 17 (Partnerships for the Goals).",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track8.pdf",
       fileName: "Track8.pdf",
@@ -396,10 +399,10 @@ export const siteData = {
         "Digital and data infrastructure: tracking and tracing systems, digital product passports, IoT and sensor data streams, interoperable data standards, and auditable reporting pipelines to enable measurement at scale.",
         "Actionable insights for decision-making: linking impact baselines to target-setting, translating frontier results into operational levers, and demonstrating scale-up under real-world constraints (capital, capacity, policy, and equity).",
         "Scalability and growth strategies: technology roadmapping, portfolio prioritization, modular scale-up, policy and market instruments, financing models, risk management, and governance mechanisms for scaling sustainability.",
-        "Sectoral and contextual applications: studies addressing hard-to-abate sectors (e.g., steel, cement, chemicals), particular and strategically relevant sectors (e.g., big tech, professional telescopes, research-intensive organizations, etc.), small and medium-sized enterprises (SMEs), and emerging markets. ",
+        "Sectoral and contextual applications: studies addressing hard-to-abate sectors (e.g., steel, cement, chemicals), particular and strategically relevant sectors (e.g., big tech, professional telescopes, research-intensive organizations, etc.), small and medium-sized enterprises (SMEs), and emerging markets.",
       ],
       sdg_link:
-        "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals)",
+        "SDG 12 (Responsible Consumption & Production), SDG 17 (Partnerships for the Goals).",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track9.pdf",
       fileName: "Track9.pdf",
@@ -414,11 +417,11 @@ export const siteData = {
         "Renewable Energy Transitions: Moving from fossil fuels to clean energy sources like solar and wind, and addressing challenges like grid integration and energy storage.",
         "Carbon Markets & Offsets: Exploring the role and integrity of carbon trading schemes, carbon credits, and offset mechanisms in achieving climate targets.",
         "Economic Policies for Low-Carbon Futures: Creating incentives for a green economy through policies like carbon pricing, subsidies, and green finance.",
-        "Climate Governance & Policy: The role of national governments and international organizations in climate policy-making, including the implementation of the Paris Agreement and other global frameworks",
+        "Climate Governance & Policy: The role of national governments and international organizations in climate policy-making, including the implementation of the Paris Agreement and other global frameworks.",
         "Climate-Smart Agriculture: Strategies to reduce emissions in the food sector while enhancing food security and resilience.",
       ],
       sdg_link:
-        "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities)",
+        "SDG 13 (Climate Action), SDG 7 (Affordable & Clean Energy), SDG 11 (Sustainable Cities & Communities).",
       // path: "/pdfs/tracks/track.pdf",
       path: "/pdfs/Newtracks/Track10.pdf",
       fileName: "Track10.pdf",
@@ -733,130 +736,181 @@ export const siteData = {
 
   Internal_Organizing_Committee: [
     {
+      id: 1,
       name: "Dr Anupam Keshari",
-      location: "Asst Professor",
+      location: "Assistant Professor",
     },
     {
-      name: "Dr Janaki Bhojiah",
+      id: 2,
+      name: "Dr Dona Ghosh",
+      location: "Assistant Professor",
+    },
+    {
+      id: 3,
+      name: "Dr Janaki Bojiah ",
       location: "Associate Professor",
     },
     {
+      id: 4,
       name: "Dr Nachiketas N",
-      location: "Asst Professor",
+      location: "Assistant Professor",
     },
     {
+      id: 5,
       name: "Dr Packiaraj T",
-      location: "Asst Professor",
+      location: "Assistant Professor",
     },
     {
+      id: 6,
       name: "Dr S M Aparna",
-      location: "Asst Professor",
+      location: "Assistant Professor",
     },
     {
+      id: 7,
+      name: "Mr Rakesh G Nair",
+      location: "Assistant Professor",
+    },
+    {
+      id: 8,
       name: "Dr Sathish G",
-      location: "Asst Professor",
+      location: "Assistant Professor",
     },
     {
+      id: 9,
+      name: "Dr. P. Sivapragasam",
+      location: "Assistant Professor",
+    },
+    {
+      id: 10,
       name: "Dr Senthil V",
       location: "Associate Professor",
     },
     {
+      id: 11,
       name: "Dr Vikash Sharma",
-      location: "Asst Professor",
+      location: "Assistant Professor",
+    },
+    {
+      id: 12,
+      name: "Dr Preethi Raja",
+      location: "Assistant Professor",
     },
   ],
 
   advisoryBoardData: [
     {
+      id: 1,
       name: "Prof. Angappa Gunasekaran",
       location: "(Penn State Harrisburg, USA)",
     },
     {
+      id: 2,
       name: "Prof. Dongmei Cao",
       location: "(Nottingham Trent University, UK)",
     },
     {
+      id: 3,
       name: "Prof. Abhijit Majumdar",
       location: "(Indian Institute of Technology Delhi, India)",
     },
     {
+      id: 4,
       name: "Prof. K. Sriharsha Reddy",
       location: "(Institute of Management Technology Hyderabad, India)",
     },
     {
+      id: 5,
       name: "Prof. Ravi Shankar",
       location: "(Indian Institute of Technology Delhi, India)",
     },
     {
+      id: 6,
       name: "Prof. Aravind Upadhyay",
       location: "(London Metropolitan University, UK)",
     },
     {
+      id: 7,
       name: "Prof. V. Raja Sreedharan",
       location: "(Cardiff Metropolitan University, UK)",
     },
     {
+      id: 8,
       name: "Prof. Sangeeta Khorana",
       location: "(Aston University, UK)",
     },
     {
+      id: 9,
       name: "Prof. Stefan Seuring",
       location: "(University of Kassel, Germany)",
     },
     {
+      id: 10,
       name: "Prof. Ramesh Anbanandam",
       location: "(Indian Institute of Technology Roorkee, India)",
     },
     {
+      id: 11,
       name: "Prof. Soni Agarwal",
       location: "(International Management Institute Kolkata, India)",
     },
     {
+      id: 12,
       name: "Prof. Nripendra P Rana",
       location: "(Queen's University Belfast, UK)",
     },
     {
+      id: 13,
       name: "Prof. Tarik Saikouk",
       location: "(Excelia Business School, La Rochelle, France)",
     },
     {
+      id: 14,
       name: "Dr. Heru S Susanto",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {
+      id: 15,
       name: "Dr. junaid M Shaikh",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {
+      id: 16,
       name: "Dr. Ulagananthan Subramaniam",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {
+      id: 17,
       name: "Prof. Sandeep Jagtap",
       location: "(Lund University, Sweden)",
     },
     {
+      id: 18,
       name: "Dr. Marzena Smol",
       location: "(Polish Academy of Sciences, Cracow, Poland)",
     },
     {
+      id: 19,
       name: "Prof. Michael Akim",
       location: "(HSE University, Moscow, Russia)",
     },
     {
+      id: 20,
       name: "Dr. Elisabeth Paulet",
       location: "(ICN Business School, France)",
     },
     {
+      id: 21,
       name: "Dr. Thierry Houé",
       location: "(ICN Business School, France)",
     },
     {
+      id: 22,
       name: "Prof. G. Ilankumaran",
       location:
         "(Alagappa Institute of Management, Alagappa University, India)",
     },
     {
+      id: 23,
       name: "Mr. Kumod Kumar",
       location:
         "(Chief Administrative Officer, Director & CEO | CIMP - Business Incubation & Innovation Foundation)",
@@ -1603,12 +1657,12 @@ export const siteData = {
     {
       id: 1,
       name: "Dr Anandan T R",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 2,
       name: "Dr Anupam Keshari ",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 3,
@@ -1618,7 +1672,7 @@ export const siteData = {
     {
       id: 4,
       name: "Dr Dona Ghosh",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 5,
@@ -1628,17 +1682,17 @@ export const siteData = {
     {
       id: 6,
       name: "Dr Haritha T",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 7,
-      name: "Dr Janaki Bhojiah",
+      name: "Dr Janaki Bojiah",
       designation: "Associate Professor",
     },
     {
       id: 8,
       name: "Dr Manju Jayakumar ",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 9,
@@ -1653,52 +1707,52 @@ export const siteData = {
     {
       id: 11,
       name: "Dr Nachiketas N",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 12,
       name: "Dr Nalini G S",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 13,
       name: "Dr Nancy Prabha",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 14,
       name: "Dr Nataraj B",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 15,
       name: "Dr Packiaraj T",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 16,
       name: "Dr Pradeep V",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 17,
       name: "Dr Preethi R",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 18,
       name: "Dr Rameshkumar J",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 19,
       name: "Dr S M Aparna",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 20,
       name: "Dr Sathish G",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 21,
@@ -1708,32 +1762,32 @@ export const siteData = {
     {
       id: 22,
       name: "Dr Sivapragasam P ",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 23,
       name: "Dr Vikash Sharma",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 24,
       name: "Mr Rakesh G Nair",
-      designation: "Asst Professor",
+      designation: "Assistant Professor",
     },
     {
       id: 25,
       name: "Ms Anima Pramanik ",
-      designation: "Asst Professor ",
+      designation: "Assistant Professor ",
     },
     {
       id: 26,
       name: "Prof Arunkumar A ",
-      designation: "Asst Professor ",
+      designation: "Assistant Professor ",
     },
     {
       id: 27,
       name: "Prof Ved Srinivas ",
-      designation: "Asst Professor ",
+      designation: "Assistant Professor ",
     },
   ],
 };
