@@ -41,7 +41,7 @@ export const siteData = {
           href: "#internal_organizing_committee",
         },
         { name: "Conference Advisory Committee", href: "#advisory" },
-        { name: " Reviewer Board Members", href: "#reviewer-board-members" },
+        { name: " Review Board Members", href: "#reviewer-board-members" },
         {
           name: "Internal Review Committee",
           href: "#internal_review_committee",
