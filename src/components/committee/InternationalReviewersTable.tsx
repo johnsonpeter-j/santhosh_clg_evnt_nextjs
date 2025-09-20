@@ -9,7 +9,7 @@ const InternationalReviewersTable = () => {
     >
       {" "}
       <h3 className="text-2xl font-bold text-gray-700 mb-6">
-        Reviewer Board Members
+        Review Board Members
       </h3>
       <div
         id="reviewer-board-memberss"

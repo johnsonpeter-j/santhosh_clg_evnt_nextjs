@@ -737,42 +737,42 @@ export const siteData = {
   Internal_Organizing_Committee: [
     {
       id: 1,
-      name: "Dr Anupam Keshari",
+      name: "Dr. Anupam Keshari",
       location: "Assistant Professor",
     },
     {
       id: 2,
-      name: "Dr Dona Ghosh",
+      name: "Dr. Dona Ghosh",
       location: "Assistant Professor",
     },
     {
       id: 3,
-      name: "Dr Janaki Bojiah ",
+      name: "Dr. Janaki Bojiah ",
       location: "Associate Professor",
     },
     {
       id: 4,
-      name: "Dr Nachiketas N",
+      name: "Dr. Nachiketas N",
       location: "Assistant Professor",
     },
     {
       id: 5,
-      name: "Dr Packiaraj T",
+      name: "Dr. Packiaraj T",
       location: "Assistant Professor",
     },
     {
       id: 6,
-      name: "Dr S M Aparna",
+      name: "Dr. S M Aparna",
       location: "Assistant Professor",
     },
     {
       id: 7,
-      name: "Mr Rakesh G Nair",
+      name: "Mr. Rakesh G Nair",
       location: "Assistant Professor",
     },
     {
       id: 8,
-      name: "Dr Sathish G",
+      name: "Dr. Sathish G",
       location: "Assistant Professor",
     },
     {
@@ -782,17 +782,17 @@ export const siteData = {
     },
     {
       id: 10,
-      name: "Dr Senthil V",
+      name: "Dr. Senthil V",
       location: "Associate Professor",
     },
     {
       id: 11,
-      name: "Dr Vikash Sharma",
+      name: "Dr. Vikash Sharma",
       location: "Assistant Professor",
     },
     {
       id: 12,
-      name: "Dr Preethi Raja",
+      name: "Dr. Preethi Raja",
       location: "Assistant Professor",
     },
   ],
@@ -870,7 +870,7 @@ export const siteData = {
     },
     {
       id: 15,
-      name: "Dr. junaid M Shaikh",
+      name: "Dr. Junaid M Shaikh",
       location: "(Universiti Teknologi Brunei, Brunei)",
     },
     {
