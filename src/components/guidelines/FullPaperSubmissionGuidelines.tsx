@@ -16,9 +16,20 @@ export default function FullPaperSubmissionGuidelines() {
               key={`full_paper_sub_item_${i}`}
               className="ml-10 text-lg list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]"
             >
-              <strong>{point?.point1}</strong>{point?.point2}
+              <strong>{point?.point1}</strong>
+              {point?.point2}
             </li>
           ))}
+          <li className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]">
+            For more details please{" "}
+            <a
+              href={siteData.submissionDetails[1].path}
+              download={siteData.submissionDetails[1].fileName} // ensures file downloads instead of opening
+              className="underline"
+            >
+              Download
+            </a>
+          </li>
         </ul>
       </div>
     </section>

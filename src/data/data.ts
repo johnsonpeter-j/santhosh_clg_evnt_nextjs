@@ -747,51 +747,56 @@ export const siteData = {
     },
     {
       id: 3,
+      name: "Dr. Haritha P. H",
+      location: "Assistant Professor",
+    },
+    {
+      id: 4,
       name: "Dr. Janaki Bojiah ",
       location: "Associate Professor",
     },
     {
-      id: 4,
+      id: 5,
       name: "Dr. Nachiketas N",
       location: "Assistant Professor",
     },
     {
-      id: 5,
+      id: 6,
       name: "Dr. Packiaraj T",
       location: "Assistant Professor",
     },
     {
-      id: 6,
+      id: 7,
       name: "Dr. S M Aparna",
       location: "Assistant Professor",
     },
     {
-      id: 7,
+      id: 8,
       name: "Mr. Rakesh G Nair",
       location: "Assistant Professor",
     },
     {
-      id: 8,
+      id: 9,
       name: "Dr. Sathish G",
       location: "Assistant Professor",
     },
     {
-      id: 9,
+      id: 10,
       name: "Dr. P. Sivapragasam",
       location: "Assistant Professor",
     },
     {
-      id: 10,
+      id: 11,
       name: "Dr. Senthil V",
       location: "Associate Professor",
     },
     {
-      id: 11,
+      id: 12,
       name: "Dr. Vikash Sharma",
       location: "Assistant Professor",
     },
     {
-      id: 12,
+      id: 13,
       name: "Dr. Preethi Raja",
       location: "Assistant Professor",
     },
@@ -1340,33 +1345,61 @@ export const siteData = {
       international: "",
     },
   ],
-  accountDetails: [
-    {
-      title: "Name :",
-      content: "Thiagarajar School of Management",
-    },
-    {
-      title: "Bank Name :",
-      content: "Federal Bank",
-    },
-    {
-      title: "Account Number :",
-      content: "20940100009995",
-    },
-    {
-      title: "IFSC Code :",
-      content: "FDRL0002094",
-    },
-    {
-      title: "Swift code",
-      content: "FDRLINBBIBD",
-    },
-    {
-      title: "Branch :",
-      content: "Thuvariman, Madurai, India",
-    },
-  ],
+  accountDetails: {
+    indian: [
+      {
+        title: "Beneficiary Name :",
+        content: "Thiagarajar School of Management",
+      },
+      {
+        title: "Bank Name :",
+        content: "Federal Bank",
+      },
+      {
+        title: "Account Number :",
+        content: "20940100009995",
+      },
+      {
+        title: "IFSC Code :",
+        content: "FDRL0002094",
+      },
+      // {
+      //   title: "Swift code",
+      //   content: "FDRLINBBIBD",
+      // },
+      {
+        title: "Branch :",
+        content: "Thuvariman, Madurai, Tamil Nadu, India",
+      },
+    ],
 
+    foreign: [
+      {
+        title: "Beneficiary Name :",
+        content: "Thiagarajar School of Management",
+      },
+      {
+        title: "Bank Name :",
+        content: "Federal Bank",
+      },
+      {
+        title: "Account Number :",
+        content: "20940100009995",
+      },
+      // {
+      //   title: "IFSC Code :",
+      //   content: "FDRL0002094",
+      // },
+      {
+        title: "Swift code",
+        content: "FDRLINBBIBD",
+      },
+      {
+        title: "Branch :",
+        content: "Thuvariman, Madurai, Tamil Nadu, India",
+      },
+    ],
+  },
   proposal_submission: [
     {
       point1: "Create an Account :",
@@ -1408,6 +1441,8 @@ export const siteData = {
             "Eligible for Best Research Idea, Best Pitch, and Societal Impact Awards.",
         },
       ],
+      path: "/pdfs/Abstract/AbstractFormat.pdf",
+      fileName: "AbstractFormat.pdf",
     },
     {
       title: "Full Paper Submission",
@@ -1433,6 +1468,8 @@ export const siteData = {
             "Eligible for Best Paper with Societal Impact & Publication Opportunity.",
         },
       ],
+      path: "/pdfs/Abstract/FullPaperTemplate.pdf",
+      fileName: "FullPaperTemplate.pdf",
     },
   ],
   sponsors: [
