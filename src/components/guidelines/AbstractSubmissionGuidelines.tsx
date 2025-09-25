@@ -22,13 +22,13 @@ export default function AbstractSubmissionGuidelines() {
             </li>
           ))}
           <li className="ml-10 list-disc text-gray-600 leading-relaxed marker:text-green-600 marker:text-[20px]">
-            For more details please{" "}
+            For the Template{" "}
             <a
               href={siteData.submissionDetails[0].path}
               download={siteData.submissionDetails[0].fileName} // ensures file downloads instead of opening
               className="underline"
             >
-              Download
+              download here
             </a>
           </li>
         </ul>
