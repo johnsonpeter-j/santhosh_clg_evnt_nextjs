@@ -190,7 +190,7 @@ export const siteData = {
       Title: "Media Partner",
       name: "Media Partner",
       desc: "https://internationalconferencealerts.com/",
-      img: "/images/internation_conf_alert.png",
+      img: "/images/Internation_conf_alert.png",
       link: "https://internationalconferencealerts.com/",
     },
   ],
