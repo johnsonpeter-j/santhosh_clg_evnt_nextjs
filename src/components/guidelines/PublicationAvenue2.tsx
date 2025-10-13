@@ -36,12 +36,42 @@ const PublicationAvenue2 = () => {
       publisher: "Sage",
       index: "ABDC - C, IF 1.9",
     },
+    {
+      title: "Accounting & Finance",
+      publisher: "Wiley",
+      index: "ABDC-A, Q1, IF-2.6",
+    },
+    {
+      title: "American Journal of Agricultural Economics ",
+      publisher: "Wiley",
+      index: "ABDC -A*, Q1, IF-3.3",
+    },
+    {
+      title: "Journal of Business Finance & Accounting ",
+      publisher: "Wiley",
+      index: "ABDC-A*, Q1, IF-2.4",
+    },
+    {
+      title: "Business Strategy and the Environment ",
+      publisher: "Wiley",
+      index: "ABDC-A, Q1, IF-13.3",
+    },
+    {
+      title: "Journal of Applied Social Psychology ",
+      publisher: "Wiley",
+      index: "ABDC-B, Q2, IF-2.3",
+    },
+    {
+      title: "Agribusiness ",
+      publisher: "Wiley",
+      index: "ABDC-C, Q1, IF-2",
+    },
   ];
   const proceedings: Proceeding[] = [
     {
       title: "",
       details:
-        "All the accepted full length papers in the conference will be published in Scopus Indexed Proceedings / Edited Book series in Wiley and Elsevier.",
+        "All the accepted full-length papers in the conference will be published in Scopus Indexed Springer Proceedings / Edited Book series in Wiley and Elsevier.",
     },
     // {
     //   title: "Book chapters in Edited Book Series",
@@ -89,7 +119,7 @@ const PublicationAvenue2 = () => {
           ))}
         </ul>
         <p className="italic text-base text-gray-600 mb-6">
-          *A few more journals are yet to be confirmed.
+          * A few more journals are available.
         </p>
 
         {/* Note */}
@@ -100,7 +130,14 @@ const PublicationAvenue2 = () => {
           all recommended submissions must adhere to the journal&apos;s regular
           review policy.
         </p>
-
+        {/* Centered Image */}
+        <div className="flex justify-center mb-8">
+          <img
+            src="/images/call_for_paper.png"
+            alt="Publication Illustration"
+            className="max-w-full h-auto rounded-lg shadow-md"
+          />
+        </div>
         {/* Conference Proceedings */}
         <h3 className="text-xl font-semibold mb-3">
           Conference Proceedings and Book Series:

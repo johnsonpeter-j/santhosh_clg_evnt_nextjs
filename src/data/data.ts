@@ -185,6 +185,14 @@ export const siteData = {
       img: "/images/ServiceSetu.png",
       link: "https://servicesetu.org/",
     },
+    {
+      id: 7,
+      Title: "Media Partner",
+      name: "Media Partner",
+      desc: "ServiceSetu Academics is a trusted partner in higher education, empowering the academic community through knowledge, upskilling, and global collaborations. Since 2021, we have partnered with leading B-Schools and universities worldwide to drive academic and research excellence. Our portfolio spans strategic outreach, recruitment, and event co-creation, alongside certification programmes, short-term courses, and training with top international institutions.",
+      img: "/images/internation_conf_alert.png",
+      link: "https://internationalconferencealerts.com/",
+    },
   ],
 
   keyDates: [
@@ -742,61 +750,66 @@ export const siteData = {
     },
     {
       id: 2,
-      name: "Dr. Dona Ghosh",
+      name: "Prof. Anandan T. R",
       location: "Assistant Professor",
     },
     {
       id: 3,
-      name: "Dr. Haritha P. H",
+      name: "Dr. Dona Ghosh",
       location: "Assistant Professor",
     },
     {
       id: 4,
+      name: "Dr. Haritha P. H",
+      location: "Assistant Professor",
+    },
+    {
+      id: 5,
       name: "Dr. Janaki Bojiah ",
       location: "Associate Professor",
     },
     {
-      id: 5,
+      id: 6,
       name: "Dr. Nachiketas N",
       location: "Assistant Professor",
     },
     {
-      id: 6,
+      id: 7,
       name: "Dr. Packiaraj T",
       location: "Assistant Professor",
     },
     {
-      id: 7,
+      id: 8,
       name: "Dr. S M Aparna",
       location: "Assistant Professor",
     },
     {
-      id: 8,
+      id: 9,
       name: "Mr. Rakesh G Nair",
       location: "Assistant Professor",
     },
     {
-      id: 9,
+      id: 10,
       name: "Dr. Sathish G",
       location: "Assistant Professor",
     },
     {
-      id: 10,
+      id: 11,
       name: "Dr. P. Sivapragasam",
       location: "Assistant Professor",
     },
     {
-      id: 11,
+      id: 12,
       name: "Dr. Senthil V",
       location: "Associate Professor",
     },
     {
-      id: 12,
+      id: 13,
       name: "Dr. Vikash Sharma",
       location: "Assistant Professor",
     },
     {
-      id: 13,
+      id: 14,
       name: "Dr. Preethi Raja",
       location: "Assistant Professor",
     },
