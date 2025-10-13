@@ -189,7 +189,7 @@ export const siteData = {
       id: 7,
       Title: "Media Partner",
       name: "Media Partner",
-      desc: "ServiceSetu Academics is a trusted partner in higher education, empowering the academic community through knowledge, upskilling, and global collaborations. Since 2021, we have partnered with leading B-Schools and universities worldwide to drive academic and research excellence. Our portfolio spans strategic outreach, recruitment, and event co-creation, alongside certification programmes, short-term courses, and training with top international institutions.",
+      desc: "https://internationalconferencealerts.com/",
       img: "/images/internation_conf_alert.png",
       link: "https://internationalconferencealerts.com/",
     },

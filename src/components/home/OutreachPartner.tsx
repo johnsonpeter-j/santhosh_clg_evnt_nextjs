@@ -8,7 +8,7 @@ export default function OutreachPartner() {
       className="scroll-mt-20  bg-white rounded-lg shadow-md p-10 mb-12 border-t-4 border-green-600 mt-4 mx-4"
     >
       <h3 className="text-2xl font-bold text-gray-700 mb-6">
-        Outreach Partner 
+        Outreach Partner
       </h3>
 
       <div className="space-y-3">
@@ -18,7 +18,7 @@ export default function OutreachPartner() {
             className=" gap-4 flex lg:flex-nowrap flex-wrap shadow-lg max-h-md  md:items-center  p-8  rounded-lg "
           >
             {/* Image Column */}
-            <div className="mx-auto">
+            <div className="">
               <Image
                 src={item.img}
                 alt={item.name}
@@ -58,4 +58,3 @@ export default function OutreachPartner() {
     </div>
   );
 }
-
