@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "FOS 2026-IRGR - Thiagarajar School of Management",
+  title: "FOS 2026-GRIE - Thiagarajar School of Management",
   description: "Thiagarajar School of Management, Madurai",
   icons: {
     icon: [

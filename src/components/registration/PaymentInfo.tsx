@@ -34,12 +34,12 @@ export default function PaymentInfo() {
                 <tr key={index} className="odd:bg-white even:bg-gray-50">
                   {siteData.paymmentInfoDetails.length - 1 === index ? (
                     <>
-                      <td
+                      {/* <td
                         colSpan={5}
                         className="border text-base mx-auto border-gray-300 px-4 py-2 font-semibold"
                       >
                         {row.category}
-                      </td>
+                      </td> */}
                     </>
                   ) : (
                     <>
