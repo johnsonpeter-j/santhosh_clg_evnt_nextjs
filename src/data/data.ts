@@ -963,10 +963,10 @@ export const siteData = {
       content:
         "The abstract will be evaluated based on the relevance to the conference tracks.",
     },
-    {
-      content:
-        "Post Abstract acceptance authors are invited to submit the full length paper.",
-    },
+    // {
+    //   content:
+    //     "Post Abstract acceptance authors are invited to submit the full length paper.",
+    // },
     {
       content:
         "Double-Blind Peer Review: All submissions will undergo a strict double-blind review process as per COPE guidelines to ensure fairness, objectivity, and academic integrity.",
@@ -977,7 +977,7 @@ export const siteData = {
     },
     {
       content:
-        "Plagiarism Check: Every paper will be screened through advanced plagiarism detection tools (e.g., Turnitin/iThenticate) to maintain ethical publication practices.",
+        "Plagiarism and AI Check: Every paper will be screened through advanced plagiarism detection tools (e.g., Turnitin/iThenticate) to maintain ethical publication practices.",
     },
     {
       content:
