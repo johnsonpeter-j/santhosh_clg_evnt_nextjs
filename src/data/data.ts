@@ -195,8 +195,8 @@ export const siteData = {
     },
     {
       id: 8,
-      Title: "Conference Alerts",
-      name: "Conference Alerts",
+      Title: "Media Partner",
+      name: "Media Partner",
       desc: "https://conferencealerts.co.in/",
       img: "/images/confalerts.jpeg",
       link: "https://conferencealerts.co.in/",

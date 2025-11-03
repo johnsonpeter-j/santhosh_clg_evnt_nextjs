@@ -477,14 +477,14 @@ export default function AccountDetails() {
             </ul>
           </div>
 
-          {/* <div>
+          <div>
             <Image
               width={180}
               height={35}
               src="/images/paymentImg.jpg"
               alt="pay"
             />
-          </div> */}
+          </div>
         </div>
       </section>
 
