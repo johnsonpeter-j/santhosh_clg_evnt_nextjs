@@ -315,7 +315,7 @@ export default function AccountDetails() {
         consumerData: {
           deviceId: "WEBSH2",
           token: data.data.token,
-          returnUrl: "  http://localhost:8000/payment/checkout-status", //redirecturl
+          returnUrl: "https://api-fos.tsm.ac.in/payment/checkout-status", //redirecturl
           responseHandler: (response: PaymentResponse) => {
             console.log("Initial Payment response", response);
           },
