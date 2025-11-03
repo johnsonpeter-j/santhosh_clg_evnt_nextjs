@@ -40,7 +40,7 @@ export default function HeroSlider() {
             alt={`Slide ${index + 1}`}
             fill
             className={`${
-              index===1  ? "object-contain scale-75" : "md:object-cover"
+              index === 1 ? "object-contain scale-75" : "md:object-cover"
             }  object-contain `}
             priority={index === 0}
           />

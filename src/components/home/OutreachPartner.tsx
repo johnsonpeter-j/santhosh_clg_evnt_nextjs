@@ -16,6 +16,9 @@ export default function OutreachPartner() {
           const isMediaPartner =
             item.Title?.toLowerCase().includes("media partner") ||
             item.name?.toLowerCase().includes("media partner");
+          const isConferenceAlert =
+            item.Title?.toLowerCase().includes("conference alerts") ||
+            item.name?.toLowerCase().includes("conference alerts");
 
           return (
             <div
@@ -27,7 +30,7 @@ export default function OutreachPartner() {
                 <Image
                   src={item.img}
                   alt={
-                    isMediaPartner
+                    isMediaPartner || isConferenceAlert
                       ? "International Conference Alerts"
                       : item.name
                   }
@@ -44,7 +47,7 @@ export default function OutreachPartner() {
 
               {/* Text Column */}
               <div className="text-center md:text-left">
-                {isMediaPartner ? (
+                {isMediaPartner || isConferenceAlert ? (
                   <p className="text-xl font-bold text-gray-800 block">
                     {item.name}
                   </p>
@@ -63,7 +66,7 @@ export default function OutreachPartner() {
                   style={{ textAlign: "justify" }}
                   className="text-gray-600 text-xl mt-1"
                 >
-                  {isMediaPartner ? (
+                  {isMediaPartner || isConferenceAlert? (
                     <a
                       href={item.link}
                       target="_blank"

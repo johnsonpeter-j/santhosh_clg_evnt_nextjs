@@ -193,6 +193,14 @@ export const siteData = {
       img: "/images/Internation_conf_alert.png",
       link: "https://internationalconferencealerts.com/",
     },
+    {
+      id: 8,
+      Title: "Conference Alerts",
+      name: "Conference Alerts",
+      desc: "https://conferencealerts.co.in/",
+      img: "/images/confalerts.jpeg",
+      link: "https://conferencealerts.co.in/",
+    },
   ],
 
   keyDates: [
@@ -1524,6 +1532,46 @@ export const siteData = {
         "Logo to be embossed in all online and offline communications.",
         "Logo Displayed on the Home page of the website ",
         "Separate Exhibit space for display of products",
+      ],
+    },
+    {
+      title: "Diamond Sponsor",
+      price: "Rs. 5 Lakhs",
+      benefits: [
+        "Logo to be displayed on the home page of the conference website, and backdrops of the inauguration and valediction, newspapers, and all social media communications.",
+        "Keynote address opportunity during the Inaugural or Awards Ceremony.",
+        "Session to address the audience and speak about the organisation.",
+        "Separate booth for exhibition and display of products, with standees displayed on all days at the event venue.",
+        "10 complimentary registrations for the conference.",
+        "Organisation logo to be embossed in all conference kits.",
+      ],
+    },
+    {
+      title: "Platinum Sponsor",
+      price: "Rs. 3 Lakhs",
+      benefits: [
+        "Logo to be displayed on the home page of the conference website, and backdrops of the inauguration and valediction, newspapers, and all social media communications.",
+        "Separate booth for exhibition and display of products, with standees displayed on all days at the event venue.",
+        "7 complimentary registrations for the conference.",
+        "Organisation logo to be embossed in all conference kits.",
+      ],
+    },
+    {
+      title: "Gold Sponsor",
+      price: "Rs. 2 Lakhs",
+      benefits: [
+        "Logo to be displayed on the home page of the conference website, and all social media communications.",
+        "Separate booth for exhibition and display of products, with standees displayed on all days at the event venue.",
+        "5 complimentary registrations for the conference.",
+      ],
+    },
+    {
+      title: "Friendly Sponsor",
+      price: "Rs. 1 Lakh",
+      benefits: [
+        "Logo to be displayed on the home page of the conference website.",
+        "3 complimentary registrations for the conference.",
+        "Standees of the organisation to be displayed on all days at the event venue.",
       ],
     },
   ],
