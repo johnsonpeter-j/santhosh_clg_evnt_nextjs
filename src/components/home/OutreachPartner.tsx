@@ -47,38 +47,35 @@ export default function OutreachPartner() {
 
               {/* Text Column */}
               <div className="text-center md:text-left">
-                {isMediaPartner || isConferenceAlert ? (
-                  <p className="text-xl font-bold text-gray-800 block">
-                    {item.name}
-                  </p>
-                ) : (
+                {/* Title */}
+                <p className="text-xl font-bold text-gray-800 block">
+                  {item.Title?.trim()}
+                </p>
+
+                {/* Subtitle (linked name) */}
+                {item.link ? (
                   <a
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xl font-bold text-gray-800 hover:underline block"
+                    title={item.link}
+                    className="text-gray-800 text-lg hover:underline block mt-1"
                   >
                     {item.name}
                   </a>
+                ) : (
+                  <p className="text-gray-800 text-lg mt-1">{item.name}</p>
                 )}
 
-                <p
-                  style={{ textAlign: "justify" }}
-                  className="text-gray-600 text-xl mt-1"
-                >
-                  {isMediaPartner || isConferenceAlert? (
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-600 hover:underline"
-                    >
-                      International Conference Alerts
-                    </a>
-                  ) : (
-                    item.desc
-                  )}
-                </p>
+                {/* Description: show for non-media partners only */}
+                {!isMediaPartner && !isConferenceAlert && (
+                  <p
+                    style={{ textAlign: "justify" }}
+                    className="text-gray-600 text-xl mt-1"
+                  >
+                    {item.desc}
+                  </p>
+                )}
               </div>
             </div>
           );

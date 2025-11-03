@@ -188,7 +188,7 @@ export const siteData = {
     {
       id: 7,
       Title: "Media Partner",
-      name: "Media Partner",
+      name: "International Conference Alerts",
       desc: "https://internationalconferencealerts.com/",
       img: "/images/Internation_conf_alert.png",
       link: "https://internationalconferencealerts.com/",
@@ -196,7 +196,7 @@ export const siteData = {
     {
       id: 8,
       Title: "Media Partner",
-      name: "Media Partner",
+      name: "Conference Alerts",
       desc: "https://conferencealerts.co.in/",
       img: "/images/confalerts.jpeg",
       link: "https://conferencealerts.co.in/",
