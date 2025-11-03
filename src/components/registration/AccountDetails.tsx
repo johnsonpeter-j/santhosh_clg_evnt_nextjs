@@ -410,12 +410,12 @@ export default function AccountDetails() {
       <div className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8">
         <div className="flex justify-between items-center">
           <p className="text-xl font-bold text-gray-700 mb-2">Payments</p>
-          <button
+          {/* <button
             onClick={() => setIsModalOpen(true)}
             className="bg-[green] text-white font-medium py-2 px-6 rounded-full transition-transform duration-300 hover:scale-105 cursor-pointer"
           >
             Make Payment
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -475,6 +475,14 @@ export default function AccountDetails() {
                 </li>
               ))}
             </ul>
+          </div>
+          <div className="flex justify-center items-center">
+            <button
+              onClick={() => setIsModalOpen(true)}
+              className="bg-[green] text-white font-medium py-2 px-6 rounded-full transition-transform duration-300 hover:scale-105 cursor-pointer"
+            >
+              Make Payment
+            </button>
           </div>
 
           <div>
