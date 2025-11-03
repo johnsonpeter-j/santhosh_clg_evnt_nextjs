@@ -113,6 +113,21 @@ export default function AccountDetails() {
     amount: "",
   });
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
+  const [eurToInrRate, setEurToInrRate] = useState<number | null>(null);
+
+  const resetForm = () => {
+    setFormData({
+      email: "",
+      phoneNumber: "",
+      countryCode: "+1",
+      currency: "INR",
+      amount: "",
+    });
+    setCountrySearch("");
+    setIsCountryOpen(false);
+    setHighlightedIndex(-1);
+    setErrors({});
+  };
 
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all?fields=name,idd")
@@ -209,13 +224,42 @@ export default function AccountDetails() {
     return "";
   };
 
-  const handleInputChange = (
+  const getEurToInrRate = async (): Promise<number> => {
+    if (eurToInrRate && eurToInrRate > 0) return eurToInrRate;
+    try {
+      const res = await fetch("https://api.exchangerate-api.com/v4/latest/EUR");
+      const data = await res.json();
+      const rate = (data?.rates?.INR ?? null) as number | null;
+      if (!rate || typeof rate !== "number") throw new Error("Invalid rate");
+      setEurToInrRate(rate);
+      return rate;
+    } catch (e) {
+      console.error("Failed to fetch EUR->INR rate", e);
+      // Fallback to no conversion on failure
+      return 0;
+    }
+  };
+
+  const handleInputChange = async (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
   ) => {
     const { name, value, type } = e.target;
 
     if (type === "radio" && name === "currency") {
-      setFormData((prev) => ({ ...prev, currency: value }));
+      if (value === "EUR") {
+        // Reflect selection and convert amount to INR while keeping EUR selected
+        setFormData((prev) => ({ ...prev, currency: "EUR" }));
+        const rate = await getEurToInrRate();
+        if (rate > 0) {
+          const currentAmount = parseFloat(formData.amount);
+          if (!isNaN(currentAmount) && currentAmount > 0) {
+            const converted = (currentAmount * rate).toFixed(2);
+            setFormData((prev) => ({ ...prev, amount: converted }));
+          }
+        }
+      } else {
+        setFormData((prev) => ({ ...prev, currency: value }));
+      }
     } else if (name === "amount") {
       setFormData((prev) => ({ ...prev, amount: value }));
     } else {
@@ -230,16 +274,29 @@ export default function AccountDetails() {
   const handlePay = async () => {
     try {
       const cleanedPhone = `${formData.phoneNumber}`.replace(/\s+/g, "");
-      const res = await fetch("http://localhost:8000/payment/create-checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          amount: parseFloat(formData.amount),
-          email: formData.email,
-          phoneno: cleanedPhone,
-          currency: formData.currency,
-        }),
-      });
+      // Ensure amount is in INR before sending
+      const inputAmount = parseFloat(formData.amount);
+      let amountInInr = inputAmount;
+      if (formData.currency === "EUR") {
+        const rate = await getEurToInrRate();
+        if (rate > 0 && !isNaN(inputAmount) && inputAmount > 0) {
+          amountInInr = parseFloat((inputAmount * rate).toFixed(2));
+        }
+      }
+
+      const res = await fetch(
+        "https://api-fos.tsm.ac.in/payment/create-checkout",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            amount: amountInInr,
+            email: formData.email,
+            phoneno: cleanedPhone,
+            currency: "INR",
+          }),
+        }
+      );
 
       const data = await res.json();
       console.log("Backend Response:", data);
@@ -266,7 +323,7 @@ export default function AccountDetails() {
           merchantLogoUrl:
             "https://www.paynimo.com/CompanyDocs/company-logo-md.png",
           merchantId: data.data.merchantId, //merchantcode
-          currency: formData.currency, //Currency
+          currency: "INR", //Currency
           consumerId: data.data.cusId, //Leadif
           txnId: data.data.txnId, //merchantTxnId
           consumerMobileNo: cleanedPhone, //notneeded
@@ -274,7 +331,7 @@ export default function AccountDetails() {
           items: [
             {
               itemId: "first",
-              amount: parseFloat(formData.amount),
+              amount: amountInInr,
               comAmt: "0",
             },
           ],
@@ -313,7 +370,9 @@ export default function AccountDetails() {
       newErrors.email = emailError;
     }
 
-    const isValidCode = countryCodes.some((cc) => cc.code === formData.countryCode);
+    const isValidCode = countryCodes.some(
+      (cc) => cc.code === formData.countryCode
+    );
     if (!isValidCode) {
       newErrors.countryCode = "Please select a valid country code";
     }
@@ -348,7 +407,7 @@ export default function AccountDetails() {
   return (
     <>
       {/* Payments Header */}
-      {/* <div className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8">
+      <div className="scroll-mt-20 max-w-[1200px] mx-auto px-4 pt-8">
         <div className="flex justify-between items-center">
           <p className="text-xl font-bold text-gray-700 mb-2">Payments</p>
           <button
@@ -358,7 +417,7 @@ export default function AccountDetails() {
             Make Payment
           </button>
         </div>
-      </div> */}
+      </div>
 
       <section
         id="account-details"
@@ -444,7 +503,10 @@ export default function AccountDetails() {
                     Conference Registration Payment
                   </h2>
                   <button
-                    onClick={() => setIsModalOpen(false)}
+                    onClick={() => {
+                      resetForm();
+                      setIsModalOpen(false);
+                    }}
                     className="text-gray-400 hover:text-gray-600 text-2xl font-bold"
                     aria-label="Close"
                   >
@@ -508,7 +570,9 @@ export default function AccountDetails() {
                       />
                     </div>
                     {errors.amount && (
-                      <p className="text-red-500 text-sm mt-1">{errors.amount}</p>
+                      <p className="text-red-500 text-sm mt-1">
+                        {errors.amount}
+                      </p>
                     )}
                   </div>
 
@@ -532,7 +596,9 @@ export default function AccountDetails() {
                       placeholder="Enter your email address"
                     />
                     {errors.email && (
-                      <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+                      <p className="text-red-500 text-sm mt-1">
+                        {errors.email}
+                      </p>
                     )}
                   </div>
 
@@ -595,7 +661,9 @@ export default function AccountDetails() {
                             className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg border border-gray-200 bg-white shadow-lg"
                           >
                             {visibleCountryCodes.length === 0 && (
-                              <li className="px-3 py-2 text-sm text-gray-500">No results</li>
+                              <li className="px-3 py-2 text-sm text-gray-500">
+                                No results
+                              </li>
                             )}
                             {visibleCountryCodes.map((c, idx) => (
                               <li
@@ -611,8 +679,12 @@ export default function AccountDetails() {
                                   idx === highlightedIndex ? "bg-green-50" : ""
                                 } cursor-pointer px-3 py-2 text-sm flex items-center justify-between`}
                               >
-                                <span className="text-gray-800">{c.country}</span>
-                                <span className="ml-2 text-gray-500">{c.code}</span>
+                                <span className="text-gray-800">
+                                  {c.country}
+                                </span>
+                                <span className="ml-2 text-gray-500">
+                                  {c.code}
+                                </span>
                               </li>
                             ))}
                           </ul>
@@ -626,16 +698,22 @@ export default function AccountDetails() {
                         value={formData.phoneNumber}
                         onChange={handleInputChange}
                         className={`flex-1 px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 ${
-                          errors.phoneNumber ? "border-red-500" : "border-gray-300"
+                          errors.phoneNumber
+                            ? "border-red-500"
+                            : "border-gray-300"
                         }`}
                         placeholder="Enter phone number"
                       />
                     </div>
                     {errors.countryCode && (
-                      <p className="text-red-500 text-sm mt-1">{errors.countryCode}</p>
+                      <p className="text-red-500 text-sm mt-1">
+                        {errors.countryCode}
+                      </p>
                     )}
                     {errors.phoneNumber && (
-                      <p className="text-red-500 text-sm mt-1">{errors.phoneNumber}</p>
+                      <p className="text-red-500 text-sm mt-1">
+                        {errors.phoneNumber}
+                      </p>
                     )}
                   </div>
 
