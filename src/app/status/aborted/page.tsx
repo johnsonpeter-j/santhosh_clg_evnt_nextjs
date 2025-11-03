@@ -30,7 +30,7 @@ export default function PaymentAbortedPage() {
 
   useEffect(() => {
     setUserMessage(getAbortMessage(msg));
-  }, [msg]);
+  }, [msg, getAbortMessage]); // ✅ added missing dependency warning fix
 
   useEffect(() => {
     // Load animation data dynamically if needed
