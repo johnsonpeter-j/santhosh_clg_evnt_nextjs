@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
-export default function PaymentFailurePage() {
+function PaymentFailurePageContent() {
   const [animationData, setAnimationData] = useState(null);
   const searchParams = useSearchParams();
 
@@ -29,7 +29,6 @@ export default function PaymentFailurePage() {
   }, [msg]);
 
   useEffect(() => {
-    // Load animation data dynamically
     fetch("/status/payment-failed.json")
       .then((response) => response.json())
       .then((data) => setAnimationData(data))
@@ -64,7 +63,6 @@ export default function PaymentFailurePage() {
 
           {/* Content Section */}
           <div className="px-8 py-8">
-            {/* Failure Message */}
             <div className="text-center mb-8">
               <h2 className="text-xl font-semibold text-gray-800 mb-2">
                 Transaction Unsuccessful
@@ -74,6 +72,7 @@ export default function PaymentFailurePage() {
                 Please try again or contact support if the issue persists.
               </p>
             </div>
+
             {/* Transaction Details */}
             <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-8">
               <h3 className="text-sm font-semibold text-red-800 mb-2">
@@ -100,9 +99,9 @@ export default function PaymentFailurePage() {
                 </p>
               </div>
             </div>
+
             {/* Action Buttons */}
             <div className="text-center space-y-4">
-              {/* Primary Button */}
               <Link
                 href="/registration"
                 className="inline-block w-full bg-gradient-to-r from-red-600 to-rose-600 text-white font-semibold py-3 px-6 rounded-xl hover:from-red-700 hover:to-rose-700 transition-all duration-200 transform hover:scale-[1.02] shadow-lg"
@@ -110,7 +109,6 @@ export default function PaymentFailurePage() {
                 Try Again
               </Link>
 
-              {/* Secondary Buttons */}
               <div className="flex justify-center gap-3">
                 <Link
                   href="/contact"
@@ -127,7 +125,6 @@ export default function PaymentFailurePage() {
               </div>
             </div>
 
-            {/* Additional Info */}
             <div className="mt-8 p-4 bg-red-50 rounded-xl border border-red-200">
               <div className="flex items-start space-x-3">
                 <div className="flex-shrink-0">
@@ -160,7 +157,6 @@ export default function PaymentFailurePage() {
           </div>
         </div>
 
-        {/* Footer */}
         <div className="text-center mt-6">
           <p className="text-xs text-gray-500">
             Need immediate assistance?{" "}
@@ -174,5 +170,13 @@ export default function PaymentFailurePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function PaymentFailurePage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PaymentFailurePageContent />
+    </Suspense>
   );
 }
