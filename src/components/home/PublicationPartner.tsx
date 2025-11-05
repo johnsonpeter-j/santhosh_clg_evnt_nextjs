@@ -1,18 +1,18 @@
 import { siteData } from "@/data/data";
 import Image from "next/image";
 
-export default function OutreachPartner() {
+export default function PublicationPartner() {
   return (
     <div
-      id="outreach_partner"
+      id="publication_partner"
       className="scroll-mt-20  bg-white rounded-lg shadow-md p-10 mb-12 border-t-4 border-green-600 mt-4 mx-4"
     >
       <h3 className="text-2xl font-bold text-gray-700 mb-6">
-        Outreach Partner
+        Publication Partner
       </h3>
 
       <div className="space-y-3">
-        {siteData.outReachPartners?.map((item, index) => {
+        {siteData.publicationPartners?.map((item, index) => {
           const isMediaPartner =
             item.Title?.toLowerCase().includes("media partner") ||
             item.name?.toLowerCase().includes("media partner");
@@ -54,7 +54,7 @@ export default function OutreachPartner() {
                 </p>
 
                 {/* Subtitle (linked name) */}
-                {item.link ? (
+                {item?.link ? (
                   <a
                     href={item.link}
                     target="_blank"

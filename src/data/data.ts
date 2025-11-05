@@ -14,6 +14,10 @@ export const siteData = {
           href: "#collaborating-institutions",
         },
         {
+          name: "Publication Partner",
+          href: "#publication_partner",
+        },
+        {
           name: "Outreach Partner",
           href: "#outreach_partner",
         },
@@ -75,7 +79,7 @@ export const siteData = {
       name: "Registration",
       href: "/registration",
       submenus: [
-        { name: "Proposal Submission", href: "#proposal_submission" },
+        // { name: "Proposal Submission", href: "#proposal_submission" },
         { name: "Registration Details", href: "#registration-details" },
         { name: "Payment Info", href: "#payment" },
       ],
@@ -176,6 +180,16 @@ export const siteData = {
     },
   ],
 
+  publicationPartners: [
+    {
+      id: 5,
+      Title: "",
+      name: "",
+      desc: "",
+      img: "/images/springer.jpeg",
+      link: "",
+    },
+  ],
   outReachPartners: [
     {
       id: 6,
@@ -200,6 +214,14 @@ export const siteData = {
       desc: "https://conferencealerts.co.in/",
       img: "/images/confalerts.jpeg",
       link: "https://conferencealerts.co.in/",
+    },
+    {
+      id: 9,
+      Title: "Media Partner",
+      name: "All Conference Alerts",
+      desc: "https://allconferencealert.net/",
+      img: "/images/allconfalerts.png",
+      link: "https://allconferencealert.net/",
     },
   ],
 
