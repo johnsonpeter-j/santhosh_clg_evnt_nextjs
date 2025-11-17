@@ -34,6 +34,10 @@ export default function PublicationAvenue() {
       name:"Dr. Deepak Mathivathanan",
       designation:"Chair – Research & publications, Loyola Institute of Business Administration, Chennai"
      },
+     {
+      name:"Dr. Bilal A. Pandow",
+      designation:"Associate Professor, Bahrain Polytechnic"
+     },
   ]
 
   return (
