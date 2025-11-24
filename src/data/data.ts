@@ -228,7 +228,7 @@ export const siteData = {
   keyDates: [
     {
       label: "Submission Deadline",
-      value: "30th November 2025",
+      value: "15th December 2025",
     },
     {
       label: "Author Notification",
@@ -962,6 +962,12 @@ export const siteData = {
       name: "Mr. Kumod Kumar",
       location:
         "(Chief Administrative Officer, Director & CEO | CIMP - Business Incubation & Innovation Foundation)",
+    },
+    {
+      id: 24,
+      name: "Dr. Taufiq Hail Ghilan Al-Madhagy",
+      location:
+        "(College of Business, University of Buraimi, Al Buraimi, Sultanate of Oman)",
     },
   ],
 
