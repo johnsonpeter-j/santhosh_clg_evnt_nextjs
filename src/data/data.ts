@@ -963,12 +963,12 @@ export const siteData = {
       location:
         "(Chief Administrative Officer, Director & CEO | CIMP - Business Incubation & Innovation Foundation)",
     },
-    {
-      id: 24,
-      name: "Dr. Taufiq Hail Ghilan Al-Madhagy",
-      location:
-        "(College of Business, University of Buraimi, Al Buraimi, Sultanate of Oman)",
-    },
+    // {
+    //   id: 24,
+    //   name: "Dr. Taufiq Hail Ghilan Al-Madhagy",
+    //   location:
+    //     "(College of Business, University of Buraimi, Al Buraimi, Sultanate of Oman)",
+    // },
   ],
 
   sponsorsData: [
