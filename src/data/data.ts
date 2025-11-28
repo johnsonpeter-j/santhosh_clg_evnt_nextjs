@@ -228,7 +228,7 @@ export const siteData = {
   keyDates: [
     {
       label: "Submission Deadline",
-      value: "20th December 2025",
+      value: "15th December 2025",
     },
     {
       label: "Author Notification",
