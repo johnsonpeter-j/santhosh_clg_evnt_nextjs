@@ -48,7 +48,7 @@ export const siteData = {
         { name: " Review Board Members", href: "#reviewer-board-members" },
         {
           name: "Internal Review Committee",
-          href: "#internal_review_committee",
+          href: "#internal_review_committee", 
         },
       ],
     },
@@ -139,8 +139,8 @@ export const siteData = {
   aboutTsmVideoLink:
     "https://www.youtube.com/embed/y5kbWpMq4xE?si=qcskFS3wrkivShsG",
 
-  brochurePdfPath: "/pdfs/brochureUpdated.pdf",
-  posterPath: "/images/PosterUpdated.png",
+  brochurePdfPath: "/pdfs/GRIE Brochure.pdf",
+  posterPath: "/images/GRIE Conference Poster.png",
 
   collabtaorData: [
     {
@@ -963,12 +963,12 @@ export const siteData = {
       location:
         "(Chief Administrative Officer, Director & CEO | CIMP - Business Incubation & Innovation Foundation)",
     },
-    // {
-    //   id: 24,
-    //   name: "Dr. Taufiq Hail Ghilan Al-Madhagy",
-    //   location:
-    //     "(College of Business, University of Buraimi, Al Buraimi, Sultanate of Oman)",
-    // },
+    {
+      id: 24,
+      name: "Dr. Taufiq Hail Ghilan Al-Madhagy",
+      location:
+        "(Al-Madhagy, College of Business, University of Buraimi, Al Buraimi, Sultanate of Oman)",
+    },
   ],
 
   sponsorsData: [
