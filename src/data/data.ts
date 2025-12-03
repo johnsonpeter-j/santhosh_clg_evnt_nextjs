@@ -1366,7 +1366,7 @@ export const siteData = {
       international: "EUR 120",
     },
     {
-      category: "Full length paper",
+      category: "Full length paper(Research Scholars)",
       EarlyBirdInd: "INR 5000",
       indian: "INR 4000",
       EarlyBirdNat: "EUR 150",
