@@ -6,7 +6,7 @@ import Connectivity from "@/components/accomodation/Connectivity";
 
 export default function Registration() {
     return (
-        <div className="mt-16 lg:mt-[72px] xl:mt-[72px] 2xl:mt-[72px] w-full">
+        <div className="w-full">
             <Connectivity/>
             <Accomodation />
             <TravelToTSM />

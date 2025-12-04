@@ -18,11 +18,6 @@ interface PaymentResponse {
   [key: string]: unknown;
 }
 
-interface PaymentInfo {
-  category: string;
-  amount: number;
-  currency: string;
-}
 
 // Start with a minimal fallback list to avoid empty select before fetch
 const initialCountryCodes: CountryCode[] = [
@@ -30,73 +25,6 @@ const initialCountryCodes: CountryCode[] = [
   { code: "+44", country: "United Kingdom" },
   { code: "+91", country: "India" },
 ];
-
-const paymentInfoDetails = {
-  india: [
-    {
-      category: "Pre-conference Workshop Only",
-      amount: 2000,
-      currency: "INR",
-    },
-    {
-      category: "Attendee",
-      amount: 2800,
-      currency: "INR",
-    },
-    {
-      category: "Research Pitch / Doctoral Colloquium",
-      amount: 3500,
-      currency: "INR",
-    },
-    {
-      category: "Full length paper",
-      amount: 4000,
-      currency: "INR",
-    },
-    {
-      category: "Full length paper (Faculty/Academicians)",
-      amount: 5800,
-      currency: "INR",
-    },
-    {
-      category: "Full length paper (Industry Professionals)",
-      amount: 7500,
-      currency: "INR",
-    },
-  ],
-  international: [
-    {
-      category: "Pre-conference Workshop Only",
-      amount: 70,
-      currency: "EUR",
-    },
-    {
-      category: "Attendee",
-      amount: 100,
-      currency: "EUR",
-    },
-    {
-      category: "Research Pitch / Doctoral Colloquium",
-      amount: 120,
-      currency: "EUR",
-    },
-    {
-      category: "Full length paper",
-      amount: 140,
-      currency: "EUR",
-    },
-    {
-      category: "Full length paper (Faculty/Academicians)",
-      amount: 170,
-      currency: "EUR",
-    },
-    {
-      category: "Full length paper (Industry Professionals)",
-      amount: 220,
-      currency: "EUR",
-    },
-  ],
-};
 
 export default function AccountDetails() {
   const [isModalOpen, setIsModalOpen] = useState(false);

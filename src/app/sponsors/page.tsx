@@ -5,7 +5,7 @@ export default function SponsorshipSection() {
   return (
     <section
       id="sponsors"
-      className="mt-16 lg:mt-[72px] xl:mt-[72px] 2xl:mt-[72px] w-full p-10"
+      className="w-full p-10"
     >
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Heading */}

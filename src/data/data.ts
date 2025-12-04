@@ -109,6 +109,9 @@ export const siteData = {
       ],
     },
   ],
+  
+  // for marquee data
+  marqueeData: ["Submission deadline extended till 15th December 2025"],
 
   // home page data
   heroSlideImages: [

@@ -1,5 +1,3 @@
-import { siteData } from "@/data/data";
-
 export default function ProposalSubmission() {
   return (
     <section

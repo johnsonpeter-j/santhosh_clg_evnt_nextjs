@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import { siteData } from "@/data/data";
 
 export const metadata: Metadata = {
   title: "FOS 2026-GRIE - Thiagarajar School of Management",
@@ -27,8 +28,34 @@ export default function RootLayout({
         {/* App Bar / Header */}
         <Navbar />
 
+        {/* marquee data */}
+            {siteData.marqueeData && siteData.marqueeData.length > 0 && (
+        <div className="marquee-container mt-24 bg-[#4caf50] text-white w-full overflow-hidden py-3 relative z-40 flex items-center min-h-12 shrink-0">
+          <div className="marquee-content flex whitespace-nowrap">
+                {siteData.marqueeData.map((item: string, index: number) => (
+                  <span 
+                    key={`marquee-${index}`} 
+                    className="marquee-item text-white px-16 inline-block whitespace-nowrap"
+                  >
+                    {item}
+                  </span>
+                ))}
+                {siteData.marqueeData.map((item: string, index: number) => (
+                  <span 
+                    key={`marquee-duplicate-${index}`} 
+                    className="marquee-item text-white px-16 inline-block whitespace-nowrap"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+            )}
+
         {/* Main Content */}
+        <div className={`${!siteData.marqueeData || siteData.marqueeData.length === 0 ? "mt-16 lg:mt-[72px] xl:mt-[72px] 2xl:mt-[72px]" : ""}`}>
         {children}
+        </div>
 
         {/* Footer */}
         <Footer />
