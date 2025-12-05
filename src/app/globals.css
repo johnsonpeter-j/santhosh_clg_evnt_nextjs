@@ -108,9 +108,9 @@ h4 {
 }
 
 .marquee-content {
-  display: flex !important;
+  display: inline-flex !important;
   white-space: nowrap !important;
-  animation: marquee-scroll 25s linear infinite !important;
+  animation: marquee-scroll 15s linear infinite !important;
   will-change: transform;
 }
 
@@ -128,18 +128,18 @@ h4 {
 }
 
 @keyframes marquee-scroll {
-  from {
+  0% {
     transform: translateX(0);
   }
-  to {
-    transform: translateX(-50%);
+  100% {
+    transform: translateX(-33.333%);
   }
 }
 
 /* Faster animation on mobile for better visibility */
 @media (max-width: 768px) {
   .marquee-content {
-    animation: marquee-scroll 20s linear infinite !important;
+    animation: marquee-scroll 12s linear infinite !important;
   }
   
   .marquee-item {
